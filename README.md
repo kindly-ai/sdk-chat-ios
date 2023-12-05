@@ -1,1 +1,1 @@
-### SDK chat IOS
+# KindlySDK
