@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target arm64-apple-ios17.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KindlyFramework
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KindlyFramework
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import Combine
 import DeveloperToolsSupport
@@ -27,42 +27,12 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct Bot {
-  public let name: Swift.String
-  public let avatarURL: Foundation.URL?
-}
-public struct UserMessage : Swift.Encodable {
-  public let message: Swift.String
-  public var newContext: [Swift.String : Swift.String]?
-  public func encode(to encoder: any Swift.Encoder) throws
-}
 public typealias LanguageCode = Swift.String
 public struct Language {
   public let code: KindlyFramework.LanguageCode
   public let name: Swift.String
 }
-public struct ConnectRequestModel : Swift.Encodable {
-  public var context: [Swift.String : Swift.String]?
-  public func encode(to encoder: any Swift.Encoder) throws
-}
-extension Dispatch.DispatchQueue {
-  public static func background(background: @escaping (() -> Swift.Void), delay: Dispatch.DispatchTimeInterval? = nil, completionOnMain: (() -> Swift.Void)? = nil, completionDelay: Swift.Double? = nil)
-  public static func main(_ code: @escaping (() -> Swift.Void), delay: Dispatch.DispatchTimeInterval? = nil)
-}
-extension Swift.Set {
-  public var array: [Element] {
-    get
-  }
-}
-public enum DateFormatEnum {
-  case MMMMddyyyy
-  case ddMMMMyyyyhhmm
-  case iso8601
-  public static func == (a: KindlyFramework.DateFormatEnum, b: KindlyFramework.DateFormatEnum) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
+public struct ExternalChatButton {
 }
 @propertyWrapper public class Announced<Value> {
   public var wrappedValue: Value {
@@ -75,14 +45,11 @@ public enum DateFormatEnum {
   }
   @objc deinit
 }
-public struct KindlySDKConfig {
-  public typealias AuthTokenCallback = (_ chatId: Swift.String) -> (Swift.String)
-  public init(botKey: Swift.String, environment: KindlyFramework.ServerEnvironment = ServerEnvironment.production, authTokenCallback: KindlyFramework.KindlySDKConfig.AuthTokenCallback? = nil)
-}
-public enum ServerEnvironment {
-  case dev
-  case production
-  public static func == (a: KindlyFramework.ServerEnvironment, b: KindlyFramework.ServerEnvironment) -> Swift.Bool
+public enum DateFormatEnum {
+  case MMMMddyyyy
+  case ddMMMMyyyyhhmm
+  case iso8601
+  public static func == (a: KindlyFramework.DateFormatEnum, b: KindlyFramework.DateFormatEnum) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
@@ -114,56 +81,6 @@ extension KindlyFramework.KeychainServiceProtocol {
   @discardableResult
   public func delete() -> Swift.Bool
   @objc deinit
-}
-public enum KindlySDKError : Swift.Error {
-  case configNotSet
-  case connectionIsInProgress
-  case general
-  case httpError(statusCode: Swift.Int)
-  case invalidURL
-  case noInternetConnection
-  case tokenInvalid
-  case tokenMissing
-  case invalidData
-  case generic(description: Swift.String)
-  case invalidJWTPartCount(Swift.String, Swift.Int)
-  case invalidBase64URL(Swift.String)
-  case invalidJSON(Swift.String)
-}
-extension Dispatch.DispatchQueue {
-  public static var _promises: Dispatch.DispatchQueue?
-  public static var promises: Dispatch.DispatchQueue {
-    get
-    set
-  }
-}
-public class Promise<T> {
-  public typealias onFulfilled = (T) throws -> Swift.Void
-  public typealias onRejected = (any Swift.Error) -> Swift.Void
-  public init()
-  public init(_ promise: KindlyFramework.Promise<T>)
-  public static func pending() -> KindlyFramework.Promise<T>
-  public func setPromise(_ promise: KindlyFramework.Promise<T>)
-  @objc deinit
-}
-extension KindlyFramework.Promise {
-  public func fulfill(_ value: T)
-  public func reject(_ error: any Swift.Error)
-  public func then(on queue: Dispatch.DispatchQueue = .promises, _ onFulfilled: @escaping KindlyFramework.Promise<T>.onFulfilled) -> KindlyFramework.Promise<T>
-  public func `catch`(on queue: Dispatch.DispatchQueue = .promises, _ onRejected: @escaping KindlyFramework.Promise<T>.onRejected) -> KindlyFramework.Promise<T>
-  public func always(on queue: Dispatch.DispatchQueue = .promises, _ block: @escaping () -> Swift.Void) -> KindlyFramework.Promise<T>
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class KindlyChatNavigationController : UIKit.UINavigationController {
-  @_Concurrency.MainActor(unsafe) public init(languageCode: Swift.String?)
-  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
-  @objc deinit
-}
-extension Swift.Array {
-  public var isNotEmpty: Swift.Bool {
-    get
-  }
-  public func safeToUseIndex(_ index: Swift.Int) -> Swift.Bool
 }
 public enum ChatConnectionState {
   case connected
@@ -223,7 +140,18 @@ extension KindlyFramework.KindlyChatClient {
   final public class func closeChat()
   final public func closeChat()
 }
-public struct ExternalChatButton {
+public struct KindlySDKConfig {
+  public typealias AuthTokenCallback = (_ chatId: Swift.String) -> (Swift.String)
+  public init(botKey: Swift.String, environment: KindlyFramework.ServerEnvironment = ServerEnvironment.production, authTokenCallback: KindlyFramework.KindlySDKConfig.AuthTokenCallback? = nil)
+}
+public enum ServerEnvironment {
+  case dev
+  case production
+  public static func == (a: KindlyFramework.ServerEnvironment, b: KindlyFramework.ServerEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct ExternalChatMessage : Swift.Hashable, Swift.Identifiable, Swift.Comparable {
   public let id: Swift.String
@@ -259,12 +187,87 @@ public enum ExternalChatMessageSender : Swift.String, Swift.Encodable {
     get
   }
 }
+extension Dispatch.DispatchQueue {
+  public static var _promises: Dispatch.DispatchQueue?
+  public static var promises: Dispatch.DispatchQueue {
+    get
+    set
+  }
+}
+public class Promise<T> {
+  public typealias onFulfilled = (T) throws -> Swift.Void
+  public typealias onRejected = (any Swift.Error) -> Swift.Void
+  public init()
+  public init(_ promise: KindlyFramework.Promise<T>)
+  public static func pending() -> KindlyFramework.Promise<T>
+  public func setPromise(_ promise: KindlyFramework.Promise<T>)
+  @objc deinit
+}
+extension KindlyFramework.Promise {
+  public func fulfill(_ value: T)
+  public func reject(_ error: any Swift.Error)
+  @discardableResult
+  public func then(on queue: Dispatch.DispatchQueue = .promises, _ onFulfilled: @escaping KindlyFramework.Promise<T>.onFulfilled) -> KindlyFramework.Promise<T>
+  @discardableResult
+  public func `catch`(on queue: Dispatch.DispatchQueue = .promises, _ onRejected: @escaping KindlyFramework.Promise<T>.onRejected) -> KindlyFramework.Promise<T>
+  @discardableResult
+  public func always(on queue: Dispatch.DispatchQueue = .promises, _ block: @escaping () -> Swift.Void) -> KindlyFramework.Promise<T>
+}
+extension Swift.Array {
+  public var isNotEmpty: Swift.Bool {
+    get
+  }
+  public func safeToUseIndex(_ index: Swift.Int) -> Swift.Bool
+}
+public enum KindlySDKError : Swift.Error {
+  case configNotSet
+  case connectionIsInProgress
+  case general
+  case httpError(statusCode: Swift.Int)
+  case invalidURL
+  case noInternetConnection
+  case tokenInvalid
+  case tokenMissing
+  case invalidData
+  case generic(description: Swift.String)
+  case invalidJWTPartCount(Swift.String, Swift.Int)
+  case invalidBase64URL(Swift.String)
+  case invalidJSON(Swift.String)
+}
+extension Swift.Set {
+  public var array: [Element] {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class KindlyChatNavigationController : UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) public init(languageCode: Swift.String?)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewWillAppear(_ animated: Swift.Bool)
+  @objc deinit
+}
+extension Dispatch.DispatchQueue {
+  public static func background(background: @escaping (() -> Swift.Void), delay: Dispatch.DispatchTimeInterval? = nil, completionOnMain: (() -> Swift.Void)? = nil, completionDelay: Swift.Double? = nil)
+  public static func main(_ code: @escaping (() -> Swift.Void), delay: Dispatch.DispatchTimeInterval? = nil)
+}
+public struct UserMessage : Swift.Encodable {
+  public let message: Swift.String
+  public var newContext: [Swift.String : Swift.String]?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct ConnectRequestModel : Swift.Encodable {
+  public var context: [Swift.String : Swift.String]?
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct Bot {
+  public let name: Swift.String
+  public let avatarURL: Foundation.URL?
+}
 extension KindlyFramework.DateFormatEnum : Swift.Equatable {}
 extension KindlyFramework.DateFormatEnum : Swift.Hashable {}
-extension KindlyFramework.ServerEnvironment : Swift.Equatable {}
-extension KindlyFramework.ServerEnvironment : Swift.Hashable {}
 extension KindlyFramework.ChatConnectionState : Swift.Equatable {}
 extension KindlyFramework.ChatConnectionState : Swift.Hashable {}
+extension KindlyFramework.ServerEnvironment : Swift.Equatable {}
+extension KindlyFramework.ServerEnvironment : Swift.Hashable {}
 extension KindlyFramework.ExternalExchangeType : Swift.Equatable {}
 extension KindlyFramework.ExternalExchangeType : Swift.Hashable {}
 extension KindlyFramework.ExternalExchangeType : Swift.RawRepresentable {}
