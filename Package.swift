@@ -4,14 +4,14 @@
 import PackageDescription
 
 let package = Package(
-    name: "KindlyFramework",
+    name: "KindlySDK",
 	platforms: [
 		.iOS(.v12),
 	],
     products: [
         .library(
-            name: "KindlyFramework",
-            targets: ["KindlySDK"]),
+            name: "KindlySDK",
+            targets: ["KindlySDK", "KindlySDKWrapper"]),
     ],
 	dependencies: [
 		.package(
