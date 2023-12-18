@@ -24,10 +24,6 @@ _In the Xcode menu bar, select "File" -> "Add Packages..."_
 https://github.com/kindly-ai/sdk-chat-ios
 ```
 
-Once the package is fetched, you can import the Kindly SDK in your code files where you want to use it.
-
-`import KindlyFramework`
-
 ## Usage
 
 After installing the SDK, you can now use it in your iOS application. 
@@ -35,6 +31,8 @@ After installing the SDK, you can now use it in your iOS application.
 Initialize the SDK in your AppDelegate's didFinishLaunchingWithOptions method. Use the provided bot key to start the SDK.
 
 ```swift
+import KindlyFramework
+
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     KindlySDK.start(botKey: "BOT_KEY")
     return true
