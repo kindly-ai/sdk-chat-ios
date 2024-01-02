@@ -1936,6 +1936,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit.UIColor",
         "printedName": "UIKit.UIColor",
         "declKind": "Import",
@@ -8697,21 +8711,21 @@
       "value": "\",\n)\""
     },
     {
-      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/Foundation\/DispatchQueueExtension.swift",
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/Foundation\/DispatchQueue+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1027,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/Foundation\/DispatchQueueExtension.swift",
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/Foundation\/DispatchQueue+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1173,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/Foundation\/DispatchQueueExtension.swift",
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/Foundation\/DispatchQueue+Extensions.swift",
       "kind": "IntegerLiteral",
       "offset": 1701,
       "length": 1,
@@ -10592,6 +10606,62 @@
       "offset": 664,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Helpers\/Alert\/AlertHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2113,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Helpers\/Alert\/AlertHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2535,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Helpers\/Alert\/AlertHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3070,
+      "length": 4,
+      "value": "\"Ok\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Helpers\/Alert\/AlertHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3166,
+      "length": 6,
+      "value": "\"Okay\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Helpers\/Alert\/AlertHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3266,
+      "length": 8,
+      "value": "\"Cancel\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Helpers\/Alert\/AlertHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3368,
+      "length": 9,
+      "value": "\"Discard\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Helpers\/Alert\/AlertHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3567,
+      "length": 5,
+      "value": "\"Yes\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Helpers\/Alert\/AlertHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 3773,
+      "length": 4,
+      "value": "\"No\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIColor+Extensions.swift",
@@ -13235,147 +13305,147 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26316,
+      "offset": 26260,
       "length": 4,
       "value": "\"OK\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26383,
-      "length": 4,
-      "value": "true"
+      "kind": "Array",
+      "offset": 26331,
+      "length": 3,
+      "value": "[nil]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26540,
+      "offset": 26483,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26750,
+      "offset": 26693,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26797,
+      "offset": 26740,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26846,
+      "offset": 26789,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27378,
+      "offset": 27321,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27418,
+      "offset": 27361,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27469,
+      "offset": 27412,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27517,
+      "offset": 27460,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 28338,
+      "offset": 28281,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 28529,
+      "offset": 28472,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 29121,
+      "offset": 29064,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29239,
+      "offset": 29182,
       "length": 35,
       "value": "\"Selected image name: \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29273,
+      "offset": 29216,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 29481,
+      "offset": 29424,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 30197,
+      "offset": 30140,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 30240,
+      "offset": 30183,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 30276,
+      "offset": 30219,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 30315,
+      "offset": 30258,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 30355,
+      "offset": 30298,
       "length": 4,
       "value": "16.0"
     },
@@ -15244,196 +15314,196 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "StringLiteral",
-      "offset": 2224,
+      "offset": 2242,
       "length": 18,
       "value": "\"link.circle.fill\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "StringLiteral",
-      "offset": 2322,
+      "offset": 2340,
       "length": 11,
       "value": "\"Open link\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2354,
+      "offset": 2372,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "StringLiteral",
-      "offset": 2526,
+      "offset": 2544,
       "length": 25,
       "value": "\"icon_filled_full_screen\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "StringLiteral",
-      "offset": 2635,
+      "offset": 2653,
       "length": 27,
       "value": "\"arrow.up.forward.app.fill\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "StringLiteral",
-      "offset": 2742,
+      "offset": 2760,
       "length": 26,
       "value": "\"Open full screen preview\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2805,
+      "offset": 2823,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "StringLiteral",
-      "offset": 2982,
+      "offset": 3000,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3479,
+      "offset": 3497,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3520,
+      "offset": 3538,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5542,
+      "offset": 5560,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5553,
+      "offset": 5571,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5591,
+      "offset": 5609,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "FloatLiteral",
-      "offset": 5629,
+      "offset": 5647,
       "length": 4,
       "value": "0.08"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6415,
+      "offset": 6433,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "StringLiteral",
-      "offset": 6629,
+      "offset": 6647,
       "length": 6,
       "value": "\".gif\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6897,
+      "offset": 6915,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6932,
+      "offset": 6950,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7542,
+      "offset": 7560,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7584,
+      "offset": 7602,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7713,
+      "offset": 7731,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7761,
+      "offset": 7779,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 8093,
+      "offset": 8111,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 8297,
+      "offset": 8315,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "FloatLiteral",
-      "offset": 8603,
+      "offset": 8621,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "FloatLiteral",
-      "offset": 8635,
+      "offset": 8653,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "FloatLiteral",
-      "offset": 8680,
+      "offset": 8698,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/ImageCell.swift",
       "kind": "FloatLiteral",
-      "offset": 8724,
+      "offset": 8742,
       "length": 4,
       "value": "12.0"
     },
