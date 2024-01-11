@@ -23,6 +23,7 @@ import UIKit.UIDevice
 import UIKit.UIImage
 import UIKit
 import UniformTypeIdentifiers
+import UserNotifications
 import WebKit
 import _Concurrency
 import _StringProcessing
@@ -100,25 +101,67 @@ extension Swift.Set {
   }
 }
 public struct KindlySDKConfig {
-  public typealias AuthTokenCallback = (_ chatId: Swift.String, _ promise: Kindly.Promise<Swift.String>) -> ()
-  public var getAuthToken: Kindly.KindlySDKConfig.AuthTokenCallback?
-  public init(botKey: Swift.String, environment: Kindly.ServerEnvironment = ServerEnvironment.production, authTokenCallback: Kindly.KindlySDKConfig.AuthTokenCallback? = nil)
-}
-public enum ServerEnvironment {
-  case dev
-  case production
-  public static func == (a: Kindly.ServerEnvironment, b: Kindly.ServerEnvironment) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  public var getAuthToken: Kindly.AuthTokenCallback? {
     get
+    set
+  }
+  public init(botKey: Swift.String, environment: Kindly.Config.Environment = .prod, authTokenCallback: Kindly.AuthTokenCallback? = nil)
+}
+@objc @_inheritsConvenienceInitializers @objcMembers public class Config : ObjectiveC.NSObject {
+  public static var environment: Kindly.Config.Environment
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Kindly.Config {
+  public struct Environment : Swift.RawRepresentable, Swift.Equatable {
+    public var rawValue: Swift.String
+    public init(rawValue: Swift.String)
+    public static func == (lhs: Kindly.Config.Environment, rhs: Kindly.Config.Environment) -> Swift.Bool
+    public static let dev: Kindly.Config.Environment
+    public static let prod: Kindly.Config.Environment
+    public typealias RawValue = Swift.String
+  }
+  public static func setEnvironment(_ env: Kindly.Config.Environment) -> Kindly.Config.Environment
+  @objc public static var isDevelopment: Swift.Bool {
+    @objc get
+  }
+  @objc public static var isProduction: Swift.Bool {
+    @objc get
+  }
+  @objc public static var environmentDisplayName: Swift.String {
+    @objc get
+  }
+  @objc public static var environmentConfigKeyName: Swift.String {
+    @objc get
+  }
+}
+extension Kindly.Config {
+  @objc public static var API_HOST: Swift.String {
+    @objc get
+  }
+  @objc public static var API_PORT: Swift.Int {
+    @objc get
+  }
+  @objc public static var API_ENDPOINT: Swift.String {
+    @objc get
+  }
+  @objc public static var LOG_PRINTS: Swift.Bool {
+    @objc get
+  }
+  @objc public static var VERSION: Swift.String {
+    @objc get
+  }
+  @objc public static var BUILD: Swift.String {
+    @objc get
   }
 }
 public struct ExternalChatButton {
 }
 public enum ChatConnectionState {
-  case connected
+  case none
   case disconnected
-  case isConnecting
+  case connecting
+  case connected
   case conversationEnded
   case failed
   public static func == (a: Kindly.ChatConnectionState, b: Kindly.ChatConnectionState) -> Swift.Bool
@@ -132,50 +175,51 @@ public protocol KindlyChatClientDelegate : ObjectiveC.NSObject {
 }
 public typealias KindlySDK = Kindly.KindlyChatClient
 final public class KindlyChatClient {
+  public static var shared: Kindly.KindlyChatClient!
   public static var config: Kindly.KindlySDKConfig {
     get
     set
   }
-  final public var languages: [Kindly.Language] {
-    get
-  }
-  @Kindly.Announced @_projectedValueProperty($currentBot) final public var currentBot: Kindly.Bot? {
-    get
-  }
-  final public var $currentBot: Kindly.Announced<Kindly.Bot?> {
-    get
-  }
-  @Kindly.Announced @_projectedValueProperty($connectionState) final public var connectionState: Kindly.ChatConnectionState {
-    get
-  }
-  final public var $connectionState: Kindly.Announced<Kindly.ChatConnectionState> {
+  public static var connectionState: Kindly.ChatConnectionState {
     get
   }
   public static var delegate: (any Kindly.KindlyChatClientDelegate)! {
     get
     set
   }
+  public static var notificationDelegate: Kindly.NotificationDelegate {
+    get
+  }
   public init(config: Kindly.KindlySDKConfig)
   @objc deinit
 }
 extension Kindly.KindlyChatClient {
-  final public class func start(botKey: Swift.String, authTokenCallback: Kindly.KindlySDKConfig.AuthTokenCallback? = nil)
-  final public class func loadConfigFromKindly() -> Kindly.Promise<Swift.Void>
-  final public func loadConfigFromKindly() -> Kindly.Promise<Swift.Void>
-  final public class func setup(languageCode: Kindly.LanguageCode? = nil)
-  final public func setup(languageCode: Kindly.LanguageCode? = nil)
+  final public class func start(botKey: Swift.String, authTokenCallback: Kindly.AuthTokenCallback? = nil)
   final public class func setNewContext(_ context: [Swift.String : Swift.String])
   final public func setNewContext(_ context: [Swift.String : Swift.String])
   final public class func clearNewContext()
   final public func clearNewContext()
+  final public class func setAPNSDeviceToken(_ deviceToken: Foundation.Data)
+  final public class func setAPNSDeviceToken(_ deviceToken: Swift.String)
+  @discardableResult
   final public class func saveAuthToken(_ token: Swift.String) -> Swift.Bool
+  @discardableResult
   final public func saveAuthToken(_ token: Swift.String) -> Swift.Bool
-  final public class func endChat() -> Kindly.Promise<Swift.Void>
-  final public func endChat() -> Kindly.Promise<Swift.Void>
   final public class func displayChat(languageCode: Swift.String? = nil)
   final public func displayChat(languageCode: Swift.String? = nil)
   final public class func closeChat()
   final public func closeChat()
+  final public class func endChat() -> Kindly.Promise<Swift.Void>
+  final public func endChat() -> Kindly.Promise<Swift.Void>
+  final public class func notificationReceived(_ userInfo: [Swift.AnyHashable : Any])
+  final public class func notificationReceived(_ notification: UserNotifications.UNNotification)
+  final public class func notificationResponseReceived(_ response: UserNotifications.UNNotificationResponse)
+}
+@objc @_inheritsConvenienceInitializers public class NotificationDelegate : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
 }
 extension Dispatch.DispatchQueue {
   public static var _promises: Dispatch.DispatchQueue?
@@ -261,6 +305,7 @@ extension Swift.Array {
   }
   public func safeToUseIndex(_ index: Swift.Int) -> Swift.Bool
 }
+public typealias AuthTokenCallback = (_ chatId: Swift.String, _ promise: Kindly.Promise<Swift.String>) -> ()
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class KindlyChatNavigationController : UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) public init(languageCode: Swift.String?)
   @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
@@ -273,8 +318,6 @@ extension Kindly.ExternalExchangeType : Swift.RawRepresentable {}
 extension Kindly.ExternalChatMessageSender : Swift.Equatable {}
 extension Kindly.ExternalChatMessageSender : Swift.Hashable {}
 extension Kindly.ExternalChatMessageSender : Swift.RawRepresentable {}
-extension Kindly.ServerEnvironment : Swift.Equatable {}
-extension Kindly.ServerEnvironment : Swift.Hashable {}
 extension Kindly.ChatConnectionState : Swift.Equatable {}
 extension Kindly.ChatConnectionState : Swift.Hashable {}
 extension Kindly.DateFormatEnum : Swift.Equatable {}

@@ -277,7 +277,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import ObjectiveC;
 @import UIKit;
+@import UserNotifications;
 #endif
 
 #endif
@@ -299,10 +301,46 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 
+SWIFT_CLASS("_TtC6Kindly6Config")
+@interface Config : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class NSString;
+
+@interface Config (SWIFT_EXTENSION(Kindly))
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isDevelopment;)
++ (BOOL)isDevelopment SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL isProduction;)
++ (BOOL)isProduction SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull environmentDisplayName;)
++ (NSString * _Nonnull)environmentDisplayName SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull environmentConfigKeyName;)
++ (NSString * _Nonnull)environmentConfigKeyName SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface Config (SWIFT_EXTENSION(Kindly))
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull API_HOST;)
++ (NSString * _Nonnull)API_HOST SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) NSInteger API_PORT;)
++ (NSInteger)API_PORT SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull API_ENDPOINT;)
++ (NSString * _Nonnull)API_ENDPOINT SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly) BOOL LOG_PRINTS;)
++ (BOOL)LOG_PRINTS SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull VERSION;)
++ (NSString * _Nonnull)VERSION SWIFT_WARN_UNUSED_RESULT;
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, copy) NSString * _Nonnull BUILD;)
++ (NSString * _Nonnull)BUILD SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+
 
 
 @class UIViewController;
-@class NSString;
 @class NSBundle;
 @class NSCoder;
 
@@ -319,6 +357,17 @@ SWIFT_CLASS("_TtC6Kindly30KindlyChatNavigationController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithNavigationBarClass:(Class _Nullable)navigationBarClass toolbarClass:(Class _Nullable)toolbarClass SWIFT_UNAVAILABLE;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+@end
+
+@class UNUserNotificationCenter;
+@class UNNotification;
+@class UNNotificationResponse;
+
+SWIFT_CLASS("_TtC6Kindly20NotificationDelegate")
+@interface NotificationDelegate : NSObject <UNUserNotificationCenterDelegate>
+- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
+- (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
