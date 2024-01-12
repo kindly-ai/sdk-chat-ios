@@ -13373,7 +13373,14 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Utils\/Utils.swift",
       "kind": "StringLiteral",
-      "offset": 5421,
+      "offset": 5442,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Utils\/Utils.swift",
+      "kind": "StringLiteral",
+      "offset": 5545,
       "length": 17,
       "value": "\"Version %@ (%@)\""
     },
@@ -17209,16 +17216,30 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Models\/APNSDTO.swift",
       "kind": "StringLiteral",
-      "offset": 162,
+      "offset": 184,
       "length": 20,
       "value": "\"notification_token\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Models\/APNSDTO.swift",
       "kind": "StringLiteral",
-      "offset": 162,
+      "offset": 223,
+      "length": 11,
+      "value": "\"bundle_id\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Models\/APNSDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
       "length": 20,
       "value": "\"notification_token\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Models\/APNSDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 11,
+      "value": "\"bundle_id\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Models\/PusherAuthDTO.swift",
@@ -20324,21 +20345,21 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 13202,
+      "offset": 13203,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 13590,
+      "offset": 13619,
       "length": 58,
       "value": "\"Failed to get pusher auth: \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Networking\/API.swift",
       "kind": "StringLiteral",
-      "offset": 13647,
+      "offset": 13676,
       "length": 17,
       "value": "\"\""
     },

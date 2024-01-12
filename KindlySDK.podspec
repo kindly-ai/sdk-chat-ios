@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "12.0"
   spec.source       = { :git => "https://github.com/kindly-ai/sdk-chat-ios.git", :tag => "#{spec.version}" }
   spec.source_files  = 'Sources/**/*'
-  spec.vendored_frameworks = 'artifacts/KindlySDK.xcframework'
+  spec.vendored_frameworks = 'artifacts/Kindly.xcframework'
   spec.swift_version = '5.0'
 
   spec.dependency 'Starscream', '4.0.6'
