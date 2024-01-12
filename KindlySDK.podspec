@@ -7,10 +7,10 @@ Pod::Spec.new do |spec|
   AI-powered chatbots built to automate support and drive sales
                    DESC
   spec.homepage     = "https://www.kindly.ai"
-  spec.license      = { :type => 'MIT', :file => 'LICENSE' }
+  spec.license      = { :type => 'MIT', :file => 'LICENSE.md' }
   spec.author             = { "Alexy" => "alexy.ib@gmail.com" }
   spec.platform     = :ios, "12.0"
-  spec.source       = { :git => "https://github.com/kindly-ai/sdk-chat-ios", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/kindly-ai/sdk-chat-ios.git", :tag => "#{spec.version}" }
   spec.source_files  = 'Sources/**/*'
   spec.vendored_frameworks = 'artifacts/KindlySDK.xcframework'
   spec.swift_version = '5.0'
