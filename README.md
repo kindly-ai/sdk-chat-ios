@@ -31,7 +31,7 @@ After installing the SDK, you can now use it in your iOS application.
 Initialize the SDK in your AppDelegate's didFinishLaunchingWithOptions method. Use the provided bot key to start the SDK.
 
 ```swift
-import KindlyFramework
+import Kindly
 
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
     KindlySDK.start(botKey: "BOT_KEY")
