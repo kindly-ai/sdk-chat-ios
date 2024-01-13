@@ -32,12 +32,6 @@ You can also use CocoaPods to install the Kindly SDK. Add the following line to 
 pod 'Kindly', '~> 2.0'
 ```
 
-Run the following command in your terminal:
-
-```bash
-pod install
-```
-
 ## Usage
 
 After installing the SDK, you can now use it in your iOS application. 
