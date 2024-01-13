@@ -10,11 +10,11 @@
 		</data>
 		<key>Config.plist</key>
 		<data>
-		jHQqL/36U63eGmVuahaD9V+ZhAk=
+		/6pDLEjovPxPpNmmQ8hzkuBLSZs=
 		</data>
 		<key>Headers/Kindly-Swift.h</key>
 		<data>
-		6x+yzT2TMUvT/GaGGA6R0n1uRxw=
+		A2eTT37dwxOsXmVNGpe/T4sR2Hg=
 		</data>
 		<key>Headers/Kindly.h</key>
 		<data>
@@ -26,43 +26,43 @@
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		TRWIntT/aEKEVxi76Mim560YiZg=
+		IE4udrupGuaXy0cumKjiFuikpnE=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2E+cRvodonaeTs/P7ug9iy2epfM=
+		S8thtVfnJUN82yDMbSJvpzqutiA=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		nUJyTlwjk8YiU/0/aFwiIkDMciY=
+		dF2H+hg7/Ri78apBsjY+pI8SgTM=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2E+cRvodonaeTs/P7ug9iy2epfM=
+		S8thtVfnJUN82yDMbSJvpzqutiA=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lsH9ewfhbKbSdtbsQ8hjk/UlBFk=
+		zJsX4kgUsul7CCACoGZHih5gGSI=
 		</data>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		TRWIntT/aEKEVxi76Mim560YiZg=
+		IE4udrupGuaXy0cumKjiFuikpnE=
 		</data>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		moqu4dd0b/N22uMKQ1/VLPsf4f4=
+		L624Howlt5mYwmGWtP1a2snT7pE=
 		</data>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xlIFMmdRZByqMpzCbYilkeXfIrk=
+		55SEWOCErUaZkkZbLapiTqR9X1E=
 		</data>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		moqu4dd0b/N22uMKQ1/VLPsf4f4=
+		L624Howlt5mYwmGWtP1a2snT7pE=
 		</data>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1+ppBXlUPN8qLiRNnRfGm4O8CA8=
+		ov583ZVp36gqJdY87+6SC585i1s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -82,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K7YnNg3qa4F2CVmDLYOR8mDvsEoC+OZw0nz24eA/3Zg=
+			v90A63f2S0oaq5tl0z4THtumL/Bl7f9jV6Nq604BqhE=
 			</data>
 		</dict>
 		<key>Headers/Kindly-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XuLM8is1XKfLY78CAGSQq+zaFyP+ypKYxhpVlCAec2Y=
+			rFprGzgv06uWkIuL8Z7RY1S5r1Dcdt9lDsJMw5nSrJA=
 			</data>
 		</dict>
 		<key>Headers/Kindly.h</key>
@@ -103,70 +103,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oQy3RXV7RKYSJ9WMDT6cuikW08C0NuMXFM9sq3MAHCs=
+			yfdQGCNzYpqRFIKVzwpHyImQldEC5VdSl93ZwH/ab1o=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wD9kepZemSPoZLsyiImQeW9ib97JFBolShu91oDQ/Z8=
+			hhRxRiQSWqFrGdMuGAzy6omZdn0oNhnWXxedgGiu22w=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gkaXRcwBY5kRvwd0NhFh2FLOCN4/ITEcW/zmLLYx0Fs=
+			N8iTGqtEmJCFoRgYlHIKRBfbMkc9C5IaPtYxgdt9k5M=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wD9kepZemSPoZLsyiImQeW9ib97JFBolShu91oDQ/Z8=
+			hhRxRiQSWqFrGdMuGAzy6omZdn0oNhnWXxedgGiu22w=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YwfqaFt4aGrGs/Ekq4BbZqfBsAqcyXp4UrGCg+C72l4=
+			346Ajjc/IQQC5Won5eUnbyBsaa1iiIFsDNJIj5v59oI=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oQy3RXV7RKYSJ9WMDT6cuikW08C0NuMXFM9sq3MAHCs=
+			yfdQGCNzYpqRFIKVzwpHyImQldEC5VdSl93ZwH/ab1o=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UzjypvDkwglyTOZHBspXfcMiYad88f5q8BHYvfmkfus=
+			36liX49t4M70ejBwRf7FK3XuAcKZcz2f4zWO3uDss3A=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0p2jzjxPZxNxVclqa8pSNGCjh+xQ85pmibIlTKR7KZU=
+			WkTppq/brk400LFJOWDN0AeK691/zEfxKRqMbwKZ8Lw=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UzjypvDkwglyTOZHBspXfcMiYad88f5q8BHYvfmkfus=
+			36liX49t4M70ejBwRf7FK3XuAcKZcz2f4zWO3uDss3A=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F7rr/hyrcpdu3Wcz5pqunvxfrEd7WKc02zMbeL2xP2M=
+			ytRpSEG0k0sJixnjYI0m+g9zWTlQsVNngIfRj0dxoqk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
