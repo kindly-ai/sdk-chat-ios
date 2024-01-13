@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Kindly"
-  spec.version      = "2.0.38"
+  spec.version      = "2.0.39"
   spec.summary      = "Kindly SDK"
   spec.description  = <<-DESC
   AI-powered chatbots built to automate support and drive sales
@@ -20,4 +20,5 @@ Pod::Spec.new do |spec|
   spec.dependency 'SnapKit', '5.6.0'
   spec.dependency 'SwiftyJSON', '5.0.1'
 
+  # spec.frameworks = 'UIKit', 'MapKit'
 end
