@@ -24,6 +24,20 @@ _In the Xcode menu bar, select "File" -> "Add Packages..."_
 https://github.com/kindly-ai/sdk-chat-ios
 ```
 
+#### Cocoapods
+
+You can also use CocoaPods to install the Kindly SDK. Add the following line to your `Podfile`:
+
+```ruby
+pod 'Kindly', '~> 2.0'
+```
+
+Run the following command in your terminal:
+
+```bash
+pod install
+```
+
 ## Usage
 
 After installing the SDK, you can now use it in your iOS application. 
