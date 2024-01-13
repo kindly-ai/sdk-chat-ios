@@ -20,11 +20,11 @@ let package = Package(
 		),
 		.package(
 			url: "https://github.com/kirualex/SwiftyGif.git",
-			exact: "5.4.3"
+			exact: "5.4.4"
 		),
 		.package(
 			url: "https://github.com/SnapKit/SnapKit.git",
-			exact: "5.6.0"
+			exact: "5.7.0"
 		),
 		.package(
 			url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
