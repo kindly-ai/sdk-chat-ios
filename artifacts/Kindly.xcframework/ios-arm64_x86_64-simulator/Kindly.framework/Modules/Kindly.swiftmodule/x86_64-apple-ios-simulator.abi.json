@@ -7747,14 +7747,35 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlySDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 950,
-      "length": 22,
-      "value": "\"0d15baa2a7308d71e79d\""
+      "offset": 887,
+      "length": 48,
+      "value": "\"Environment: \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlySDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 990,
+      "offset": 934,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlySDKConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1005,
+      "length": 31,
+      "value": "\"Pusher key: \""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlySDKConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1035,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlySDKConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1055,
       "length": 4,
       "value": "\"eu\""
     },
@@ -8307,226 +8328,233 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 663,
+      "offset": 667,
       "length": 13,
       "value": "\"development\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 720,
+      "offset": 724,
       "length": 12,
       "value": "\"production\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 807,
+      "offset": 811,
       "length": 13,
       "value": "\"development\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 847,
+      "offset": 851,
       "length": 12,
       "value": "\"production\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 883,
+      "offset": 887,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 970,
+      "offset": 974,
       "length": 13,
       "value": "\"development\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1010,
+      "offset": 1014,
       "length": 12,
       "value": "\"production\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1046,
+      "offset": 1050,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 1252,
+      "offset": 1260,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 1280,
+      "offset": 1288,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 1406,
+      "offset": 1414,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 1434,
+      "offset": 1442,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1828,
+      "offset": 1836,
       "length": 14,
       "value": "\"API_ENDPOINT\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1912,
+      "offset": 1920,
       "length": 6,
       "value": "\"host\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2092,
+      "offset": 2100,
       "length": 14,
       "value": "\"API_ENDPOINT\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2171,
+      "offset": 2179,
       "length": 6,
       "value": "\"port\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2195,
+      "offset": 2203,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2263,
+      "offset": 2271,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2344,
+      "offset": 2352,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2428,
+      "offset": 2436,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "IntegerLiteral",
-      "offset": 2439,
+      "offset": 2447,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2459,
+      "offset": 2467,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2467,
+      "offset": 2475,
       "length": 1,
       "value": "\":\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2475,
+      "offset": 2483,
       "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 2504,
-      "length": 9,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
       "offset": 2512,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 2520,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2646,
+      "offset": 2654,
       "length": 12,
       "value": "\"LOG_PRINTS\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 2663,
+      "offset": 2671,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2772,
+      "offset": 2780,
       "length": 9,
       "value": "\"VERSION\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2786,
+      "offset": 2794,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2895,
+      "offset": 2903,
       "length": 9,
       "value": "\"VERSION\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2909,
+      "offset": 2917,
       "length": 7,
       "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 3048,
+      "length": 12,
+      "value": "\"PUSHER_KEY\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Models\/Pusher\/PusherConnectionEstablishedDTO.swift",
@@ -9644,259 +9672,259 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 12025,
+      "offset": 11274,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 12448,
+      "offset": 11742,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 12703,
+      "offset": 11997,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 13851,
+      "offset": 13145,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 14062,
+      "offset": 13356,
       "length": 55,
       "value": "\"Failed to authenticate: \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 14116,
+      "offset": 13410,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "Array",
-      "offset": 14886,
+      "offset": 14180,
       "length": 40,
       "value": "[\"⏳ Connection is already in progress.\"]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "Array",
-      "offset": 15056,
+      "offset": 14350,
       "length": 38,
       "value": "[\"⏳ Connecting to Kindly Chat API...\"]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 15192,
+      "offset": 14486,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "Array",
-      "offset": 15235,
+      "offset": 14529,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 15317,
+      "offset": 14611,
       "length": 15,
       "value": "\"language_code\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 15512,
+      "offset": 14806,
       "length": 20,
       "value": "\"self not available\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "Array",
-      "offset": 15819,
+      "offset": 15113,
       "length": 35,
       "value": "[\"🟢 Connected to Kindly Chat API\"]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 16636,
+      "offset": 15930,
       "length": 20,
       "value": "\"self not available\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 16847,
+      "offset": 16141,
       "length": 39,
       "value": "\"Failed restart conversation: \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 16885,
+      "offset": 16179,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 17679,
+      "offset": 16942,
       "length": 20,
       "value": "\"connected: \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 17698,
+      "offset": 16961,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 17718,
+      "offset": 16981,
       "length": 29,
       "value": "\"private-chatbubble-\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 17746,
+      "offset": 17009,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 18184,
+      "offset": 17481,
       "length": 30,
       "value": "\"➡️ Event: \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 18213,
+      "offset": 17510,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "Array",
-      "offset": 18692,
+      "offset": 17989,
       "length": 29,
       "value": "[\"Subscribed to Pusher events\"]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 18786,
+      "offset": 18083,
       "length": 33,
       "value": "\"Unhandled event: \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 18818,
+      "offset": 18115,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 19559,
+      "offset": 18856,
       "length": 47,
       "value": "\"Message event handled with data \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 19605,
+      "offset": 18902,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "Array",
-      "offset": 19918,
+      "offset": 19215,
       "length": 31,
       "value": "[\"Failed to decode chat message\"]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 20167,
+      "offset": 19464,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 20256,
+      "offset": 19553,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 20697,
+      "offset": 19994,
       "length": 40,
       "value": "\"Message event handled with data \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 20736,
+      "offset": 20033,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "Array",
-      "offset": 21052,
+      "offset": 20349,
       "length": 34,
       "value": "[\"Failed to decode attachment data\"]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 21577,
+      "offset": 20874,
       "length": 52,
       "value": "\"Message event handled with data \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 21628,
+      "offset": 20925,
       "length": 17,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "Array",
-      "offset": 21790,
+      "offset": 21087,
       "length": 33,
       "value": "[\"Failed to decode handover event\"]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 22113,
+      "offset": 21410,
       "length": 1,
       "value": "0"
     },
@@ -14649,35 +14677,35 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "StringLiteral",
-      "offset": 9416,
+      "offset": 9421,
       "length": 9,
       "value": "\"channel\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "Dictionary",
-      "offset": 10012,
+      "offset": 10017,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "Array",
-      "offset": 10673,
+      "offset": 10678,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "StringLiteral",
-      "offset": 10771,
+      "offset": 10776,
       "length": 47,
       "value": "\"Error converting dictionary to data: \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "StringLiteral",
-      "offset": 10817,
+      "offset": 10822,
       "length": 2,
       "value": "\"\""
     },
@@ -15286,28 +15314,28 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/KindlyChatNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2228,
+      "offset": 2234,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/KindlyChatNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2511,
+      "offset": 2517,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/KindlyChatNavigationController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2684,
+      "offset": 2690,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/KindlyChatNavigationController.swift",
       "kind": "StringLiteral",
-      "offset": 4263,
+      "offset": 4269,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
