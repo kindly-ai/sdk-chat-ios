@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>KindlyChatClient Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/KindlyChatClient" class="dashAnchor"></a>
+    <a title="KindlyChatClient Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Kindly SDK Docs</a> (60% documented)</p>
+        <p class="header-right"><a href="https://github.com/kindly-ai/sdk-chat-ios.git"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Kindly Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        KindlyChatClient Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/KindlyChatClient.html">KindlyChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationDelegate.html">NotificationDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Promise.html">Promise</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ChatConnectionState.html">ChatConnectionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ExternalChatMessageSender.html">ExternalChatMessageSender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ExternalExchangeType.html">ExternalExchangeType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/AppKit">AppKit</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/KindlyChatClientDelegate.html">KindlyChatClientDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Bot.html">Bot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:6Kindly18ExternalChatButtonV">ExternalChatButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ExternalChatMessage.html">ExternalChatMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/KindlySDKConfig.html">KindlySDKConfig</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Kindly17AuthTokenCallbacka">AuthTokenCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Kindly0A3SDKa">KindlySDK</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>KindlyChatClient</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">final</span> <span class="kd">class</span> <span class="kt">KindlyChatClient</span> <span class="p">:</span> <span class="kt">Loggable</span></code></pre>
+
+                </div>
+              </div>
+            <p>iOS SDK for connecting and interacting with the Kindly Chat API.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC6sharedACSgvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/shared" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC6sharedACSgvpZ">shared</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">shared</span><span class="p">:</span> <span class="kt">KindlyChatClient</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC6configAA0A9SDKConfigVvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/config" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC6configAA0A9SDKConfigVvpZ">config</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">config</span><span class="p">:</span> <span class="kt"><a href="../Structs/KindlySDKConfig.html">KindlySDKConfig</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC15connectionStateAA0b10ConnectionE0OvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/connectionState" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC15connectionStateAA0b10ConnectionE0OvpZ">connectionState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">connectionState</span><span class="p">:</span> <span class="kt"><a href="../Enums/ChatConnectionState.html">ChatConnectionState</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC8delegateAA0abC8Delegate_pSgvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/delegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC8delegateAA0abC8Delegate_pSgvpZ">delegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>A static delegate that gets or sets the delegate of the shared instance of <code>KindlyChatClient</code>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">delegate</span><span class="p">:</span> <span class="kt"><a href="../Protocols/KindlyChatClientDelegate.html">KindlyChatClientDelegate</a></span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC20notificationDelegateAA012NotificationE0CvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/notificationDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC20notificationDelegateAA012NotificationE0CvpZ">notificationDelegate</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">notificationDelegate</span><span class="p">:</span> <span class="kt"><a href="../Classes/NotificationDelegate.html">NotificationDelegate</a></span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Initialization"></a>
+                <a name="//apple_ref/swift/Section/Initialization" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Initialization"></a>
+                  <h3 class="section-name"><span>Initialization</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC6configAcA0A9SDKConfigV_tcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(config:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC6configAcA0A9SDKConfigV_tcfc">init(config:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initialize Kindly Chat SDK.</p>
+
+<p>In most cases, you will only want to have one instance of <code>KindlyChatClient</code>.
+Our &ldquo;Getting started&rdquo; guide covers this topic and gives you instructions on how to configure the SDK.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">config</span><span class="p">:</span> <span class="kt"><a href="../Structs/KindlySDKConfig.html">KindlySDKConfig</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>config</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>API keys and other configuration of type <code><a href="../Structs/KindlySDKConfig.html">KindlySDKConfig</a></code>.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Public%20functions"></a>
+                <a name="//apple_ref/swift/Section/Public functions" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Public%20functions"></a>
+                  <h3 class="section-name"><span>Public functions</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC5start6botKey17authTokenCallbackySS_ySS_AA7PromiseCySSGtcSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/start(botKey:authTokenCallback:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC5start6botKey17authTokenCallbackySS_ySS_AA7PromiseCySSGtcSgtFZ">start(botKey:<wbr>authTokenCallback:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Start the Kindly Chat SDK.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">start</span><span class="p">(</span><span class="nv">botKey</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">authTokenCallback</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/s:6Kindly17AuthTokenCallbacka">AuthTokenCallback</a></span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC13setNewContextyySDyS2SGFZ"></a>
+                    <a name="//apple_ref/swift/Method/setNewContext(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC13setNewContextyySDyS2SGFZ">setNewContext(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the current context that will be set in the next message or click request</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">setNewContext</span><span class="p">(</span><span class="n">_</span> <span class="nv">context</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>context</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>context to be set</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC13setNewContextyySDyS2SGF"></a>
+                    <a name="//apple_ref/swift/Method/setNewContext(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC13setNewContextyySDyS2SGF">setNewContext(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set the current context that will be set in the next message or click request</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setNewContext</span><span class="p">(</span><span class="n">_</span> <span class="nv">context</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span> <span class="p">:</span> <span class="kt">String</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>context</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>context to be set</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC15clearNewContextyyFZ"></a>
+                    <a name="//apple_ref/swift/Method/clearNewContext()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC15clearNewContextyyFZ">clearNewContext()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Clear the currently set context</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">clearNewContext</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC15clearNewContextyyF"></a>
+                    <a name="//apple_ref/swift/Method/clearNewContext()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC15clearNewContextyyF">clearNewContext()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Clear the currently set context</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">clearNewContext</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC18setAPNSDeviceTokenyy10Foundation4DataVFZ"></a>
+                    <a name="//apple_ref/swift/Method/setAPNSDeviceToken(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC18setAPNSDeviceTokenyy10Foundation4DataVFZ">setAPNSDeviceToken(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the device token.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">setAPNSDeviceToken</span><span class="p">(</span><span class="n">_</span> <span class="nv">deviceToken</span><span class="p">:</span> <span class="kt">Data</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>deviceToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The device token to be set. It is of type Data.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC18setAPNSDeviceTokenyySSFZ"></a>
+                    <a name="//apple_ref/swift/Method/setAPNSDeviceToken(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC18setAPNSDeviceTokenyySSFZ">setAPNSDeviceToken(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets the device token.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">setAPNSDeviceToken</span><span class="p">(</span><span class="n">_</span> <span class="nv">deviceToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>deviceToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The device token to be set. It is of type String.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC13saveAuthTokenySbSSFZ"></a>
+                    <a name="//apple_ref/swift/Method/saveAuthToken(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC13saveAuthTokenySbSSFZ">saveAuthToken(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Saves the authentication token in the Keychain.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">class</span> <span class="kd">func</span> <span class="nf">saveAuthToken</span><span class="p">(</span><span class="n">_</span> <span class="nv">token</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>token</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The authentication token to be saved.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC13saveAuthTokenySbSSF"></a>
+                    <a name="//apple_ref/swift/Method/saveAuthToken(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC13saveAuthTokenySbSSF">saveAuthToken(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Saves the authentication token in the Keychain.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@discardableResult</span>
+<span class="kd">func</span> <span class="nf">saveAuthToken</span><span class="p">(</span><span class="n">_</span> <span class="nv">token</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>token</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The authentication token to be saved.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC07displayB012languageCodeySSSg_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/displayChat(languageCode:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC07displayB012languageCodeySSSg_tFZ">displayChat(languageCode:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This function is used to display the chat interface.
+It first checks if there is a key window available, and if there is a root view controller.
+If both conditions are met, it creates a new instance of KindlyChatNavigationController with the provided language code,
+and presents it from the root view controller.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">displayChat</span><span class="p">(</span><span class="nv">languageCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>languageCode</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The language code to be used in the chat interface. If not provided, the default language will be used.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC07displayB012languageCodeySSSg_tF"></a>
+                    <a name="//apple_ref/swift/Method/displayChat(languageCode:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC07displayB012languageCodeySSSg_tF">displayChat(languageCode:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This function is used to display the chat interface.
+It first checks if there is a key window available, and if there is a root view controller.
+If both conditions are met, it creates a new instance of KindlyChatNavigationController with the provided language code,
+and presents it from the root view controller.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">displayChat</span><span class="p">(</span><span class="nv">languageCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>languageCode</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The language code to be used in the chat interface. If not provided, the default language will be used.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC05closeB0yyFZ"></a>
+                    <a name="//apple_ref/swift/Method/closeChat()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC05closeB0yyFZ">closeChat()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This function is used to close the chat by dismissing the kindlyChatNavigationController.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">closeChat</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC05closeB0yyF"></a>
+                    <a name="//apple_ref/swift/Method/closeChat()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC05closeB0yyF">closeChat()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This function is used to close the chat by dismissing the kindlyChatNavigationController.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">closeChat</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC03endB0AA7PromiseCyytGyFZ"></a>
+                    <a name="//apple_ref/swift/Method/endChat()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC03endB0AA7PromiseCyytGyFZ">endChat()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Ends the active chat session.</p>
+
+<p>Messages, token and current connection will be cleared.
+This will call the &ldquo;user left&rdquo; API in Kindly Chat.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Please note that the Chat UI will be dismissed after using this function.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">endChat</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Promise.html">Promise</a></span><span class="o">&lt;</span><span class="kt">Void</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC03endB0AA7PromiseCyytGyF"></a>
+                    <a name="//apple_ref/swift/Method/endChat()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC03endB0AA7PromiseCyytGyF">endChat()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Ends the active chat session.</p>
+
+<p>Messages, token and current connection will be cleared.
+This will call the &ldquo;user left&rdquo; API in Kindly Chat.</p>
+<div class="aside aside-note">
+    <p class="aside-title">Note</p>
+    Please note that the Chat UI will be dismissed after using this function.
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">endChat</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/Promise.html">Promise</a></span><span class="o">&lt;</span><span class="kt">Void</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC20notificationReceivedyySDys11AnyHashableVypGFZ"></a>
+                    <a name="//apple_ref/swift/Method/notificationReceived(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC20notificationReceivedyySDys11AnyHashableVypGFZ">notificationReceived(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">notificationReceived</span><span class="p">(</span><span class="n">_</span> <span class="nv">userInfo</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">])</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC20notificationReceivedyySo14UNNotificationCFZ"></a>
+                    <a name="//apple_ref/swift/Method/notificationReceived(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC20notificationReceivedyySo14UNNotificationCFZ">notificationReceived(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">notificationReceived</span><span class="p">(</span><span class="n">_</span> <span class="nv">notification</span><span class="p">:</span> <span class="kt">UNNotification</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC28notificationResponseReceivedyySo014UNNotificationE0CFZ"></a>
+                    <a name="//apple_ref/swift/Method/notificationResponseReceived(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC28notificationResponseReceivedyySo014UNNotificationE0CFZ">notificationResponseReceived(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">notificationResponseReceived</span><span class="p">(</span><span class="n">_</span> <span class="nv">response</span><span class="p">:</span> <span class="kt">UNNotificationResponse</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>© 2024 Kindly</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
