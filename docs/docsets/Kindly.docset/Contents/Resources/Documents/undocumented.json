@@ -71,27 +71,6 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 254,
-      "symbol": "KindlyChatClient.notificationReceived(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 257,
-      "symbol": "KindlyChatClient.notificationReceived(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 260,
-      "symbol": "KindlyChatClient.notificationResponseReceived(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlySDK+NotificationDelegate.swift",
       "line": 4,
       "symbol": "NotificationDelegate",
@@ -194,6 +173,13 @@
       "line": 40,
       "symbol": "ExternalChatMessageSender.user",
       "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Models/Standalone/OEmbedRespnse.swift",
+      "line": 4,
+      "symbol": "OEmbedRespnse",
+      "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     }
   ],
