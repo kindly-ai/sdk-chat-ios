@@ -12,6 +12,7 @@ import LocalAuthentication
 import Network
 import OSLog
 import PhotosUI
+import QuartzCore
 import SafariServices
 import Security
 import SnapKit
@@ -20,6 +21,7 @@ import Swift
 import SwiftUI
 import SwiftyGif
 import SwiftyJSON
+import SystemConfiguration
 import UIKit.UIColor
 import UIKit.UIDevice
 import UIKit.UIImage
@@ -111,6 +113,10 @@ final public class KindlyChatClient {
   }
   public static var notificationDelegate: Kindly.NotificationDelegate {
     get
+  }
+  public static var verboseLogging: Swift.Bool {
+    get
+    set
   }
   public init(config: Kindly.KindlySDKConfig)
   @objc deinit
