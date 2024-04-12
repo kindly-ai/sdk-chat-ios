@@ -51,21 +51,21 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 69,
+      "line": 70,
       "symbol": "KindlyChatClient.config",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 78,
+      "line": 79,
       "symbol": "KindlyChatClient.connectionState",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 103,
+      "line": 104,
       "symbol": "KindlyChatClient.notificationDelegate",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"

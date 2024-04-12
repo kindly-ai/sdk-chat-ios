@@ -133,8 +133,8 @@ extension Kindly.KindlyChatClient {
   final public class func saveAuthToken(_ token: Swift.String) -> Swift.Bool
   @discardableResult
   final public func saveAuthToken(_ token: Swift.String) -> Swift.Bool
-  final public class func displayChat(languageCode: Swift.String? = nil)
-  final public func displayChat(languageCode: Swift.String? = nil)
+  final public class func displayChat(languageCode: Swift.String? = nil, triggerDialogueSlug: Swift.String? = nil)
+  final public func displayChat(languageCode: Swift.String? = nil, triggerDialogueSlug: Swift.String? = nil)
   final public class func closeChat()
   final public func closeChat()
   final public class func endChat() -> Kindly.Promise<Swift.Void>
@@ -142,6 +142,7 @@ extension Kindly.KindlyChatClient {
   final public class func notificationReceived(_ userInfo: [Swift.AnyHashable : Any])
   final public class func notificationReceived(_ notification: UserNotifications.UNNotification)
   final public class func notificationResponseReceived(_ response: UserNotifications.UNNotificationResponse)
+  final public class func triggerDialogue(id: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers public class NotificationDelegate : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
   @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
