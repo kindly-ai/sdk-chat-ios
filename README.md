@@ -58,9 +58,9 @@ KindlySDK.displayChat(languageCode: "en")
 
 - Here you'll find the documentation and getting started guide.
 
-[📚 Documentation](https://kindly-ai.github.io/sdk-chat-ios/)
+[Getting Started](https://github.com/kindly-ai/sdk-chat-ios/wiki)
 
-[🔐 Kindly SDK Authentication](https://github.com/kindly-ai/sdk-chat-ios/wiki/Using-Authentication)
+[📚 Documentation](https://kindly-ai.github.io/sdk-chat-ios/)
 
 ## Credits
 
