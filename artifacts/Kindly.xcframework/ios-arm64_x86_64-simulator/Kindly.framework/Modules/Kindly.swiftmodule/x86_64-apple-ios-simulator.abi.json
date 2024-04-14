@@ -3152,7 +3152,7 @@
           {
             "kind": "Function",
             "name": "displayChat",
-            "printedName": "displayChat(languageCode:triggerDialogueSlug:)",
+            "printedName": "displayChat(languageCode:triggerDialogueId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3191,8 +3191,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Kindly0A10ChatClientC07displayB012languageCode19triggerDialogueSlugySSSg_AGtFZ",
-            "mangledName": "$s6Kindly0A10ChatClientC07displayB012languageCode19triggerDialogueSlugySSSg_AGtFZ",
+            "usr": "s:6Kindly0A10ChatClientC07displayB012languageCode17triggerDialogueIdySSSg_AGtFZ",
+            "mangledName": "$s6Kindly0A10ChatClientC07displayB012languageCode17triggerDialogueIdySSSg_AGtFZ",
             "moduleName": "Kindly",
             "static": true,
             "declAttributes": [
@@ -3205,7 +3205,7 @@
           {
             "kind": "Function",
             "name": "displayChat",
-            "printedName": "displayChat(languageCode:triggerDialogueSlug:)",
+            "printedName": "displayChat(languageCode:triggerDialogueId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3244,8 +3244,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Kindly0A10ChatClientC07displayB012languageCode19triggerDialogueSlugySSSg_AGtF",
-            "mangledName": "$s6Kindly0A10ChatClientC07displayB012languageCode19triggerDialogueSlugySSSg_AGtF",
+            "usr": "s:6Kindly0A10ChatClientC07displayB012languageCode17triggerDialogueIdySSSg_AGtF",
+            "mangledName": "$s6Kindly0A10ChatClientC07displayB012languageCode17triggerDialogueIdySSSg_AGtF",
             "moduleName": "Kindly",
             "declAttributes": [
               "Final",
@@ -3463,7 +3463,7 @@
           {
             "kind": "Function",
             "name": "triggerDialogue",
-            "printedName": "triggerDialogue(id:)",
+            "printedName": "triggerDialogue(id:displayChat:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3475,11 +3475,26 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Kindly0A10ChatClientC15triggerDialogue2idySS_tFZ",
-            "mangledName": "$s6Kindly0A10ChatClientC15triggerDialogue2idySS_tFZ",
+            "usr": "s:6Kindly0A10ChatClientC15triggerDialogue2id07displayB0ySS_SbSgtFZ",
+            "mangledName": "$s6Kindly0A10ChatClientC15triggerDialogue2id07displayB0ySS_SbSgtFZ",
             "moduleName": "Kindly",
             "static": true,
             "declAttributes": [
@@ -6679,7 +6694,7 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 13317,
+      "offset": 13392,
       "length": 4,
       "value": "true"
     },
