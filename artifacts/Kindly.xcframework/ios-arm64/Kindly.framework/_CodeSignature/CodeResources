@@ -10,7 +10,7 @@
 		</data>
 		<key>Config.plist</key>
 		<data>
-		ps+/5tkczDSvjzYigNee48LDLAo=
+		4GLkZxCVMC/NnTpaufxQI1BpvZs=
 		</data>
 		<key>Headers/Kindly-Swift.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		T8ceSher//oDuR7BdEXdjW7IGTw=
+		JULEv2qo2A9SZ6vt35KdcDbezY8=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		wkc60GRHBrteOdYc/lxuC9sOByg=
+		Ah7FpxOeCNOm+C1YHOFcZHTWGYI=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		wkc60GRHBrteOdYc/lxuC9sOByg=
+		Ah7FpxOeCNOm+C1YHOFcZHTWGYI=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		4WM9JgJ0Mgp+AzI5HVV/2PiTNSY=
+		Tw/0eruNRA3vOTQ5qynNDajuEis=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -66,7 +66,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oy1OFSa0uEjsYWCY82VHNUYUyufvMXg75VoRHViENaI=
+			09hTMlcDNygcp+TrXQi1LE/6HAfBEBZwpjIRFiea8Ow=
 			</data>
 		</dict>
 		<key>Headers/Kindly-Swift.h</key>
@@ -87,14 +87,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lG/0lNcOdX2iOJ6fafAM5m+UtjbB3h2c4BlM6MEUAEw=
+			/x9PEjkxJGkHfZ/kozoFUhmubxRq4IhTY31TO1CCIX8=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eXfFjayyeCniVBBJKquJUXZBbnbkZczj9S6GXXTnVek=
+			RfklSHVbmALpSuJb+A2xm7GrzNfj14f0uH7NSVXlMAw=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -108,14 +108,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eXfFjayyeCniVBBJKquJUXZBbnbkZczj9S6GXXTnVek=
+			RfklSHVbmALpSuJb+A2xm7GrzNfj14f0uH7NSVXlMAw=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6Z+isE34ftBOc08HA4FlTZ2OX7/sd5h5bhnlJdwRVN0=
+			Z1FiRojxq/DoF55di75+hCOP+8WP7mglXRoKNScTLJk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

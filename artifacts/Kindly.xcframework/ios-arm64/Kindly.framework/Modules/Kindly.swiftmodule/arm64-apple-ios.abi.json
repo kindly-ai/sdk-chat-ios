@@ -3463,7 +3463,7 @@
           {
             "kind": "Function",
             "name": "triggerDialogue",
-            "printedName": "triggerDialogue(id:displayChat:)",
+            "printedName": "triggerDialogue(id:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3475,26 +3475,11 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Kindly0A10ChatClientC15triggerDialogue2id07displayB0ySS_SbSgtFZ",
-            "mangledName": "$s6Kindly0A10ChatClientC15triggerDialogue2id07displayB0ySS_SbSgtFZ",
+            "usr": "s:6Kindly0A10ChatClientC15triggerDialogue2idySS_tFZ",
+            "mangledName": "$s6Kindly0A10ChatClientC15triggerDialogue2idySS_tFZ",
             "moduleName": "Kindly",
             "static": true,
             "declAttributes": [
@@ -6694,7 +6679,7 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 13392,
+      "offset": 13481,
       "length": 4,
       "value": "true"
     },
