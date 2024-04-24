@@ -36,45 +36,45 @@
       "warning": "undocumented"
     },
     {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 56,
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/EntryPoint.swift",
+      "line": 4,
       "symbol": "KindlySDK",
       "symbol_kind": "source.lang.swift.decl.typealias",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/EntryPoint.swift",
+      "line": 192,
+      "symbol": "KindlyChatClient.triggerDialogue(id:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 60,
+      "line": 58,
       "symbol": "KindlyChatClient.shared",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 70,
+      "line": 68,
       "symbol": "KindlyChatClient.config",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 79,
+      "line": 77,
       "symbol": "KindlyChatClient.connectionState",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 104,
+      "line": 102,
       "symbol": "KindlyChatClient.notificationDelegate",
       "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 307,
-      "symbol": "KindlyChatClient.triggerDialogue(id:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {

@@ -72,8 +72,8 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 301,
-      "symbol": "KindlyChatClient.triggerDialogue(id:displayChat:)",
+      "line": 307,
+      "symbol": "KindlyChatClient.triggerDialogue(id:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },

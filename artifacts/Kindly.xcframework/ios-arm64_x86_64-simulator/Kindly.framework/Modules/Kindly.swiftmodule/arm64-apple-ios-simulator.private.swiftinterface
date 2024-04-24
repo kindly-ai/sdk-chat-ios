@@ -97,7 +97,6 @@ public enum ChatConnectionState {
 public protocol KindlyChatClientDelegate : ObjectiveC.NSObject {
   func didPressButton(chatButton: Kindly.ExternalChatButton, chatLog: [Kindly.ExternalChatMessage])
 }
-public typealias KindlySDK = Kindly.KindlyChatClient
 final public class KindlyChatClient {
   public static var shared: Kindly.KindlyChatClient!
   public static var config: Kindly.KindlySDKConfig {
@@ -121,7 +120,24 @@ final public class KindlyChatClient {
   public init(config: Kindly.KindlySDKConfig)
   @objc deinit
 }
+@objc @_inheritsConvenienceInitializers public class NotificationDelegate : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Promise<T> {
+  @objc deinit
+}
+extension Kindly.Promise {
+  public func fulfill(_ value: T)
+  public func reject(_ error: any Swift.Error)
+}
+public typealias KindlySDK = Kindly.KindlyChatClient
 extension Kindly.KindlyChatClient {
+  public static var isChatDisplayed: Swift.Bool {
+    get
+  }
   final public class func start(botKey: Swift.String, authTokenCallback: Kindly.AuthTokenCallback? = nil)
   final public class func setNewContext(_ context: [Swift.String : Swift.String])
   final public func setNewContext(_ context: [Swift.String : Swift.String])
@@ -143,19 +159,6 @@ extension Kindly.KindlyChatClient {
   final public class func notificationReceived(_ notification: UserNotifications.UNNotification)
   final public class func notificationResponseReceived(_ response: UserNotifications.UNNotificationResponse)
   final public class func triggerDialogue(id: Swift.String)
-}
-@objc @_inheritsConvenienceInitializers public class NotificationDelegate : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
-  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
-  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
-  @objc override dynamic public init()
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class Promise<T> {
-  @objc deinit
-}
-extension Kindly.Promise {
-  public func fulfill(_ value: T)
-  public func reject(_ error: any Swift.Error)
 }
 public typealias AuthTokenCallback = (_ chatId: Swift.String, _ promise: Kindly.Promise<Swift.String>) -> ()
 extension Kindly.ExternalExchangeType : Swift.Equatable {}
