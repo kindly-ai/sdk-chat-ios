@@ -15,7 +15,6 @@ import PhotosUI
 import QuartzCore
 import SafariServices
 import Security
-import SnapKit
 import Starscream
 import Swift
 import SwiftUI
@@ -110,13 +109,6 @@ final public class KindlyChatClient {
     get
     set
   }
-  public static var notificationDelegate: Kindly.NotificationDelegate {
-    get
-  }
-  public static var verboseLogging: Swift.Bool {
-    get
-    set
-  }
   public init(config: Kindly.KindlySDKConfig)
   @objc deinit
 }
@@ -133,10 +125,27 @@ extension Kindly.Promise {
   public func fulfill(_ value: T)
   public func reject(_ error: any Swift.Error)
 }
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func onTap(_ closure: @escaping () -> ())
+  @_Concurrency.MainActor(unsafe) public func onLongTap(_ closure: @escaping (_ gestureReconizer: UIKit.UILongPressGestureRecognizer) -> ())
+  @_Concurrency.MainActor(unsafe) public func removeAllGestureRecognizers()
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func makeCircular()
+  @_Concurrency.MainActor(unsafe) public func makeRounded(cornerRadius: CoreFoundation.CGFloat? = nil)
+  @_Concurrency.MainActor(unsafe) public func addShadow(color: UIKit.UIColor? = nil, opacity: Swift.Float? = nil, offset: CoreFoundation.CGSize? = nil, radius: CoreFoundation.CGFloat? = nil)
+}
 public typealias KindlySDK = Kindly.KindlyChatClient
 extension Kindly.KindlyChatClient {
   public static var isChatDisplayed: Swift.Bool {
     get
+  }
+  public static var notificationDelegate: Kindly.NotificationDelegate {
+    get
+  }
+  public static var verboseLogging: Swift.Bool {
+    get
+    set
   }
   final public class func start(botKey: Swift.String, authTokenCallback: Kindly.AuthTokenCallback? = nil)
   final public class func setNewContext(_ context: [Swift.String : Swift.String])
@@ -159,6 +168,7 @@ extension Kindly.KindlyChatClient {
   final public class func notificationReceived(_ notification: UserNotifications.UNNotification)
   final public class func notificationResponseReceived(_ response: UserNotifications.UNNotificationResponse)
   final public class func triggerDialogue(id: Swift.String)
+  final public class func play()
 }
 public typealias AuthTokenCallback = (_ chatId: Swift.String, _ promise: Kindly.Promise<Swift.String>) -> ()
 extension Kindly.ExternalExchangeType : Swift.Equatable {}

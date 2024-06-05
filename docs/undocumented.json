@@ -44,36 +44,85 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/EntryPoint.swift",
-      "line": 192,
+      "line": 16,
+      "symbol": "KindlyChatClient.notificationDelegate",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/EntryPoint.swift",
+      "line": 206,
       "symbol": "KindlyChatClient.triggerDialogue(id:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/EntryPoint.swift",
+      "line": 216,
+      "symbol": "KindlyChatClient.play()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
+      "line": 224,
+      "symbol": "UIView.onTap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
+      "line": 243,
+      "symbol": "UIView.onLongTap(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
+      "line": 263,
+      "symbol": "UIView.removeAllGestureRecognizers()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
+      "line": 273,
+      "symbol": "UIView.makeCircular()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
+      "line": 277,
+      "symbol": "UIView.makeRounded(cornerRadius:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
+      "line": 282,
+      "symbol": "UIView.addShadow(color:opacity:offset:radius:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 58,
+      "line": 65,
       "symbol": "KindlyChatClient.shared",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 68,
+      "line": 75,
       "symbol": "KindlyChatClient.config",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 77,
+      "line": 84,
       "symbol": "KindlyChatClient.connectionState",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 102,
-      "symbol": "KindlyChatClient.notificationDelegate",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
@@ -100,7 +149,7 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlySDKConfig.swift",
-      "line": 17,
+      "line": 23,
       "symbol": "KindlySDKConfig.getAuthToken",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -114,70 +163,70 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Models/ExternalChatMessage.swift",
-      "line": 27,
+      "line": 30,
       "symbol": "ExternalExchangeType.dialogue",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Models/ExternalChatMessage.swift",
-      "line": 28,
+      "line": 31,
       "symbol": "ExternalExchangeType.fallback",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Models/ExternalChatMessage.swift",
-      "line": 29,
+      "line": 32,
       "symbol": "ExternalExchangeType.greeting",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Models/ExternalChatMessage.swift",
-      "line": 30,
+      "line": 33,
       "symbol": "ExternalExchangeType.systemDialogue",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Models/ExternalChatMessage.swift",
-      "line": 31,
+      "line": 34,
       "symbol": "ExternalExchangeType.userSays",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Models/ExternalChatMessage.swift",
-      "line": 36,
+      "line": 39,
       "symbol": "ExternalChatMessageSender.agent",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Models/ExternalChatMessage.swift",
-      "line": 37,
+      "line": 40,
       "symbol": "ExternalChatMessageSender.bot",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Models/ExternalChatMessage.swift",
-      "line": 38,
+      "line": 41,
       "symbol": "ExternalChatMessageSender.system",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Models/ExternalChatMessage.swift",
-      "line": 39,
+      "line": 42,
       "symbol": "ExternalChatMessageSender.unknown",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Models/ExternalChatMessage.swift",
-      "line": 40,
+      "line": 43,
       "symbol": "ExternalChatMessageSender.user",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
@@ -187,6 +236,27 @@
       "line": 4,
       "symbol": "OEmbedRespnse",
       "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/UI Components/EndHandoverConfirmation/ConfirmationWindow.swift",
+      "line": 125,
+      "symbol": "ConfirmationWindow.show(icon:title:description:confirmButtonTitle:cancelButtonTitle:callback:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/UI Components/EndHandoverConfirmation/ConfirmationWindow.swift",
+      "line": 172,
+      "symbol": "ConfirmationWindow.hide()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/UI Components/EndHandoverConfirmation/ConfirmationWindow.swift",
+      "line": 191,
+      "symbol": "ConfirmationWindow.dismiss()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     }
   ],
