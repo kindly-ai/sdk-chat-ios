@@ -24,10 +24,6 @@ let package = Package(
             exact: "5.4.4"
         ),
         .package(
-            url: "https://github.com/SnapKit/SnapKit.git",
-            exact: "5.6.0"
-        ),
-        .package(
             url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
             exact: "5.0.1"
         ),
@@ -45,11 +41,6 @@ let package = Package(
                 .product(
                     name: "SwiftyGif",
                     package: "SwiftyGif",
-                    condition: .when(platforms: [.iOS])
-                ),
-                .product(
-                    name: "SnapKit",
-                    package: "SnapKit",
                     condition: .when(platforms: [.iOS])
                 ),
                 .product(

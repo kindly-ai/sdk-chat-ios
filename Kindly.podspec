@@ -17,7 +17,6 @@ Pod::Spec.new do |spec|
 
   spec.dependency 'Starscream', '4.0.6'
   spec.dependency 'SwiftyGif', '5.4.4'
-  spec.dependency 'SnapKit', '5.6.0'
   spec.dependency 'SwiftyJSON', '5.0.1'
 
   # spec.frameworks = 'UIKit', 'MapKit'
