@@ -97,7 +97,6 @@ public enum ChatConnectionState {
 public protocol KindlyChatClientDelegate : ObjectiveC.NSObject {
   func didPressButton(chatButton: Kindly.ExternalChatButton, chatLog: [Kindly.ExternalChatMessage])
 }
-public typealias KindlySDK = Kindly.KindlyChatClient
 final public class KindlyChatClient {
   public static var shared: Kindly.KindlyChatClient!
   public static var config: Kindly.KindlySDKConfig {
@@ -121,29 +120,6 @@ final public class KindlyChatClient {
   public init(config: Kindly.KindlySDKConfig)
   @objc deinit
 }
-extension Kindly.KindlyChatClient {
-  final public class func start(botKey: Swift.String, authTokenCallback: Kindly.AuthTokenCallback? = nil)
-  final public class func setNewContext(_ context: [Swift.String : Swift.String])
-  final public func setNewContext(_ context: [Swift.String : Swift.String])
-  final public class func clearNewContext()
-  final public func clearNewContext()
-  final public class func setAPNSDeviceToken(_ deviceToken: Foundation.Data)
-  final public class func setAPNSDeviceToken(_ deviceToken: Swift.String)
-  @discardableResult
-  final public class func saveAuthToken(_ token: Swift.String) -> Swift.Bool
-  @discardableResult
-  final public func saveAuthToken(_ token: Swift.String) -> Swift.Bool
-  final public class func displayChat(languageCode: Swift.String? = nil, triggerDialogueSlug: Swift.String? = nil)
-  final public func displayChat(languageCode: Swift.String? = nil, triggerDialogueSlug: Swift.String? = nil)
-  final public class func closeChat()
-  final public func closeChat()
-  final public class func endChat() -> Kindly.Promise<Swift.Void>
-  final public func endChat() -> Kindly.Promise<Swift.Void>
-  final public class func notificationReceived(_ userInfo: [Swift.AnyHashable : Any])
-  final public class func notificationReceived(_ notification: UserNotifications.UNNotification)
-  final public class func notificationResponseReceived(_ response: UserNotifications.UNNotificationResponse)
-  final public class func triggerDialogue(id: Swift.String)
-}
 @objc @_inheritsConvenienceInitializers public class NotificationDelegate : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
   @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
   @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
@@ -156,6 +132,33 @@ extension Kindly.KindlyChatClient {
 extension Kindly.Promise {
   public func fulfill(_ value: T)
   public func reject(_ error: any Swift.Error)
+}
+public typealias KindlySDK = Kindly.KindlyChatClient
+extension Kindly.KindlyChatClient {
+  public static var isChatDisplayed: Swift.Bool {
+    get
+  }
+  final public class func start(botKey: Swift.String, authTokenCallback: Kindly.AuthTokenCallback? = nil)
+  final public class func setNewContext(_ context: [Swift.String : Swift.String])
+  final public func setNewContext(_ context: [Swift.String : Swift.String])
+  final public class func clearNewContext()
+  final public func clearNewContext()
+  final public class func setAPNSDeviceToken(_ deviceToken: Foundation.Data)
+  final public class func setAPNSDeviceToken(_ deviceToken: Swift.String)
+  @discardableResult
+  final public class func saveAuthToken(_ token: Swift.String) -> Swift.Bool
+  @discardableResult
+  final public func saveAuthToken(_ token: Swift.String) -> Swift.Bool
+  final public class func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
+  final public func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
+  final public class func closeChat()
+  final public func closeChat()
+  final public class func endChat() -> Kindly.Promise<Swift.Void>
+  final public func endChat() -> Kindly.Promise<Swift.Void>
+  final public class func notificationReceived(_ userInfo: [Swift.AnyHashable : Any])
+  final public class func notificationReceived(_ notification: UserNotifications.UNNotification)
+  final public class func notificationResponseReceived(_ response: UserNotifications.UNNotificationResponse)
+  final public class func triggerDialogue(id: Swift.String)
 }
 public typealias AuthTokenCallback = (_ chatId: Swift.String, _ promise: Kindly.Promise<Swift.String>) -> ()
 extension Kindly.ExternalExchangeType : Swift.Equatable {}

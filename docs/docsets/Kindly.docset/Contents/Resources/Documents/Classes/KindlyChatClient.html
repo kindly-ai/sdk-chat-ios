@@ -17,7 +17,7 @@
     <a title="KindlyChatClient Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">Kindly SDK Docs</a> (63% documented)</p>
+        <p><a href="../index.html">Kindly SDK Docs</a> (64% documented)</p>
         <p class="header-right"><a href="https://github.com/kindly-ai/sdk-chat-ios.git"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -367,6 +367,33 @@ Our &ldquo;Getting started&rdquo; guide covers this topic and gives you instruct
                 </div>
               </div>
               <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC02isB9DisplayedSbvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/isChatDisplayed" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC02isB9DisplayedSbvpZ">isChatDisplayed</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>The current state of the chat connection.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">var</span> <span class="nv">isChatDisplayed</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
                 <li class="item">
                   <div>
                     <code>
@@ -729,9 +756,9 @@ Our &ldquo;Getting started&rdquo; guide covers this topic and gives you instruct
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Kindly0A10ChatClientC07displayB012languageCode19triggerDialogueSlugySSSg_AGtFZ"></a>
-                    <a name="//apple_ref/swift/Method/displayChat(languageCode:triggerDialogueSlug:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Kindly0A10ChatClientC07displayB012languageCode19triggerDialogueSlugySSSg_AGtFZ">displayChat(languageCode:<wbr>triggerDialogueSlug:<wbr>)</a>
+                    <a name="/s:6Kindly0A10ChatClientC07displayB012languageCode17triggerDialogueIdySSSg_AGtFZ"></a>
+                    <a name="//apple_ref/swift/Method/displayChat(languageCode:triggerDialogueId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC07displayB012languageCode17triggerDialogueIdySSSg_AGtFZ">displayChat(languageCode:<wbr>triggerDialogueId:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -749,7 +776,7 @@ and presents it from the root view controller.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">displayChat</span><span class="p">(</span><span class="nv">languageCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">triggerDialogueSlug</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">displayChat</span><span class="p">(</span><span class="nv">languageCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">triggerDialogueId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>
@@ -778,9 +805,9 @@ and presents it from the root view controller.</p>
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Kindly0A10ChatClientC07displayB012languageCode19triggerDialogueSlugySSSg_AGtF"></a>
-                    <a name="//apple_ref/swift/Method/displayChat(languageCode:triggerDialogueSlug:)" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Kindly0A10ChatClientC07displayB012languageCode19triggerDialogueSlugySSSg_AGtF">displayChat(languageCode:<wbr>triggerDialogueSlug:<wbr>)</a>
+                    <a name="/s:6Kindly0A10ChatClientC07displayB012languageCode17triggerDialogueIdySSSg_AGtF"></a>
+                    <a name="//apple_ref/swift/Method/displayChat(languageCode:triggerDialogueId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC07displayB012languageCode17triggerDialogueIdySSSg_AGtF">displayChat(languageCode:<wbr>triggerDialogueId:<wbr>)</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -798,7 +825,7 @@ and presents it from the root view controller.</p>
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">displayChat</span><span class="p">(</span><span class="nv">languageCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">triggerDialogueSlug</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">displayChat</span><span class="p">(</span><span class="nv">languageCode</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">triggerDialogueId</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
 
                         </div>
                       </div>

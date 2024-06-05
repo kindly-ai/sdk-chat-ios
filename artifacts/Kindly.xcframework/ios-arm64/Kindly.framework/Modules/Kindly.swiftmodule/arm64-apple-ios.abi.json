@@ -2824,6 +2824,54 @@
             "init_kind": "Designated"
           },
           {
+            "kind": "Var",
+            "name": "isChatDisplayed",
+            "printedName": "isChatDisplayed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A10ChatClientC02isB9DisplayedSbvpZ",
+            "mangledName": "$s6Kindly0A10ChatClientC02isB9DisplayedSbvpZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A10ChatClientC02isB9DisplayedSbvgZ",
+                "mangledName": "$s6Kindly0A10ChatClientC02isB9DisplayedSbvgZ",
+                "moduleName": "Kindly",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "start",
             "printedName": "start(botKey:authTokenCallback:)",
@@ -3152,7 +3200,7 @@
           {
             "kind": "Function",
             "name": "displayChat",
-            "printedName": "displayChat(languageCode:triggerDialogueSlug:)",
+            "printedName": "displayChat(languageCode:triggerDialogueId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3191,8 +3239,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Kindly0A10ChatClientC07displayB012languageCode19triggerDialogueSlugySSSg_AGtFZ",
-            "mangledName": "$s6Kindly0A10ChatClientC07displayB012languageCode19triggerDialogueSlugySSSg_AGtFZ",
+            "usr": "s:6Kindly0A10ChatClientC07displayB012languageCode17triggerDialogueIdySSSg_AGtFZ",
+            "mangledName": "$s6Kindly0A10ChatClientC07displayB012languageCode17triggerDialogueIdySSSg_AGtFZ",
             "moduleName": "Kindly",
             "static": true,
             "declAttributes": [
@@ -3205,7 +3253,7 @@
           {
             "kind": "Function",
             "name": "displayChat",
-            "printedName": "displayChat(languageCode:triggerDialogueSlug:)",
+            "printedName": "displayChat(languageCode:triggerDialogueId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3244,8 +3292,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Kindly0A10ChatClientC07displayB012languageCode19triggerDialogueSlugySSSg_AGtF",
-            "mangledName": "$s6Kindly0A10ChatClientC07displayB012languageCode19triggerDialogueSlugySSSg_AGtF",
+            "usr": "s:6Kindly0A10ChatClientC07displayB012languageCode17triggerDialogueIdySSSg_AGtF",
+            "mangledName": "$s6Kindly0A10ChatClientC07displayB012languageCode17triggerDialogueIdySSSg_AGtF",
             "moduleName": "Kindly",
             "declAttributes": [
               "Final",
@@ -4372,6 +4420,20 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -6672,14 +6734,14 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "Array",
-      "offset": 3114,
+      "offset": 3067,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 13317,
+      "offset": 6498,
       "length": 4,
       "value": "true"
     },
@@ -7387,6 +7449,13 @@
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
       "offset": 2179,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2386,
       "length": 5,
       "value": "false"
     },
