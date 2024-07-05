@@ -15,6 +15,7 @@ import PhotosUI
 import QuartzCore
 import SafariServices
 import Security
+import Sentry
 import Starscream
 import Swift
 import SwiftUI
@@ -126,8 +127,8 @@ extension Kindly.Promise {
   public func reject(_ error: any Swift.Error)
 }
 extension UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public func onTap(_ closure: @escaping () -> ())
-  @_Concurrency.MainActor(unsafe) public func onLongTap(_ closure: @escaping (_ gestureReconizer: UIKit.UILongPressGestureRecognizer) -> ())
+  @_Concurrency.MainActor(unsafe) public func onTap(_ closure: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func onLongTap(_ closure: @escaping (_ gestureReconizer: UIKit.UILongPressGestureRecognizer) -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public func removeAllGestureRecognizers()
 }
 extension UIKit.UIView {
@@ -144,6 +145,10 @@ extension Kindly.KindlyChatClient {
     get
   }
   public static var verboseLogging: Swift.Bool {
+    get
+    set
+  }
+  public static var enableCrashReporting: Swift.Bool {
     get
     set
   }
@@ -170,7 +175,7 @@ extension Kindly.KindlyChatClient {
   final public class func triggerDialogue(id: Swift.String)
   final public class func play()
 }
-public typealias AuthTokenCallback = (_ chatId: Swift.String, _ promise: Kindly.Promise<Swift.String>) -> ()
+public typealias AuthTokenCallback = (_ chatId: Swift.String, _ promise: Kindly.Promise<Swift.String>) -> Swift.Void
 extension Kindly.ExternalExchangeType : Swift.Equatable {}
 extension Kindly.ExternalExchangeType : Swift.Hashable {}
 extension Kindly.ExternalExchangeType : Swift.RawRepresentable {}
