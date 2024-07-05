@@ -27,6 +27,10 @@ let package = Package(
             url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
             exact: "5.0.1"
         ),
+        .package(
+            url: "https://github.com/getsentry/sentry-cocoa.git",
+            from: "8.30.0"
+        ),
     ],
     targets: [
         .binaryTarget(name: "KindlySDK", path: "artifacts/Kindly.xcframework"),
@@ -46,6 +50,11 @@ let package = Package(
                 .product(
                     name: "SwiftyJSON",
                     package: "SwiftyJSON",
+                    condition: .when(platforms: [.iOS])
+                ),
+                .product(
+                    name: "Sentry",
+                    package: "sentry-cocoa",
                     condition: .when(platforms: [.iOS])
                 ),
             ],
