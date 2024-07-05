@@ -67,5 +67,6 @@ KindlySDK.displayChat(languageCode: "en")
 Kindly SDK for iOS implements the following dependencies:
 
 * [Starscream](https://github.com/daltoniam/Starscream)
+* [Sentry](https://github.com/getsentry/sentry-cocoa)
 * [SwiftyGif](https://github.com/kirualex/SwiftyGif)
 * [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
