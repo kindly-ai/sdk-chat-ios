@@ -4163,6 +4163,13 @@
       },
       {
         "kind": "Import",
+        "name": "OSLog",
+        "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
         "name": "Sentry",
         "printedName": "Sentry",
         "declKind": "Import",
@@ -7493,7 +7500,7 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 6657,
+      "offset": 6901,
       "length": 4,
       "value": "true"
     },
@@ -7731,7 +7738,7 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 1585,
+      "offset": 1783,
       "length": 3,
       "value": "5.0"
     },
@@ -8200,14 +8207,14 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 2879,
+      "offset": 2883,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 2922,
+      "offset": 2926,
       "length": 5,
       "value": "false"
     },
@@ -8249,217 +8256,217 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2702,
+      "offset": 2973,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2979,
+      "offset": 3250,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3005,
+      "offset": 3276,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3443,
+      "offset": 3714,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3469,
+      "offset": 3740,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4134,
+      "offset": 4405,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4160,
+      "offset": 4431,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4622,
+      "offset": 4893,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4648,
+      "offset": 4919,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5096,
+      "offset": 5367,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5122,
+      "offset": 5393,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5520,
+      "offset": 5791,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5546,
+      "offset": 5817,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 6755,
+      "offset": 7172,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 6781,
+      "offset": 7198,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7412,
+      "offset": 7975,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7438,
+      "offset": 8001,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7706,
+      "offset": 8269,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7732,
+      "offset": 8295,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8202,
+      "offset": 8914,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8228,
+      "offset": 8940,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8511,
+      "offset": 9223,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8537,
+      "offset": 9249,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8815,
+      "offset": 9527,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8841,
+      "offset": 9553,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9069,
+      "offset": 9781,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9095,
+      "offset": 9807,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9372,
+      "offset": 10084,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9398,
+      "offset": 10110,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9893,
+      "offset": 10734,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9919,
+      "offset": 10760,
       "length": 4,
       "value": "\"\n\""
     },
