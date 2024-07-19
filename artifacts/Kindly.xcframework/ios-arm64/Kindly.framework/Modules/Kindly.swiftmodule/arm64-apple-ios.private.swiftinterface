@@ -79,6 +79,19 @@ public struct KindlySDKConfig {
     set
   }
 }
+extension UIKit.UIControl {
+  @_Concurrency.MainActor(unsafe) public func addAction(for controlEvents: UIKit.UIControl.Event = .touchUpInside, _ closure: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func addAction(for controlEvents: UIKit.UIControl.Event = .touchUpInside, _ closure: @escaping (UIKit.UIControl) -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public func removeActions(for event: UIKit.UIControl.Event)
+  @_Concurrency.MainActor(unsafe) public func removeAllActions()
+}
+extension UIKit.UIControl {
+  @_Concurrency.MainActor(unsafe) public func on(_ controlEvents: UIKit.UIControl.Event, invokeHandler handler: @escaping (UIKit.UIControl) -> Swift.Void) -> Swift.AnyObject
+  @_Concurrency.MainActor(unsafe) public func removeHandler(_ handler: Swift.AnyObject)
+}
+extension Foundation.NSMutableAttributedString {
+  public func trimCharactersInSet(charSet: Foundation.CharacterSet)
+}
 public struct ExternalChatButton {
 }
 public enum ChatConnectionState {
@@ -126,6 +139,38 @@ extension Kindly.Promise {
   public func fulfill(_ value: T)
   public func reject(_ error: any Swift.Error)
 }
+@_hasMissingDesignatedInitializers public class AIAlert {
+  public struct AlertTextField {
+    public let placeholder: Swift.String
+    public let keyboardType: UIKit.UIKeyboardType
+    public init(placeholder: Swift.String, keyboardType: UIKit.UIKeyboardType? = nil)
+  }
+  public struct AlertButton {
+    public let title: Swift.String
+    public let style: UIKit.UIAlertAction.Style
+    public let callback: ((_ textfields: [UIKit.UITextField]?) -> Swift.Void)?
+    public init(title: Swift.String, style: UIKit.UIAlertAction.Style? = nil, callback: ((_ textfields: [UIKit.UITextField]?) -> Swift.Void)? = nil)
+  }
+  final public class func displayNativeMessage(message: Swift.String? = nil, withTitle title: Swift.String? = nil, style: UIKit.UIAlertController.Style = .alert, buttons: [Kindly.AIAlert.AlertButton], textFields: [Kindly.AIAlert.AlertTextField]? = nil)
+  final public class func displayNativeMessage(message: Swift.String? = nil, withTitle title: Swift.String? = nil, style: UIKit.UIAlertController.Style = .alert, buttons: Kindly.AIAlert.AlertButton..., textFields: Kindly.AIAlert.AlertTextField?...)
+  @objc deinit
+}
+extension Kindly.AIAlert.AlertButton {
+  public static let okay: Kindly.AIAlert.AlertButton
+  public static let cancel: Kindly.AIAlert.AlertButton
+  public static let discard: Kindly.AIAlert.AlertButton
+  public static func yes(callback: ((_ textfields: [UIKit.UITextField]?) -> Swift.Void)? = nil) -> Kindly.AIAlert.AlertButton
+  public static func no(callback: ((_ textfields: [UIKit.UITextField]?) -> Swift.Void)? = nil) -> Kindly.AIAlert.AlertButton
+}
+@objc @_inheritsConvenienceInitializers public class AIPhotoSelection : ObjectiveC.NSObject {
+  final public class func selectImage(inViewController viewController: UIKit.UIViewController, from source: UIKit.UIImagePickerController.SourceType, image_callback: ((UIKit.UIImage) -> Swift.Void)? = nil)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Kindly.AIPhotoSelection : UIKit.UIImagePickerControllerDelegate, UIKit.UINavigationControllerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerController(_: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerControllerDidCancel(_: UIKit.UIImagePickerController)
+}
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func onTap(_ closure: @escaping () -> Swift.Void)
   @_Concurrency.MainActor(unsafe) public func onLongTap(_ closure: @escaping (_ gestureReconizer: UIKit.UILongPressGestureRecognizer) -> Swift.Void)
@@ -135,6 +180,8 @@ extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) public func makeCircular()
   @_Concurrency.MainActor(unsafe) public func makeRounded(cornerRadius: CoreFoundation.CGFloat? = nil)
   @_Concurrency.MainActor(unsafe) public func addShadow(color: UIKit.UIColor? = nil, opacity: Swift.Float? = nil, offset: CoreFoundation.CGSize? = nil, radius: CoreFoundation.CGFloat? = nil)
+  @_Concurrency.MainActor(unsafe) public func addDashedBorder(color: UIKit.UIColor, lineWidth: CoreFoundation.CGFloat, dashPattern: [Foundation.NSNumber])
+  @_Concurrency.MainActor(unsafe) public func removeDashedBorder()
 }
 public typealias KindlySDK = Kindly.KindlyChatClient
 extension Kindly.KindlyChatClient {

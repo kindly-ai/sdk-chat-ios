@@ -1,10 +1,178 @@
 {
   "warnings": [
     {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/AIAttributedString/AIAttributedString.swift",
+      "line": 193,
+      "symbol": "NSMutableAttributedString.trimCharactersInSet(charSet:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 4,
+      "symbol": "AIAlert",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 5,
+      "symbol": "AIAlert.AlertTextField",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 6,
+      "symbol": "AIAlert.AlertTextField.placeholder",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 7,
+      "symbol": "AIAlert.AlertTextField.keyboardType",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 9,
+      "symbol": "AIAlert.AlertTextField.init(placeholder:keyboardType:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 15,
+      "symbol": "AIAlert.AlertButton",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 16,
+      "symbol": "AIAlert.AlertButton.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 17,
+      "symbol": "AIAlert.AlertButton.style",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 18,
+      "symbol": "AIAlert.AlertButton.callback",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 20,
+      "symbol": "AIAlert.AlertButton.init(title:style:callback:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 27,
+      "symbol": "AIAlert.displayNativeMessage(message:withTitle:style:buttons:textFields:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 61,
+      "symbol": "AIAlert.displayNativeMessage(message:withTitle:style:buttons:textFields:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 67,
+      "symbol": "AIAlert.AlertButton",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 68,
+      "symbol": "AIAlert.AlertButton.okay",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 69,
+      "symbol": "AIAlert.AlertButton.cancel",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 70,
+      "symbol": "AIAlert.AlertButton.discard",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 71,
+      "symbol": "AIAlert.AlertButton.yes(callback:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
+      "line": 75,
+      "symbol": "AIAlert.AlertButton.no(callback:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Constants.swift",
       "line": 3,
       "symbol": "AuthTokenCallback",
       "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/PhotoSelection/AIPhotoSelection.swift",
+      "line": 4,
+      "symbol": "AIPhotoSelection",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/PhotoSelection/AIPhotoSelection.swift",
+      "line": 21,
+      "symbol": "AIPhotoSelection.selectImage(inViewController:from:image_callback:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/PhotoSelection/AIPhotoSelection.swift",
+      "line": 33,
+      "symbol": "AIPhotoSelection",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/PhotoSelection/AIPhotoSelection.swift",
+      "line": 34,
+      "symbol": "AIPhotoSelection.imagePickerController(_:didFinishPickingMediaWithInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/PhotoSelection/AIPhotoSelection.swift",
+      "line": 42,
+      "symbol": "AIPhotoSelection.imagePickerControllerDidCancel(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
@@ -71,44 +239,86 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIControl+Extensions.swift",
+      "line": 5,
+      "symbol": "UIControl.addAction(for:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIControl+Extensions.swift",
+      "line": 11,
+      "symbol": "UIControl.addAction(for:_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIControl+Extensions.swift",
+      "line": 40,
+      "symbol": "UIControl.removeActions(for:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIControl+Extensions.swift",
+      "line": 44,
+      "symbol": "UIControl.removeAllActions()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 276,
+      "line": 288,
       "symbol": "UIView.onTap(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 296,
+      "line": 308,
       "symbol": "UIView.onLongTap(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 317,
+      "line": 329,
       "symbol": "UIView.removeAllGestureRecognizers()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 327,
+      "line": 339,
       "symbol": "UIView.makeCircular()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 331,
+      "line": 343,
       "symbol": "UIView.makeRounded(cornerRadius:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 336,
+      "line": 348,
       "symbol": "UIView.addShadow(color:opacity:offset:radius:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
+      "line": 356,
+      "symbol": "UIView.addDashedBorder(color:lineWidth:dashPattern:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
+      "line": 370,
+      "symbol": "UIView.removeDashedBorder()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
@@ -264,6 +474,20 @@
       "line": 188,
       "symbol": "ConfirmationWindow.dismiss()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/UI Components/Form/Selector/AISelector.swift",
+      "line": 206,
+      "symbol": "AISelector.show(title:values:saveCallback:cancelCallback:valueChangedCallback:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/UI Components/Form/Selector/AISelector.swift",
+      "line": 214,
+      "symbol": "AISelector.show()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     }
   ],
