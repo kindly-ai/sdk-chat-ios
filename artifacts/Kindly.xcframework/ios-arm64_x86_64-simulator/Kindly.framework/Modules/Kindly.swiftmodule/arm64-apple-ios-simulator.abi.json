@@ -8089,58 +8089,65 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/AISlider\/AISlider.swift",
       "kind": "IntegerLiteral",
-      "offset": 99,
+      "offset": 128,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/AISlider\/AISlider.swift",
       "kind": "IntegerLiteral",
-      "offset": 99,
+      "offset": 128,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/AISlider\/AISlider.swift",
       "kind": "IntegerLiteral",
-      "offset": 99,
+      "offset": 128,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/AISlider\/AISlider.swift",
       "kind": "BooleanLiteral",
-      "offset": 309,
+      "offset": 338,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/AISlider\/AISlider.swift",
       "kind": "BooleanLiteral",
-      "offset": 492,
+      "offset": 521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/AISlider\/AISlider.swift",
       "kind": "IntegerLiteral",
-      "offset": 599,
+      "offset": 628,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/AISlider\/AISlider.swift",
       "kind": "StringLiteral",
-      "offset": 618,
+      "offset": 647,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/AISlider\/AISlider.swift",
       "kind": "BooleanLiteral",
-      "offset": 756,
+      "offset": 785,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/AISlider\/AISlider.swift",
+      "kind": "BooleanLiteral",
+      "offset": 915,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Models\/Standalone\/TriggerDialogueResponseModel.swift",
