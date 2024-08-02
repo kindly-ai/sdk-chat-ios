@@ -15,10 +15,10 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'artifacts/Kindly.xcframework'
   spec.swift_version = '5.0'
 
-  spec.dependency 'Starscream', '4.0.6'
-  spec.dependency 'SwiftyGif', '5.4.4'
-  spec.dependency 'SwiftyJSON', '5.0.1'
-  spec.dependency 'Sentry', '>= 8.30.0'
+  # spec.dependency 'Starscream', '4.0.6'
+  # spec.dependency 'SwiftyGif', '5.4.4'
+  # spec.dependency 'SwiftyJSON', '5.0.1'
+  # spec.dependency 'Sentry', '>= 8.30.0'
 
   # spec.frameworks = 'UIKit', 'MapKit'
 end

@@ -1,5 +1,5 @@
-import XCTest
 @testable import KindlySDK
+import XCTest
 
 final class KindlySDKTests: XCTestCase {
     func testExample() throws {
