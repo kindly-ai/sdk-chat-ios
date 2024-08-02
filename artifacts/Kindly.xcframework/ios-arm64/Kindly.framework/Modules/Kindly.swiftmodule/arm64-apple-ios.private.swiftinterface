@@ -96,11 +96,11 @@ public struct ExternalChatButton {
 }
 public enum ChatConnectionState {
   case none
-  case disconnected
   case connecting
   case connected
-  case conversationEnded
+  case disconnected
   case failed
+  case conversationEnded
   public static func == (a: Kindly.ChatConnectionState, b: Kindly.ChatConnectionState) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -138,6 +138,7 @@ final public class KindlyChatClient {
 extension Kindly.Promise {
   public func fulfill(_ value: T)
   public func reject(_ error: any Swift.Error)
+  public func pipe(to target: Kindly.Promise<T>)
 }
 @_hasMissingDesignatedInitializers public class AIAlert {
   public struct AlertTextField {
@@ -200,6 +201,8 @@ extension Kindly.KindlyChatClient {
     set
   }
   final public class func start(botKey: Swift.String, authTokenCallback: Kindly.AuthTokenCallback? = nil)
+  final public class func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
+  final public func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
   final public class func setNewContext(_ context: [Swift.String : Swift.String])
   final public func setNewContext(_ context: [Swift.String : Swift.String])
   final public class func clearNewContext()
@@ -210,8 +213,6 @@ extension Kindly.KindlyChatClient {
   final public class func saveAuthToken(_ token: Swift.String) -> Swift.Bool
   @discardableResult
   final public func saveAuthToken(_ token: Swift.String) -> Swift.Bool
-  final public class func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
-  final public func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
   final public class func closeChat()
   final public func closeChat()
   final public class func endChat() -> Kindly.Promise<Swift.Void>
