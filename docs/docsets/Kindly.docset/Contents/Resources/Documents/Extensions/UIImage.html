@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UIImage Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/UIImage" class="dashAnchor"></a>
+    <a title="UIImage Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Kindly SDK Docs</a> (40% documented)</p>
+        <p class="header-right"><a href="https://github.com/kindly-ai/sdk-chat-ios.git"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Kindly Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        UIImage Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AIAlert.html">AIAlert</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AIAlert/AlertTextField.html">– AlertTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AIAlert/AlertButton.html">– AlertButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AIPhotoSelection.html">AIPhotoSelection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KindlyChatClient.html">KindlyChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationDelegate.html">NotificationDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Promise.html">Promise</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SwiftyGifManager.html">SwiftyGifManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ChatConnectionState.html">ChatConnectionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ExternalChatMessageSender.html">ExternalChatMessageSender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ExternalExchangeType.html">ExternalExchangeType</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/AppKit">AppKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/GifLevelOfIntegrity.html">GifLevelOfIntegrity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/GifLevelOfIntegrity.html">GifLevelOfIntegrity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/GifParseError.html">GifParseError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSImage.html">NSImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSImageView.html">NSImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSMutableAttributedString.html">NSMutableAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIControl.html">UIControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImageView.html">UIImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/KindlyChatClientDelegate.html">KindlyChatClientDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SwiftyGifDelegate.html">SwiftyGifDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SwiftyGifDelegate.html">SwiftyGifDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Bot.html">Bot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:6Kindly18ExternalChatButtonV">ExternalChatButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ExternalChatMessage.html">ExternalChatMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/KindlySDKConfig.html">KindlySDKConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:6Kindly13OEmbedRespnseV">OEmbedRespnse</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Kindly17AuthTokenCallbacka">AuthTokenCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/GifLevelOfIntegrity">GifLevelOfIntegrity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Kindly19GifLevelOfIntegritya">GifLevelOfIntegrity</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Kindly0A3SDKa">KindlySDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/PlatformImageView">PlatformImageView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Kindly17PlatformImageViewa">PlatformImageView</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>UIImage</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">UIImage</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE9imageData16levelOfIntegrityABSg10Foundation0D0V_SftKcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(imageData:levelOfIntegrity:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE9imageData16levelOfIntegrityABSg10Foundation0D0V_SftKcfc">init(imageData:<wbr>levelOfIntegrity:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience initializer. Creates a gif with its backing data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">convenience</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">imageData</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">levelOfIntegrity</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/GifLevelOfIntegrity">GifLevelOfIntegrity</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>imageData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The actual image data, can be GIF or some other format</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>levelOfIntegrity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>0 to 1, 1 meaning no frame skipping</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE9imageName16levelOfIntegrity6bundleABSgSS_SfSo8NSBundleCtKcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(imageName:levelOfIntegrity:bundle:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE9imageName16levelOfIntegrity6bundleABSgSS_SfSo8NSBundleCtKcfc">init(imageName:<wbr>levelOfIntegrity:<wbr>bundle:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience initializer. Creates a image with its backing data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">convenience</span> <span class="nf">init</span><span class="p">?(</span><span class="nv">imageName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">levelOfIntegrity</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/GifLevelOfIntegrity">GifLevelOfIntegrity</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span> <span class="nv">bundle</span><span class="p">:</span> <span class="kt">Bundle</span> <span class="o">=</span> <span class="kt">Bundle</span><span class="o">.</span><span class="n">main</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>imageName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Filename</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>levelOfIntegrity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>0 to 1, 1 meaning no frame skipping</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Inits"></a>
+                <a name="//apple_ref/swift/Section/Inits" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Inits"></a>
+                  <h3 class="section-name"><span>Inits</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@Kindly@@objc(cs)UIImage(im)initWithGifData:floatLevelOfIntegrity:error:"></a>
+                    <a name="//apple_ref/swift/Method/init(gifData:floatLevelOfIntegrity:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Kindly@@objc(cs)UIImage(im)initWithGifData:floatLevelOfIntegrity:error:">init(gifData:<wbr>floatLevelOfIntegrity:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience initializer. Creates a gif with its backing data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">gifData</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">floatLevelOfIntegrity</span><span class="p">:</span> <span class="kt">Float</span> <span class="o">=</span> <span class="kt"><a href="../Typealiases.html#/GifLevelOfIntegrity">GifLevelOfIntegrity</a></span><span class="o">.</span><span class="n">highestNoFrameSkipping</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>gifData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The actual gif data</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>levelOfIntegrity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>0 to 1, 1 meaning no frame skipping</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@Kindly@@objc(cs)UIImage(im)initWithGifData:levelOfIntegrity:error:"></a>
+                    <a name="//apple_ref/swift/Method/init(gifData:levelOfIntegrity:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@Kindly@@objc(cs)UIImage(im)initWithGifData:levelOfIntegrity:error:">init(gifData:<wbr>levelOfIntegrity:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience initializer. Creates a gif with its backing data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">gifData</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">levelOfIntegrity</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/GifLevelOfIntegrity">GifLevelOfIntegrity</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>gifData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The actual gif data</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>levelOfIntegrity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>0 to 1, 1 meaning no frame skipping</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE7gifName16levelOfIntegrity6bundleABSS_SfSo8NSBundleCtKcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(gifName:levelOfIntegrity:bundle:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE7gifName16levelOfIntegrity6bundleABSS_SfSo8NSBundleCtKcfc">init(gifName:<wbr>levelOfIntegrity:<wbr>bundle:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Convenience initializer. Creates a gif with its backing data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">convenience</span> <span class="nf">init</span><span class="p">(</span><span class="nv">gifName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">levelOfIntegrity</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/GifLevelOfIntegrity">GifLevelOfIntegrity</a></span> <span class="o">=</span> <span class="o">.</span><span class="k">default</span><span class="p">,</span> <span class="nv">bundle</span><span class="p">:</span> <span class="kt">Bundle</span> <span class="o">=</span> <span class="kt">Bundle</span><span class="o">.</span><span class="n">main</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>gifName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Filename</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>levelOfIntegrity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>0 to 1, 1 meaning no frame skipping</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE14setGifFromData_16levelOfIntegrityy10Foundation0F0V_SftKF"></a>
+                    <a name="//apple_ref/swift/Method/setGifFromData(_:levelOfIntegrity:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE14setGifFromData_16levelOfIntegrityy10Foundation0F0V_SftKF">setGifFromData(_:<wbr>levelOfIntegrity:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set backing data for this gif. Overwrites any existing data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setGifFromData</span><span class="p">(</span><span class="n">_</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">Data</span><span class="p">,</span> <span class="nv">levelOfIntegrity</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/GifLevelOfIntegrity">GifLevelOfIntegrity</a></span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>data</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The actual gif data</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>levelOfIntegrity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>0 to 1, 1 meaning no frame skipping</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE6setGif_6bundleySS_So8NSBundleCtKF"></a>
+                    <a name="//apple_ref/swift/Method/setGif(_:bundle:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE6setGif_6bundleySS_So8NSBundleCtKF">setGif(_:<wbr>bundle:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set backing data for this gif. Overwrites any existing data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setGif</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">bundle</span><span class="p">:</span> <span class="kt">Bundle</span> <span class="o">=</span> <span class="kt">Bundle</span><span class="o">.</span><span class="n">main</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>name</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Filename</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE11framesCountSiyF"></a>
+                    <a name="//apple_ref/swift/Method/framesCount()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE11framesCountSiyF">framesCount()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Check the number of frame for this gif</p>
+
+<ul>
+<li>Return number of frames</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">framesCount</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE6setGif_16levelOfIntegrity6bundleySS_SfSo8NSBundleCtKF"></a>
+                    <a name="//apple_ref/swift/Method/setGif(_:levelOfIntegrity:bundle:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE6setGif_16levelOfIntegrity6bundleySS_SfSo8NSBundleCtKF">setGif(_:<wbr>levelOfIntegrity:<wbr>bundle:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Set backing data for this gif. Overwrites any existing data.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setGif</span><span class="p">(</span><span class="n">_</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">levelOfIntegrity</span><span class="p">:</span> <span class="kt"><a href="../Typealiases.html#/GifLevelOfIntegrity">GifLevelOfIntegrity</a></span><span class="p">,</span> <span class="nv">bundle</span><span class="p">:</span> <span class="kt">Bundle</span> <span class="o">=</span> <span class="kt">Bundle</span><span class="o">.</span><span class="n">main</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>name</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Filename</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>levelOfIntegrity</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>0 to 1, 1 meaning no frame skipping</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE5clearyyF"></a>
+                    <a name="//apple_ref/swift/Method/clear()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE5clearyyF">clear()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">clear</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Properties"></a>
+                <a name="//apple_ref/swift/Section/Properties" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Properties"></a>
+                  <h3 class="section-name"><span>Properties</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE11imageSourceSo07CGImageD3RefaSgvp"></a>
+                    <a name="//apple_ref/swift/Property/imageSource" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE11imageSourceSo07CGImageD3RefaSgvp">imageSource</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">imageSource</span><span class="p">:</span> <span class="kt">CGImageSource</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE20displayRefreshFactorSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/displayRefreshFactor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE20displayRefreshFactorSiSgvp">displayRefreshFactor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">displayRefreshFactor</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE9imageSizeSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/imageSize" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE9imageSizeSiSgvp">imageSize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">imageSize</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE10imageCountSiSgvp"></a>
+                    <a name="//apple_ref/swift/Property/imageCount" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE10imageCountSiSgvp">imageCount</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">imageCount</span><span class="p">:</span> <span class="kt">Int</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE12displayOrderSaySiGSgvp"></a>
+                    <a name="//apple_ref/swift/Property/displayOrder" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE12displayOrderSaySiGSgvp">displayOrder</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">displayOrder</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int</span><span class="p">]?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:So7UIImageC6KindlyE9imageData10Foundation0D0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/imageData" class="dashAnchor"></a>
+                    <a class="token" href="#/s:So7UIImageC6KindlyE9imageData10Foundation0D0VSgvp">imageData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">imageData</span><span class="p">:</span> <span class="kt">Data</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>© 2024 Kindly</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
