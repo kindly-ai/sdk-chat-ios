@@ -359,70 +359,14 @@ SWIFT_PROTOCOL("_TtP6Kindly17SwiftyGifDelegate_")
 
 
 
-@class NSData;
-
-@interface UIImage (SWIFT_EXTENSION(Kindly))
-/// Convenience initializer. Creates a gif with its backing data.
-/// \param gifData The actual gif data
-///
-/// \param levelOfIntegrity 0 to 1, 1 meaning no frame skipping
-///
-- (nullable instancetype)initWithGifData:(NSData * _Nonnull)gifData floatLevelOfIntegrity:(float)floatLevelOfIntegrity error:(NSError * _Nullable * _Nullable)error;
-/// Convenience initializer. Creates a gif with its backing data.
-/// \param gifData The actual gif data
-///
-/// \param levelOfIntegrity 0 to 1, 1 meaning no frame skipping
-///
-- (nullable instancetype)initWithGifData:(NSData * _Nonnull)gifData levelOfIntegrity:(float)levelOfIntegrity error:(NSError * _Nullable * _Nullable)error;
-@end
 
 
 
 
 
 
-@interface UIImageView (SWIFT_EXTENSION(Kindly))
-/// Set a gif image and a manager to an existing UIImageView.
-/// WARNING : this overwrite any previous gif.
-/// \param gifImage The UIImage containing the gif backing data
-///
-/// \param loopCount The number of loops we want for this gif. -1 means infinite.
-///
-- (void)setGifImage:(UIImage * _Nonnull)gifImage loopCount:(NSInteger)loopCount;
-@end
 
 
-
-@interface UIImageView (SWIFT_EXTENSION(Kindly))
-/// Start displaying the gif for this UIImageView.
-- (void)startAnimatingGif;
-/// Stop displaying the gif for this UIImageView.
-- (void)stopAnimatingGif;
-/// Check if this imageView is currently playing a gif
-/// <ul>
-///   <li>
-///     Returns wether the gif is currently playing
-///   </li>
-/// </ul>
-- (BOOL)isAnimatingGif SWIFT_WARN_UNUSED_RESULT;
-/// Show a specific frame based on a delta from current frame
-/// \param delta The delsta from current frame we want
-///
-- (void)showFrameForIndexDelta:(NSInteger)delta;
-/// Show a specific frame
-/// \param index The index of frame to show
-///
-- (void)showFrameAtIndex:(NSInteger)index;
-- (void)clear;
-@end
-
-
-@interface UIImageView (SWIFT_EXTENSION(Kindly))
-@property (nonatomic, strong) UIImage * _Nullable currentImage;
-@property (nonatomic) NSInteger loopCount;
-@property (nonatomic, strong) id <SwiftyGifDelegate> _Nullable delegate;
-@property (nonatomic) BOOL displaying;
-@end
 
 
 

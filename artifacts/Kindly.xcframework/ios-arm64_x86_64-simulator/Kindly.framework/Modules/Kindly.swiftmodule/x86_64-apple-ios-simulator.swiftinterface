@@ -83,8 +83,7 @@ extension UIKit.UIImage {
   convenience public init?(imageName: Swift.String, levelOfIntegrity: Kindly.GifLevelOfIntegrity = .default, bundle: Foundation.Bundle = Bundle.main) throws
 }
 extension UIKit.UIImage {
-  @objc convenience dynamic public init(gifData: Foundation.Data, floatLevelOfIntegrity: Swift.Float = GifLevelOfIntegrity.highestNoFrameSkipping) throws
-  @objc convenience dynamic public init(gifData: Foundation.Data, levelOfIntegrity: Kindly.GifLevelOfIntegrity = .default) throws
+  convenience public init(gifData: Foundation.Data, levelOfIntegrity: Kindly.GifLevelOfIntegrity = .default) throws
   convenience public init(gifName: Swift.String, levelOfIntegrity: Kindly.GifLevelOfIntegrity = .default, bundle: Foundation.Bundle = Bundle.main) throws
   public func setGifFromData(_ data: Foundation.Data, levelOfIntegrity: Kindly.GifLevelOfIntegrity) throws
   public func setGif(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main) throws
@@ -187,7 +186,6 @@ extension UIKit.UIImageView {
 extension UIKit.UIImageView {
   @_Concurrency.MainActor(unsafe) convenience public init(gifImage: UIKit.UIImage, manager: Kindly.SwiftyGifManager = .defaultManager, loopCount: Swift.Int = -1)
   @_Concurrency.MainActor(unsafe) convenience public init(gifURL: Foundation.URL, manager: Kindly.SwiftyGifManager = .defaultManager, loopCount: Swift.Int = -1)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func setGifImage(_ gifImage: UIKit.UIImage, loopCount: Swift.Int = -1)
   @_Concurrency.MainActor(unsafe) public func setGifImage(_ gifImage: UIKit.UIImage, manager: Kindly.SwiftyGifManager = .defaultManager, loopCount: Swift.Int = -1)
 }
 extension UIKit.UIImageView {
@@ -195,43 +193,43 @@ extension UIKit.UIImageView {
   @_Concurrency.MainActor(unsafe) public func setGifFromURL(_ url: Foundation.URL, manager: Kindly.SwiftyGifManager = .defaultManager, loopCount: Swift.Int = -1, levelOfIntegrity: Kindly.GifLevelOfIntegrity = .default, session: Foundation.URLSession = URLSession.shared, showLoader: Swift.Bool = true, customLoader: UIKit.UIView? = nil) -> Foundation.URLSessionDataTask?
 }
 extension UIKit.UIImageView {
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func startAnimatingGif()
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func stopAnimatingGif()
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func isAnimatingGif() -> Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func showFrameForIndexDelta(_ delta: Swift.Int)
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func showFrameAtIndex(_ index: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func startAnimatingGif()
+  @_Concurrency.MainActor(unsafe) public func stopAnimatingGif()
+  @_Concurrency.MainActor(unsafe) public func isAnimatingGif() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func showFrameForIndexDelta(_ delta: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public func showFrameAtIndex(_ index: Swift.Int)
   @_Concurrency.MainActor(unsafe) public func updateCache()
   @_Concurrency.MainActor(unsafe) public func updateCurrentImage()
   @_Concurrency.MainActor(unsafe) public func currentFrameIndex() -> Swift.Int
   @_Concurrency.MainActor(unsafe) public func frameAtIndex(index: Swift.Int) -> UIKit.UIImage
   @_Concurrency.MainActor(unsafe) public func isDiscarded(_ imageView: UIKit.UIView?) -> Swift.Bool
   @_Concurrency.MainActor(unsafe) public func isDisplayedInScreen(_ imageView: UIKit.UIView?) -> Swift.Bool
-  @objc @_Concurrency.MainActor(unsafe) dynamic public func clear()
+  @_Concurrency.MainActor(unsafe) public func clear()
 }
 extension UIKit.UIImageView {
   @_Concurrency.MainActor(unsafe) public var gifImage: UIKit.UIImage? {
     get
     set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var currentImage: UIKit.UIImage? {
-    @objc get
-    @objc set
+  @_Concurrency.MainActor(unsafe) public var currentImage: UIKit.UIImage? {
+    get
+    set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var loopCount: Swift.Int {
-    @objc get
-    @objc set
+  @_Concurrency.MainActor(unsafe) public var loopCount: Swift.Int {
+    get
+    set
   }
   @_Concurrency.MainActor(unsafe) public var animationManager: Kindly.SwiftyGifManager? {
     get
     set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var delegate: (any Kindly.SwiftyGifDelegate)? {
-    @objc get
-    @objc set
+  @_Concurrency.MainActor(unsafe) public var delegate: (any Kindly.SwiftyGifDelegate)? {
+    get
+    set
   }
-  @objc @_Concurrency.MainActor(unsafe) dynamic public var displaying: Swift.Bool {
-    @objc get
-    @objc set
+  @_Concurrency.MainActor(unsafe) public var displaying: Swift.Bool {
+    get
+    set
   }
 }
 @objc @_inheritsConvenienceInitializers public class NotificationDelegate : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {

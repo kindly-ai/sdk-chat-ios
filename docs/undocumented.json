@@ -660,49 +660,49 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImage+SwiftyGif.swift",
-      "line": 139,
+      "line": 130,
       "symbol": "UIImage.clear()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImage+SwiftyGif.swift",
-      "line": 309,
+      "line": 300,
       "symbol": "UIImage.imageSource",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImage+SwiftyGif.swift",
-      "line": 319,
+      "line": 310,
       "symbol": "UIImage.displayRefreshFactor",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImage+SwiftyGif.swift",
-      "line": 324,
+      "line": 315,
       "symbol": "UIImage.imageSize",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImage+SwiftyGif.swift",
-      "line": 329,
+      "line": 320,
       "symbol": "UIImage.imageCount",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImage+SwiftyGif.swift",
-      "line": 334,
+      "line": 325,
       "symbol": "UIImage.displayOrder",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImage+SwiftyGif.swift",
-      "line": 339,
+      "line": 330,
       "symbol": "UIImage.imageData",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
@@ -751,49 +751,49 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImageView+SwiftyGif.swift",
-      "line": 366,
+      "line": 335,
       "symbol": "UIImageView.clear()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImageView+SwiftyGif.swift",
-      "line": 439,
+      "line": 408,
       "symbol": "UIImageView.gifImage",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImageView+SwiftyGif.swift",
-      "line": 444,
+      "line": 413,
       "symbol": "UIImageView.currentImage",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImageView+SwiftyGif.swift",
-      "line": 459,
+      "line": 428,
       "symbol": "UIImageView.loopCount",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImageView+SwiftyGif.swift",
-      "line": 464,
+      "line": 433,
       "symbol": "UIImageView.animationManager",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImageView+SwiftyGif.swift",
-      "line": 469,
+      "line": 438,
       "symbol": "UIImageView.delegate",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/SwiftyGif/SwiftyGif/UIImageView+SwiftyGif.swift",
-      "line": 479,
+      "line": 448,
       "symbol": "UIImageView.displaying",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"

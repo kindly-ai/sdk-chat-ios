@@ -7876,46 +7876,6 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(gifData:floatLevelOfIntegrity:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Float",
-                "printedName": "Swift.Float",
-                "hasDefaultArg": true,
-                "usr": "s:Sf"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@CM@Kindly@@objc(cs)UIImage(im)initWithGifData:floatLevelOfIntegrity:error:",
-            "mangledName": "$sSo7UIImageC6KindlyE7gifData21floatLevelOfIntegrityAB10Foundation0D0V_SftKcfc",
-            "moduleName": "Kindly",
-            "objc_name": "initWithGifData:floatLevelOfIntegrity:error:",
-            "declAttributes": [
-              "Dynamic",
-              "Convenience",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "throwing": true,
-            "init_kind": "Convenience"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
             "printedName": "init(gifData:levelOfIntegrity:)",
             "children": [
               {
@@ -7939,14 +7899,11 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@CM@Kindly@@objc(cs)UIImage(im)initWithGifData:levelOfIntegrity:error:",
+            "usr": "s:So7UIImageC6KindlyE7gifData16levelOfIntegrityAB10Foundation0D0V_SftKcfc",
             "mangledName": "$sSo7UIImageC6KindlyE7gifData16levelOfIntegrityAB10Foundation0D0V_SftKcfc",
             "moduleName": "Kindly",
-            "objc_name": "initWithGifData:levelOfIntegrity:error:",
             "declAttributes": [
-              "Dynamic",
               "Convenience",
-              "ObjC",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -9469,43 +9426,6 @@
           {
             "kind": "Function",
             "name": "setGifImage",
-            "printedName": "setGifImage(_:loopCount:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "hasDefaultArg": true,
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)setGifImage:loopCount:",
-            "mangledName": "$sSo11UIImageViewC6KindlyE11setGifImage_9loopCountySo0A0C_SitF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Dynamic",
-              "Custom",
-              "ObjC",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setGifImage",
             "printedName": "setGifImage(_:manager:loopCount:)",
             "children": [
               {
@@ -9645,13 +9565,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)startAnimatingGif",
+            "usr": "s:So11UIImageViewC6KindlyE17startAnimatingGifyyF",
             "mangledName": "$sSo11UIImageViewC6KindlyE17startAnimatingGifyyF",
             "moduleName": "Kindly",
             "declAttributes": [
-              "Dynamic",
               "Custom",
-              "ObjC",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -9669,13 +9587,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)stopAnimatingGif",
+            "usr": "s:So11UIImageViewC6KindlyE16stopAnimatingGifyyF",
             "mangledName": "$sSo11UIImageViewC6KindlyE16stopAnimatingGifyyF",
             "moduleName": "Kindly",
             "declAttributes": [
-              "Dynamic",
               "Custom",
-              "ObjC",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -9694,13 +9610,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)isAnimatingGif",
+            "usr": "s:So11UIImageViewC6KindlyE14isAnimatingGifSbyF",
             "mangledName": "$sSo11UIImageViewC6KindlyE14isAnimatingGifSbyF",
             "moduleName": "Kindly",
             "declAttributes": [
-              "Dynamic",
               "Custom",
-              "ObjC",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -9724,13 +9638,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)showFrameForIndexDelta:",
+            "usr": "s:So11UIImageViewC6KindlyE22showFrameForIndexDeltayySiF",
             "mangledName": "$sSo11UIImageViewC6KindlyE22showFrameForIndexDeltayySiF",
             "moduleName": "Kindly",
             "declAttributes": [
-              "Dynamic",
               "Custom",
-              "ObjC",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -9754,13 +9666,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)showFrameAtIndex:",
+            "usr": "s:So11UIImageViewC6KindlyE16showFrameAtIndexyySiF",
             "mangledName": "$sSo11UIImageViewC6KindlyE16showFrameAtIndexyySiF",
             "moduleName": "Kindly",
             "declAttributes": [
-              "Dynamic",
               "Custom",
-              "ObjC",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -9948,13 +9858,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)clear",
+            "usr": "s:So11UIImageViewC6KindlyE5clearyyF",
             "mangledName": "$sSo11UIImageViewC6KindlyE5clearyyF",
             "moduleName": "Kindly",
             "declAttributes": [
-              "Dynamic",
-              "Custom",
-              "ObjC"
+              "Custom"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -10093,13 +10001,11 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@Kindly@@objc(cs)UIImageView(py)currentImage",
+            "usr": "s:So11UIImageViewC6KindlyE12currentImageSo0A0CSgvp",
             "mangledName": "$sSo11UIImageViewC6KindlyE12currentImageSo0A0CSgvp",
             "moduleName": "Kindly",
             "declAttributes": [
-              "Dynamic",
-              "Custom",
-              "ObjC"
+              "Custom"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -10124,13 +10030,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)currentImage",
+                "usr": "s:So11UIImageViewC6KindlyE12currentImageSo0A0CSgvg",
                 "mangledName": "$sSo11UIImageViewC6KindlyE12currentImageSo0A0CSgvg",
                 "moduleName": "Kindly",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -10160,15 +10062,34 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)setCurrentImage:",
+                "usr": "s:So11UIImageViewC6KindlyE12currentImageSo0A0CSgvs",
                 "mangledName": "$sSo11UIImageViewC6KindlyE12currentImageSo0A0CSgvs",
                 "moduleName": "Kindly",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
                 "isFromExtension": true,
                 "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So11UIImageViewC6KindlyE12currentImageSo0A0CSgvM",
+                "mangledName": "$sSo11UIImageViewC6KindlyE12currentImageSo0A0CSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "intro_iOS": "2.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -10185,13 +10106,11 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@Kindly@@objc(cs)UIImageView(py)loopCount",
+            "usr": "s:So11UIImageViewC6KindlyE9loopCountSivp",
             "mangledName": "$sSo11UIImageViewC6KindlyE9loopCountSivp",
             "moduleName": "Kindly",
             "declAttributes": [
-              "Dynamic",
-              "Custom",
-              "ObjC"
+              "Custom"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -10208,13 +10127,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)loopCount",
+                "usr": "s:So11UIImageViewC6KindlyE9loopCountSivg",
                 "mangledName": "$sSo11UIImageViewC6KindlyE9loopCountSivg",
                 "moduleName": "Kindly",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -10236,15 +10151,34 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)setLoopCount:",
+                "usr": "s:So11UIImageViewC6KindlyE9loopCountSivs",
                 "mangledName": "$sSo11UIImageViewC6KindlyE9loopCountSivs",
                 "moduleName": "Kindly",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
                 "isFromExtension": true,
                 "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So11UIImageViewC6KindlyE9loopCountSivM",
+                "mangledName": "$sSo11UIImageViewC6KindlyE9loopCountSivM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "intro_iOS": "2.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -10382,13 +10316,11 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@Kindly@@objc(cs)UIImageView(py)delegate",
+            "usr": "s:So11UIImageViewC6KindlyE8delegateAC17SwiftyGifDelegate_pSgvp",
             "mangledName": "$sSo11UIImageViewC6KindlyE8delegateAC17SwiftyGifDelegate_pSgvp",
             "moduleName": "Kindly",
             "declAttributes": [
-              "Dynamic",
-              "Custom",
-              "ObjC"
+              "Custom"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -10413,13 +10345,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)delegate",
+                "usr": "s:So11UIImageViewC6KindlyE8delegateAC17SwiftyGifDelegate_pSgvg",
                 "mangledName": "$sSo11UIImageViewC6KindlyE8delegateAC17SwiftyGifDelegate_pSgvg",
                 "moduleName": "Kindly",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -10449,15 +10377,34 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)setDelegate:",
+                "usr": "s:So11UIImageViewC6KindlyE8delegateAC17SwiftyGifDelegate_pSgvs",
                 "mangledName": "$sSo11UIImageViewC6KindlyE8delegateAC17SwiftyGifDelegate_pSgvs",
                 "moduleName": "Kindly",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
                 "isFromExtension": true,
                 "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So11UIImageViewC6KindlyE8delegateAC17SwiftyGifDelegate_pSgvM",
+                "mangledName": "$sSo11UIImageViewC6KindlyE8delegateAC17SwiftyGifDelegate_pSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "intro_iOS": "2.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
               }
             ]
           },
@@ -10474,13 +10421,11 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@CM@Kindly@@objc(cs)UIImageView(py)displaying",
+            "usr": "s:So11UIImageViewC6KindlyE10displayingSbvp",
             "mangledName": "$sSo11UIImageViewC6KindlyE10displayingSbvp",
             "moduleName": "Kindly",
             "declAttributes": [
-              "Dynamic",
-              "Custom",
-              "ObjC"
+              "Custom"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -10497,13 +10442,9 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)displaying",
+                "usr": "s:So11UIImageViewC6KindlyE10displayingSbvg",
                 "mangledName": "$sSo11UIImageViewC6KindlyE10displayingSbvg",
                 "moduleName": "Kindly",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
                 "isFromExtension": true,
                 "accessorKind": "get"
               },
@@ -10525,15 +10466,34 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@CM@Kindly@@objc(cs)UIImageView(im)setDisplaying:",
+                "usr": "s:So11UIImageViewC6KindlyE10displayingSbvs",
                 "mangledName": "$sSo11UIImageViewC6KindlyE10displayingSbvs",
                 "moduleName": "Kindly",
-                "declAttributes": [
-                  "Dynamic",
-                  "ObjC"
-                ],
                 "isFromExtension": true,
                 "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So11UIImageViewC6KindlyE10displayingSbvM",
+                "mangledName": "$sSo11UIImageViewC6KindlyE10displayingSbvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "intro_iOS": "2.0",
+                "declAttributes": [
+                  "Available"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
               }
             ]
           }
@@ -12219,42 +12179,42 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10822,
+      "offset": 10382,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10871,
+      "offset": 10431,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10909,
+      "offset": 10469,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10948,
+      "offset": 10508,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 10989,
+      "offset": 10549,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImage+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 11027,
+      "offset": 10587,
       "length": 1,
       "value": "4"
     },
@@ -14942,105 +14902,98 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 2538,
+      "offset": 2644,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 3773,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5133,
+      "offset": 4004,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "BooleanLiteral",
-      "offset": 5316,
+      "offset": 4187,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 14500,
+      "offset": 13335,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 14534,
+      "offset": 13369,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 14575,
+      "offset": 13410,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 14621,
+      "offset": 13456,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 14660,
+      "offset": 13495,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 14698,
+      "offset": 13533,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 14736,
+      "offset": 13571,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 14775,
+      "offset": 13610,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 14813,
+      "offset": 13648,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 14858,
+      "offset": 13693,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/SwiftyGif\/SwiftyGif\/UIImageView+SwiftyGif.swift",
       "kind": "IntegerLiteral",
-      "offset": 14895,
+      "offset": 13730,
       "length": 1,
       "value": "4"
     },
