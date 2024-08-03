@@ -332,27 +332,6 @@ SWIFT_CLASS("_TtC6Kindly20NotificationDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
-@class NSURL;
-
-SWIFT_PROTOCOL("_TtP6Kindly17SwiftyGifDelegate_")
-@protocol SwiftyGifDelegate
-@optional
-- (void)gifDidStartWithSender:(UIImageView * _Nonnull)sender;
-- (void)gifDidLoopWithSender:(UIImageView * _Nonnull)sender;
-- (void)gifDidStopWithSender:(UIImageView * _Nonnull)sender;
-- (void)gifURLDidFinishWithSender:(UIImageView * _Nonnull)sender;
-- (void)gifURLDidFailWithSender:(UIImageView * _Nonnull)sender url:(NSURL * _Nonnull)url error:(NSError * _Nullable)error;
-@end
-
-
-
-
-
-
-
-
-
 
 
 
