@@ -201,7 +201,7 @@ extension Kindly.KindlyChatClient {
     set
   }
   final public class func start(botKey: Swift.String, authTokenCallback: Kindly.AuthTokenCallback? = nil)
-  final public class func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
+  final public class func displayChat(languageCode: Swift.String?, triggerDialogueId: Swift.String? = nil)
   final public func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
   final public class func setNewContext(_ context: [Swift.String : Swift.String])
   final public func setNewContext(_ context: [Swift.String : Swift.String])
