@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Kindly
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import AVKit
 import Combine
@@ -37,6 +38,7 @@ public struct ExternalChatMessage : Swift.Hashable, Swift.Identifiable, Swift.Co
   public static func < (lhs: Kindly.ExternalChatMessage, rhs: Kindly.ExternalChatMessage) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: Kindly.ExternalChatMessage, b: Kindly.ExternalChatMessage) -> Swift.Bool
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.String
   public var hashValue: Swift.Int {
     get
@@ -80,14 +82,14 @@ public struct KindlySDKConfig {
   }
 }
 extension UIKit.UIControl {
-  @_Concurrency.MainActor(unsafe) public func addAction(for controlEvents: UIKit.UIControl.Event = .touchUpInside, _ closure: @escaping () -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) public func addAction(for controlEvents: UIKit.UIControl.Event = .touchUpInside, _ closure: @escaping (UIKit.UIControl) -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) public func removeActions(for event: UIKit.UIControl.Event)
-  @_Concurrency.MainActor(unsafe) public func removeAllActions()
+  @_Concurrency.MainActor @preconcurrency public func addAction(for controlEvents: UIKit.UIControl.Event = .touchUpInside, _ closure: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func addAction(for controlEvents: UIKit.UIControl.Event = .touchUpInside, _ closure: @escaping (UIKit.UIControl) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func removeActions(for event: UIKit.UIControl.Event)
+  @_Concurrency.MainActor @preconcurrency public func removeAllActions()
 }
 extension UIKit.UIControl {
-  @_Concurrency.MainActor(unsafe) public func on(_ controlEvents: UIKit.UIControl.Event, invokeHandler handler: @escaping (UIKit.UIControl) -> Swift.Void) -> Swift.AnyObject
-  @_Concurrency.MainActor(unsafe) public func removeHandler(_ handler: Swift.AnyObject)
+  @_Concurrency.MainActor @preconcurrency public func on(_ controlEvents: UIKit.UIControl.Event, invokeHandler handler: @escaping (UIKit.UIControl) -> Swift.Void) -> Swift.AnyObject
+  @_Concurrency.MainActor @preconcurrency public func removeHandler(_ handler: Swift.AnyObject)
 }
 extension Foundation.NSMutableAttributedString {
   public func trimCharactersInSet(charSet: Foundation.CharacterSet)
@@ -169,20 +171,20 @@ extension Kindly.AIAlert.AlertButton {
   @objc deinit
 }
 extension Kindly.AIPhotoSelection : UIKit.UIImagePickerControllerDelegate, UIKit.UINavigationControllerDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerController(_: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func imagePickerControllerDidCancel(_: UIKit.UIImagePickerController)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerController(_: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerControllerDidCancel(_: UIKit.UIImagePickerController)
 }
 extension UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public func onTap(_ closure: @escaping () -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) public func onLongTap(_ closure: @escaping (_ gestureReconizer: UIKit.UILongPressGestureRecognizer) -> Swift.Void)
-  @_Concurrency.MainActor(unsafe) public func removeAllGestureRecognizers()
+  @_Concurrency.MainActor @preconcurrency public func onTap(_ closure: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func onLongTap(_ closure: @escaping (_ gestureReconizer: UIKit.UILongPressGestureRecognizer) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func removeAllGestureRecognizers()
 }
 extension UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public func makeCircular()
-  @_Concurrency.MainActor(unsafe) public func makeRounded(cornerRadius: CoreFoundation.CGFloat? = nil)
-  @_Concurrency.MainActor(unsafe) public func addShadow(color: UIKit.UIColor? = nil, opacity: Swift.Float? = nil, offset: CoreFoundation.CGSize? = nil, radius: CoreFoundation.CGFloat? = nil)
-  @_Concurrency.MainActor(unsafe) public func addDashedBorder(color: UIKit.UIColor, lineWidth: CoreFoundation.CGFloat, dashPattern: [Foundation.NSNumber])
-  @_Concurrency.MainActor(unsafe) public func removeDashedBorder()
+  @_Concurrency.MainActor @preconcurrency public func makeCircular()
+  @_Concurrency.MainActor @preconcurrency public func makeRounded(cornerRadius: CoreFoundation.CGFloat? = nil)
+  @_Concurrency.MainActor @preconcurrency public func addShadow(color: UIKit.UIColor? = nil, opacity: Swift.Float? = nil, offset: CoreFoundation.CGSize? = nil, radius: CoreFoundation.CGFloat? = nil)
+  @_Concurrency.MainActor @preconcurrency public func addDashedBorder(color: UIKit.UIColor, lineWidth: CoreFoundation.CGFloat, dashPattern: [Foundation.NSNumber])
+  @_Concurrency.MainActor @preconcurrency public func removeDashedBorder()
 }
 public typealias KindlySDK = Kindly.KindlyChatClient
 extension Kindly.KindlyChatClient {
