@@ -175,6 +175,12 @@ extension Kindly.AIPhotoSelection : UIKit.UIImagePickerControllerDelegate, UIKit
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerControllerDidCancel(_: UIKit.UIImagePickerController)
 }
 extension UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public func addSubviews(_ views: UIKit.UIView...)
+  @_Concurrency.MainActor @preconcurrency public func add(views: [UIKit.UIView])
+  @_Concurrency.MainActor @preconcurrency public func removeAllSubviews()
+  @_Concurrency.MainActor @preconcurrency public func hasSubviewWithTag(_ tag: Swift.Int) -> Swift.Bool
+}
+extension UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public func onTap(_ closure: @escaping () -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public func onLongTap(_ closure: @escaping (_ gestureReconizer: UIKit.UILongPressGestureRecognizer) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public func removeAllGestureRecognizers()
