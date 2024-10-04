@@ -75,22 +75,6 @@ public struct Bot {
 public struct OEmbedRespnse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct KindlySDKConfig {
-  public var getAuthToken: Kindly.AuthTokenCallback? {
-    get
-    set
-  }
-}
-extension UIKit.UIControl {
-  @_Concurrency.MainActor @preconcurrency public func addAction(for controlEvents: UIKit.UIControl.Event = .touchUpInside, _ closure: @escaping () -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public func addAction(for controlEvents: UIKit.UIControl.Event = .touchUpInside, _ closure: @escaping (UIKit.UIControl) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public func removeActions(for event: UIKit.UIControl.Event)
-  @_Concurrency.MainActor @preconcurrency public func removeAllActions()
-}
-extension UIKit.UIControl {
-  @_Concurrency.MainActor @preconcurrency public func on(_ controlEvents: UIKit.UIControl.Event, invokeHandler handler: @escaping (UIKit.UIControl) -> Swift.Void) -> Swift.AnyObject
-  @_Concurrency.MainActor @preconcurrency public func removeHandler(_ handler: Swift.AnyObject)
-}
 public protocol Coordinator {
   var childCoordinators: [any Kindly.Coordinator] { get set }
   var navigationController: UIKit.UINavigationController { get set }
@@ -136,6 +120,22 @@ extension Kindly.MainCoordinator {
 }
 extension Kindly.MainCoordinator {
   @objc dynamic public func start()
+}
+public struct KindlySDKConfig {
+  public var getAuthToken: Kindly.AuthTokenCallback? {
+    get
+    set
+  }
+}
+extension UIKit.UIControl {
+  @_Concurrency.MainActor @preconcurrency public func addAction(for controlEvents: UIKit.UIControl.Event = .touchUpInside, _ closure: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func addAction(for controlEvents: UIKit.UIControl.Event = .touchUpInside, _ closure: @escaping (UIKit.UIControl) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public func removeActions(for event: UIKit.UIControl.Event)
+  @_Concurrency.MainActor @preconcurrency public func removeAllActions()
+}
+extension UIKit.UIControl {
+  @_Concurrency.MainActor @preconcurrency public func on(_ controlEvents: UIKit.UIControl.Event, invokeHandler handler: @escaping (UIKit.UIControl) -> Swift.Void) -> Swift.AnyObject
+  @_Concurrency.MainActor @preconcurrency public func removeHandler(_ handler: Swift.AnyObject)
 }
 extension Foundation.NSMutableAttributedString {
   public func trimCharactersInSet(charSet: Foundation.CharacterSet)
@@ -219,6 +219,12 @@ extension Kindly.AIAlert.AlertButton {
 extension Kindly.AIPhotoSelection : UIKit.UIImagePickerControllerDelegate, UIKit.UINavigationControllerDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerController(_: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerControllerDidCancel(_: UIKit.UIImagePickerController)
+}
+extension UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency public func addSubviews(_ views: UIKit.UIView...)
+  @_Concurrency.MainActor @preconcurrency public func add(views: [UIKit.UIView])
+  @_Concurrency.MainActor @preconcurrency public func removeAllSubviews()
+  @_Concurrency.MainActor @preconcurrency public func hasSubviewWithTag(_ tag: Swift.Int) -> Swift.Bool
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public func onTap(_ closure: @escaping () -> Swift.Void)
