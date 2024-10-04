@@ -141,6 +141,209 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/Coordinator.swift",
+      "line": 4,
+      "symbol": "Coordinator",
+      "symbol_kind": "source.lang.swift.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/Coordinator.swift",
+      "line": 5,
+      "symbol": "Coordinator.childCoordinators",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/Coordinator.swift",
+      "line": 6,
+      "symbol": "Coordinator.navigationController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/Coordinator.swift",
+      "line": 8,
+      "symbol": "Coordinator.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 4,
+      "symbol": "MainCoordinator",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 5,
+      "symbol": "MainCoordinator.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 7,
+      "symbol": "MainCoordinator.childCoordinators",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 8,
+      "symbol": "MainCoordinator.navigationController",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 12,
+      "symbol": "MainCoordinator.currentViewController",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 16,
+      "symbol": "MainCoordinator.presentedViewController",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 31,
+      "symbol": "MainCoordinator",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 32,
+      "symbol": "MainCoordinator.pushViewController(_:animated:removePreviousVCs:dismissPresentedViewController:hideNavigationBar:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 52,
+      "symbol": "MainCoordinator.present(_:fullScreen:animated:dismissPresentedViewController:hideNavigationBar:completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 67,
+      "symbol": "MainCoordinator.popToRootViewController(animated:dismissPresentedViewController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 75,
+      "symbol": "MainCoordinator.popCurrentViewController(animated:dismissPresentedViewController:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 83,
+      "symbol": "MainCoordinator.dismissPresentedViewController(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 94,
+      "symbol": "MainCoordinator.enableLargeTitles()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 98,
+      "symbol": "MainCoordinator.disableLargeTitles()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 102,
+      "symbol": "MainCoordinator.setLargeTitleDisplayMode(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 106,
+      "symbol": "MainCoordinator.setNavigationTintColor(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 110,
+      "symbol": "MainCoordinator.setHideBackButtonTitle(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 123,
+      "symbol": "MainCoordinator",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/MainCoordinator.swift",
+      "line": 126,
+      "symbol": "MainCoordinator.start()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/Storyboarded.swift",
+      "line": 8,
+      "symbol": "Storyboard",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/Storyboarded.swift",
+      "line": 9,
+      "symbol": "Storyboard.naStoryboard",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/Storyboarded.swift",
+      "line": 10,
+      "symbol": "Storyboard.main",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/Storyboarded.swift",
+      "line": 37,
+      "symbol": "UIViewController.classNameAsString()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/Storyboarded.swift",
+      "line": 46,
+      "symbol": "UIViewController.instantiate(withIdentifier:fromStoryboard:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Coordinator/Storyboarded.swift",
+      "line": 53,
+      "symbol": "UIViewController.instantiateInitialViewController(fromStoryboard:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/PhotoSelection/AIPhotoSelection.swift",
       "line": 4,
       "symbol": "AIPhotoSelection",
@@ -219,28 +422,49 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/EntryPoint.swift",
-      "line": 14,
+      "line": 6,
+      "symbol": "BehaviorTypeEnum",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/EntryPoint.swift",
+      "line": 7,
+      "symbol": "BehaviorTypeEnum.native",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/EntryPoint.swift",
+      "line": 8,
+      "symbol": "BehaviorTypeEnum.web",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/EntryPoint.swift",
+      "line": 19,
       "symbol": "KindlyChatClient.notificationDelegate",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/EntryPoint.swift",
-      "line": 28,
+      "line": 33,
       "symbol": "KindlyChatClient.enableCrashReporting",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/EntryPoint.swift",
-      "line": 182,
+      "line": 192,
       "symbol": "KindlyChatClient.triggerDialogue(id:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/EntryPoint.swift",
-      "line": 191,
+      "line": 201,
       "symbol": "KindlyChatClient.play()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
@@ -275,84 +499,56 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 100,
-      "symbol": "UIView.addSubviews(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 107,
-      "symbol": "UIView.add(views:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 118,
-      "symbol": "UIView.removeAllSubviews()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 124,
-      "symbol": "UIView.hasSubviewWithTag(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 308,
+      "line": 288,
       "symbol": "UIView.onTap(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 328,
+      "line": 308,
       "symbol": "UIView.onLongTap(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 349,
+      "line": 329,
       "symbol": "UIView.removeAllGestureRecognizers()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 359,
+      "line": 339,
       "symbol": "UIView.makeCircular()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 363,
+      "line": 343,
       "symbol": "UIView.makeRounded(cornerRadius:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 368,
+      "line": 348,
       "symbol": "UIView.addShadow(color:opacity:offset:radius:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 376,
+      "line": 356,
       "symbol": "UIView.addDashedBorder(color:lineWidth:dashPattern:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 390,
+      "line": 370,
       "symbol": "UIView.removeDashedBorder()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"

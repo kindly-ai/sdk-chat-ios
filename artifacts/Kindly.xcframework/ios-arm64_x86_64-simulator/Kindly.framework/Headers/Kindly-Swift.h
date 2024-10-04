@@ -362,6 +362,8 @@ SWIFT_CLASS("_TtC6Kindly20NotificationDelegate")
 
 
 
+
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -707,6 +709,8 @@ SWIFT_CLASS("_TtC6Kindly20NotificationDelegate")
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center didReceiveNotificationResponse:(UNNotificationResponse * _Nonnull)response withCompletionHandler:(void (^ _Nonnull)(void))completionHandler;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 
 

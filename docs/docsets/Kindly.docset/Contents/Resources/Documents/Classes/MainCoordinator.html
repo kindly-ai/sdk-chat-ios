@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MainCoordinator Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/MainCoordinator" class="dashAnchor"></a>
+    <a title="MainCoordinator Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">Kindly SDK Docs</a> (28% documented)</p>
+        <p class="header-right"><a href="https://github.com/kindly-ai/sdk-chat-ios.git"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">Kindly Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        MainCoordinator Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/AIAlert.html">AIAlert</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AIAlert/AlertTextField.html">– AlertTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AIAlert/AlertButton.html">– AlertButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AIPhotoSelection.html">AIPhotoSelection</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/KindlyChatClient.html">KindlyChatClient</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MainCoordinator.html">MainCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NotificationDelegate.html">NotificationDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Promise.html">Promise</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/BehaviorTypeEnum.html">BehaviorTypeEnum</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ChatConnectionState.html">ChatConnectionState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ExternalChatMessageSender.html">ExternalChatMessageSender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ExternalExchangeType.html">ExternalExchangeType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Storyboard.html">Storyboard</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/AppKit">AppKit</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSMutableAttributedString.html">NSMutableAttributedString</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIControl.html">UIControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/Coordinator.html">Coordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/KindlyChatClientDelegate.html">KindlyChatClientDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Bot.html">Bot</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:6Kindly18ExternalChatButtonV">ExternalChatButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ExternalChatMessage.html">ExternalChatMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/KindlySDKConfig.html">KindlySDKConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs.html#/s:6Kindly13OEmbedRespnseV">OEmbedRespnse</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Type Aliases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Kindly17AuthTokenCallbacka">AuthTokenCallback</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:6Kindly0A3SDKa">KindlySDK</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>MainCoordinator</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">@objcMembers</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="kt">MainCoordinator</span> <span class="p">:</span> <span class="kt"><a href="../Protocols/Coordinator.html">Coordinator</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC6sharedACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/shared" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC6sharedACvpZ">shared</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">let</span> <span class="nv">shared</span><span class="p">:</span> <span class="kt">MainCoordinator</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC17childCoordinatorsSayAA0C0_pGvp"></a>
+                    <a name="//apple_ref/swift/Property/childCoordinators" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC17childCoordinatorsSayAA0C0_pGvp">childCoordinators</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">childCoordinators</span><span class="p">:</span> <span class="p">[</span><span class="kd">any</span> <span class="kt"><a href="../Protocols/Coordinator.html">Coordinator</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC20navigationControllerSo012UINavigationE0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/navigationController" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC20navigationControllerSo012UINavigationE0Cvp">navigationController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="k">var</span> <span class="nv">navigationController</span><span class="p">:</span> <span class="kt">UINavigationController</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC21currentViewControllerSo06UIViewF0CSgvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/currentViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC21currentViewControllerSo06UIViewF0CSgvpZ">currentViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">currentViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC23presentedViewControllerSo06UIViewF0CSgvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/presentedViewController" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC23presentedViewControllerSo06UIViewF0CSgvpZ">presentedViewController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">static</span> <span class="k">var</span> <span class="nv">presentedViewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">?</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Utils"></a>
+                <a name="//apple_ref/swift/Section/Utils" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Utils"></a>
+                  <h3 class="section-name"><span>Utils</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC18pushViewController_8animated17removePreviousVCs016dismissPresentedeF017hideNavigationBarySo06UIViewF0C_SbSgA2KSbtFZ"></a>
+                    <a name="//apple_ref/swift/Method/pushViewController(_:animated:removePreviousVCs:dismissPresentedViewController:hideNavigationBar:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC18pushViewController_8animated17removePreviousVCs016dismissPresentedeF017hideNavigationBarySo06UIViewF0C_SbSgA2KSbtFZ">pushViewController(_:<wbr>animated:<wbr>removePreviousVCs:<wbr>dismissPresentedViewController:<wbr>hideNavigationBar:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">pushViewController</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">removePreviousVCs</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">dismissPresentedViewController</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">hideNavigationBar</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC7present_10fullScreen8animated30dismissPresentedViewController17hideNavigationBar10completionySo06UIViewK0C_SbSgA2LSbyycSgtFZ"></a>
+                    <a name="//apple_ref/swift/Method/present(_:fullScreen:animated:dismissPresentedViewController:hideNavigationBar:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC7present_10fullScreen8animated30dismissPresentedViewController17hideNavigationBar10completionySo06UIViewK0C_SbSgA2LSbyycSgtFZ">present(_:<wbr>fullScreen:<wbr>animated:<wbr>dismissPresentedViewController:<wbr>hideNavigationBar:<wbr>completion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">present</span><span class="p">(</span><span class="n">_</span> <span class="nv">viewController</span><span class="p">:</span> <span class="kt">UIViewController</span><span class="p">,</span> <span class="nv">fullScreen</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">dismissPresentedViewController</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">hideNavigationBar</span><span class="p">:</span> <span class="kt">Bool</span> <span class="o">=</span> <span class="kc">false</span><span class="p">,</span> <span class="nv">completion</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC23popToRootViewController8animated016dismissPresentedgH0ySbSg_AGtFZ"></a>
+                    <a name="//apple_ref/swift/Method/popToRootViewController(animated:dismissPresentedViewController:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC23popToRootViewController8animated016dismissPresentedgH0ySbSg_AGtFZ">popToRootViewController(animated:<wbr>dismissPresentedViewController:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">popToRootViewController</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">dismissPresentedViewController</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC24popCurrentViewController8animated016dismissPresentedfG0ySbSg_AGtFZ"></a>
+                    <a name="//apple_ref/swift/Method/popCurrentViewController(animated:dismissPresentedViewController:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC24popCurrentViewController8animated016dismissPresentedfG0ySbSg_AGtFZ">popCurrentViewController(animated:<wbr>dismissPresentedViewController:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">popCurrentViewController</span><span class="p">(</span><span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">dismissPresentedViewController</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC30dismissPresentedViewControlleryySbSgFZ"></a>
+                    <a name="//apple_ref/swift/Method/dismissPresentedViewController(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC30dismissPresentedViewControlleryySbSgFZ">dismissPresentedViewController(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">dismissPresentedViewController</span><span class="p">(</span><span class="n">_</span> <span class="nv">animated</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC17enableLargeTitlesyyFZ"></a>
+                    <a name="//apple_ref/swift/Method/enableLargeTitles()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC17enableLargeTitlesyyFZ">enableLargeTitles()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">enableLargeTitles</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC18disableLargeTitlesyyFZ"></a>
+                    <a name="//apple_ref/swift/Method/disableLargeTitles()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC18disableLargeTitlesyyFZ">disableLargeTitles()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">disableLargeTitles</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC24setLargeTitleDisplayModeyySo016UINavigationItemefgH0VFZ"></a>
+                    <a name="//apple_ref/swift/Method/setLargeTitleDisplayMode(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC24setLargeTitleDisplayModeyySo016UINavigationItemefgH0VFZ">setLargeTitleDisplayMode(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">setLargeTitleDisplayMode</span><span class="p">(</span><span class="n">_</span> <span class="nv">mode</span><span class="p">:</span> <span class="kt">UINavigationItem</span><span class="o">.</span><span class="kt">LargeTitleDisplayMode</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC22setNavigationTintColoryySo7UIColorCFZ"></a>
+                    <a name="//apple_ref/swift/Method/setNavigationTintColor(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC22setNavigationTintColoryySo7UIColorCFZ">setNavigationTintColor(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">setNavigationTintColor</span><span class="p">(</span><span class="n">_</span> <span class="nv">color</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC22setHideBackButtonTitleyySbFZ"></a>
+                    <a name="//apple_ref/swift/Method/setHideBackButtonTitle(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC22setHideBackButtonTitleyySbFZ">setHideBackButtonTitle(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kd">func</span> <span class="nf">setHideBackButtonTitle</span><span class="p">(</span><span class="n">_</span> <span class="nv">isHidden</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Start"></a>
+                <a name="//apple_ref/swift/Section/Start" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Start"></a>
+                  <h3 class="section-name"><span>Start</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly15MainCoordinatorC5startyyF"></a>
+                    <a name="//apple_ref/swift/Method/start()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly15MainCoordinatorC5startyyF">start()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">start</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>© 2024 Kindly</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.4</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

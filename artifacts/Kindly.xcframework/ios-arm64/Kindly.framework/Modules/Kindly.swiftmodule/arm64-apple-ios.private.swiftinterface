@@ -91,6 +91,52 @@ extension UIKit.UIControl {
   @_Concurrency.MainActor @preconcurrency public func on(_ controlEvents: UIKit.UIControl.Event, invokeHandler handler: @escaping (UIKit.UIControl) -> Swift.Void) -> Swift.AnyObject
   @_Concurrency.MainActor @preconcurrency public func removeHandler(_ handler: Swift.AnyObject)
 }
+public protocol Coordinator {
+  var childCoordinators: [any Kindly.Coordinator] { get set }
+  var navigationController: UIKit.UINavigationController { get set }
+  func start()
+}
+public enum Storyboard {
+  case naStoryboard
+  case main
+  public static func == (a: Kindly.Storyboard, b: Kindly.Storyboard) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public static func classNameAsString() -> Swift.String
+  @_Concurrency.MainActor @preconcurrency public static func instantiate(withIdentifier viewControllerIdentifier: Swift.String?, fromStoryboard storyboard: Kindly.Storyboard?) -> Self
+  @_Concurrency.MainActor @preconcurrency public static func instantiateInitialViewController(fromStoryboard storyboard: Kindly.Storyboard?) -> Self
+}
+@_hasMissingDesignatedInitializers @objcMembers public class MainCoordinator : Kindly.Coordinator {
+  public static let shared: Kindly.MainCoordinator
+  public var childCoordinators: [any Kindly.Coordinator]
+  @objc public var navigationController: UIKit.UINavigationController
+  @objc public static var currentViewController: UIKit.UIViewController? {
+    @objc get
+  }
+  @objc public static var presentedViewController: UIKit.UIViewController? {
+    @objc get
+  }
+  @objc deinit
+}
+extension Kindly.MainCoordinator {
+  final public class func pushViewController(_ viewController: UIKit.UIViewController, animated: Swift.Bool? = nil, removePreviousVCs: Swift.Bool? = nil, dismissPresentedViewController: Swift.Bool? = nil, hideNavigationBar: Swift.Bool = false)
+  final public class func present(_ viewController: UIKit.UIViewController, fullScreen: Swift.Bool? = nil, animated: Swift.Bool? = nil, dismissPresentedViewController: Swift.Bool? = nil, hideNavigationBar: Swift.Bool = false, completion: (() -> Swift.Void)? = nil)
+  final public class func popToRootViewController(animated: Swift.Bool? = nil, dismissPresentedViewController: Swift.Bool? = nil)
+  final public class func popCurrentViewController(animated: Swift.Bool? = nil, dismissPresentedViewController: Swift.Bool? = nil)
+  final public class func dismissPresentedViewController(_ animated: Swift.Bool? = nil)
+  @objc final public class func enableLargeTitles()
+  @objc final public class func disableLargeTitles()
+  @objc final public class func setLargeTitleDisplayMode(_ mode: UIKit.UINavigationItem.LargeTitleDisplayMode)
+  @objc final public class func setNavigationTintColor(_ color: UIKit.UIColor)
+  @objc final public class func setHideBackButtonTitle(_ isHidden: Swift.Bool)
+}
+extension Kindly.MainCoordinator {
+  @objc dynamic public func start()
+}
 extension Foundation.NSMutableAttributedString {
   public func trimCharactersInSet(charSet: Foundation.CharacterSet)
 }
@@ -125,7 +171,7 @@ final public class KindlyChatClient {
     get
     set
   }
-  public init(config: Kindly.KindlySDKConfig)
+  public init(config: Kindly.KindlySDKConfig, behaviorType: Kindly.BehaviorTypeEnum)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class NotificationDelegate : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
@@ -175,12 +221,6 @@ extension Kindly.AIPhotoSelection : UIKit.UIImagePickerControllerDelegate, UIKit
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerControllerDidCancel(_: UIKit.UIImagePickerController)
 }
 extension UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public func addSubviews(_ views: UIKit.UIView...)
-  @_Concurrency.MainActor @preconcurrency public func add(views: [UIKit.UIView])
-  @_Concurrency.MainActor @preconcurrency public func removeAllSubviews()
-  @_Concurrency.MainActor @preconcurrency public func hasSubviewWithTag(_ tag: Swift.Int) -> Swift.Bool
-}
-extension UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public func onTap(_ closure: @escaping () -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public func onLongTap(_ closure: @escaping (_ gestureReconizer: UIKit.UILongPressGestureRecognizer) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public func removeAllGestureRecognizers()
@@ -193,6 +233,15 @@ extension UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public func removeDashedBorder()
 }
 public typealias KindlySDK = Kindly.KindlyChatClient
+public enum BehaviorTypeEnum {
+  case native
+  case web
+  public static func == (a: Kindly.BehaviorTypeEnum, b: Kindly.BehaviorTypeEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 extension Kindly.KindlyChatClient {
   public static var isChatDisplayed: Swift.Bool {
     get
@@ -238,5 +287,9 @@ extension Kindly.ExternalExchangeType : Swift.RawRepresentable {}
 extension Kindly.ExternalChatMessageSender : Swift.Equatable {}
 extension Kindly.ExternalChatMessageSender : Swift.Hashable {}
 extension Kindly.ExternalChatMessageSender : Swift.RawRepresentable {}
+extension Kindly.Storyboard : Swift.Equatable {}
+extension Kindly.Storyboard : Swift.Hashable {}
 extension Kindly.ChatConnectionState : Swift.Equatable {}
 extension Kindly.ChatConnectionState : Swift.Hashable {}
+extension Kindly.BehaviorTypeEnum : Swift.Equatable {}
+extension Kindly.BehaviorTypeEnum : Swift.Hashable {}
