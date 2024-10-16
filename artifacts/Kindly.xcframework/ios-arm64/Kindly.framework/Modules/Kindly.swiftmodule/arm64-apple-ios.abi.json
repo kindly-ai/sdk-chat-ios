@@ -1464,6 +1464,16 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "Kindly",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "Kindly"
       },
       {
@@ -7748,6 +7758,20 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -10405,6 +10429,20 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Web\/Model\/UIEventModel.swift",
+      "kind": "StringLiteral",
+      "offset": 338,
+      "length": 17,
+      "value": "\"open-chatbubble\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Web\/Model\/UIEventModel.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 18,
+      "value": "\"close-chatbubble\""
+    },
+    {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Helpers\/Alert\/AlertHelper.swift",
       "kind": "StringLiteral",
       "offset": 2455,
@@ -12234,7 +12272,7 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 19911,
+      "offset": 19910,
       "length": 4,
       "value": "true"
     },
@@ -14498,6 +14536,13 @@
       "offset": 154,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Web\/WebViewController.swift",
+      "kind": "Array",
+      "offset": 257,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Web\/KindlyWebView.swift",
