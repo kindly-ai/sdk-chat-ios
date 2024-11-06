@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Kindly
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
@@ -38,7 +38,6 @@ public struct ExternalChatMessage : Swift.Hashable, Swift.Identifiable, Swift.Co
   public static func < (lhs: Kindly.ExternalChatMessage, rhs: Kindly.ExternalChatMessage) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: Kindly.ExternalChatMessage, b: Kindly.ExternalChatMessage) -> Swift.Bool
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ID = Swift.String
   public var hashValue: Swift.Int {
     get
