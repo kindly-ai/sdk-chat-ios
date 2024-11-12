@@ -14871,13 +14871,6 @@
       "value": "2"
     },
     {
-      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/SystemMessageCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1204,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Error View\/ErrorViewController.swift",
       "kind": "StringLiteral",
       "offset": 206,
