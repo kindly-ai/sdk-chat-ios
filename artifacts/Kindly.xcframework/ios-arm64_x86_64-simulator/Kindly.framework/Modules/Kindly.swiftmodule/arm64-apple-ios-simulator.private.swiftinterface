@@ -12,6 +12,7 @@ import Foundation
 import LocalAuthentication
 import Network
 import OSLog
+import ObjectiveC
 import PhotosUI
 import QuartzCore
 import SafariServices
@@ -33,6 +34,7 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+import ObjectiveC.runtime
 public struct ExternalChatMessage : Swift.Hashable, Swift.Identifiable, Swift.Comparable {
   public let id: Swift.String
   public static func < (lhs: Kindly.ExternalChatMessage, rhs: Kindly.ExternalChatMessage) -> Swift.Bool
