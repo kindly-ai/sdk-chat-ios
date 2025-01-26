@@ -2,7 +2,7 @@
   "warnings": [
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/AIAttributedString/AIAttributedString.swift",
-      "line": 193,
+      "line": 185,
       "symbol": "NSMutableAttributedString.trimCharactersInSet(charSet:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -758,21 +758,21 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/UI Components/EndHandoverConfirmation/ConfirmationWindow.swift",
-      "line": 124,
+      "line": 117,
       "symbol": "ConfirmationWindow.show(icon:title:description:confirmButtonTitle:cancelButtonTitle:callback:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/UI Components/EndHandoverConfirmation/ConfirmationWindow.swift",
-      "line": 171,
+      "line": 164,
       "symbol": "ConfirmationWindow.hide()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/UI Components/EndHandoverConfirmation/ConfirmationWindow.swift",
-      "line": 188,
+      "line": 181,
       "symbol": "ConfirmationWindow.dismiss()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
