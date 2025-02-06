@@ -632,14 +632,14 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 69,
+      "line": 71,
       "symbol": "KindlyChatClient.config",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlyChatClient.swift",
-      "line": 78,
+      "line": 80,
       "symbol": "KindlyChatClient.connectionState",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
@@ -667,8 +667,36 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlySDKConfig.swift",
-      "line": 22,
+      "line": 13,
       "symbol": "KindlySDKConfig.getAuthToken",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlySDKConfig.swift",
+      "line": 22,
+      "symbol": "KindlySDKConfig.form",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlySDKConfig.swift",
+      "line": 23,
+      "symbol": "KindlySDKConfig.FormConfig",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlySDKConfig.swift",
+      "line": 24,
+      "symbol": "KindlySDKConfig.FormConfig.allowCameraAccess",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlySDKConfig.swift",
+      "line": 25,
+      "symbol": "KindlySDKConfig.FormConfig.allowPhotoLibraryAccess",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },

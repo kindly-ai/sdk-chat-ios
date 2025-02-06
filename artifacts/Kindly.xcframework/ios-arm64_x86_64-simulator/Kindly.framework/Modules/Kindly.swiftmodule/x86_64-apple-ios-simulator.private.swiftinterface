@@ -76,6 +76,17 @@ public struct Bot {
 public struct OEmbedRespnse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
+public struct KindlySDKConfig {
+  public var getAuthToken: Kindly.AuthTokenCallback? {
+    get
+    set
+  }
+  public var form: Kindly.KindlySDKConfig.FormConfig
+  public struct FormConfig {
+    public var allowCameraAccess: Swift.Bool
+    public var allowPhotoLibraryAccess: Swift.Bool
+  }
+}
 public protocol Coordinator {
   var childCoordinators: [any Kindly.Coordinator] { get set }
   var navigationController: UIKit.UINavigationController { get set }
@@ -122,11 +133,7 @@ extension Kindly.MainCoordinator {
 extension Kindly.MainCoordinator {
   @objc dynamic public func start()
 }
-public struct KindlySDKConfig {
-  public var getAuthToken: Kindly.AuthTokenCallback? {
-    get
-    set
-  }
+public struct CoreSDKConfig {
 }
 extension UIKit.UIControl {
   @_Concurrency.MainActor @preconcurrency public func addAction(for controlEvents: UIKit.UIControl.Event = .touchUpInside, _ closure: @escaping () -> Swift.Void)
@@ -172,7 +179,7 @@ final public class KindlyChatClient {
     get
     set
   }
-  public init(config: Kindly.KindlySDKConfig, behaviorType: Kindly.BehaviorTypeEnum)
+  public init(config: Kindly.CoreSDKConfig, behaviorType: Kindly.BehaviorTypeEnum)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class NotificationDelegate : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
