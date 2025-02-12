@@ -2103,6 +2103,1218 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Contacts",
+        "printedName": "Contacts",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PermissionType",
+        "printedName": "PermissionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "camera",
+            "printedName": "camera",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Kindly.PermissionType.Type) -> Kindly.PermissionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionType",
+                    "printedName": "Kindly.PermissionType",
+                    "usr": "s:6Kindly14PermissionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Kindly.PermissionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "Kindly.PermissionType",
+                        "usr": "s:6Kindly14PermissionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Kindly14PermissionTypeO6camerayA2CmF",
+            "mangledName": "$s6Kindly14PermissionTypeO6camerayA2CmF",
+            "moduleName": "Kindly"
+          },
+          {
+            "kind": "Var",
+            "name": "microphone",
+            "printedName": "microphone",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Kindly.PermissionType.Type) -> Kindly.PermissionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionType",
+                    "printedName": "Kindly.PermissionType",
+                    "usr": "s:6Kindly14PermissionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Kindly.PermissionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "Kindly.PermissionType",
+                        "usr": "s:6Kindly14PermissionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Kindly14PermissionTypeO10microphoneyA2CmF",
+            "mangledName": "$s6Kindly14PermissionTypeO10microphoneyA2CmF",
+            "moduleName": "Kindly"
+          },
+          {
+            "kind": "Var",
+            "name": "contacts",
+            "printedName": "contacts",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Kindly.PermissionType.Type) -> Kindly.PermissionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionType",
+                    "printedName": "Kindly.PermissionType",
+                    "usr": "s:6Kindly14PermissionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Kindly.PermissionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "Kindly.PermissionType",
+                        "usr": "s:6Kindly14PermissionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Kindly14PermissionTypeO8contactsyA2CmF",
+            "mangledName": "$s6Kindly14PermissionTypeO8contactsyA2CmF",
+            "moduleName": "Kindly"
+          },
+          {
+            "kind": "Var",
+            "name": "location",
+            "printedName": "location",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Kindly.PermissionType.Type) -> Kindly.PermissionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionType",
+                    "printedName": "Kindly.PermissionType",
+                    "usr": "s:6Kindly14PermissionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Kindly.PermissionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "Kindly.PermissionType",
+                        "usr": "s:6Kindly14PermissionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Kindly14PermissionTypeO8locationyA2CmF",
+            "mangledName": "$s6Kindly14PermissionTypeO8locationyA2CmF",
+            "moduleName": "Kindly"
+          },
+          {
+            "kind": "Var",
+            "name": "notifications",
+            "printedName": "notifications",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Kindly.PermissionType.Type) -> Kindly.PermissionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionType",
+                    "printedName": "Kindly.PermissionType",
+                    "usr": "s:6Kindly14PermissionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Kindly.PermissionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "Kindly.PermissionType",
+                        "usr": "s:6Kindly14PermissionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Kindly14PermissionTypeO13notificationsyA2CmF",
+            "mangledName": "$s6Kindly14PermissionTypeO13notificationsyA2CmF",
+            "moduleName": "Kindly"
+          },
+          {
+            "kind": "Var",
+            "name": "photoLibrary",
+            "printedName": "photoLibrary",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Kindly.PermissionType.Type) -> Kindly.PermissionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionType",
+                    "printedName": "Kindly.PermissionType",
+                    "usr": "s:6Kindly14PermissionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Kindly.PermissionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PermissionType",
+                        "printedName": "Kindly.PermissionType",
+                        "usr": "s:6Kindly14PermissionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Kindly14PermissionTypeO12photoLibraryyA2CmF",
+            "mangledName": "$s6Kindly14PermissionTypeO12photoLibraryyA2CmF",
+            "moduleName": "Kindly"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionType",
+                "printedName": "Kindly.PermissionType",
+                "usr": "s:6Kindly14PermissionTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionType",
+                "printedName": "Kindly.PermissionType",
+                "usr": "s:6Kindly14PermissionTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly14PermissionTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6Kindly14PermissionTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly14PermissionTypeO9hashValueSivp",
+            "mangledName": "$s6Kindly14PermissionTypeO9hashValueSivp",
+            "moduleName": "Kindly",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly14PermissionTypeO9hashValueSivg",
+                "mangledName": "$s6Kindly14PermissionTypeO9hashValueSivg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly14PermissionTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6Kindly14PermissionTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "Kindly",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6Kindly14PermissionTypeO",
+        "mangledName": "$s6Kindly14PermissionTypeO",
+        "moduleName": "Kindly",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AIPermission",
+        "printedName": "AIPermission",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "requestMicrophoneRecordPermission",
+            "printedName": "requestMicrophoneRecordPermission(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AVFAudio.AVAudioSession.RecordPermission) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RecordPermission",
+                    "printedName": "AVFAudio.AVAudioSession.RecordPermission",
+                    "usr": "c:@E@AVAudioSessionRecordPermission"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12AIPermissionC33requestMicrophoneRecordPermission8callbackyySo014AVAudioSessioneF0Vc_tFZ",
+            "mangledName": "$s6Kindly12AIPermissionC33requestMicrophoneRecordPermission8callbackyySo014AVAudioSessioneF0Vc_tFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestNotificationPermission",
+            "printedName": "requestNotificationPermission(application:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12AIPermissionC29requestNotificationPermission11application10completionySo13UIApplicationC_ySbctFZ",
+            "mangledName": "$s6Kindly12AIPermissionC29requestNotificationPermission11application10completionySo13UIApplicationC_ySbctFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "locationPermissionStatus",
+            "printedName": "locationPermissionStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreLocation.CLAuthorizationStatus?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLAuthorizationStatus",
+                    "printedName": "CoreLocation.CLAuthorizationStatus",
+                    "usr": "c:@E@CLAuthorizationStatus"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly12AIPermissionC24locationPermissionStatusSo015CLAuthorizationE0VSgvpZ",
+            "mangledName": "$s6Kindly12AIPermissionC24locationPermissionStatusSo015CLAuthorizationE0VSgvpZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "intro_iOS": "14.0",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Available",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreLocation.CLAuthorizationStatus?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLAuthorizationStatus",
+                        "printedName": "CoreLocation.CLAuthorizationStatus",
+                        "usr": "c:@E@CLAuthorizationStatus"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly12AIPermissionC24locationPermissionStatusSo015CLAuthorizationE0VSgvgZ",
+                "mangledName": "$s6Kindly12AIPermissionC24locationPermissionStatusSo015CLAuthorizationE0VSgvgZ",
+                "moduleName": "Kindly",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "requestLocationPermission",
+            "printedName": "requestLocationPermission(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLocation.CLAuthorizationStatus?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreLocation.CLAuthorizationStatus?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLAuthorizationStatus",
+                        "printedName": "CoreLocation.CLAuthorizationStatus",
+                        "usr": "c:@E@CLAuthorizationStatus"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12AIPermissionC25requestLocationPermission8callbackyySo21CLAuthorizationStatusVSgc_tFZ",
+            "mangledName": "$s6Kindly12AIPermissionC25requestLocationPermission8callbackyySo21CLAuthorizationStatusVSgc_tFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "intro_iOS": "14.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLiveUserLocation",
+            "printedName": "getLiveUserLocation(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLocation.CLLocation?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreLocation.CLLocation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLLocation",
+                        "printedName": "CoreLocation.CLLocation",
+                        "usr": "c:objc(cs)CLLocation"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12AIPermissionC19getLiveUserLocation8callbackyySo10CLLocationCSgc_tFZ",
+            "mangledName": "$s6Kindly12AIPermissionC19getLiveUserLocation8callbackyySo10CLLocationCSgc_tFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserLocation",
+            "printedName": "getUserLocation(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLocation.CLLocation?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreLocation.CLLocation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLLocation",
+                        "printedName": "CoreLocation.CLLocation",
+                        "usr": "c:objc(cs)CLLocation"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12AIPermissionC15getUserLocation8callbackyySo10CLLocationCSgc_tFZ",
+            "mangledName": "$s6Kindly12AIPermissionC15getUserLocation8callbackyySo10CLLocationCSgc_tFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopUpdatingLocation",
+            "printedName": "stopUpdatingLocation()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12AIPermissionC20stopUpdatingLocationyyFZ",
+            "mangledName": "$s6Kindly12AIPermissionC20stopUpdatingLocationyyFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestContactsPermission",
+            "printedName": "requestContactsPermission(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12AIPermissionC25requestContactsPermission8callbackyySbc_tFZ",
+            "mangledName": "$s6Kindly12AIPermissionC25requestContactsPermission8callbackyySbc_tFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestCameraPermission",
+            "printedName": "requestCameraPermission(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AVFoundation.AVAuthorizationStatus) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVAuthorizationStatus",
+                    "printedName": "AVFoundation.AVAuthorizationStatus",
+                    "usr": "c:@E@AVAuthorizationStatus"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12AIPermissionC23requestCameraPermission8callbackyySo21AVAuthorizationStatusVc_tFZ",
+            "mangledName": "$s6Kindly12AIPermissionC23requestCameraPermission8callbackyySo21AVAuthorizationStatusVc_tFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCameraPermissionStatus",
+            "printedName": "getCameraPermissionStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVAuthorizationStatus",
+                "printedName": "AVFoundation.AVAuthorizationStatus",
+                "usr": "c:@E@AVAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12AIPermissionC25getCameraPermissionStatusSo015AVAuthorizationF0VyFZ",
+            "mangledName": "$s6Kindly12AIPermissionC25getCameraPermissionStatusSo015AVAuthorizationF0VyFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPhotoLibraryPermission",
+            "printedName": "requestPhotoLibraryPermission(callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Photos.PHAuthorizationStatus) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHAuthorizationStatus",
+                    "printedName": "Photos.PHAuthorizationStatus",
+                    "usr": "c:@E@PHAuthorizationStatus"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12AIPermissionC29requestPhotoLibraryPermission8callbackyySo21PHAuthorizationStatusVc_tFZ",
+            "mangledName": "$s6Kindly12AIPermissionC29requestPhotoLibraryPermission8callbackyySo21PHAuthorizationStatusVc_tFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPhotoLibraryPermissionStatus",
+            "printedName": "getPhotoLibraryPermissionStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PHAuthorizationStatus",
+                "printedName": "Photos.PHAuthorizationStatus",
+                "usr": "c:@E@PHAuthorizationStatus"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12AIPermissionC31getPhotoLibraryPermissionStatusSo015PHAuthorizationG0VyFZ",
+            "mangledName": "$s6Kindly12AIPermissionC31getPhotoLibraryPermissionStatusSo015PHAuthorizationG0VyFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AIPermission",
+                "printedName": "Kindly.AIPermission",
+                "usr": "c:@M@Kindly@objc(cs)AIPermission"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Kindly@objc(cs)AIPermission(im)init",
+            "mangledName": "$s6Kindly12AIPermissionCACycfc",
+            "moduleName": "Kindly",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManagerDidChangeAuthorization",
+            "printedName": "locationManagerDidChangeAuthorization(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Kindly@objc(cs)AIPermission(im)locationManagerDidChangeAuthorization:",
+            "mangledName": "$s6Kindly12AIPermissionC37locationManagerDidChangeAuthorizationyySo010CLLocationD0CF",
+            "moduleName": "Kindly",
+            "intro_iOS": "14.0",
+            "objc_name": "locationManagerDidChangeAuthorization:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didUpdateLocations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[CoreLocation.CLLocation]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CLLocation",
+                    "printedName": "CoreLocation.CLLocation",
+                    "usr": "c:objc(cs)CLLocation"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Kindly@objc(cs)AIPermission(im)locationManager:didUpdateLocations:",
+            "mangledName": "$s6Kindly12AIPermissionC15locationManager_18didUpdateLocationsySo010CLLocationD0C_SaySo0H0CGtF",
+            "moduleName": "Kindly",
+            "objc_name": "locationManager:didUpdateLocations:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManager",
+            "printedName": "locationManager(_:didFailWithError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@Kindly@objc(cs)AIPermission(im)locationManager:didFailWithError:",
+            "mangledName": "$s6Kindly12AIPermissionC15locationManager_16didFailWithErrorySo010CLLocationD0C_s0H0_ptF",
+            "moduleName": "Kindly",
+            "objc_name": "locationManager:didFailWithError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentPermissionAlert",
+            "printedName": "presentPermissionAlert(on:permissionType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionType",
+                "printedName": "Kindly.PermissionType",
+                "usr": "s:6Kindly14PermissionTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12AIPermissionC22presentPermissionAlert2on14permissionTypeySo16UIViewControllerC_AA0dH0OtFZ",
+            "mangledName": "$s6Kindly12AIPermissionC22presentPermissionAlert2on14permissionTypeySo16UIViewControllerC_AA0dH0OtFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermission",
+            "printedName": "requestPermission(for:on:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionType",
+                "printedName": "Kindly.PermissionType",
+                "usr": "s:6Kindly14PermissionTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(τ_0_0) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12AIPermissionC17requestPermission3for2on10completionyAA0D4TypeO_So16UIViewControllerCSgyxctlFZ",
+            "mangledName": "$s6Kindly12AIPermissionC17requestPermission3for2on10completionyAA0D4TypeO_So16UIViewControllerCSgyxctlFZ",
+            "moduleName": "Kindly",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Kindly@objc(cs)AIPermission",
+        "mangledName": "$s6Kindly12AIPermissionC",
+        "moduleName": "Kindly",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3599,6 +4811,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -7555,6 +8774,20 @@
         "moduleName": "Kindly"
       },
       {
+        "kind": "Import",
+        "name": "AVKit",
+        "printedName": "AVKit",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
         "kind": "TypeDecl",
         "name": "AIPhotoSelection",
         "printedName": "AIPhotoSelection",
@@ -10232,28 +11465,28 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "StringLiteral",
-      "offset": 426,
+      "offset": 428,
       "length": 8,
       "value": "\"Socket\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "Dictionary",
-      "offset": 572,
+      "offset": 574,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "BooleanLiteral",
-      "offset": 615,
+      "offset": 617,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "BooleanLiteral",
-      "offset": 759,
+      "offset": 761,
       "length": 5,
       "value": "false"
     },
@@ -13879,217 +15112,217 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 2973,
+      "offset": 3383,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3250,
+      "offset": 3660,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3276,
+      "offset": 3686,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3714,
+      "offset": 4124,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3740,
+      "offset": 4150,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4405,
+      "offset": 4815,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4431,
+      "offset": 4841,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4893,
+      "offset": 5303,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4919,
+      "offset": 5329,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5367,
+      "offset": 5777,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5393,
+      "offset": 5803,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5791,
+      "offset": 6201,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5817,
+      "offset": 6227,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7172,
+      "offset": 7707,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7198,
+      "offset": 7733,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7975,
+      "offset": 8635,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8001,
+      "offset": 8661,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8269,
+      "offset": 8929,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8295,
+      "offset": 8955,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8914,
+      "offset": 9702,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8940,
+      "offset": 9728,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9223,
+      "offset": 10011,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9249,
+      "offset": 10037,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9527,
+      "offset": 10315,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9553,
+      "offset": 10341,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9781,
+      "offset": 10569,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9807,
+      "offset": 10595,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 10084,
+      "offset": 10872,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 10110,
+      "offset": 10898,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 10734,
+      "offset": 11648,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 10760,
+      "offset": 11674,
       "length": 4,
       "value": "\"\n\""
     },
@@ -14894,21 +16127,21 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Actions\/ActionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 2695,
+      "offset": 2863,
       "length": 20,
       "value": "\"kindly.actionQueue\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Actions\/ActionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 2765,
+      "offset": 2933,
       "length": 20,
       "value": "\"kindly.serialQueue\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Actions\/ActionHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 3011,
+      "offset": 3179,
       "length": 5,
       "value": "false"
     },
@@ -15510,119 +16743,147 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "StringLiteral",
-      "offset": 1481,
+      "offset": 1366,
+      "length": 23,
+      "value": "\"Camera image selected\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
+      "kind": "StringLiteral",
+      "offset": 1560,
       "length": 21,
       "value": "\"Choose From Library\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
+      "kind": "StringLiteral",
+      "offset": 1717,
+      "length": 24,
+      "value": "\"Library image selected\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 1975,
+      "offset": 2134,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "IntegerLiteral",
-      "offset": 2082,
+      "offset": 2241,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "StringLiteral",
-      "offset": 2101,
+      "offset": 2260,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 2286,
+      "offset": 2445,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 2455,
+      "offset": 2615,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "IntegerLiteral",
-      "offset": 2493,
+      "offset": 2653,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 2519,
+      "offset": 2679,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 2675,
+      "offset": 2835,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "StringLiteral",
-      "offset": 2747,
+      "offset": 2907,
       "length": 12,
       "value": "\"trash.fill\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 2908,
+      "offset": 3068,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
+      "kind": "StringLiteral",
+      "offset": 3271,
+      "length": 33,
+      "value": "\"Updating UI with selected image\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3419,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 3159,
+      "offset": 3455,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3496,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
+      "kind": "StringLiteral",
+      "offset": 3526,
+      "length": 33,
+      "value": "\"Clearing selected image from UI\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3632,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3669,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 3189,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3224,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3301,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3332,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3366,
+      "offset": 3709,
       "length": 4,
       "value": "true"
     },

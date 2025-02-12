@@ -280,6 +280,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreLocation;
 @import Foundation;
 @import ObjectiveC;
 @import UIKit;
@@ -305,6 +306,23 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
+SWIFT_CLASS("_TtC6Kindly12AIPermission")
+@interface AIPermission : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@class CLLocationManager;
+@class CLLocation;
+
+@interface AIPermission (SWIFT_EXTENSION(Kindly)) <CLLocationManagerDelegate>
+- (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager SWIFT_AVAILABILITY(ios,introduced=14.0);
+- (void)locationManager:(CLLocationManager * _Nonnull)_ didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManager:(CLLocationManager * _Nonnull)_ didFailWithError:(NSError * _Nonnull)_;
+@end
+
 
 SWIFT_CLASS("_TtC6Kindly16AIPhotoSelection")
 @interface AIPhotoSelection : NSObject
