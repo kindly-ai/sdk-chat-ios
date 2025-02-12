@@ -1768,6 +1768,178 @@
           },
           {
             "kind": "Var",
+            "name": "allowCameraAccess",
+            "printedName": "allowCameraAccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A9SDKConfigV17allowCameraAccessSbvp",
+            "mangledName": "$s6Kindly0A9SDKConfigV17allowCameraAccessSbvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A9SDKConfigV17allowCameraAccessSbvg",
+                "mangledName": "$s6Kindly0A9SDKConfigV17allowCameraAccessSbvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A9SDKConfigV17allowCameraAccessSbvs",
+                "mangledName": "$s6Kindly0A9SDKConfigV17allowCameraAccessSbvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A9SDKConfigV17allowCameraAccessSbvM",
+                "mangledName": "$s6Kindly0A9SDKConfigV17allowCameraAccessSbvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allowPhotoLibraryAccess",
+            "printedName": "allowPhotoLibraryAccess",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A9SDKConfigV23allowPhotoLibraryAccessSbvp",
+            "mangledName": "$s6Kindly0A9SDKConfigV23allowPhotoLibraryAccessSbvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A9SDKConfigV23allowPhotoLibraryAccessSbvg",
+                "mangledName": "$s6Kindly0A9SDKConfigV23allowPhotoLibraryAccessSbvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A9SDKConfigV23allowPhotoLibraryAccessSbvs",
+                "mangledName": "$s6Kindly0A9SDKConfigV23allowPhotoLibraryAccessSbvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A9SDKConfigV23allowPhotoLibraryAccessSbvM",
+                "mangledName": "$s6Kindly0A9SDKConfigV23allowPhotoLibraryAccessSbvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "form",
             "printedName": "form",
             "children": [
@@ -1856,180 +2028,6 @@
             "kind": "TypeDecl",
             "name": "FormConfig",
             "printedName": "FormConfig",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "allowCameraAccess",
-                "printedName": "allowCameraAccess",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:6Kindly0A9SDKConfigV10FormConfigV17allowCameraAccessSbvp",
-                "mangledName": "$s6Kindly0A9SDKConfigV10FormConfigV17allowCameraAccessSbvp",
-                "moduleName": "Kindly",
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly0A9SDKConfigV10FormConfigV17allowCameraAccessSbvg",
-                    "mangledName": "$s6Kindly0A9SDKConfigV10FormConfigV17allowCameraAccessSbvg",
-                    "moduleName": "Kindly",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly0A9SDKConfigV10FormConfigV17allowCameraAccessSbvs",
-                    "mangledName": "$s6Kindly0A9SDKConfigV10FormConfigV17allowCameraAccessSbvs",
-                    "moduleName": "Kindly",
-                    "implicit": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly0A9SDKConfigV10FormConfigV17allowCameraAccessSbvM",
-                    "mangledName": "$s6Kindly0A9SDKConfigV10FormConfigV17allowCameraAccessSbvM",
-                    "moduleName": "Kindly",
-                    "implicit": true,
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "allowPhotoLibraryAccess",
-                "printedName": "allowPhotoLibraryAccess",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:6Kindly0A9SDKConfigV10FormConfigV23allowPhotoLibraryAccessSbvp",
-                "mangledName": "$s6Kindly0A9SDKConfigV10FormConfigV23allowPhotoLibraryAccessSbvp",
-                "moduleName": "Kindly",
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly0A9SDKConfigV10FormConfigV23allowPhotoLibraryAccessSbvg",
-                    "mangledName": "$s6Kindly0A9SDKConfigV10FormConfigV23allowPhotoLibraryAccessSbvg",
-                    "moduleName": "Kindly",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly0A9SDKConfigV10FormConfigV23allowPhotoLibraryAccessSbvs",
-                    "mangledName": "$s6Kindly0A9SDKConfigV10FormConfigV23allowPhotoLibraryAccessSbvs",
-                    "moduleName": "Kindly",
-                    "implicit": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly0A9SDKConfigV10FormConfigV23allowPhotoLibraryAccessSbvM",
-                    "mangledName": "$s6Kindly0A9SDKConfigV10FormConfigV23allowPhotoLibraryAccessSbvM",
-                    "moduleName": "Kindly",
-                    "implicit": true,
-                    "accessorKind": "_modify"
-                  }
-                ]
-              }
-            ],
             "declKind": "Struct",
             "usr": "s:6Kindly0A9SDKConfigV10FormConfigV",
             "mangledName": "$s6Kindly0A9SDKConfigV10FormConfigV",
@@ -8768,6 +8766,13 @@
       },
       {
         "kind": "Import",
+        "name": "PhotosUI",
+        "printedName": "PhotosUI",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -8961,6 +8966,51 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "picker",
+            "printedName": "picker(_:didFinishPicking:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PHPickerViewController",
+                "printedName": "PhotosUI.PHPickerViewController",
+                "usr": "c:objc(cs)PHPickerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PhotosUI.PHPickerResult]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHPickerResult",
+                    "printedName": "PhotosUI.PHPickerResult",
+                    "usr": "s:8PhotosUI14PHPickerResultV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly16AIPhotoSelectionC6picker_16didFinishPickingySo22PHPickerViewControllerC_Say8PhotosUI0H6ResultVGtF",
+            "mangledName": "$s6Kindly16AIPhotoSelectionC6picker_16didFinishPickingySo22PHPickerViewControllerC_Say8PhotosUI0H6ResultVGtF",
+            "moduleName": "Kindly",
+            "intro_iOS": "14",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -9039,6 +9089,13 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PHPickerViewControllerDelegate",
+            "printedName": "PHPickerViewControllerDelegate",
+            "usr": "s:8PhotosUI30PHPickerViewControllerDelegateP",
+            "mangledName": "$s8PhotosUI30PHPickerViewControllerDelegateP"
           }
         ]
       },
@@ -11486,7 +11543,35 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "BooleanLiteral",
-      "offset": 761,
+      "offset": 728,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 767,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 805,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 851,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 926,
       "length": 5,
       "value": "false"
     },
@@ -12137,14 +12222,14 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlySDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 738,
+      "offset": 665,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlySDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 788,
+      "offset": 714,
       "length": 4,
       "value": "true"
     },
@@ -13935,148 +14020,155 @@
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
+      "kind": "Dictionary",
+      "offset": 2060,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2274,
+      "offset": 2337,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2313,
+      "offset": 2376,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2453,
+      "offset": 2517,
       "length": 6,
       "value": "\"Send\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2478,
+      "offset": 2542,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2568,
+      "offset": 2632,
       "length": 11,
       "value": "\"icon_send\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2780,
+      "offset": 2844,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2903,
+      "offset": 2968,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3039,
+      "offset": 3105,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3169,
+      "offset": 3236,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17330,
+      "offset": 17950,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17417,
+      "offset": 18037,
       "length": 4,
       "value": "\"\r\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "Array",
-      "offset": 17491,
+      "offset": 18111,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17521,
+      "offset": 18141,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "Array",
-      "offset": 17553,
+      "offset": 18173,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17661,
+      "offset": 18281,
       "length": 4,
       "value": "\"\r\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17766,
+      "offset": 18386,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 28317,
+      "offset": 29020,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 28360,
+      "offset": 29063,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 28396,
+      "offset": 29099,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 28435,
+      "offset": 29138,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 28475,
+      "offset": 29178,
       "length": 4,
       "value": "16.0"
     },

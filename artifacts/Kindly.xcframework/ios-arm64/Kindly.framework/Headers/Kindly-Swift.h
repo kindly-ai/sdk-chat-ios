@@ -329,6 +329,7 @@ SWIFT_CLASS("_TtC6Kindly16AIPhotoSelection")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
 @class UIImagePickerController;
 
 @interface AIPhotoSelection (SWIFT_EXTENSION(Kindly)) <UIImagePickerControllerDelegate, UINavigationControllerDelegate>

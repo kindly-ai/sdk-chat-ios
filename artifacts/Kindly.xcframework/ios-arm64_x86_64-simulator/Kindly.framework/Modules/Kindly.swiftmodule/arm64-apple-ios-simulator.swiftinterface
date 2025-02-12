@@ -84,10 +84,10 @@ public struct KindlySDKConfig {
     get
     set
   }
+  public var allowCameraAccess: Swift.Bool
+  public var allowPhotoLibraryAccess: Swift.Bool
   public var form: Kindly.KindlySDKConfig.FormConfig
   public struct FormConfig {
-    public var allowCameraAccess: Swift.Bool
-    public var allowPhotoLibraryAccess: Swift.Bool
   }
 }
 public enum PermissionType {
@@ -277,6 +277,10 @@ extension Kindly.AIAlert.AlertButton {
 extension Kindly.AIPhotoSelection : UIKit.UIImagePickerControllerDelegate, UIKit.UINavigationControllerDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerController(_: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerControllerDidCancel(_: UIKit.UIImagePickerController)
+}
+extension Kindly.AIPhotoSelection : PhotosUI.PHPickerViewControllerDelegate {
+  @available(iOS 14, *)
+  @_Concurrency.MainActor @preconcurrency public func picker(_ picker: PhotosUI.PHPickerViewController, didFinishPicking results: [PhotosUI.PHPickerResult])
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public func addSubviews(_ views: UIKit.UIView...)
