@@ -527,37 +527,44 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/PhotoSelection/AIPhotoSelection.swift",
-      "line": 6,
+      "line": 7,
       "symbol": "AIPhotoSelection",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/PhotoSelection/AIPhotoSelection.swift",
-      "line": 23,
+      "line": 24,
       "symbol": "AIPhotoSelection.selectImage(inViewController:from:image_callback:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/PhotoSelection/AIPhotoSelection.swift",
-      "line": 68,
+      "line": 89,
       "symbol": "AIPhotoSelection",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/PhotoSelection/AIPhotoSelection.swift",
-      "line": 69,
+      "line": 90,
       "symbol": "AIPhotoSelection.imagePickerController(_:didFinishPickingMediaWithInfo:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/PhotoSelection/AIPhotoSelection.swift",
-      "line": 81,
+      "line": 102,
       "symbol": "AIPhotoSelection.imagePickerControllerDidCancel(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/PhotoSelection/AIPhotoSelection.swift",
+      "line": 107,
+      "symbol": "AIPhotoSelection",
+      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
@@ -871,29 +878,29 @@
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlySDKConfig.swift",
       "line": 22,
-      "symbol": "KindlySDKConfig.form",
+      "symbol": "KindlySDKConfig.allowCameraAccess",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlySDKConfig.swift",
       "line": 23,
-      "symbol": "KindlySDKConfig.FormConfig",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlySDKConfig.swift",
-      "line": 24,
-      "symbol": "KindlySDKConfig.FormConfig.allowCameraAccess",
+      "symbol": "KindlySDKConfig.allowPhotoLibraryAccess",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlySDKConfig.swift",
       "line": 25,
-      "symbol": "KindlySDKConfig.FormConfig.allowPhotoLibraryAccess",
+      "symbol": "KindlySDKConfig.form",
       "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/KindlySDKConfig.swift",
+      "line": 26,
+      "symbol": "KindlySDKConfig.FormConfig",
+      "symbol_kind": "source.lang.swift.decl.struct",
       "warning": "undocumented"
     },
     {

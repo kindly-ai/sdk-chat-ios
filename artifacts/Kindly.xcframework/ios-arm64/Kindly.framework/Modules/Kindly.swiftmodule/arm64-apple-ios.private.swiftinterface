@@ -92,48 +92,12 @@ public struct KindlySDKConfig {
 }
 public enum PermissionType {
   case camera
-  case microphone
-  case contacts
-  case location
-  case notifications
   case photoLibrary
   public static func == (a: Kindly.PermissionType, b: Kindly.PermissionType) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-}
-@objc @_inheritsConvenienceInitializers public class AIPermission : ObjectiveC.NSObject {
-  public class func requestMicrophoneRecordPermission(callback: @escaping Kindly.GenericClosure<AVFAudio.AVAudioSession.RecordPermission>)
-  public class func requestNotificationPermission(application: UIKit.UIApplication, completion: @escaping (Swift.Bool) -> Swift.Void)
-  @available(iOS 14.0, *)
-  public static var locationPermissionStatus: CoreLocation.CLAuthorizationStatus? {
-    get
-  }
-  @available(iOS 14.0, *)
-  public class func requestLocationPermission(callback: @escaping Kindly.GenericClosure<CoreLocation.CLAuthorizationStatus?>)
-  public class func getLiveUserLocation(callback: @escaping Kindly.GenericClosure<CoreLocation.CLLocation?>)
-  public class func getUserLocation(callback: @escaping Kindly.GenericClosure<CoreLocation.CLLocation?>)
-  public class func stopUpdatingLocation()
-  public class func requestContactsPermission(callback: @escaping Kindly.GenericClosure<Swift.Bool>)
-  public class func requestCameraPermission(callback: @escaping Kindly.GenericClosure<AVFoundation.AVAuthorizationStatus>)
-  public class func getCameraPermissionStatus() -> AVFoundation.AVAuthorizationStatus
-  public class func requestPhotoLibraryPermission(callback: @escaping Kindly.GenericClosure<Photos.PHAuthorizationStatus>)
-  public class func getPhotoLibraryPermissionStatus() -> Photos.PHAuthorizationStatus
-  @objc override dynamic public init()
-  @objc deinit
-}
-extension Kindly.AIPermission : CoreLocation.CLLocationManagerDelegate {
-  @available(iOS 14.0, *)
-  @objc dynamic public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
-  @objc dynamic public func locationManager(_: CoreLocation.CLLocationManager, didUpdateLocations locations: [CoreLocation.CLLocation])
-  @objc dynamic public func locationManager(_: CoreLocation.CLLocationManager, didFailWithError _: any Swift.Error)
-}
-extension Kindly.AIPermission {
-  public static func presentPermissionAlert(on viewController: UIKit.UIViewController, permissionType: Kindly.PermissionType)
-}
-extension Kindly.AIPermission {
-  public static func requestPermission<T>(for type: Kindly.PermissionType, on viewController: UIKit.UIViewController? = nil, completion: @escaping (T) -> Swift.Void)
 }
 public protocol Coordinator {
   var childCoordinators: [any Kindly.Coordinator] { get set }
