@@ -360,169 +360,29 @@
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
       "line": 14,
-      "symbol": "PermissionType.microphone",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 15,
-      "symbol": "PermissionType.contacts",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 16,
-      "symbol": "PermissionType.location",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 17,
-      "symbol": "PermissionType.notifications",
-      "symbol_kind": "source.lang.swift.decl.enumelement",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 18,
       "symbol": "PermissionType.photoLibrary",
       "symbol_kind": "source.lang.swift.decl.enumelement",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 22,
-      "symbol": "AIPermission",
-      "symbol_kind": "source.lang.swift.decl.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 40,
-      "symbol": "AIPermission.requestMicrophoneRecordPermission(callback:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 65,
-      "symbol": "AIPermission.requestNotificationPermission(application:completion:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 82,
-      "symbol": "AIPermission.locationPermissionStatus",
-      "symbol_kind": "source.lang.swift.decl.var.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 92,
-      "symbol": "AIPermission.requestLocationPermission(callback:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 122,
-      "symbol": "AIPermission.getLiveUserLocation(callback:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 127,
-      "symbol": "AIPermission.getUserLocation(callback:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 132,
-      "symbol": "AIPermission.stopUpdatingLocation()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 138,
-      "symbol": "AIPermission.requestContactsPermission(callback:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 156,
-      "symbol": "AIPermission.requestCameraPermission(callback:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 181,
-      "symbol": "AIPermission.getCameraPermissionStatus()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 187,
-      "symbol": "AIPermission.requestPhotoLibraryPermission(callback:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 211,
-      "symbol": "AIPermission.getPhotoLibraryPermissionStatus()",
-      "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 218,
-      "symbol": "AIPermission",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 220,
+      "line": 215,
       "symbol": "AIPermission.locationManagerDidChangeAuthorization(_:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 224,
+      "line": 219,
       "symbol": "AIPermission.locationManager(_:didUpdateLocations:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 228,
+      "line": 223,
       "symbol": "AIPermission.locationManager(_:didFailWithError:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 236,
-      "symbol": "AIPermission",
-      "symbol_kind": "source.lang.swift.decl.extension",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Permission/AIPermission.swift",
-      "line": 283,
-      "symbol": "AIPermission",
-      "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
