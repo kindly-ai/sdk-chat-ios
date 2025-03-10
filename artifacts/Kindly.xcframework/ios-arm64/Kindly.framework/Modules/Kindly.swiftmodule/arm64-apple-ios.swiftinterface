@@ -246,6 +246,10 @@ extension Kindly.AIPhotoSelection : PhotosUI.PHPickerViewControllerDelegate {
   @available(iOS 14, *)
   @_Concurrency.MainActor @preconcurrency public func picker(_ picker: PhotosUI.PHPickerViewController, didFinishPicking results: [PhotosUI.PHPickerResult])
 }
+final public class AppStateObserver {
+  public init()
+  @objc deinit
+}
 extension UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency public func addSubviews(_ views: UIKit.UIView...)
   @_Concurrency.MainActor @preconcurrency public func add(views: [UIKit.UIView])
