@@ -134,6 +134,20 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/AppStateObserver.swift",
+      "line": 4,
+      "symbol": "AppStateObserver",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/AppStateObserver.swift",
+      "line": 8,
+      "symbol": "AppStateObserver.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Constants.swift",
       "line": 3,
       "symbol": "AuthTokenCallback",
