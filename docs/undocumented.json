@@ -884,14 +884,14 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/UI Components/Form/Selector/AISelector.swift",
-      "line": 206,
+      "line": 207,
       "symbol": "AISelector.show(title:values:saveCallback:cancelCallback:valueChangedCallback:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/UI Components/Form/Selector/AISelector.swift",
-      "line": 214,
+      "line": 215,
       "symbol": "AISelector.show()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
