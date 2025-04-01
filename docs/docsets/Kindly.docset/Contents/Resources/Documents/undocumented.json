@@ -1,13 +1,6 @@
 {
   "warnings": [
     {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/AIAttributedString/AIAttributedString.swift",
-      "line": 185,
-      "symbol": "NSMutableAttributedString.trimCharactersInSet(charSet:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/Alert/AIAlert.swift",
       "line": 4,
       "symbol": "AIAlert",
@@ -135,14 +128,14 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/AppStateObserver.swift",
-      "line": 4,
+      "line": 7,
       "symbol": "AppStateObserver",
       "symbol_kind": "source.lang.swift.decl.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Core/AppStateObserver.swift",
-      "line": 8,
+      "line": 13,
       "symbol": "AppStateObserver.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
@@ -544,118 +537,6 @@
       "line": 201,
       "symbol": "KindlyChatClient.play()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIControl+Extensions.swift",
-      "line": 5,
-      "symbol": "UIControl.addAction(for:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIControl+Extensions.swift",
-      "line": 11,
-      "symbol": "UIControl.addAction(for:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIControl+Extensions.swift",
-      "line": 40,
-      "symbol": "UIControl.removeActions(for:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIControl+Extensions.swift",
-      "line": 44,
-      "symbol": "UIControl.removeAllActions()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 100,
-      "symbol": "UIView.addSubviews(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 107,
-      "symbol": "UIView.add(views:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 118,
-      "symbol": "UIView.removeAllSubviews()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 124,
-      "symbol": "UIView.hasSubviewWithTag(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 308,
-      "symbol": "UIView.onTap(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 328,
-      "symbol": "UIView.onLongTap(_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 349,
-      "symbol": "UIView.removeAllGestureRecognizers()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 359,
-      "symbol": "UIView.makeCircular()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 363,
-      "symbol": "UIView.makeRounded(cornerRadius:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 368,
-      "symbol": "UIView.addShadow(color:opacity:offset:radius:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 376,
-      "symbol": "UIView.addDashedBorder(color:lineWidth:dashPattern:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources/Kindly/Sources/Extensions/UIKit/UIView+Extensions.swift",
-      "line": 390,
-      "symbol": "UIView.removeDashedBorder()",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
