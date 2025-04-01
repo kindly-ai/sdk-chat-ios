@@ -149,19 +149,6 @@ public typealias GenericClosure<T> = (_ value: T) -> Swift.Void
 public typealias VoidClosure = () -> Swift.Void
 public struct CoreSDKConfig {
 }
-extension UIKit.UIControl {
-  @_Concurrency.MainActor @preconcurrency public func addAction(for controlEvents: UIKit.UIControl.Event = .touchUpInside, _ closure: @escaping () -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public func addAction(for controlEvents: UIKit.UIControl.Event = .touchUpInside, _ closure: @escaping (UIKit.UIControl) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public func removeActions(for event: UIKit.UIControl.Event)
-  @_Concurrency.MainActor @preconcurrency public func removeAllActions()
-}
-extension UIKit.UIControl {
-  @_Concurrency.MainActor @preconcurrency public func on(_ controlEvents: UIKit.UIControl.Event, invokeHandler handler: @escaping (UIKit.UIControl) -> Swift.Void) -> Swift.AnyObject
-  @_Concurrency.MainActor @preconcurrency public func removeHandler(_ handler: Swift.AnyObject)
-}
-extension Foundation.NSMutableAttributedString {
-  public func trimCharactersInSet(charSet: Foundation.CharacterSet)
-}
 public struct ExternalChatButton {
 }
 public enum ChatConnectionState {
@@ -249,24 +236,6 @@ extension Kindly.AIPhotoSelection : PhotosUI.PHPickerViewControllerDelegate {
 final public class AppStateObserver {
   public init()
   @objc deinit
-}
-extension UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public func addSubviews(_ views: UIKit.UIView...)
-  @_Concurrency.MainActor @preconcurrency public func add(views: [UIKit.UIView])
-  @_Concurrency.MainActor @preconcurrency public func removeAllSubviews()
-  @_Concurrency.MainActor @preconcurrency public func hasSubviewWithTag(_ tag: Swift.Int) -> Swift.Bool
-}
-extension UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public func onTap(_ closure: @escaping () -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public func onLongTap(_ closure: @escaping (_ gestureReconizer: UIKit.UILongPressGestureRecognizer) -> Swift.Void)
-  @_Concurrency.MainActor @preconcurrency public func removeAllGestureRecognizers()
-}
-extension UIKit.UIView {
-  @_Concurrency.MainActor @preconcurrency public func makeCircular()
-  @_Concurrency.MainActor @preconcurrency public func makeRounded(cornerRadius: CoreFoundation.CGFloat? = nil)
-  @_Concurrency.MainActor @preconcurrency public func addShadow(color: UIKit.UIColor? = nil, opacity: Swift.Float? = nil, offset: CoreFoundation.CGSize? = nil, radius: CoreFoundation.CGFloat? = nil)
-  @_Concurrency.MainActor @preconcurrency public func addDashedBorder(color: UIKit.UIColor, lineWidth: CoreFoundation.CGFloat, dashPattern: [Foundation.NSNumber])
-  @_Concurrency.MainActor @preconcurrency public func removeDashedBorder()
 }
 public typealias KindlySDK = Kindly.KindlyChatClient
 public enum BehaviorTypeEnum {

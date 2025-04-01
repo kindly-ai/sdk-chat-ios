@@ -37,6 +37,23 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "Kindly",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "Kindly"
       },
       {
@@ -1407,6 +1424,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -8229,7 +8253,8 @@
             "mangledName": "$s6Kindly16AppStateObserverCACycfc",
             "moduleName": "Kindly",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -9194,454 +9219,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UIControl",
-        "printedName": "UIControl",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "addAction",
-            "printedName": "addAction(for:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Event",
-                "printedName": "UIKit.UIControl.Event",
-                "hasDefaultArg": true,
-                "usr": "c:@E@UIControlEvents"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So9UIControlC6KindlyE9addAction3for_ySo0A6EventsV_yyctF",
-            "mangledName": "$sSo9UIControlC6KindlyE9addAction3for_ySo0A6EventsV_yyctF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addAction",
-            "printedName": "addAction(for:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Event",
-                "printedName": "UIKit.UIControl.Event",
-                "hasDefaultArg": true,
-                "usr": "c:@E@UIControlEvents"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UIKit.UIControl) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIControl",
-                    "printedName": "UIKit.UIControl",
-                    "usr": "c:objc(cs)UIControl"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So9UIControlC6KindlyE9addAction3for_ySo0A6EventsV_yABctF",
-            "mangledName": "$sSo9UIControlC6KindlyE9addAction3for_ySo0A6EventsV_yABctF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeActions",
-            "printedName": "removeActions(for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Event",
-                "printedName": "UIKit.UIControl.Event",
-                "usr": "c:@E@UIControlEvents"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So9UIControlC6KindlyE13removeActions3forySo0A6EventsV_tF",
-            "mangledName": "$sSo9UIControlC6KindlyE13removeActions3forySo0A6EventsV_tF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeAllActions",
-            "printedName": "removeAllActions()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So9UIControlC6KindlyE16removeAllActionsyyF",
-            "mangledName": "$sSo9UIControlC6KindlyE16removeAllActionsyyF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "on",
-            "printedName": "on(_:invokeHandler:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "AnyObject"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Event",
-                "printedName": "UIKit.UIControl.Event",
-                "usr": "c:@E@UIControlEvents"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UIKit.UIControl) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIControl",
-                    "printedName": "UIKit.UIControl",
-                    "usr": "c:objc(cs)UIControl"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So9UIControlC6KindlyE2on_13invokeHandleryXlSo0A6EventsV_yABctF",
-            "mangledName": "$sSo9UIControlC6KindlyE2on_13invokeHandleryXlSo0A6EventsV_yABctF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeHandler",
-            "printedName": "removeHandler(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "AnyObject"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So9UIControlC6KindlyE13removeHandleryyyXlF",
-            "mangledName": "$sSo9UIControlC6KindlyE13removeHandleryyyXlF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIControl",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIControl",
-        "declAttributes": [
-          "Preconcurrency",
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)UIView",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIView",
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "NSMutableAttributedString",
-        "printedName": "NSMutableAttributedString",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "trimCharactersInSet",
-            "printedName": "trimCharactersInSet(charSet:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CharacterSet",
-                "printedName": "Foundation.CharacterSet",
-                "usr": "s:10Foundation12CharacterSetV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So25NSMutableAttributedStringC6KindlyE19trimCharactersInSet04charH0y10Foundation09CharacterH0V_tF",
-            "mangledName": "$sSo25NSMutableAttributedStringC6KindlyE19trimCharactersInSet04charH0y10Foundation09CharacterH0V_tF",
-            "moduleName": "Kindly",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)NSMutableAttributedString",
-        "moduleName": "Foundation",
-        "isOpen": true,
-        "intro_iOS": "3.2",
-        "objc_name": "NSMutableAttributedString",
-        "declAttributes": [
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)NSAttributedString",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "Foundation.NSAttributedString",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "UICollectionViewCell",
         "printedName": "UICollectionViewCell",
         "declKind": "Class",
@@ -9866,548 +9443,6 @@
             "mangledName": "$ss8SendableP"
           }
         ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "UIView",
-        "printedName": "UIView",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "addSubviews",
-            "printedName": "addSubviews(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[UIKit.UIView]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIView",
-                    "printedName": "UIKit.UIView",
-                    "usr": "c:objc(cs)UIView"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC6KindlyE11addSubviewsyyABd_tF",
-            "mangledName": "$sSo6UIViewC6KindlyE11addSubviewsyyABd_tF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "add",
-            "printedName": "add(views:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[UIKit.UIView]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIView",
-                    "printedName": "UIKit.UIView",
-                    "usr": "c:objc(cs)UIView"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC6KindlyE3add5viewsySayABG_tF",
-            "mangledName": "$sSo6UIViewC6KindlyE3add5viewsySayABG_tF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeAllSubviews",
-            "printedName": "removeAllSubviews()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC6KindlyE17removeAllSubviewsyyF",
-            "mangledName": "$sSo6UIViewC6KindlyE17removeAllSubviewsyyF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "hasSubviewWithTag",
-            "printedName": "hasSubviewWithTag(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC6KindlyE17hasSubviewWithTagySbSiF",
-            "mangledName": "$sSo6UIViewC6KindlyE17hasSubviewWithTagySbSiF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onTap",
-            "printedName": "onTap(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC6KindlyE5onTapyyyycF",
-            "mangledName": "$sSo6UIViewC6KindlyE5onTapyyyycF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onLongTap",
-            "printedName": "onLongTap(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(UIKit.UILongPressGestureRecognizer) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UILongPressGestureRecognizer",
-                    "printedName": "UIKit.UILongPressGestureRecognizer",
-                    "usr": "c:objc(cs)UILongPressGestureRecognizer"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC6KindlyE9onLongTapyyySo28UILongPressGestureRecognizerCcF",
-            "mangledName": "$sSo6UIViewC6KindlyE9onLongTapyyySo28UILongPressGestureRecognizerCcF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeAllGestureRecognizers",
-            "printedName": "removeAllGestureRecognizers()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC6KindlyE27removeAllGestureRecognizersyyF",
-            "mangledName": "$sSo6UIViewC6KindlyE27removeAllGestureRecognizersyyF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "makeCircular",
-            "printedName": "makeCircular()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC6KindlyE12makeCircularyyF",
-            "mangledName": "$sSo6UIViewC6KindlyE12makeCircularyyF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "makeRounded",
-            "printedName": "makeRounded(cornerRadius:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "CoreGraphics.CGFloat?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC6KindlyE11makeRounded12cornerRadiusy14CoreFoundation7CGFloatVSg_tF",
-            "mangledName": "$sSo6UIViewC6KindlyE11makeRounded12cornerRadiusy12CoreGraphics7CGFloatVSg_tF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addShadow",
-            "printedName": "addShadow(color:opacity:offset:radius:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIColor?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIColor",
-                    "printedName": "UIKit.UIColor",
-                    "usr": "c:objc(cs)UIColor"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Float?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Float",
-                    "printedName": "Swift.Float",
-                    "usr": "s:Sf"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "CoreFoundation.CGSize?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGSize",
-                    "printedName": "CoreFoundation.CGSize",
-                    "usr": "c:@S@CGSize"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "CoreGraphics.CGFloat?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CGFloat",
-                    "printedName": "CoreGraphics.CGFloat",
-                    "usr": "s:14CoreFoundation7CGFloatV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC6KindlyE9addShadow5color7opacity6offset6radiusySo7UIColorCSg_SfSgSo6CGSizeVSg14CoreFoundation7CGFloatVSgtF",
-            "mangledName": "$sSo6UIViewC6KindlyE9addShadow5color7opacity6offset6radiusySo7UIColorCSg_SfSgSo6CGSizeVSg12CoreGraphics7CGFloatVSgtF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "addDashedBorder",
-            "printedName": "addDashedBorder(color:lineWidth:dashPattern:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "CGFloat",
-                "printedName": "CoreGraphics.CGFloat",
-                "usr": "s:14CoreFoundation7CGFloatV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Foundation.NSNumber]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSNumber",
-                    "printedName": "Foundation.NSNumber",
-                    "usr": "c:objc(cs)NSNumber"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC6KindlyE15addDashedBorder5color9lineWidth11dashPatternySo7UIColorC_14CoreFoundation7CGFloatVSaySo8NSNumberCGtF",
-            "mangledName": "$sSo6UIViewC6KindlyE15addDashedBorder5color9lineWidth11dashPatternySo7UIColorC_12CoreGraphics7CGFloatVSaySo8NSNumberCGtF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "removeDashedBorder",
-            "printedName": "removeDashedBorder()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So6UIViewC6KindlyE18removeDashedBorderyyF",
-            "mangledName": "$sSo6UIViewC6KindlyE18removeDashedBorderyyF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIView",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIView",
-        "declAttributes": [
-          "Preconcurrency",
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)UIResponder",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "__DefaultCustomPlaygroundQuickLookable",
-            "printedName": "__DefaultCustomPlaygroundQuickLookable",
-            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
-            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          }
-        ]
       }
     ],
     "json_format_version": 8
@@ -10419,6 +9454,20 @@
       "offset": 681,
       "length": 12,
       "value": "\"form_title\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/Helpers\/TableUpdateQueue.swift",
+      "kind": "BooleanLiteral",
+      "offset": 644,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/Helpers\/TableUpdateQueue.swift",
+      "kind": "IntegerLiteral",
+      "offset": 751,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Models\/FormDTO.swift",
@@ -10640,56 +9689,56 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "StringLiteral",
-      "offset": 542,
+      "offset": 1041,
       "length": 8,
       "value": "\"Socket\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "Dictionary",
-      "offset": 688,
+      "offset": 1187,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "BooleanLiteral",
-      "offset": 828,
+      "offset": 1327,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "BooleanLiteral",
-      "offset": 938,
+      "offset": 1437,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 977,
+      "offset": 1476,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1015,
+      "offset": 1514,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1061,
+      "offset": 1560,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1136,
+      "offset": 1635,
       "length": 5,
       "value": "false"
     },
@@ -11284,21 +10333,21 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/Helpers\/ChatViewControllerTableViewHelpers.swift",
       "kind": "BooleanLiteral",
-      "offset": 186,
+      "offset": 215,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/Helpers\/ChatViewControllerTableViewHelpers.swift",
       "kind": "BooleanLiteral",
-      "offset": 814,
+      "offset": 736,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/Helpers\/ChatViewControllerTableViewHelpers.swift",
       "kind": "BooleanLiteral",
-      "offset": 1133,
+      "offset": 1444,
       "length": 5,
       "value": "false"
     },
@@ -12236,70 +11285,70 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 987,
+      "offset": 1062,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1022,
+      "offset": 1097,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1054,
+      "offset": 1129,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1180,
+      "offset": 1255,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1264,
+      "offset": 1339,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1549,
+      "offset": 1624,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1573,
+      "offset": 1648,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1749,
+      "offset": 1824,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1890,
+      "offset": 1965,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 14141,
+      "offset": 14144,
       "length": 4,
       "value": "true"
     },
@@ -12586,28 +11635,28 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIControl+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1081,
+      "offset": 1083,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIControl+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1091,
+      "offset": 1093,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIControl+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 1555,
+      "offset": 1557,
       "length": 8,
       "value": "\"handle\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIControl+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 2588,
+      "offset": 2592,
       "length": 1,
       "value": "0"
     },
@@ -13244,84 +12293,84 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18028,
-      "length": 14,
-      "value": "\"Send message\""
-    },
-    {
-      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 18115,
-      "length": 4,
-      "value": "\"\r\""
-    },
-    {
-      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
-      "kind": "Array",
-      "offset": 18189,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
-      "kind": "StringLiteral",
       "offset": 18219,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 18306,
+      "length": 4,
+      "value": "\"\r\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "Array",
-      "offset": 18251,
+      "offset": 18380,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18359,
+      "offset": 18410,
+      "length": 14,
+      "value": "\"Send message\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
+      "kind": "Array",
+      "offset": 18442,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 18550,
       "length": 4,
       "value": "\"\r\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18464,
+      "offset": 18655,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 29202,
+      "offset": 29714,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 29245,
+      "offset": 29757,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 29281,
+      "offset": 29793,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 29320,
+      "offset": 29832,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 29360,
+      "offset": 29872,
       "length": 4,
       "value": "16.0"
     },
@@ -13377,7 +12426,7 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 20342,
+      "offset": 22589,
       "length": 4,
       "value": "true"
     },
@@ -14901,6 +13950,13 @@
       "value": "\"channel_name\""
     },
     {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/AppStateObserver.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 2,
+      "value": "30"
+    },
+    {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/UI Components\/Status Bars\/MaintenanceModeView.swift",
       "kind": "FloatLiteral",
       "offset": 223,
@@ -15267,105 +14323,105 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 3231,
+      "offset": 3233,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 3777,
+      "offset": 3779,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 4292,
+      "offset": 4294,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 4933,
+      "offset": 4935,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 5478,
+      "offset": 5480,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6433,
+      "offset": 6435,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "IntegerLiteral",
-      "offset": 6463,
+      "offset": 6465,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 8324,
+      "offset": 8328,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 8495,
+      "offset": 8499,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 8505,
+      "offset": 8509,
       "length": 58,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 9078,
+      "offset": 9082,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "FloatLiteral",
-      "offset": 9237,
+      "offset": 9241,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "BooleanLiteral",
-      "offset": 9272,
+      "offset": 9276,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 9347,
+      "offset": 9351,
       "length": 11,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "StringLiteral",
-      "offset": 9357,
+      "offset": 9361,
       "length": 58,
       "value": "\"\""
     },
@@ -15802,6 +14858,27 @@
       "offset": 3403,
       "length": 3,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3436,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
+      "kind": "Dictionary",
+      "offset": 3492,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3526,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources\/Kindly\/Sources\/Extensions\/UIKit\/UINavigationItem+Extensions.swift",
