@@ -6,3 +6,5 @@ artifacts/Kindly.xcframework/.DS_Store
 Package.resolved
 
 .swiftpm/
+
+.build/
