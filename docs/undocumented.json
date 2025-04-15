@@ -527,14 +527,14 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/EntryPoint.swift",
-      "line": 192,
+      "line": 200,
       "symbol": "KindlyChatClient.triggerDialogue(id:)",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/EntryPoint.swift",
-      "line": 201,
+      "line": 209,
       "symbol": "KindlyChatClient.play()",
       "symbol_kind": "source.lang.swift.decl.function.method.class",
       "warning": "undocumented"
