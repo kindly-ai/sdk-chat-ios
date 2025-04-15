@@ -590,14 +590,14 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/KindlyChatClient.swift",
-      "line": 71,
+      "line": 73,
       "symbol": "KindlyChatClient.config",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/KindlyChatClient.swift",
-      "line": 80,
+      "line": 82,
       "symbol": "KindlyChatClient.connectionState",
       "symbol_kind": "source.lang.swift.decl.var.static",
       "warning": "undocumented"
