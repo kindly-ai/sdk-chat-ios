@@ -751,43 +751,36 @@
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 4,
+      "line": 5,
       "symbol": "Theme.background",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 5,
+      "line": 6,
       "symbol": "Theme.botMessageBackground",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 6,
+      "line": 7,
       "symbol": "Theme.botMessageText",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 7,
+      "line": 8,
       "symbol": "Theme.buttonBackground",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 8,
-      "symbol": "Theme.buttonOutline",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
       "line": 9,
-      "symbol": "Theme.buttonSelectedBackground",
+      "symbol": "Theme.buttonOutline",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
@@ -801,287 +794,336 @@
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
       "line": 11,
-      "symbol": "Theme.defaultShadow",
+      "symbol": "Theme.chatLogElements",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
       "line": 12,
-      "symbol": "Theme.inputBackground",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 13,
-      "symbol": "Theme.inputCursor",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 14,
-      "symbol": "Theme.inputText",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 15,
       "symbol": "Theme.navBarBackground",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 16,
+      "line": 13,
       "symbol": "Theme.navBarText",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 17,
+      "line": 14,
+      "symbol": "Theme.inputBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 15,
+      "symbol": "Theme.inputText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 16,
       "symbol": "Theme.userMessageBackground",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 18,
+      "line": 17,
       "symbol": "Theme.userMessageText",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 25,
+      "line": 20,
+      "symbol": "Theme.buttonSelectedBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 21,
+      "symbol": "Theme.defaultShadow",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 22,
+      "symbol": "Theme.inputCursor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 23,
+      "symbol": "Theme.maintenanceHeaderBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 30,
       "symbol": "KindlyTheme.init()",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 27,
+      "line": 34,
       "symbol": "KindlyTheme.background",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 31,
+      "line": 38,
       "symbol": "KindlyTheme.botMessageBackground",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 35,
+      "line": 42,
       "symbol": "KindlyTheme.botMessageText",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 39,
+      "line": 46,
       "symbol": "KindlyTheme.buttonBackground",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 43,
+      "line": 50,
       "symbol": "KindlyTheme.buttonOutline",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 47,
-      "symbol": "KindlyTheme.buttonSelectedBackground",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 51,
+      "line": 54,
       "symbol": "KindlyTheme.buttonText",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 55,
-      "symbol": "KindlyTheme.defaultShadow",
+      "line": 58,
+      "symbol": "KindlyTheme.chatLogElements",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 59,
-      "symbol": "KindlyTheme.inputBackground",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 63,
-      "symbol": "KindlyTheme.inputCursor",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 67,
-      "symbol": "KindlyTheme.inputText",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 71,
+      "line": 62,
       "symbol": "KindlyTheme.navBarBackground",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 75,
+      "line": 66,
       "symbol": "KindlyTheme.navBarText",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 79,
+      "line": 70,
+      "symbol": "KindlyTheme.inputBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 74,
+      "symbol": "KindlyTheme.inputText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 78,
       "symbol": "KindlyTheme.userMessageBackground",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 83,
+      "line": 82,
       "symbol": "KindlyTheme.userMessageText",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 90,
-      "symbol": "CustomTheme",
-      "symbol_kind": "source.lang.swift.decl.struct",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 91,
-      "symbol": "CustomTheme.background",
+      "line": 88,
+      "symbol": "KindlyTheme.buttonSelectedBackground",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
       "line": 92,
-      "symbol": "CustomTheme.botMessageBackground",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 93,
-      "symbol": "CustomTheme.botMessageText",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 94,
-      "symbol": "CustomTheme.buttonBackground",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 95,
-      "symbol": "CustomTheme.buttonOutline",
+      "symbol": "KindlyTheme.defaultShadow",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
       "line": 96,
-      "symbol": "CustomTheme.buttonSelectedBackground",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 97,
-      "symbol": "CustomTheme.buttonText",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 98,
-      "symbol": "CustomTheme.defaultShadow",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 99,
-      "symbol": "CustomTheme.inputBackground",
+      "symbol": "KindlyTheme.inputCursor",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
       "line": 100,
-      "symbol": "CustomTheme.inputCursor",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 101,
-      "symbol": "CustomTheme.inputText",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 102,
-      "symbol": "CustomTheme.navBarBackground",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 103,
-      "symbol": "CustomTheme.navBarText",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 104,
-      "symbol": "CustomTheme.userMessageBackground",
-      "symbol_kind": "source.lang.swift.decl.var.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
-      "line": 105,
-      "symbol": "CustomTheme.userMessageText",
+      "symbol": "KindlyTheme.maintenanceHeaderBackground",
       "symbol_kind": "source.lang.swift.decl.var.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
       "line": 107,
-      "symbol": "CustomTheme.init(background:botMessageBackground:botMessageText:buttonBackground:buttonOutline:buttonSelectedBackground:buttonText:defaultShadow:inputBackground:inputCursor:inputText:navBarBackground:navBarText:userMessageBackground:userMessageText:)",
+      "symbol": "CustomTheme",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 109,
+      "symbol": "CustomTheme.background",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 110,
+      "symbol": "CustomTheme.botMessageBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 111,
+      "symbol": "CustomTheme.botMessageText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 112,
+      "symbol": "CustomTheme.buttonBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 113,
+      "symbol": "CustomTheme.buttonOutline",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 114,
+      "symbol": "CustomTheme.buttonText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 115,
+      "symbol": "CustomTheme.chatLogElements",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 116,
+      "symbol": "CustomTheme.navBarBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 117,
+      "symbol": "CustomTheme.navBarText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 118,
+      "symbol": "CustomTheme.inputBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 119,
+      "symbol": "CustomTheme.inputText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 120,
+      "symbol": "CustomTheme.userMessageBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 121,
+      "symbol": "CustomTheme.userMessageText",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 124,
+      "symbol": "CustomTheme.buttonSelectedBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 125,
+      "symbol": "CustomTheme.defaultShadow",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 126,
+      "symbol": "CustomTheme.inputCursor",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 127,
+      "symbol": "CustomTheme.maintenanceHeaderBackground",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/alexy/src/iOS/Projects/kindly-chat-sources-ios/Kindly/Sources/Styling/Theme.swift",
+      "line": 129,
+      "symbol": "CustomTheme.init(background:botMessageBackground:botMessageText:buttonBackground:buttonOutline:buttonText:chatLogElements:navBarBackground:navBarText:inputBackground:inputText:userMessageBackground:userMessageText:buttonSelectedBackground:defaultShadow:inputCursor:maintenanceHeaderBackground:)",
       "symbol_kind": "source.lang.swift.decl.function.method.instance",
       "warning": "undocumented"
     },

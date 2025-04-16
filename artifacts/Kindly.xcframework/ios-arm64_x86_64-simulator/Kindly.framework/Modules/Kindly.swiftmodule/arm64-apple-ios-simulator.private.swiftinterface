@@ -248,16 +248,18 @@ public protocol Theme {
   var botMessageText: UIKit.UIColor? { get }
   var buttonBackground: UIKit.UIColor? { get }
   var buttonOutline: UIKit.UIColor? { get }
-  var buttonSelectedBackground: UIKit.UIColor? { get }
   var buttonText: UIKit.UIColor? { get }
-  var defaultShadow: UIKit.UIColor? { get }
-  var inputBackground: UIKit.UIColor? { get }
-  var inputCursor: UIKit.UIColor? { get }
-  var inputText: UIKit.UIColor? { get }
+  var chatLogElements: UIKit.UIColor? { get }
   var navBarBackground: UIKit.UIColor? { get }
   var navBarText: UIKit.UIColor? { get }
+  var inputBackground: UIKit.UIColor? { get }
+  var inputText: UIKit.UIColor? { get }
   var userMessageBackground: UIKit.UIColor? { get }
   var userMessageText: UIKit.UIColor? { get }
+  var buttonSelectedBackground: UIKit.UIColor? { get }
+  var defaultShadow: UIKit.UIColor? { get }
+  var inputCursor: UIKit.UIColor? { get }
+  var maintenanceHeaderBackground: UIKit.UIColor? { get }
 }
 public struct KindlyTheme : Kindly.Theme {
   public init()
@@ -276,22 +278,10 @@ public struct KindlyTheme : Kindly.Theme {
   public var buttonOutline: UIKit.UIColor? {
     get
   }
-  public var buttonSelectedBackground: UIKit.UIColor? {
-    get
-  }
   public var buttonText: UIKit.UIColor? {
     get
   }
-  public var defaultShadow: UIKit.UIColor? {
-    get
-  }
-  public var inputBackground: UIKit.UIColor? {
-    get
-  }
-  public var inputCursor: UIKit.UIColor? {
-    get
-  }
-  public var inputText: UIKit.UIColor? {
+  public var chatLogElements: UIKit.UIColor? {
     get
   }
   public var navBarBackground: UIKit.UIColor? {
@@ -300,10 +290,28 @@ public struct KindlyTheme : Kindly.Theme {
   public var navBarText: UIKit.UIColor? {
     get
   }
+  public var inputBackground: UIKit.UIColor? {
+    get
+  }
+  public var inputText: UIKit.UIColor? {
+    get
+  }
   public var userMessageBackground: UIKit.UIColor? {
     get
   }
   public var userMessageText: UIKit.UIColor? {
+    get
+  }
+  public var buttonSelectedBackground: UIKit.UIColor? {
+    get
+  }
+  public var defaultShadow: UIKit.UIColor? {
+    get
+  }
+  public var inputCursor: UIKit.UIColor? {
+    get
+  }
+  public var maintenanceHeaderBackground: UIKit.UIColor? {
     get
   }
 }
@@ -313,17 +321,19 @@ public struct CustomTheme : Kindly.Theme {
   public var botMessageText: UIKit.UIColor?
   public var buttonBackground: UIKit.UIColor?
   public var buttonOutline: UIKit.UIColor?
-  public var buttonSelectedBackground: UIKit.UIColor?
   public var buttonText: UIKit.UIColor?
-  public var defaultShadow: UIKit.UIColor?
-  public var inputBackground: UIKit.UIColor?
-  public var inputCursor: UIKit.UIColor?
-  public var inputText: UIKit.UIColor?
+  public var chatLogElements: UIKit.UIColor?
   public var navBarBackground: UIKit.UIColor?
   public var navBarText: UIKit.UIColor?
+  public var inputBackground: UIKit.UIColor?
+  public var inputText: UIKit.UIColor?
   public var userMessageBackground: UIKit.UIColor?
   public var userMessageText: UIKit.UIColor?
-  public init(background: UIKit.UIColor? = nil, botMessageBackground: UIKit.UIColor? = nil, botMessageText: UIKit.UIColor? = nil, buttonBackground: UIKit.UIColor? = nil, buttonOutline: UIKit.UIColor? = nil, buttonSelectedBackground: UIKit.UIColor? = nil, buttonText: UIKit.UIColor? = nil, defaultShadow: UIKit.UIColor? = nil, inputBackground: UIKit.UIColor? = nil, inputCursor: UIKit.UIColor? = nil, inputText: UIKit.UIColor? = nil, navBarBackground: UIKit.UIColor? = nil, navBarText: UIKit.UIColor? = nil, userMessageBackground: UIKit.UIColor? = nil, userMessageText: UIKit.UIColor? = nil)
+  public var buttonSelectedBackground: UIKit.UIColor?
+  public var defaultShadow: UIKit.UIColor?
+  public var inputCursor: UIKit.UIColor?
+  public var maintenanceHeaderBackground: UIKit.UIColor?
+  public init(background: UIKit.UIColor? = nil, botMessageBackground: UIKit.UIColor? = nil, botMessageText: UIKit.UIColor? = nil, buttonBackground: UIKit.UIColor? = nil, buttonOutline: UIKit.UIColor? = nil, buttonText: UIKit.UIColor? = nil, chatLogElements: UIKit.UIColor? = nil, navBarBackground: UIKit.UIColor? = nil, navBarText: UIKit.UIColor? = nil, inputBackground: UIKit.UIColor? = nil, inputText: UIKit.UIColor? = nil, userMessageBackground: UIKit.UIColor? = nil, userMessageText: UIKit.UIColor? = nil, buttonSelectedBackground: UIKit.UIColor? = nil, defaultShadow: UIKit.UIColor? = nil, inputCursor: UIKit.UIColor? = nil, maintenanceHeaderBackground: UIKit.UIColor? = nil)
 }
 public typealias KindlySDK = Kindly.KindlyChatClient
 public enum BehaviorTypeEnum {
