@@ -1306,6 +1306,213 @@
         "moduleName": "Kindly"
       },
       {
+        "kind": "TypeDecl",
+        "name": "ThemeManager",
+        "printedName": "ThemeManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ThemeManager",
+                "printedName": "Kindly.ThemeManager",
+                "usr": "s:6Kindly12ThemeManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly12ThemeManagerC6sharedACvpZ",
+            "mangledName": "$s6Kindly12ThemeManagerC6sharedACvpZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ThemeManager",
+                    "printedName": "Kindly.ThemeManager",
+                    "usr": "s:6Kindly12ThemeManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly12ThemeManagerC6sharedACvgZ",
+                "mangledName": "$s6Kindly12ThemeManagerC6sharedACvgZ",
+                "moduleName": "Kindly",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "currentTheme",
+            "printedName": "currentTheme",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Theme",
+                "printedName": "any Kindly.Theme",
+                "usr": "s:6Kindly5ThemeP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly12ThemeManagerC07currentB0AA0B0_pvp",
+            "mangledName": "$s6Kindly12ThemeManagerC07currentB0AA0B0_pvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Theme",
+                    "printedName": "any Kindly.Theme",
+                    "usr": "s:6Kindly5ThemeP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly12ThemeManagerC07currentB0AA0B0_pvg",
+                "mangledName": "$s6Kindly12ThemeManagerC07currentB0AA0B0_pvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Theme",
+                    "printedName": "any Kindly.Theme",
+                    "usr": "s:6Kindly5ThemeP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly12ThemeManagerC07currentB0AA0B0_pvs",
+                "mangledName": "$s6Kindly12ThemeManagerC07currentB0AA0B0_pvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly12ThemeManagerC07currentB0AA0B0_pvM",
+                "mangledName": "$s6Kindly12ThemeManagerC07currentB0AA0B0_pvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setUserTheme",
+            "printedName": "setUserTheme(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Theme",
+                "printedName": "any Kindly.Theme",
+                "usr": "s:6Kindly5ThemeP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12ThemeManagerC07setUserB0yyAA0B0_pF",
+            "mangledName": "$s6Kindly12ThemeManagerC07setUserB0yyAA0B0_pF",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6Kindly12ThemeManagerC",
+        "mangledName": "$s6Kindly12ThemeManagerC",
+        "moduleName": "Kindly",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -2115,8 +2322,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit.UIColor",
-        "printedName": "UIKit.UIColor",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -3866,8 +4073,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit.UIColor",
-        "printedName": "UIKit.UIColor",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -5293,6 +5500,283 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomTheme",
+            "printedName": "setCustomTheme(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Theme",
+                "printedName": "any Kindly.Theme",
+                "usr": "s:6Kindly5ThemeP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly0A10ChatClientC14setCustomThemeyyAA0F0_pFZ",
+            "mangledName": "$s6Kindly0A10ChatClientC14setCustomThemeyyAA0F0_pFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setCustomTheme",
+            "printedName": "setCustomTheme(background:botMessageBackground:botMessageText:buttonBackground:buttonOutline:buttonSelectedBackground:buttonText:defaultShadow:inputBackground:inputCursor:inputText:navBarBackground:navBarText:userMessageBackground:userMessageText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly0A10ChatClientC14setCustomTheme10background20botMessageBackground0hI4Text06buttonJ00L7Outline0l8SelectedJ00lK013defaultShadow05inputJ00Q6Cursor0qK006navBarJ00stK004useriJ00uiK0ySo7UIColorCSg_A14VtFZ",
+            "mangledName": "$s6Kindly0A10ChatClientC14setCustomTheme10background20botMessageBackground0hI4Text06buttonJ00L7Outline0l8SelectedJ00lK013defaultShadow05inputJ00Q6Cursor0qK006navBarJ00stK004useriJ00uiK0ySo7UIColorCSg_A14VtFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Var",
@@ -8361,10 +8845,3743 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit.UIColor",
-        "printedName": "UIKit.UIColor",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Kindly"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Theme",
+        "printedName": "Theme",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "background",
+            "printedName": "background",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP10backgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP10backgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP10backgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP10backgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "botMessageBackground",
+            "printedName": "botMessageBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP20botMessageBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP20botMessageBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP20botMessageBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP20botMessageBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "botMessageText",
+            "printedName": "botMessageText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP14botMessageTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP14botMessageTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP14botMessageTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP14botMessageTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonBackground",
+            "printedName": "buttonBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP16buttonBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP16buttonBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP16buttonBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP16buttonBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonOutline",
+            "printedName": "buttonOutline",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP13buttonOutlineSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP13buttonOutlineSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP13buttonOutlineSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP13buttonOutlineSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonSelectedBackground",
+            "printedName": "buttonSelectedBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP24buttonSelectedBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP24buttonSelectedBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP24buttonSelectedBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP24buttonSelectedBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonText",
+            "printedName": "buttonText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP10buttonTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP10buttonTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP10buttonTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP10buttonTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultShadow",
+            "printedName": "defaultShadow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP13defaultShadowSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP13defaultShadowSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP13defaultShadowSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP13defaultShadowSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inputBackground",
+            "printedName": "inputBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP15inputBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP15inputBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP15inputBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP15inputBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inputCursor",
+            "printedName": "inputCursor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP11inputCursorSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP11inputCursorSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP11inputCursorSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP11inputCursorSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inputText",
+            "printedName": "inputText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP9inputTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP9inputTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP9inputTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP9inputTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navBarBackground",
+            "printedName": "navBarBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP16navBarBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP16navBarBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP16navBarBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP16navBarBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navBarText",
+            "printedName": "navBarText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP10navBarTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP10navBarTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP10navBarTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP10navBarTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userMessageBackground",
+            "printedName": "userMessageBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP21userMessageBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP21userMessageBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP21userMessageBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP21userMessageBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userMessageText",
+            "printedName": "userMessageText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly5ThemeP15userMessageTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly5ThemeP15userMessageTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly5ThemeP15userMessageTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly5ThemeP15userMessageTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Theme>",
+                "sugared_genericSig": "<Self where Self : Kindly.Theme>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6Kindly5ThemeP",
+        "mangledName": "$s6Kindly5ThemeP",
+        "moduleName": "Kindly",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KindlyTheme",
+        "printedName": "KindlyTheme",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KindlyTheme",
+                "printedName": "Kindly.KindlyTheme",
+                "usr": "s:6Kindly0A5ThemeV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Kindly0A5ThemeVACycfc",
+            "mangledName": "$s6Kindly0A5ThemeVACycfc",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "background",
+            "printedName": "background",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV10backgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV10backgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV10backgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV10backgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "botMessageBackground",
+            "printedName": "botMessageBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV20botMessageBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV20botMessageBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV20botMessageBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV20botMessageBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "botMessageText",
+            "printedName": "botMessageText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV14botMessageTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV14botMessageTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV14botMessageTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV14botMessageTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonBackground",
+            "printedName": "buttonBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV16buttonBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV16buttonBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV16buttonBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV16buttonBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonOutline",
+            "printedName": "buttonOutline",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV13buttonOutlineSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV13buttonOutlineSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV13buttonOutlineSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV13buttonOutlineSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonSelectedBackground",
+            "printedName": "buttonSelectedBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV24buttonSelectedBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV24buttonSelectedBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV24buttonSelectedBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV24buttonSelectedBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonText",
+            "printedName": "buttonText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV10buttonTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV10buttonTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV10buttonTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV10buttonTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultShadow",
+            "printedName": "defaultShadow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV13defaultShadowSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV13defaultShadowSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV13defaultShadowSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV13defaultShadowSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inputBackground",
+            "printedName": "inputBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV15inputBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV15inputBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV15inputBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV15inputBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inputCursor",
+            "printedName": "inputCursor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV11inputCursorSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV11inputCursorSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV11inputCursorSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV11inputCursorSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inputText",
+            "printedName": "inputText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV9inputTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV9inputTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV9inputTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV9inputTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navBarBackground",
+            "printedName": "navBarBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV16navBarBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV16navBarBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV16navBarBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV16navBarBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navBarText",
+            "printedName": "navBarText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV10navBarTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV10navBarTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV10navBarTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV10navBarTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userMessageBackground",
+            "printedName": "userMessageBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV21userMessageBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV21userMessageBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV21userMessageBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV21userMessageBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userMessageText",
+            "printedName": "userMessageText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A5ThemeV15userMessageTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly0A5ThemeV15userMessageTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A5ThemeV15userMessageTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly0A5ThemeV15userMessageTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6Kindly0A5ThemeV",
+        "mangledName": "$s6Kindly0A5ThemeV",
+        "moduleName": "Kindly",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Theme",
+            "printedName": "Theme",
+            "usr": "s:6Kindly5ThemeP",
+            "mangledName": "$s6Kindly5ThemeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomTheme",
+        "printedName": "CustomTheme",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "background",
+            "printedName": "background",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV10backgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV10backgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV10backgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV10backgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV10backgroundSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV10backgroundSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV10backgroundSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV10backgroundSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "botMessageBackground",
+            "printedName": "botMessageBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV20botMessageBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV20botMessageBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV20botMessageBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV20botMessageBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV20botMessageBackgroundSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV20botMessageBackgroundSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV20botMessageBackgroundSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV20botMessageBackgroundSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "botMessageText",
+            "printedName": "botMessageText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV14botMessageTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV14botMessageTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV14botMessageTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV14botMessageTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV14botMessageTextSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV14botMessageTextSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV14botMessageTextSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV14botMessageTextSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonBackground",
+            "printedName": "buttonBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV16buttonBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV16buttonBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV16buttonBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV16buttonBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV16buttonBackgroundSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV16buttonBackgroundSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV16buttonBackgroundSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV16buttonBackgroundSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonOutline",
+            "printedName": "buttonOutline",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV13buttonOutlineSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV13buttonOutlineSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV13buttonOutlineSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV13buttonOutlineSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV13buttonOutlineSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV13buttonOutlineSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV13buttonOutlineSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV13buttonOutlineSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonSelectedBackground",
+            "printedName": "buttonSelectedBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV24buttonSelectedBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV24buttonSelectedBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV24buttonSelectedBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV24buttonSelectedBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV24buttonSelectedBackgroundSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV24buttonSelectedBackgroundSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV24buttonSelectedBackgroundSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV24buttonSelectedBackgroundSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonText",
+            "printedName": "buttonText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV10buttonTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV10buttonTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV10buttonTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV10buttonTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV10buttonTextSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV10buttonTextSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV10buttonTextSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV10buttonTextSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultShadow",
+            "printedName": "defaultShadow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV13defaultShadowSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV13defaultShadowSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV13defaultShadowSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV13defaultShadowSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV13defaultShadowSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV13defaultShadowSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV13defaultShadowSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV13defaultShadowSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inputBackground",
+            "printedName": "inputBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV15inputBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV15inputBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV15inputBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV15inputBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV15inputBackgroundSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV15inputBackgroundSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV15inputBackgroundSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV15inputBackgroundSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inputCursor",
+            "printedName": "inputCursor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV11inputCursorSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV11inputCursorSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV11inputCursorSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV11inputCursorSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV11inputCursorSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV11inputCursorSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV11inputCursorSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV11inputCursorSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "inputText",
+            "printedName": "inputText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV9inputTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV9inputTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV9inputTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV9inputTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV9inputTextSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV9inputTextSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV9inputTextSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV9inputTextSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navBarBackground",
+            "printedName": "navBarBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV16navBarBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV16navBarBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV16navBarBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV16navBarBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV16navBarBackgroundSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV16navBarBackgroundSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV16navBarBackgroundSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV16navBarBackgroundSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "navBarText",
+            "printedName": "navBarText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV10navBarTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV10navBarTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV10navBarTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV10navBarTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV10navBarTextSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV10navBarTextSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV10navBarTextSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV10navBarTextSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userMessageBackground",
+            "printedName": "userMessageBackground",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV21userMessageBackgroundSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV21userMessageBackgroundSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV21userMessageBackgroundSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV21userMessageBackgroundSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV21userMessageBackgroundSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV21userMessageBackgroundSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV21userMessageBackgroundSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV21userMessageBackgroundSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userMessageText",
+            "printedName": "userMessageText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly11CustomThemeV15userMessageTextSo7UIColorCSgvp",
+            "mangledName": "$s6Kindly11CustomThemeV15userMessageTextSo7UIColorCSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV15userMessageTextSo7UIColorCSgvg",
+                "mangledName": "$s6Kindly11CustomThemeV15userMessageTextSo7UIColorCSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIColor?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIColor",
+                        "printedName": "UIKit.UIColor",
+                        "usr": "c:objc(cs)UIColor"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV15userMessageTextSo7UIColorCSgvs",
+                "mangledName": "$s6Kindly11CustomThemeV15userMessageTextSo7UIColorCSgvs",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly11CustomThemeV15userMessageTextSo7UIColorCSgvM",
+                "mangledName": "$s6Kindly11CustomThemeV15userMessageTextSo7UIColorCSgvM",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(background:botMessageBackground:botMessageText:buttonBackground:buttonOutline:buttonSelectedBackground:buttonText:defaultShadow:inputBackground:inputCursor:inputText:navBarBackground:navBarText:userMessageBackground:userMessageText:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomTheme",
+                "printedName": "Kindly.CustomTheme",
+                "usr": "s:6Kindly11CustomThemeV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Kindly11CustomThemeV10background20botMessageBackground0eF4Text06buttonG00I7Outline0i8SelectedG00iH013defaultShadow05inputG00N6Cursor0nH006navBarG00pqH004userfG00rfH0ACSo7UIColorCSg_A14Utcfc",
+            "mangledName": "$s6Kindly11CustomThemeV10background20botMessageBackground0eF4Text06buttonG00I7Outline0i8SelectedG00iH013defaultShadow05inputG00N6Cursor0nH006navBarG00pqH004userfG00rfH0ACSo7UIColorCSg_A14Utcfc",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6Kindly11CustomThemeV",
+        "mangledName": "$s6Kindly11CustomThemeV",
+        "moduleName": "Kindly",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Theme",
+            "printedName": "Theme",
+            "usr": "s:6Kindly5ThemeP",
+            "mangledName": "$s6Kindly5ThemeP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -10513,791 +14730,791 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 6315,
+      "offset": 6414,
       "length": 19,
       "value": "\"maintenance_alert\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 6377,
+      "offset": 6476,
       "length": 14,
       "value": "\"welcome_page\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 6412,
+      "offset": 6511,
       "length": 12,
       "value": "\"chatbubble\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 6447,
+      "offset": 6546,
       "length": 15,
       "value": "\"feedback_form\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 7389,
+      "offset": 7488,
       "length": 13,
       "value": "\"bubble_size\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 7439,
+      "offset": 7538,
       "length": 30,
       "value": "\"chatbubble_heartbeat_enabled\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 7503,
+      "offset": 7602,
       "length": 28,
       "value": "\"chatbubble_heartbeat_ttl_s\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 7559,
+      "offset": 7658,
       "length": 21,
       "value": "\"conversion_page_url\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 7609,
+      "offset": 7708,
       "length": 21,
       "value": "\"disabled_transports\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 7653,
+      "offset": 7752,
       "length": 15,
       "value": "\"email_enabled\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 7691,
+      "offset": 7790,
       "length": 15,
       "value": "\"handover_mode\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 7769,
+      "offset": 7868,
       "length": 28,
       "value": "\"no_feedback_after_handover\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 7819,
+      "offset": 7918,
       "length": 14,
       "value": "\"refreshed_at\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 7862,
+      "offset": 7961,
       "length": 21,
       "value": "\"seasonal_appearance\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 7911,
+      "offset": 8010,
       "length": 21,
       "value": "\"show_handover_queue\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 7960,
+      "offset": 8059,
       "length": 21,
       "value": "\"show_takeover_queue\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 8008,
+      "offset": 8107,
       "length": 20,
       "value": "\"split_test_enabled\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 8057,
+      "offset": 8156,
       "length": 22,
       "value": "\"global_icons_enabled\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 8105,
+      "offset": 8204,
       "length": 20,
       "value": "\"text_right_to_left\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 8144,
+      "offset": 8243,
       "length": 11,
       "value": "\"track_utm\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 8180,
+      "offset": 8279,
       "length": 17,
       "value": "\"typing_duration\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 8223,
+      "offset": 8322,
       "length": 18,
       "value": "\"typing_indicator\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 8261,
+      "offset": 8360,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 8300,
+      "offset": 8399,
       "length": 20,
       "value": "\"use_bubble_outline\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 8348,
+      "offset": 8447,
       "length": 21,
       "value": "\"use_chatbubble_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 8402,
+      "offset": 8501,
       "length": 27,
       "value": "\"user_idle_timeout_seconds\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 8457,
+      "offset": 8556,
       "length": 20,
       "value": "\"whitelabel_enabled\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 8504,
+      "offset": 8603,
       "length": 19,
       "value": "\"feedback_settings\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 9464,
+      "offset": 9563,
       "length": 25,
       "value": "\"color_chat_log_elements\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 9516,
+      "offset": 9615,
       "length": 25,
       "value": "\"color_button_background\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 9574,
+      "offset": 9673,
       "length": 32,
       "value": "\"color_bubble_button_background\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 9627,
+      "offset": 9726,
       "length": 19,
       "value": "\"color_button_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 9667,
+      "offset": 9766,
       "length": 18,
       "value": "\"color_background\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 9712,
+      "offset": 9811,
       "length": 25,
       "value": "\"color_header_background\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 9758,
+      "offset": 9857,
       "length": 19,
       "value": "\"color_header_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 9803,
+      "offset": 9902,
       "length": 24,
       "value": "\"color_input_background\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 9847,
+      "offset": 9946,
       "length": 18,
       "value": "\"color_input_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 9897,
+      "offset": 9996,
       "length": 31,
       "value": "\"color_user_message_background\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 9959,
+      "offset": 10058,
       "length": 31,
       "value": "\"color_user_message_text_color\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 10021,
+      "offset": 10120,
       "length": 30,
       "value": "\"color_bot_message_background\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 10081,
+      "offset": 10180,
       "length": 30,
       "value": "\"color_bot_message_text_color\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 10135,
+      "offset": 10234,
       "length": 22,
       "value": "\"color_button_outline\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 10182,
+      "offset": 10281,
       "length": 23,
       "value": "\"color_chatbubble_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 10243,
+      "offset": 10342,
       "length": 38,
       "value": "\"color_global_icons_button_background\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 10307,
+      "offset": 10406,
       "length": 24,
       "value": "\"color_panel_background\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 10367,
+      "offset": 10466,
       "length": 35,
       "value": "\"color_secondary_button_background\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 10438,
+      "offset": 10537,
       "length": 30,
       "value": "\"chatbubble_icon_avatar_image\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 10778,
+      "offset": 10877,
       "length": 18,
       "value": "\"tab_notification\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 10824,
+      "offset": 10923,
       "length": 20,
       "value": "\"sound_notification\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 10873,
+      "offset": 10972,
       "length": 21,
       "value": "\"bubble_notification\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 10921,
+      "offset": 11020,
       "length": 20,
       "value": "\"use_push_greetings\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 10965,
+      "offset": 11064,
       "length": 16,
       "value": "\"push_greetings\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 11331,
+      "offset": 11430,
       "length": 16,
       "value": "\"autopopup_time\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 11637,
+      "offset": 11736,
       "length": 14,
       "value": "\"start_button\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 12182,
+      "offset": 12281,
       "length": 20,
       "value": "\"realtime_analytics\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 12229,
+      "offset": 12328,
       "length": 19,
       "value": "\"heartbeat_enabled\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 12272,
+      "offset": 12371,
       "length": 17,
       "value": "\"heartbeat_ttl_s\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 12315,
+      "offset": 12414,
       "length": 19,
       "value": "\"icon_avatar_image\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 12357,
+      "offset": 12456,
       "length": 15,
       "value": "\"persist_state\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 12410,
+      "offset": 12509,
       "length": 32,
       "value": "\"persist_state_lifespan_seconds\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 12483,
+      "offset": 12582,
       "length": 16,
       "value": "\"autopopup_time\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 12518,
+      "offset": 12617,
       "length": 11,
       "value": "\"keep_open\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 12554,
+      "offset": 12653,
       "length": 18,
       "value": "\"keep_open_mobile\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 12600,
+      "offset": 12699,
       "length": 21,
       "value": "\"input_limit_enabled\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 12642,
+      "offset": 12741,
       "length": 13,
       "value": "\"input_limit\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 12679,
+      "offset": 12778,
       "length": 17,
       "value": "\"auth_public_key\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14197,
+      "offset": 14296,
       "length": 15,
       "value": "\"cancel_button\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14237,
+      "offset": 14336,
       "length": 18,
       "value": "\"cancel_chat_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14282,
+      "offset": 14381,
       "length": 20,
       "value": "\"cancel_chat_button\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14333,
+      "offset": 14432,
       "length": 24,
       "value": "\"change_language_button\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14386,
+      "offset": 14485,
       "length": 22,
       "value": "\"change_language_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14436,
+      "offset": 14535,
       "length": 21,
       "value": "\"chat_deleted_header\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14483,
+      "offset": 14582,
       "length": 19,
       "value": "\"chat_deleted_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14532,
+      "offset": 14631,
       "length": 23,
       "value": "\"confirm_action_button\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14578,
+      "offset": 14677,
       "length": 15,
       "value": "\"delete_button\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14614,
+      "offset": 14713,
       "length": 13,
       "value": "\"delete_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14652,
+      "offset": 14751,
       "length": 17,
       "value": "\"download_button\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14698,
+      "offset": 14797,
       "length": 22,
       "value": "\"download_format_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14749,
+      "offset": 14848,
       "length": 26,
       "value": "\"ios_file_selector_button\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14805,
+      "offset": 14904,
       "length": 27,
       "value": "\"ios_photo_selector_button\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14876,
+      "offset": 14975,
       "length": 17,
       "value": "\"settings_button\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14918,
+      "offset": 15017,
       "length": 17,
       "value": "\"settings_header\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 14961,
+      "offset": 15060,
       "length": 19,
       "value": "\"start_over_button\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15007,
+      "offset": 15106,
       "length": 20,
       "value": "\"upload_file_failed\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15055,
+      "offset": 15154,
       "length": 21,
       "value": "\"upload_file_subtext\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15101,
+      "offset": 15200,
       "length": 18,
       "value": "\"upload_file_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15145,
+      "offset": 15244,
       "length": 19,
       "value": "\"agent_joined_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15188,
+      "offset": 15287,
       "length": 17,
       "value": "\"agent_left_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15233,
+      "offset": 15332,
       "length": 21,
       "value": "\"handover_queue_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15282,
+      "offset": 15381,
       "length": 21,
       "value": "\"handover_queue_link\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15331,
+      "offset": 15430,
       "length": 21,
       "value": "\"takeover_queue_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15380,
+      "offset": 15479,
       "length": 21,
       "value": "\"takeover_queue_link\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15426,
+      "offset": 15525,
       "length": 18,
       "value": "\"leave_queue_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15469,
+      "offset": 15568,
       "length": 18,
       "value": "\"leave_queue_link\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15519,
+      "offset": 15618,
       "length": 26,
       "value": "\"chatting_with_agent_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15581,
+      "offset": 15680,
       "length": 31,
       "value": "\"user_end_handover_button_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15652,
+      "offset": 15751,
       "length": 36,
       "value": "\"user_end_handover_modal_title_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 15734,
+      "offset": 15833,
       "length": 42,
       "value": "\"user_end_handover_modal_description_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 16009,
+      "offset": 16108,
       "length": 15,
       "value": "\"alert_enabled\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 16043,
+      "offset": 16142,
       "length": 11,
       "value": "\"link_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 16077,
+      "offset": 16176,
       "length": 15,
       "value": "\"link_location\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 16114,
+      "offset": 16213,
       "length": 14,
       "value": "\"text_content\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 16809,
+      "offset": 16908,
       "length": 18,
       "value": "\"freeform_enabled\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 16852,
+      "offset": 16951,
       "length": 17,
       "value": "\"binary_headline\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 16887,
+      "offset": 16986,
       "length": 10,
       "value": "\"binary_1\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 16915,
+      "offset": 17014,
       "length": 10,
       "value": "\"binary_0\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 16949,
+      "offset": 17048,
       "length": 16,
       "value": "\"emoji_headline\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 16990,
+      "offset": 17089,
       "length": 17,
       "value": "\"emoji_guideline\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 17037,
+      "offset": 17136,
       "length": 22,
       "value": "\"freeform_description\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 17089,
+      "offset": 17188,
       "length": 22,
       "value": "\"freeform_placeholder\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 17180,
+      "offset": 17279,
       "length": 24,
       "value": "\"external_link_headline\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 17231,
+      "offset": 17330,
       "length": 20,
       "value": "\"external_link_text\""
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Services\/ConfigService.swift",
       "kind": "StringLiteral",
-      "offset": 17277,
+      "offset": 17376,
       "length": 19,
       "value": "\"external_link_url\""
     },

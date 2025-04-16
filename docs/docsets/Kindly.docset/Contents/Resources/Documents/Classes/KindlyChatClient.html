@@ -17,7 +17,7 @@
     <a title="KindlyChatClient Class Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="../index.html">Kindly SDK Docs</a> (29% documented)</p>
+        <p><a href="../index.html">Kindly SDK Docs</a> (23% documented)</p>
         <p class="header-right"><a href="https://github.com/kindly-ai/sdk-chat-ios.git"><img src="../img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="../search.json">
@@ -68,6 +68,9 @@
               <li class="nav-group-task">
                 <a href="../Classes/Promise.html">Promise</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ThemeManager.html">ThemeManager</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -113,6 +116,9 @@
               <li class="nav-group-task">
                 <a href="../Protocols/KindlyChatClientDelegate.html">KindlyChatClientDelegate</a>
               </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/Theme.html">Theme</a>
+              </li>
             </ul>
           </li>
           <li class="nav-group-name">
@@ -125,6 +131,9 @@
                 <a href="../Structs.html#/s:6Kindly13CoreSDKConfigV">CoreSDKConfig</a>
               </li>
               <li class="nav-group-task">
+                <a href="../Structs/CustomTheme.html">CustomTheme</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="../Structs.html#/s:6Kindly18ExternalChatButtonV">ExternalChatButton</a>
               </li>
               <li class="nav-group-task">
@@ -135,6 +144,9 @@
               </li>
               <li class="nav-group-task">
                 <a href="../Structs/KindlySDKConfig.html#/s:6Kindly0A9SDKConfigV10FormConfigV">– FormConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/KindlyTheme.html">KindlyTheme</a>
               </li>
               <li class="nav-group-task">
                 <a href="../Structs.html#/s:6Kindly13OEmbedRespnseV">OEmbedRespnse</a>
@@ -437,6 +449,282 @@ Our &ldquo;Getting started&rdquo; guide covers this topic and gives you instruct
                           <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">var</span> <span class="nv">verboseLogging</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
 
                         </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC14setCustomThemeyyAA0F0_pFZ"></a>
+                    <a name="//apple_ref/swift/Method/setCustomTheme(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC14setCustomThemeyyAA0F0_pFZ">setCustomTheme(_:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets a custom theme for the chat.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">setCustomTheme</span><span class="p">(</span><span class="n">_</span> <span class="nv">theme</span><span class="p">:</span> <span class="kt"><a href="../Protocols/Theme.html">Theme</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>theme</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The theme to be applied to the chat. This theme will override any theme retrieved from Kindly&rsquo;s settings.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:6Kindly0A10ChatClientC14setCustomTheme10background20botMessageBackground0hI4Text06buttonJ00L7Outline0l8SelectedJ00lK013defaultShadow05inputJ00Q6Cursor0qK006navBarJ00stK004useriJ00uiK0ySo7UIColorCSg_A14VtFZ"></a>
+                    <a name="//apple_ref/swift/Method/setCustomTheme(background:botMessageBackground:botMessageText:buttonBackground:buttonOutline:buttonSelectedBackground:buttonText:defaultShadow:inputBackground:inputCursor:inputText:navBarBackground:navBarText:userMessageBackground:userMessageText:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A10ChatClientC14setCustomTheme10background20botMessageBackground0hI4Text06buttonJ00L7Outline0l8SelectedJ00lK013defaultShadow05inputJ00Q6Cursor0qK006navBarJ00stK004useriJ00uiK0ySo7UIColorCSg_A14VtFZ">setCustomTheme(background:<wbr>botMessageBackground:<wbr>botMessageText:<wbr>buttonBackground:<wbr>buttonOutline:<wbr>buttonSelectedBackground:<wbr>buttonText:<wbr>defaultShadow:<wbr>inputBackground:<wbr>inputCursor:<wbr>inputText:<wbr>navBarBackground:<wbr>navBarText:<wbr>userMessageBackground:<wbr>userMessageText:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets a custom theme for the chat using the CustomTheme struct.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="kd">func</span> <span class="nf">setCustomTheme</span><span class="p">(</span>
+	<span class="nv">background</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="nv">botMessageBackground</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="nv">botMessageText</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="nv">buttonBackground</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="nv">buttonOutline</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="nv">buttonSelectedBackground</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="nv">buttonText</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="n">defaultShadow</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="nv">inputBackground</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="nv">inputCursor</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="nv">inputText</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="nv">navBarBackground</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="nv">navBarText</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="nv">userMessageBackground</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span>
+	<span class="nv">userMessageText</span><span class="p">:</span> <span class="kt">UIColor</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>background</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Background color for the chat interface.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>botMessageBackground</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Background color for bot message bubbles.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>botMessageText</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Text color for bot messages.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>buttonBackground</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Background color for buttons.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>buttonOutline</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Outline color for buttons.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>buttonSelectedBackground</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Background color for selected buttons.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>buttonText</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Text color for buttons.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>defaultShadow</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Default shadow color.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inputBackground</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Background color for the input field.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inputCursor</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Color for the input cursor.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inputText</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Text color for the input field.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>navBarBackground</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Background color for the navigation bar.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>navBarText</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Text color for the navigation bar.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userMessageBackground</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Background color for user message bubbles.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>userMessageText</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Text color for user messages.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
                       </div>
                     </section>
                   </div>
