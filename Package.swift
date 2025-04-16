@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "KindlySDK",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v13),
     ],
     products: [
         .library(

@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = "https://www.kindly.ai"
   spec.license      = { :type => 'MIT', :file => 'LICENSE.md' }
   spec.author             = { "Alexy" => "alexy.ib@gmail.com" }
-  spec.platform     = :ios, "12.0"
+  spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/kindly-ai/sdk-chat-ios.git", :tag => "#{spec.version}" }
   # spec.source_files  = 'Sources/**/*'
   spec.vendored_frameworks = 'artifacts/Kindly.xcframework'
