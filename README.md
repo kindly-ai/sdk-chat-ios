@@ -10,7 +10,7 @@ Integrate Kindly Chat in your iOS app.
 
 ### Requirements
 
-- iOS deployment target: 12.0+
+- iOS deployment target: 13.0+
 
 ### How to install
 
