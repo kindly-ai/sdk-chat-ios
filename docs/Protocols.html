@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Type Aliases  Reference</title>
+    <title>Protocols  Reference</title>
     <link rel="stylesheet" type="text/css" href="css/jazzy.css" />
     <link rel="stylesheet" type="text/css" href="css/highlight.css" />
     <meta charset='utf-8'>
@@ -13,8 +13,8 @@
     <script src="js/jazzy.search.js" defer></script>
   </head>
   <body>
-    <a name="//apple_ref/swift/Section/Type Aliases" class="dashAnchor"></a>
-    <a title="Type Aliases  Reference"></a>
+    <a name="//apple_ref/swift/Section/Protocols" class="dashAnchor"></a>
+    <a title="Protocols  Reference"></a>
     <header>
       <div class="content-wrapper">
         <p><a href="index.html">Kindly SDK Docs</a> (23% documented)</p>
@@ -30,7 +30,7 @@
       <p id="breadcrumbs">
         <a href="index.html">Kindly</a>
         <img id="carat" src="img/carat.png" alt=""/>
-        Type Aliases  Reference
+        Protocols  Reference
       </p>
     </div>
     <div class="content-wrapper">
@@ -173,8 +173,8 @@
       <article class="main-content">
         <section>
           <section class="section">
-            <h1>Type Aliases</h1>
-            <p>The following type aliases are available globally.</p>
+            <h1>Protocols</h1>
+            <p>The following protocols are available globally.</p>
 
           </section>
           <section class="section task-group-section">
@@ -183,9 +183,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Kindly17AuthTokenCallbacka"></a>
-                    <a name="//apple_ref/swift/Alias/AuthTokenCallback" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Kindly17AuthTokenCallbacka">AuthTokenCallback</a>
+                    <a name="/s:6Kindly11CoordinatorP"></a>
+                    <a name="//apple_ref/swift/Protocol/Coordinator" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly11CoordinatorP">Coordinator</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -195,12 +195,13 @@
                       <div class="abstract">
                         <p>Undocumented</p>
 
+                        <a href="Protocols/Coordinator.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">AuthTokenCallback</span> <span class="o">=</span> <span class="p">(</span><span class="n">_</span> <span class="nv">chatId</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="n">_</span> <span class="nv">promise</span><span class="p">:</span> <span class="kt"><a href="Classes/Promise.html">Promise</a></span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Coordinator</span></code></pre>
 
                         </div>
                       </div>
@@ -210,9 +211,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Kindly14GenericClosurea"></a>
-                    <a name="//apple_ref/swift/Alias/GenericClosure" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Kindly14GenericClosurea">GenericClosure</a>
+                    <a name="/s:6Kindly0A18ChatClientDelegateP"></a>
+                    <a name="//apple_ref/swift/Protocol/KindlyChatClientDelegate" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly0A18ChatClientDelegateP">KindlyChatClientDelegate</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -220,14 +221,15 @@
                     <section class="section">
                       <div class="pointer"></div>
                       <div class="abstract">
-                        <p>Undocumented</p>
+                        <p>A protocol that defines the delegate methods for the KindlyChatClient.</p>
 
+                        <a href="Protocols/KindlyChatClientDelegate.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">GenericClosure</span><span class="o">&lt;</span><span class="kt">T</span><span class="o">&gt;</span> <span class="o">=</span> <span class="p">(</span><span class="n">_</span> <span class="nv">value</span><span class="p">:</span> <span class="kt">T</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">KindlyChatClientDelegate</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
 
                         </div>
                       </div>
@@ -237,9 +239,9 @@
                 <li class="item">
                   <div>
                     <code>
-                    <a name="/s:6Kindly11VoidClosurea"></a>
-                    <a name="//apple_ref/swift/Alias/VoidClosure" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Kindly11VoidClosurea">VoidClosure</a>
+                    <a name="/s:6Kindly5ThemeP"></a>
+                    <a name="//apple_ref/swift/Protocol/Theme" class="dashAnchor"></a>
+                    <a class="token" href="#/s:6Kindly5ThemeP">Theme</a>
                     </code>
                   </div>
                   <div class="height-container">
@@ -249,39 +251,13 @@
                       <div class="abstract">
                         <p>Undocumented</p>
 
+                        <a href="Protocols/Theme.html" class="slightly-smaller">See more</a>
                       </div>
                       <div class="declaration">
                         <h4>Declaration</h4>
                         <div class="language">
                           <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">VoidClosure</span> <span class="o">=</span> <span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Void</span></code></pre>
-
-                        </div>
-                      </div>
-                    </section>
-                  </div>
-                </li>
-                <li class="item">
-                  <div>
-                    <code>
-                    <a name="/s:6Kindly0A3SDKa"></a>
-                    <a name="//apple_ref/swift/Alias/KindlySDK" class="dashAnchor"></a>
-                    <a class="token" href="#/s:6Kindly0A3SDKa">KindlySDK</a>
-                    </code>
-                  </div>
-                  <div class="height-container">
-                    <div class="pointer-container"></div>
-                    <section class="section">
-                      <div class="pointer"></div>
-                      <div class="abstract">
-                        <p>Undocumented</p>
-
-                      </div>
-                      <div class="declaration">
-                        <h4>Declaration</h4>
-                        <div class="language">
-                          <p class="aside-title">Swift</p>
-                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">typealias</span> <span class="kt">KindlySDK</span> <span class="o">=</span> <span class="kt"><a href="Classes/KindlyChatClient.html">KindlyChatClient</a></span></code></pre>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">protocol</span> <span class="kt">Theme</span></code></pre>
 
                         </div>
                       </div>
