@@ -15103,6 +15103,13 @@
       "value": "\"end-user\""
     },
     {
+      "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Extensions\/UIKit\/UIColor+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1972,
+      "length": 3,
+      "value": "120"
+    },
+    {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/Core\/Hotline\/PassthroughPublisher.swift",
       "kind": "Dictionary",
       "offset": 263,
@@ -19004,28 +19011,28 @@
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4099,
+      "offset": 4200,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4130,
+      "offset": 4231,
       "length": 3,
       "value": "7.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4164,
+      "offset": 4265,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/src\/iOS\/Projects\/kindly-chat-sources-ios\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4197,
+      "offset": 4298,
       "length": 4,
       "value": "14.0"
     },
