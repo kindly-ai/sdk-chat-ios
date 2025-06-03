@@ -20,7 +20,6 @@ import PhotosUI
 import QuartzCore
 import SafariServices
 import Security
-import Sentry
 import Starscream
 import Swift
 import SwiftUI
