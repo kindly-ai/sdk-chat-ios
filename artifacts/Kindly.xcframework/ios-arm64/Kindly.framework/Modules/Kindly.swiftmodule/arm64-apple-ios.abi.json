@@ -48,6 +48,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -113,6 +120,13 @@
         "kind": "Import",
         "name": "SwiftyJSON",
         "printedName": "SwiftyJSON",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -1591,13 +1605,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Kindly"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1621,13 +1628,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Kindly"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -2541,13 +2541,6 @@
             "mangledName": "$sSH"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Kindly"
       },
       {
         "kind": "Import",
@@ -4123,6 +4116,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -4188,6 +4188,13 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -4398,6 +4405,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -6641,13 +6655,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Kindly"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -6664,6 +6671,13 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -7215,6 +7229,13 @@
         "kind": "Import",
         "name": "OSLog",
         "printedName": "OSLog",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -8708,13 +8729,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Kindly"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -8784,13 +8798,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Kindly"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -13212,6 +13219,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -13277,6 +13291,13 @@
         "kind": "Import",
         "name": "SwiftyJSON",
         "printedName": "SwiftyJSON",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -13680,6 +13701,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -14188,112 +14216,112 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "Dictionary",
-      "offset": 421,
+      "offset": 436,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 501,
+      "offset": 516,
       "length": 12,
       "value": "\"created_at\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 533,
+      "offset": 548,
       "length": 12,
       "value": "\"updated_at\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 572,
+      "offset": 587,
       "length": 20,
       "value": "\"submit_dialogue_id\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 619,
+      "offset": 634,
       "length": 20,
       "value": "\"cancel_dialogue_id\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 662,
+      "offset": 677,
       "length": 15,
       "value": "\"language_code\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 727,
+      "offset": 742,
       "length": 15,
       "value": "\"submission_id\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 2989,
+      "offset": 3004,
       "length": 20,
       "value": "\"submit_button_text\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 3036,
+      "offset": 3051,
       "length": 20,
       "value": "\"cancel_button_text\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 3077,
+      "offset": 3092,
       "length": 13,
       "value": "\"cancel_text\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 3110,
+      "offset": 3125,
       "length": 12,
       "value": "\"error_text\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 3147,
+      "offset": 3162,
       "length": 17,
       "value": "\"unanswered_text\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 6136,
+      "offset": 6151,
       "length": 12,
       "value": "\"input_type\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 7723,
+      "offset": 7738,
       "length": 18,
       "value": "\"placeholder_text\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 7760,
+      "offset": 7775,
       "length": 11,
       "value": "\"help_text\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 10060,
+      "offset": 10075,
       "length": 12,
       "value": "\"max_length\""
     },
@@ -14405,56 +14433,56 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "StringLiteral",
-      "offset": 1046,
+      "offset": 1061,
       "length": 8,
       "value": "\"Socket\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "Dictionary",
-      "offset": 1192,
+      "offset": 1207,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1332,
+      "offset": 1347,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1442,
+      "offset": 1457,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1481,
+      "offset": 1496,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1519,
+      "offset": 1534,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "IntegerLiteral",
-      "offset": 1565,
+      "offset": 1580,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/SocketService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1640,
+      "offset": 1655,
       "length": 5,
       "value": "false"
     },
@@ -14503,70 +14531,70 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5122,
+      "offset": 5426,
       "length": 17,
       "value": "\"system-dialogue\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5157,
+      "offset": 5461,
       "length": 11,
       "value": "\"user_says\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5236,
+      "offset": 5540,
       "length": 10,
       "value": "\"GREETING\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5312,
+      "offset": 5616,
       "length": 10,
       "value": "\"STANDARD\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5702,
+      "offset": 6006,
       "length": 7,
       "value": "\"AGENT\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5722,
+      "offset": 6026,
       "length": 5,
       "value": "\"BOT\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5743,
+      "offset": 6047,
       "length": 8,
       "value": "\"SYSTEM\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5779,
+      "offset": 6083,
       "length": 6,
       "value": "\"USER\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5802,
+      "offset": 6106,
       "length": 9,
       "value": "\"WEBHOOK\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5829,
+      "offset": 6133,
       "length": 10,
       "value": "\"EXTERNAL\""
     },
@@ -14886,20 +14914,6 @@
       "value": "\"chatmessage_id\""
     },
     {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Hotline\/Announced.swift",
-      "kind": "Array",
-      "offset": 288,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Hotline\/Announced.swift",
-      "kind": "StringLiteral",
-      "offset": 333,
-      "length": 15,
-      "value": "\"com.announced\""
-    },
-    {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/Standalone\/OEmbedRespnse.swift",
       "kind": "StringLiteral",
       "offset": 452,
@@ -15108,27 +15122,6 @@
       "offset": 1972,
       "length": 3,
       "value": "120"
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Hotline\/PassthroughPublisher.swift",
-      "kind": "Dictionary",
-      "offset": 263,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Hotline\/PassthroughPublisher.swift",
-      "kind": "StringLiteral",
-      "offset": 503,
-      "length": 24,
-      "value": "\"com.passthroughsubject\""
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Hotline\/PassthroughPublisher.swift",
-      "kind": "BooleanLiteral",
-      "offset": 680,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Coordinator\/MainCoordinator.swift",
@@ -16183,168 +16176,168 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "BooleanLiteral",
-      "offset": 109,
+      "offset": 124,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 202,
+      "offset": 217,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "BooleanLiteral",
-      "offset": 355,
+      "offset": 370,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "BooleanLiteral",
-      "offset": 551,
+      "offset": 566,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 781,
+      "offset": 796,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "StringLiteral",
-      "offset": 811,
+      "offset": 826,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "FloatLiteral",
-      "offset": 847,
+      "offset": 862,
       "length": 4,
       "value": "18.0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 899,
+      "offset": 914,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 905,
+      "offset": 920,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 915,
+      "offset": 930,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 926,
+      "offset": 941,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 1051,
+      "offset": 1066,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 1057,
+      "offset": 1072,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 1067,
+      "offset": 1082,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 1078,
+      "offset": 1093,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "BooleanLiteral",
-      "offset": 1313,
+      "offset": 1328,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 1515,
+      "offset": 1530,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 1545,
+      "offset": 1560,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "BooleanLiteral",
-      "offset": 1570,
+      "offset": 1585,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "BooleanLiteral",
-      "offset": 1716,
+      "offset": 1731,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "IntegerLiteral",
-      "offset": 1763,
+      "offset": 1778,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "StringLiteral",
-      "offset": 1839,
+      "offset": 1854,
       "length": 5,
       "value": "\"0\/0\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "BooleanLiteral",
-      "offset": 1898,
+      "offset": 1936,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Form\/Input\/AIInput.swift",
       "kind": "BooleanLiteral",
-      "offset": 1943,
+      "offset": 2079,
       "length": 4,
       "value": "true"
     },
@@ -16953,154 +16946,154 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "Dictionary",
-      "offset": 3772,
+      "offset": 3765,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 4047,
+      "offset": 4040,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4086,
+      "offset": 4079,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4226,
+      "offset": 4219,
       "length": 6,
       "value": "\"Send\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4251,
+      "offset": 4244,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4341,
+      "offset": 4334,
       "length": 11,
       "value": "\"icon_send\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4553,
+      "offset": 4546,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4676,
+      "offset": 4669,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4812,
+      "offset": 4805,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4942,
+      "offset": 4935,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21281,
+      "offset": 21427,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21368,
+      "offset": 21514,
       "length": 4,
       "value": "\"\r\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "Array",
-      "offset": 21442,
+      "offset": 21588,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21472,
+      "offset": 21618,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "Array",
-      "offset": 21504,
+      "offset": 21650,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21612,
+      "offset": 21758,
       "length": 4,
       "value": "\"\r\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21717,
+      "offset": 21863,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 63062,
+      "offset": 55743,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 63105,
+      "offset": 55786,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 63141,
+      "offset": 55822,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 63180,
+      "offset": 55861,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 63220,
+      "offset": 55901,
       "length": 4,
       "value": "16.0"
     },
@@ -17135,35 +17128,28 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 302,
+      "offset": 317,
       "length": 29,
       "value": "\"message-attachments-updated\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 436,
+      "offset": 451,
       "length": 40,
       "value": "\"pusher_internal:subscription_succeeded\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/KindlyChatClient.swift",
-      "kind": "Array",
-      "offset": 3077,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "Dictionary",
-      "offset": 3288,
+      "offset": 3309,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 25728,
+      "offset": 25896,
       "length": 4,
       "value": "true"
     },
@@ -17217,44 +17203,23 @@
       "value": "\"PROCESSING\""
     },
     {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Hotline\/CurrentValuePublisher.swift",
-      "kind": "Dictionary",
-      "offset": 266,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Hotline\/CurrentValuePublisher.swift",
-      "kind": "StringLiteral",
-      "offset": 498,
-      "length": 25,
-      "value": "\"com.currentvaluesubject\""
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Hotline\/CurrentValuePublisher.swift",
-      "kind": "BooleanLiteral",
-      "offset": 676,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/LifecycleVars.swift",
       "kind": "BooleanLiteral",
-      "offset": 372,
+      "offset": 387,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/LifecycleVars.swift",
       "kind": "IntegerLiteral",
-      "offset": 888,
+      "offset": 903,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/LifecycleVars.swift",
       "kind": "IntegerLiteral",
-      "offset": 938,
+      "offset": 953,
       "length": 1,
       "value": "0"
     },
@@ -18066,364 +18031,364 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "Array",
-      "offset": 510,
+      "offset": 506,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "Array",
-      "offset": 565,
+      "offset": 561,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 1340,
+      "offset": 1332,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 1464,
+      "offset": 1456,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 1512,
+      "offset": 1504,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "Array",
-      "offset": 1923,
+      "offset": 1915,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 2454,
+      "offset": 2984,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 2509,
+      "offset": 3195,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 2564,
+      "offset": 3415,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 2608,
+      "offset": 3592,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "StringLiteral",
-      "offset": 2878,
+      "offset": 3862,
       "length": 52,
       "value": "\"Log level: \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "StringLiteral",
-      "offset": 2929,
+      "offset": 3913,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 2836,
+      "offset": 3820,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 3001,
+      "offset": 4015,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 3098,
+      "offset": 4239,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 3141,
+      "offset": 4282,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 627,
+      "offset": 642,
       "length": 11,
       "value": "\"viewcycle\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 740,
+      "offset": 755,
       "length": 12,
       "value": "\"networking\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 854,
+      "offset": 869,
       "length": 12,
       "value": "\"statistics\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 964,
+      "offset": 979,
       "length": 8,
       "value": "\"system\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1068,
+      "offset": 1083,
       "length": 6,
       "value": "\"misc\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3382,
+      "offset": 3397,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3659,
+      "offset": 3674,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 3685,
+      "offset": 3700,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4123,
+      "offset": 4138,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4149,
+      "offset": 4164,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4814,
+      "offset": 4829,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 4840,
+      "offset": 4855,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5302,
+      "offset": 5317,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5328,
+      "offset": 5343,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5776,
+      "offset": 5791,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 5802,
+      "offset": 5817,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 6200,
+      "offset": 6215,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 6226,
+      "offset": 6241,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7706,
+      "offset": 7721,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 7732,
+      "offset": 7747,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8634,
+      "offset": 8649,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8660,
+      "offset": 8675,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8928,
+      "offset": 8943,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 8954,
+      "offset": 8969,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9701,
+      "offset": 9716,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 9727,
+      "offset": 9742,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 10010,
+      "offset": 10025,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 10036,
+      "offset": 10051,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 10314,
+      "offset": 10329,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 10340,
+      "offset": 10355,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 10568,
+      "offset": 10583,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 10594,
+      "offset": 10609,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 10871,
+      "offset": 10886,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 10897,
+      "offset": 10912,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 11647,
+      "offset": 11662,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Logging\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 11673,
+      "offset": 11688,
       "length": 4,
       "value": "\"\n\""
     },
@@ -18720,6 +18685,13 @@
       "offset": 5233,
       "length": 3,
       "value": "8.0"
+    },
+    {
+      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/UI Components\/Cells\/TypingIndicatorCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 440,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/APNSDTO.swift",
@@ -19123,21 +19095,7 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatPresenter.swift",
       "kind": "Array",
-      "offset": 310,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatPresenter.swift",
-      "kind": "Array",
-      "offset": 355,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Views\/Chat View\/ChatPresenter.swift",
-      "kind": "Array",
-      "offset": 649,
+      "offset": 609,
       "length": 2,
       "value": "[]"
     },
@@ -19249,21 +19207,21 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Actions\/ActionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 2861,
+      "offset": 2866,
       "length": 20,
       "value": "\"kindly.actionQueue\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Actions\/ActionHelper.swift",
       "kind": "StringLiteral",
-      "offset": 2931,
+      "offset": 2936,
       "length": 20,
       "value": "\"kindly.serialQueue\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Actions\/ActionHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 3177,
+      "offset": 3182,
       "length": 5,
       "value": "false"
     },
@@ -19599,112 +19557,112 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/ChatMessageDTO.swift",
       "kind": "StringLiteral",
-      "offset": 11757,
+      "offset": 11802,
       "length": 13,
       "value": "\"button_type\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/ChatMessageDTO.swift",
       "kind": "StringLiteral",
-      "offset": 14105,
+      "offset": 14150,
       "length": 10,
       "value": "\"imageUrl\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Models\/ChatMessageDTO.swift",
       "kind": "StringLiteral",
-      "offset": 14181,
+      "offset": 14226,
       "length": 9,
       "value": "\"linkUrl\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "StringLiteral",
-      "offset": 186,
+      "offset": 201,
       "length": 31,
       "value": "\"pusher:connection_established\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "StringLiteral",
-      "offset": 307,
+      "offset": 322,
       "length": 40,
       "value": "\"pusher_internal:subscription_succeeded\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "StringLiteral",
-      "offset": 420,
+      "offset": 435,
       "length": 13,
       "value": "\"pusher:pong\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "StringLiteral",
-      "offset": 558,
+      "offset": 573,
       "length": 18,
       "value": "\"pusher:subscribe\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "StringLiteral",
-      "offset": 654,
+      "offset": 669,
       "length": 20,
       "value": "\"pusher:unsubscribe\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "StringLiteral",
-      "offset": 2820,
+      "offset": 2835,
       "length": 17,
       "value": "\"Socket (Pusher)\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "Array",
-      "offset": 2922,
+      "offset": 2933,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 3121,
+      "offset": 3128,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 3265,
+      "offset": 3272,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "Dictionary",
-      "offset": 3513,
+      "offset": 3520,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 3546,
+      "offset": 3553,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "Dictionary",
-      "offset": 3602,
+      "offset": 3609,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_develop\/Kindly\/Sources\/Core\/Socket\/PusherSocket.swift",
       "kind": "BooleanLiteral",
-      "offset": 3636,
+      "offset": 3643,
       "length": 5,
       "value": "false"
     },

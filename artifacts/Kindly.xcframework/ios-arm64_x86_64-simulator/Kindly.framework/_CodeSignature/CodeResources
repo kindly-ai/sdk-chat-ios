@@ -26,11 +26,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lKnEz+pdqgKaFGRHoVboTkHiAis=
+		Bt7SPek8jY/7iGHWNR7QXNnBos8=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ELw70rPHUz/+57dqJ+qvD5qEJyc=
+		LWp1WYTzQARiuNeioHWpffUp4zg=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bSLLJZUmTJ/9B/cAO8ldf9MDHbk=
+		hjH6lBLbCagIm0J89YH5ZgGeiUk=
 		</data>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ELw70rPHUz/+57dqJ+qvD5qEJyc=
+		LWp1WYTzQARiuNeioHWpffUp4zg=
 		</data>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MSh4ueOekV4BrcfSJwl7NjIWlMk=
+		ubMvzPKCbIFvN9EInmwJc6usUE4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			33ii0uBEflk5uMgujnMOwpcNBL93ObhBrG2N1KQzmds=
+			rseHIabChu8Ir1FfZNl6I50T3pb+6gafilauWmJY3os=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -146,14 +146,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hkJToDu7OQoxPUyWjxOLp9T+RJU88bu+FgT+bvL1ZkA=
+			w2R19tcPJ4lsJ0CnbkwwD6HxAowI30YYl3z4rCW+uUQ=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			33ii0uBEflk5uMgujnMOwpcNBL93ObhBrG2N1KQzmds=
+			rseHIabChu8Ir1FfZNl6I50T3pb+6gafilauWmJY3os=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -181,7 +181,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jDELSYhh7Gwi7f05th5OsK9LNN8KRBkFqghYFVXFm20=
+			XCkOcmTnYzGAxdlU6hj/IyPeFIflyA2R6CNkve19PYI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
