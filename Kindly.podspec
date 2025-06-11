@@ -20,9 +20,9 @@ Pod::Spec.new do |spec|
   spec.default_subspecs = "Core"
 
   spec.subspec "Core" do |core|
-    core.dependency 'Starscream', '4.0.6'
-    core.dependency 'SwiftyGif', '5.4.4'
-    core.dependency 'SwiftyJSON', '5.0.1'
+    core.dependency 'Starscream', '~> 4.0.8'
+    core.dependency 'SwiftyGif', '~> 5.4.4'
+    core.dependency 'SwiftyJSON', '~> 5.0.2'
   end
 
   spec.subspec "Sentry" do |sentry|

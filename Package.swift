@@ -17,15 +17,15 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/daltoniam/Starscream.git",
-            exact: "4.0.6"
+            .upToNextMajor(from: "4.0.8")
         ),
         .package(
             url: "https://github.com/kirualex/SwiftyGif.git",
-            exact: "5.4.4"
+            .upToNextMajor(from: "5.4.4")
         ),
         .package(
             url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
-            exact: "5.0.1"
+            .upToNextMajor(from: "5.0.2")
         ),
     ],
     targets: [
