@@ -10,7 +10,7 @@
 		</data>
 		<key>Config.plist</key>
 		<data>
-		rycmMGwiqITeGmhu6NF2HKzJe04=
+		T4lOrrR+pIkZLow0Jd98JoKY4AI=
 		</data>
 		<key>ConfirmationWindow.nib</key>
 		<data>
@@ -44,6 +44,10 @@
 		<data>
 		tsoWPxJ5GK42mv5wdzUS7wgwejY=
 		</data>
+		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<data>
+		LXn/5o8Db//Fr/TzkppHFRS/m7M=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		8wpvHQzJ7L135Ykf+l3/zIu7ip4=
@@ -66,7 +70,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JyVL3nNi3s/Psj0OV3/+qZ4GCaT2H8BRD5iSzDlE+AY=
+			9LTA8VvZ0/W7t8/BkrlHTJxm19WC6Zv8vWDAhOMi4bM=
 			</data>
 		</dict>
 		<key>ConfirmationWindow.nib</key>
@@ -116,6 +120,13 @@
 			<key>hash2</key>
 			<data>
 			2GfB4HsN4vj3zl1f0wBud6kJLGcadXjeEA/Jj/Hldyg=
+			</data>
+		</dict>
+		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aVgmD32Z0Ouxje92meVOS/boPUqPZNZXdTrAX/KG6ks=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
