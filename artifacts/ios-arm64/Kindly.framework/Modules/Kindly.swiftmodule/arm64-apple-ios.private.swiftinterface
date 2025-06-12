@@ -1,0 +1,402 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Kindly
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import AVFoundation
+import AVKit
+import Combine
+import CommonCrypto
+import Contacts
+import CoreLocation
+import DeveloperToolsSupport
+import Foundation
+@_exported import Kindly
+import LocalAuthentication
+import Network
+import OSLog
+import ObjectiveC
+import Photos
+import PhotosUI
+import QuartzCore
+import SafariServices
+import Security
+import Starscream
+import Swift
+import SwiftUI
+import SwiftyGif
+import SwiftyJSON
+import SystemConfiguration
+import UIKit.UIDevice
+import UIKit.UIImage
+import UIKit
+import UniformTypeIdentifiers
+import UserNotifications
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import ObjectiveC.runtime
+public struct ExternalChatMessage : Swift.Hashable, Swift.Identifiable, Swift.Comparable {
+  public let id: Swift.String
+  public static func < (lhs: Kindly.ExternalChatMessage, rhs: Kindly.ExternalChatMessage) -> Swift.Bool
+  public static func == (a: Kindly.ExternalChatMessage, b: Kindly.ExternalChatMessage) -> Swift.Bool
+  public typealias ID = Swift.String
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ExternalExchangeType : Swift.String, Swift.Encodable {
+  case dialogue
+  case fallback
+  case greeting
+  case systemDialogue
+  case userSays
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum ExternalChatMessageSender : Swift.String, Swift.Encodable {
+  case agent
+  case bot
+  case system
+  case unknown
+  case user
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct Bot {
+  public let name: Swift.String
+  public let avatarURL: Foundation.URL?
+}
+@_hasMissingDesignatedInitializers final public class ThemeManager {
+  public static let shared: Kindly.ThemeManager
+  final public var currentTheme: any Kindly.Theme
+  final public func setUserTheme(_ theme: any Kindly.Theme)
+  @objc deinit
+}
+public struct OEmbedRespnse : Swift.Decodable {
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct KindlySDKConfig {
+  public var getAuthToken: Kindly.AuthTokenCallback? {
+    get
+    set
+  }
+  public var allowCameraAccess: Swift.Bool
+  public var allowPhotoLibraryAccess: Swift.Bool
+  public var form: Kindly.KindlySDKConfig.FormConfig
+  public struct FormConfig {
+  }
+}
+public enum PermissionType {
+  case camera
+  case photoLibrary
+  public static func == (a: Kindly.PermissionType, b: Kindly.PermissionType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol Coordinator {
+  var childCoordinators: [any Kindly.Coordinator] { get set }
+  var navigationController: UIKit.UINavigationController { get set }
+  func start()
+}
+public enum Storyboard {
+  case naStoryboard
+  case main
+  public static func == (a: Kindly.Storyboard, b: Kindly.Storyboard) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public static func classNameAsString() -> Swift.String
+  @_Concurrency.MainActor @preconcurrency public static func instantiate(withIdentifier viewControllerIdentifier: Swift.String?, fromStoryboard storyboard: Kindly.Storyboard?) -> Self
+  @_Concurrency.MainActor @preconcurrency public static func instantiateInitialViewController(fromStoryboard storyboard: Kindly.Storyboard?) -> Self
+}
+@_hasMissingDesignatedInitializers @objcMembers public class MainCoordinator : Kindly.Coordinator {
+  public static let shared: Kindly.MainCoordinator
+  public var childCoordinators: [any Kindly.Coordinator]
+  @objc public var navigationController: UIKit.UINavigationController
+  @objc public static var currentViewController: UIKit.UIViewController? {
+    @objc get
+  }
+  @objc public static var presentedViewController: UIKit.UIViewController? {
+    @objc get
+  }
+  @objc deinit
+}
+extension Kindly.MainCoordinator {
+  final public class func pushViewController(_ viewController: UIKit.UIViewController, animated: Swift.Bool? = nil, removePreviousVCs: Swift.Bool? = nil, dismissPresentedViewController: Swift.Bool? = nil, hideNavigationBar: Swift.Bool = false)
+  final public class func present(_ viewController: UIKit.UIViewController, fullScreen: Swift.Bool? = nil, animated: Swift.Bool? = nil, dismissPresentedViewController: Swift.Bool? = nil, hideNavigationBar: Swift.Bool = false, completion: (() -> Swift.Void)? = nil)
+  final public class func popToRootViewController(animated: Swift.Bool? = nil, dismissPresentedViewController: Swift.Bool? = nil)
+  final public class func popCurrentViewController(animated: Swift.Bool? = nil, dismissPresentedViewController: Swift.Bool? = nil)
+  final public class func dismissPresentedViewController(_ animated: Swift.Bool? = nil)
+  @objc final public class func enableLargeTitles()
+  @objc final public class func disableLargeTitles()
+  @objc final public class func setLargeTitleDisplayMode(_ mode: UIKit.UINavigationItem.LargeTitleDisplayMode)
+  @objc final public class func setNavigationTintColor(_ color: UIKit.UIColor)
+  @objc final public class func setHideBackButtonTitle(_ isHidden: Swift.Bool)
+}
+extension Kindly.MainCoordinator {
+  @objc dynamic public func start()
+}
+public typealias GenericClosure<T> = (_ value: T) -> Swift.Void
+public typealias VoidClosure = () -> Swift.Void
+public struct CoreSDKConfig {
+}
+public struct ExternalChatButton {
+}
+public enum ChatConnectionState {
+  case none
+  case connecting
+  case connected
+  case disconnected
+  case failed
+  case conversationEnded
+  public static func == (a: Kindly.ChatConnectionState, b: Kindly.ChatConnectionState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol KindlyChatClientDelegate : ObjectiveC.NSObject {
+  func didPressButton(chatButton: Kindly.ExternalChatButton, chatLog: [Kindly.ExternalChatMessage])
+}
+final public class KindlyChatClient {
+  public static var shared: Kindly.KindlyChatClient!
+  public static var config: Kindly.KindlySDKConfig {
+    get
+    set
+  }
+  public static var connectionState: Kindly.ChatConnectionState {
+    get
+  }
+  public static var delegate: (any Kindly.KindlyChatClientDelegate)! {
+    get
+    set
+  }
+  public init(config: Kindly.CoreSDKConfig, behaviorType: Kindly.BehaviorTypeEnum)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class NotificationDelegate : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Promise<T> {
+  @objc deinit
+}
+extension Kindly.Promise {
+  public func fulfill(_ value: T)
+  public func reject(_ error: any Swift.Error)
+  public func pipe(to target: Kindly.Promise<T>)
+}
+@_hasMissingDesignatedInitializers public class AIAlert {
+  public struct AlertTextField {
+    public let placeholder: Swift.String
+    public let keyboardType: UIKit.UIKeyboardType
+    public init(placeholder: Swift.String, keyboardType: UIKit.UIKeyboardType? = nil)
+  }
+  public struct AlertButton {
+    public let title: Swift.String
+    public let style: UIKit.UIAlertAction.Style
+    public let callback: ((_ textfields: [UIKit.UITextField]?) -> Swift.Void)?
+    public init(title: Swift.String, style: UIKit.UIAlertAction.Style? = nil, callback: ((_ textfields: [UIKit.UITextField]?) -> Swift.Void)? = nil)
+  }
+  final public class func displayNativeMessage(message: Swift.String? = nil, withTitle title: Swift.String? = nil, style: UIKit.UIAlertController.Style = .alert, buttons: [Kindly.AIAlert.AlertButton], textFields: [Kindly.AIAlert.AlertTextField]? = nil)
+  final public class func displayNativeMessage(message: Swift.String? = nil, withTitle title: Swift.String? = nil, style: UIKit.UIAlertController.Style = .alert, buttons: Kindly.AIAlert.AlertButton..., textFields: Kindly.AIAlert.AlertTextField?...)
+  @objc deinit
+}
+extension Kindly.AIAlert.AlertButton {
+  public static let okay: Kindly.AIAlert.AlertButton
+  public static let cancel: Kindly.AIAlert.AlertButton
+  public static let discard: Kindly.AIAlert.AlertButton
+  public static func yes(callback: ((_ textfields: [UIKit.UITextField]?) -> Swift.Void)? = nil) -> Kindly.AIAlert.AlertButton
+  public static func no(callback: ((_ textfields: [UIKit.UITextField]?) -> Swift.Void)? = nil) -> Kindly.AIAlert.AlertButton
+}
+@objc @_inheritsConvenienceInitializers public class AIPhotoSelection : ObjectiveC.NSObject {
+  final public class func selectImage(inViewController viewController: UIKit.UIViewController, from source: UIKit.UIImagePickerController.SourceType, image_callback: ((UIKit.UIImage) -> Swift.Void)? = nil)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension Kindly.AIPhotoSelection : UIKit.UIImagePickerControllerDelegate, UIKit.UINavigationControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerController(_: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func imagePickerControllerDidCancel(_: UIKit.UIImagePickerController)
+}
+extension Kindly.AIPhotoSelection : PhotosUI.PHPickerViewControllerDelegate {
+  @available(iOS 14, *)
+  @_Concurrency.MainActor @preconcurrency public func picker(_ picker: PhotosUI.PHPickerViewController, didFinishPicking results: [PhotosUI.PHPickerResult])
+}
+final public class AppStateObserver {
+  public init()
+  @objc deinit
+}
+public protocol Theme {
+  var background: UIKit.UIColor? { get }
+  var botMessageBackground: UIKit.UIColor? { get }
+  var botMessageText: UIKit.UIColor? { get }
+  var buttonBackground: UIKit.UIColor? { get }
+  var buttonOutline: UIKit.UIColor? { get }
+  var buttonText: UIKit.UIColor? { get }
+  var chatLogElements: UIKit.UIColor? { get }
+  var navBarBackground: UIKit.UIColor? { get }
+  var navBarText: UIKit.UIColor? { get }
+  var inputBackground: UIKit.UIColor? { get }
+  var inputText: UIKit.UIColor? { get }
+  var userMessageBackground: UIKit.UIColor? { get }
+  var userMessageText: UIKit.UIColor? { get }
+  var buttonSelectedBackground: UIKit.UIColor? { get }
+  var defaultShadow: UIKit.UIColor? { get }
+  var inputCursor: UIKit.UIColor? { get }
+  var maintenanceHeaderBackground: UIKit.UIColor? { get }
+}
+public struct KindlyTheme : Kindly.Theme {
+  public init()
+  public var background: UIKit.UIColor? {
+    get
+  }
+  public var botMessageBackground: UIKit.UIColor? {
+    get
+  }
+  public var botMessageText: UIKit.UIColor? {
+    get
+  }
+  public var buttonBackground: UIKit.UIColor? {
+    get
+  }
+  public var buttonOutline: UIKit.UIColor? {
+    get
+  }
+  public var buttonText: UIKit.UIColor? {
+    get
+  }
+  public var chatLogElements: UIKit.UIColor? {
+    get
+  }
+  public var navBarBackground: UIKit.UIColor? {
+    get
+  }
+  public var navBarText: UIKit.UIColor? {
+    get
+  }
+  public var inputBackground: UIKit.UIColor? {
+    get
+  }
+  public var inputText: UIKit.UIColor? {
+    get
+  }
+  public var userMessageBackground: UIKit.UIColor? {
+    get
+  }
+  public var userMessageText: UIKit.UIColor? {
+    get
+  }
+  public var buttonSelectedBackground: UIKit.UIColor? {
+    get
+  }
+  public var defaultShadow: UIKit.UIColor? {
+    get
+  }
+  public var inputCursor: UIKit.UIColor? {
+    get
+  }
+  public var maintenanceHeaderBackground: UIKit.UIColor? {
+    get
+  }
+}
+public struct CustomTheme : Kindly.Theme {
+  public var background: UIKit.UIColor?
+  public var botMessageBackground: UIKit.UIColor?
+  public var botMessageText: UIKit.UIColor?
+  public var buttonBackground: UIKit.UIColor?
+  public var buttonOutline: UIKit.UIColor?
+  public var buttonText: UIKit.UIColor?
+  public var chatLogElements: UIKit.UIColor?
+  public var navBarBackground: UIKit.UIColor?
+  public var navBarText: UIKit.UIColor?
+  public var inputBackground: UIKit.UIColor?
+  public var inputText: UIKit.UIColor?
+  public var userMessageBackground: UIKit.UIColor?
+  public var userMessageText: UIKit.UIColor?
+  public var buttonSelectedBackground: UIKit.UIColor?
+  public var defaultShadow: UIKit.UIColor?
+  public var inputCursor: UIKit.UIColor?
+  public var maintenanceHeaderBackground: UIKit.UIColor?
+  public init(background: UIKit.UIColor? = nil, botMessageBackground: UIKit.UIColor? = nil, botMessageText: UIKit.UIColor? = nil, buttonBackground: UIKit.UIColor? = nil, buttonOutline: UIKit.UIColor? = nil, buttonText: UIKit.UIColor? = nil, chatLogElements: UIKit.UIColor? = nil, navBarBackground: UIKit.UIColor? = nil, navBarText: UIKit.UIColor? = nil, inputBackground: UIKit.UIColor? = nil, inputText: UIKit.UIColor? = nil, userMessageBackground: UIKit.UIColor? = nil, userMessageText: UIKit.UIColor? = nil, buttonSelectedBackground: UIKit.UIColor? = nil, defaultShadow: UIKit.UIColor? = nil, inputCursor: UIKit.UIColor? = nil, maintenanceHeaderBackground: UIKit.UIColor? = nil)
+}
+public typealias KindlySDK = Kindly.KindlyChatClient
+public enum BehaviorTypeEnum {
+  case native
+  case web
+  public static func == (a: Kindly.BehaviorTypeEnum, b: Kindly.BehaviorTypeEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension Kindly.KindlyChatClient {
+  public static var isChatDisplayed: Swift.Bool {
+    get
+  }
+  public static var notificationDelegate: Kindly.NotificationDelegate {
+    get
+  }
+  public static var verboseLogging: Swift.Bool {
+    get
+    set
+  }
+  public static func setCustomTheme(_ theme: any Kindly.Theme)
+  public static func setCustomTheme(background: UIKit.UIColor? = nil, botMessageBackground: UIKit.UIColor? = nil, botMessageText: UIKit.UIColor? = nil, buttonBackground: UIKit.UIColor? = nil, buttonOutline: UIKit.UIColor? = nil, buttonSelectedBackground: UIKit.UIColor? = nil, buttonText: UIKit.UIColor? = nil, defaultShadow: UIKit.UIColor? = nil, inputBackground: UIKit.UIColor? = nil, inputCursor: UIKit.UIColor? = nil, inputText: UIKit.UIColor? = nil, navBarBackground: UIKit.UIColor? = nil, navBarText: UIKit.UIColor? = nil, userMessageBackground: UIKit.UIColor? = nil, userMessageText: UIKit.UIColor? = nil)
+  public static var enableCrashReporting: Swift.Bool {
+    get
+    set
+  }
+  final public class func start(botKey: Swift.String, authTokenCallback: Kindly.AuthTokenCallback? = nil)
+  final public class func displayChat(languageCode: Swift.String?, triggerDialogueId: Swift.String? = nil)
+  final public func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
+  final public class func setNewContext(_ context: [Swift.String : Swift.String])
+  final public func setNewContext(_ context: [Swift.String : Swift.String])
+  final public class func clearNewContext()
+  final public func clearNewContext()
+  final public class func setAPNSDeviceToken(_ deviceToken: Foundation.Data)
+  final public class func setAPNSDeviceToken(_ deviceToken: Swift.String)
+  @discardableResult
+  final public class func saveAuthToken(_ token: Swift.String) -> Swift.Bool
+  @discardableResult
+  final public func saveAuthToken(_ token: Swift.String) -> Swift.Bool
+  final public class func closeChat()
+  final public func closeChat()
+  final public class func endChat() -> Kindly.Promise<Swift.Void>
+  final public func endChat() -> Kindly.Promise<Swift.Void>
+  final public class func notificationReceived(_ userInfo: [Swift.AnyHashable : Any])
+  final public class func notificationReceived(_ notification: UserNotifications.UNNotification)
+  final public class func notificationResponseReceived(_ response: UserNotifications.UNNotificationResponse)
+  final public class func isKindlyNotification(_ userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
+  final public class func triggerDialogue(id: Swift.String)
+  final public class func play()
+}
+public typealias AuthTokenCallback = (_ chatId: Swift.String, _ promise: Kindly.Promise<Swift.String>) -> Swift.Void
+extension Kindly.ExternalExchangeType : Swift.Equatable {}
+extension Kindly.ExternalExchangeType : Swift.Hashable {}
+extension Kindly.ExternalExchangeType : Swift.RawRepresentable {}
+extension Kindly.ExternalChatMessageSender : Swift.Equatable {}
+extension Kindly.ExternalChatMessageSender : Swift.Hashable {}
+extension Kindly.ExternalChatMessageSender : Swift.RawRepresentable {}
+extension Kindly.PermissionType : Swift.Equatable {}
+extension Kindly.PermissionType : Swift.Hashable {}
+extension Kindly.Storyboard : Swift.Equatable {}
+extension Kindly.Storyboard : Swift.Hashable {}
+extension Kindly.ChatConnectionState : Swift.Equatable {}
+extension Kindly.ChatConnectionState : Swift.Hashable {}
+extension Kindly.BehaviorTypeEnum : Swift.Equatable {}
+extension Kindly.BehaviorTypeEnum : Swift.Hashable {}
