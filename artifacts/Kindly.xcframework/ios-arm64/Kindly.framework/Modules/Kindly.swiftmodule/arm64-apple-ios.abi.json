@@ -8282,8 +8282,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit.UIDevice",
-        "printedName": "UIKit.UIDevice",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Kindly"
       },

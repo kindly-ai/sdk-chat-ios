@@ -26,7 +26,6 @@ import SwiftUI
 import SwiftyGif
 import SwiftyJSON
 import SystemConfiguration
-import UIKit.UIDevice
 import UIKit.UIImage
 import UIKit
 import UniformTypeIdentifiers
