@@ -152,6 +152,17 @@ public typealias GenericClosure<T> = (_ value: T) -> Swift.Void
 public typealias VoidClosure = () -> Swift.Void
 public struct CoreSDKConfig {
 }
+public enum KindlyInputType : Swift.String {
+  case email
+  case phone
+  case text
+  case number
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public struct ExternalChatButton {
 }
 public enum ChatConnectionState {
@@ -395,6 +406,9 @@ extension Kindly.PermissionType : Swift.Equatable {}
 extension Kindly.PermissionType : Swift.Hashable {}
 extension Kindly.Storyboard : Swift.Equatable {}
 extension Kindly.Storyboard : Swift.Hashable {}
+extension Kindly.KindlyInputType : Swift.Equatable {}
+extension Kindly.KindlyInputType : Swift.Hashable {}
+extension Kindly.KindlyInputType : Swift.RawRepresentable {}
 extension Kindly.ChatConnectionState : Swift.Equatable {}
 extension Kindly.ChatConnectionState : Swift.Hashable {}
 extension Kindly.BehaviorTypeEnum : Swift.Equatable {}
