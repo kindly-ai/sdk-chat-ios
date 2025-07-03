@@ -17,17 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.frameworks = 'UIKit', 'MapKit'
 
-  spec.default_subspecs = "Core"
-
-  spec.subspec "Core" do |core|
-    core.dependency 'Starscream', '~> 4.0.8'
-    core.dependency 'SwiftyGif', '~> 5.4.4'
-    core.dependency 'SwiftyJSON', '~> 5.0.2'
-  end
-
-  spec.subspec "Sentry" do |sentry|
-    sentry.dependency 'Kindly/Core'
-    sentry.dependency 'Sentry', '>= 8.30.0'
-  end
+  # Dependencies (Starscream, SwiftyGif, SwiftyJSON) are statically linked into the framework
+  # No external dependencies needed for core functionality
 
 end

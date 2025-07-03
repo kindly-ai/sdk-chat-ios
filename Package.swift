@@ -15,39 +15,15 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(
-            url: "https://github.com/daltoniam/Starscream.git",
-            .upToNextMajor(from: "4.0.8")
-        ),
-        .package(
-            url: "https://github.com/kirualex/SwiftyGif.git",
-            .upToNextMajor(from: "5.4.4")
-        ),
-        .package(
-            url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
-            .upToNextMajor(from: "5.0.2")
-        ),
+        // Dependencies (Starscream, SwiftyGif, SwiftyJSON) are statically linked into the framework
+        // No external dependencies needed
     ],
     targets: [
         .binaryTarget(name: "KindlySDK", path: "artifacts/Kindly.xcframework"),
         .target(
             name: "KindlySDKWrapper",
             dependencies: [
-                .product(
-                    name: "Starscream",
-                    package: "Starscream",
-                    condition: .when(platforms: [.iOS])
-                ),
-                .product(
-                    name: "SwiftyGif",
-                    package: "SwiftyGif",
-                    condition: .when(platforms: [.iOS])
-                ),
-                .product(
-                    name: "SwiftyJSON",
-                    package: "SwiftyJSON",
-                    condition: .when(platforms: [.iOS])
-                ),
+                // No external dependencies needed - all statically linked
             ],
             path: "Sources"
         ),
