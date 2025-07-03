@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Kindly"
-  spec.version      = "2.1.75-beta"
+  spec.version      = "2.1.70"
   spec.summary      = "Kindly SDK"
   spec.description  = <<-DESC
   AI-powered chatbots built to automate support and drive sales
@@ -17,9 +17,17 @@ Pod::Spec.new do |spec|
 
   spec.frameworks = 'UIKit', 'MapKit'
 
-  # Core dependencies
-  spec.dependency 'Starscream', '4.0.6'
-  spec.dependency 'SwiftyGif', '5.4.4'
-  spec.dependency 'SwiftyJSON', '5.0.1'
+  spec.default_subspecs = "Core"
+
+  spec.subspec "Core" do |core|
+    core.dependency 'Starscream', '~> 4.0.8'
+    core.dependency 'SwiftyGif', '~> 5.4.4'
+    core.dependency 'SwiftyJSON', '~> 5.0.2'
+  end
+
+  spec.subspec "Sentry" do |sentry|
+    sentry.dependency 'Kindly/Core'
+    sentry.dependency 'Sentry', '>= 8.30.0'
+  end
 
 end
