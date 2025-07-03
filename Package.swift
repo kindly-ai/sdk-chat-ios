@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "KindlySDK",
-            targets: ["KindlySDK", "KindlySDKWrapper"]
+            targets: ["KindlySDK"]
         ),
     ],
     dependencies: [
@@ -20,13 +20,6 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "KindlySDK", path: "artifacts/Kindly.xcframework"),
-        .target(
-            name: "KindlySDKWrapper",
-            dependencies: [
-                // No external dependencies needed - all statically linked
-            ],
-            path: "Sources"
-        ),
         .testTarget(
             name: "KindlySDKTests",
             dependencies: ["KindlySDK"]
