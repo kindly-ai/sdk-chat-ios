@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "KindlySDK",
-            targets: ["KindlySDK", "KindlySDKWrapper"]
+            targets: ["KindlySDK"]
         ),
     ],
     dependencies: [
@@ -21,15 +21,6 @@ let package = Package(
     ],
     targets: [
         .binaryTarget(name: "KindlySDK", path: "artifacts/Kindly.xcframework"),
-        .target(
-            name: "KindlySDKWrapper",
-            dependencies: [
-                "KindlySDK",
-                .product(name: "Starscream", package: "Starscream"),
-                .product(name: "SwiftyGif", package: "SwiftyGif"),
-                .product(name: "SwiftyJSON", package: "SwiftyJSON")
-            ]
-        ),
         .testTarget(
             name: "KindlySDKTests",
             dependencies: ["KindlySDK"]
