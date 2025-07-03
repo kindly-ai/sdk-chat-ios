@@ -15,16 +15,39 @@ let package = Package(
         ),
     ],
     dependencies: [
-        // Dependencies are statically linked in the binary target
-        // Prevents duplicate symbols and makes the framework self-contained
+        .package(
+            url: "https://github.com/daltoniam/Starscream.git",
+            .upToNextMajor(from: "4.0.8")
+        ),
+        .package(
+            url: "https://github.com/kirualex/SwiftyGif.git",
+            .upToNextMajor(from: "5.4.4")
+        ),
+        .package(
+            url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
+            .upToNextMajor(from: "5.0.2")
+        ),
     ],
     targets: [
         .binaryTarget(name: "KindlySDK", path: "artifacts/Kindly.xcframework"),
         .target(
             name: "KindlySDKWrapper",
             dependencies: [
-                // Only depend on the binary target
-                // External dependencies are already statically linked in the xcframework
+                .product(
+                    name: "Starscream",
+                    package: "Starscream",
+                    condition: .when(platforms: [.iOS])
+                ),
+                .product(
+                    name: "SwiftyGif",
+                    package: "SwiftyGif",
+                    condition: .when(platforms: [.iOS])
+                ),
+                .product(
+                    name: "SwiftyJSON",
+                    package: "SwiftyJSON",
+                    condition: .when(platforms: [.iOS])
+                ),
             ],
             path: "Sources"
         ),
