@@ -355,6 +355,24 @@ extension Kindly.KindlyChatClient {
   public static var isChatDisplayed: Swift.Bool {
     get
   }
+  public static var isSocketConnected: Swift.Bool {
+    get
+  }
+  public static var isSocketConnectedPublisher: Combine.AnyPublisher<Swift.Bool, Swift.Never> {
+    get
+  }
+  public static var isConnected: Swift.Bool {
+    get
+  }
+  public static var isConnectedPublisher: Combine.AnyPublisher<Swift.Bool, Swift.Never> {
+    get
+  }
+  public static var isStarted: Swift.Bool {
+    get
+  }
+  public static var isStartedPublisher: Combine.AnyPublisher<Swift.Bool, Swift.Never> {
+    get
+  }
   public static var notificationDelegate: Kindly.NotificationDelegate {
     get
   }
