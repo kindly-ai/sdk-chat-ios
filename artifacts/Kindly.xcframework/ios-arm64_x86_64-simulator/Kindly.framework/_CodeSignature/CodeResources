@@ -30,43 +30,43 @@
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		JEiOnzfSt7Z6FfbbyjizswzI+L8=
+		RGQTkqKeMxEqq0Yk87QZOftnpVM=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		GwascMiumNm+GY+eqevUk2YWXg8=
+		0HT31f9xiNsyEbMMLBUDn4QRg60=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		en3nlt29biK5rxWeGz/EW9eayl8=
+		2++TkRdKdSp8ILPpVQCZue+Inpw=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GwascMiumNm+GY+eqevUk2YWXg8=
+		0HT31f9xiNsyEbMMLBUDn4QRg60=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XLmOL8TnkBNY2y12S9Bf+veE3RE=
+		F2hOnJCRLuTie+q8+E+GRXsq0Dg=
 		</data>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		JEiOnzfSt7Z6FfbbyjizswzI+L8=
+		RGQTkqKeMxEqq0Yk87QZOftnpVM=
 		</data>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		tTevxQ5tlaHIOVNermaXw6Oz98Y=
+		U99Qa0uk041ShjYzLFfjDOZ99Mk=
 		</data>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xZLPsDC18w8YCPKSsgBGk1XVCss=
+		ip1d4nKcD/DfT9EynuPP+nZaGmU=
 		</data>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tTevxQ5tlaHIOVNermaXw6Oz98Y=
+		U99Qa0uk041ShjYzLFfjDOZ99Mk=
 		</data>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		v8r4turCdZ/wlhInoLh2KMwWvRE=
+		hO/5rFZExHfH2XUN+mIcMIuZKXE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -118,70 +118,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z08fJfVv9YwpKjALCdi5YfX010mCgcBZ3J+snuZ+APU=
+			OcOZhWAuHa13mj7wTn302aMExyrTDT5EMi5EDYw4m/U=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jvLGsD4D0sWHY62SrXcxkRirTOG5g5vLfwgx4d4/nYw=
+			qaN224MNV1GUHLWUQzga9yRv79YiHw9dN3XEmtWsDtE=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uHK7Z3lRR2e9+WDBDMCCLW71ou9mASGMB1rSiYLwhLs=
+			6luZ9l3cVZzs7WE98jKPfTwvlE8b2FoqyPZ+Pxu8dKA=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jvLGsD4D0sWHY62SrXcxkRirTOG5g5vLfwgx4d4/nYw=
+			qaN224MNV1GUHLWUQzga9yRv79YiHw9dN3XEmtWsDtE=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xEYooMWmxbgLf/ZOAHbJV+fCka3tvPheUExMv8GFizg=
+			p0I5zgTywdnaXs6PYJUjWPVwap5KGAA/ulR92JeMyq8=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z08fJfVv9YwpKjALCdi5YfX010mCgcBZ3J+snuZ+APU=
+			OcOZhWAuHa13mj7wTn302aMExyrTDT5EMi5EDYw4m/U=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nt6+5uOoYMPPlxQTbvNu1fYmIRY8UT+Jtia/Nw5rPk8=
+			ylwk2NZYVFoZn8MjOuc4go5xdURQ1kikivaic1aWf2U=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mQC4KHGkOgexanAniCbCfxvfJk8N+aWgDE1y23X5aKQ=
+			RJZSOYHB7DgJmsklyk5/0+uc0tpaWzEClBUyc4b3sRo=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nt6+5uOoYMPPlxQTbvNu1fYmIRY8UT+Jtia/Nw5rPk8=
+			ylwk2NZYVFoZn8MjOuc4go5xdURQ1kikivaic1aWf2U=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N+sNNPqS/gmCPaq+Bs+4W9+ZA/BG6ddQKcY6V8E5LBM=
+			RpETEBrrBBROdVKbExE7y+TNPV1btM/L6VtykyjGdZY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

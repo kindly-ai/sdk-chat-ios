@@ -35,9 +35,10 @@ import ObjectiveC.runtime
 public struct ExternalChatMessage : Swift.Hashable, Swift.Identifiable, Swift.Comparable {
   public let id: Swift.String
   public static func < (lhs: Kindly.ExternalChatMessage, rhs: Kindly.ExternalChatMessage) -> Swift.Bool
-  public static func == (a: Kindly.ExternalChatMessage, b: Kindly.ExternalChatMessage) -> Swift.Bool
-  public typealias ID = Swift.String
+  public static func == (lhs: Kindly.ExternalChatMessage, rhs: Kindly.ExternalChatMessage) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public func toDictionary() -> [Swift.String : Any]
+  public typealias ID = Swift.String
   public var hashValue: Swift.Int {
     get
   }
@@ -144,6 +145,184 @@ extension Kindly.MainCoordinator {
 }
 extension Kindly.MainCoordinator {
   @objc dynamic public func start()
+}
+public enum KindlyEventType : Swift.String, Swift.CaseIterable {
+  case load
+  case message
+  case buttonClick
+  case ui
+  case globalIcon
+  case state
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [Kindly.KindlyEventType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [Kindly.KindlyEventType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum KindlyUIActionType : Swift.String, Swift.CaseIterable {
+  case openChatBubble
+  case closeChatBubble
+  case endChat
+  case restartChat
+  case downloadChat
+  case deleteChat
+  case changeLanguage
+  case showFeedback
+  case submitFeedback
+  case dismissFeedback
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [Kindly.KindlyUIActionType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [Kindly.KindlyUIActionType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct KindlyEvent {
+  public let type: Kindly.KindlyEventType
+  public let detail: Kindly.KindlyEventDetail
+  public let timestamp: Foundation.Date
+  public init(type: Kindly.KindlyEventType, detail: Kindly.KindlyEventDetail)
+}
+public enum KindlyEventDetail {
+  case load(settings: Kindly.KindlyEventSettings)
+  case message(newMessage: Kindly.KindlyEventMessage, chatLog: [Kindly.KindlyEventMessage])
+  case buttonClick(button: Kindly.KindlyEventButton, buttonType: Swift.String, chatLog: [Kindly.KindlyEventMessage], lastMessage: Kindly.KindlyEventMessage)
+  case ui(action: Kindly.KindlyEventUIAction)
+  case globalIcon(action: Kindly.KindlyEventGlobalIcon)
+  case state(state: Kindly.KindlyEventState)
+}
+public struct KindlyEventSettings {
+  public let name: Swift.String
+  public let id: Swift.String
+  public let languages: [Kindly.KindlyEventLanguage]
+  public let style: Kindly.KindlyEventStyle
+  public init(name: Swift.String, id: Swift.String, languages: [Kindly.KindlyEventLanguage], style: Kindly.KindlyEventStyle)
+}
+public struct KindlyEventLanguage {
+  public let code: Swift.String
+  public let name: Swift.String
+  public let isDefault: Swift.Bool
+  public init(code: Swift.String, name: Swift.String, isDefault: Swift.Bool = false)
+}
+public struct KindlyEventStyle {
+  public let background: Swift.String?
+  public let buttonBackground: Swift.String?
+  public let buttonText: Swift.String?
+  public let headerBackground: Swift.String?
+  public let headerText: Swift.String?
+  public let inputBackground: Swift.String?
+  public let inputText: Swift.String?
+  public let userMessageBackground: Swift.String?
+  public let userMessageTextColor: Swift.String?
+  public let botMessageBackground: Swift.String?
+  public let botMessageTextColor: Swift.String?
+  public init(background: Swift.String? = nil, buttonBackground: Swift.String? = nil, buttonText: Swift.String? = nil, headerBackground: Swift.String? = nil, headerText: Swift.String? = nil, inputBackground: Swift.String? = nil, inputText: Swift.String? = nil, userMessageBackground: Swift.String? = nil, userMessageTextColor: Swift.String? = nil, botMessageBackground: Swift.String? = nil, botMessageTextColor: Swift.String? = nil)
+}
+public struct KindlyEventMessage {
+  public let id: Swift.String
+  public let text: Swift.String?
+  public let sender: Kindly.KindlyEventMessageSender
+  public let created: Foundation.Date?
+  public let isFromUser: Swift.Bool
+  public let exchangeID: Swift.String?
+  public let videoSource: Swift.String?
+  public let exchangeType: Kindly.KindlyEventExchangeType?
+  public let buttons: [Kindly.KindlyEventButton]
+  public let images: [Kindly.KindlyEventImage]
+  public let attachments: [Kindly.KindlyEventAttachment]
+  public init(id: Swift.String, text: Swift.String? = nil, sender: Kindly.KindlyEventMessageSender, created: Foundation.Date? = nil, isFromUser: Swift.Bool, exchangeID: Swift.String? = nil, videoSource: Swift.String? = nil, exchangeType: Kindly.KindlyEventExchangeType? = nil, buttons: [Kindly.KindlyEventButton] = [], images: [Kindly.KindlyEventImage] = [], attachments: [Kindly.KindlyEventAttachment] = [])
+}
+public enum KindlyEventMessageSender : Swift.String, Swift.CaseIterable {
+  case agent
+  case bot
+  case system
+  case user
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [Kindly.KindlyEventMessageSender]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [Kindly.KindlyEventMessageSender] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum KindlyEventExchangeType : Swift.String, Swift.CaseIterable {
+  case dialogue
+  case fallback
+  case greeting
+  case systemDialogue
+  case userSays
+  public init?(rawValue: Swift.String)
+  public typealias AllCases = [Kindly.KindlyEventExchangeType]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [Kindly.KindlyEventExchangeType] {
+    get
+  }
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct KindlyEventButton {
+  public let id: Swift.String?
+  public let type: Swift.String
+  public let label: Swift.String
+  public let value: Swift.String?
+  public let index: Swift.Int?
+  public let hasBeenSelected: Swift.Bool
+  public let context: [Swift.String : Any]?
+  public init(id: Swift.String? = nil, type: Swift.String, label: Swift.String, value: Swift.String? = nil, index: Swift.Int? = nil, hasBeenSelected: Swift.Bool = false, context: [Swift.String : Any]? = nil)
+}
+public struct KindlyEventImage {
+  public let url: Swift.String
+  public let altText: Swift.String?
+  public let id: Swift.String?
+  public init(url: Swift.String, altText: Swift.String? = nil, id: Swift.String? = nil)
+}
+public struct KindlyEventAttachment {
+  public let id: Swift.String
+  public let name: Swift.String
+  public let format: Swift.String
+  public let status: Swift.String
+  public let sender: Swift.String
+  public let storagePath: Swift.String
+  public init(id: Swift.String, name: Swift.String, format: Swift.String, status: Swift.String, sender: Swift.String, storagePath: Swift.String)
+}
+public struct KindlyEventUIAction {
+  public let type: Kindly.KindlyUIActionType
+  public let source: Swift.String
+  public let chatId: Swift.String
+  public let value: [Swift.String : Any]?
+  public let feedbackType: Swift.String?
+  public let feedbackValue: [Swift.String : Any]?
+  public let languageCode: Swift.String?
+  public let languageName: Swift.String?
+  public let previousLanguageCode: Swift.String?
+  public let previousLanguageName: Swift.String?
+  public let nextPage: Swift.String?
+  public init(type: Kindly.KindlyUIActionType, source: Swift.String = "user", chatId: Swift.String, value: [Swift.String : Any]? = nil, feedbackType: Swift.String? = nil, feedbackValue: [Swift.String : Any]? = nil, languageCode: Swift.String? = nil, languageName: Swift.String? = nil, previousLanguageCode: Swift.String? = nil, previousLanguageName: Swift.String? = nil, nextPage: Swift.String? = nil)
+}
+public struct KindlyEventGlobalIcon {
+  public let type: Swift.String
+  public let source: Swift.String
+  public let value: [Swift.String : Any]?
+  public init(type: Swift.String, source: Swift.String = "user", value: [Swift.String : Any]? = nil)
+}
+public struct KindlyEventState {
+  public let isChatDisplayed: Swift.Bool
+  public let isStarted: Swift.Bool
+  public let isSocketConnected: Swift.Bool
+  public let isConnected: Swift.Bool
+  public let connectionState: Swift.String
+  public init(isChatDisplayed: Swift.Bool, isStarted: Swift.Bool, isSocketConnected: Swift.Bool, isConnected: Swift.Bool, connectionState: Swift.String)
 }
 public typealias GenericClosure<T> = (_ value: T) -> Swift.Void
 public typealias VoidClosure = () -> Swift.Void
@@ -352,25 +531,10 @@ public enum BehaviorTypeEnum {
   }
 }
 extension Kindly.KindlyChatClient {
-  public static var isChatDisplayed: Swift.Bool {
+  public static var events: Combine.AnyPublisher<Kindly.KindlyEvent, Swift.Never> {
     get
   }
-  public static var isSocketConnected: Swift.Bool {
-    get
-  }
-  public static var isSocketConnectedPublisher: Combine.AnyPublisher<Swift.Bool, Swift.Never> {
-    get
-  }
-  public static var isConnected: Swift.Bool {
-    get
-  }
-  public static var isConnectedPublisher: Combine.AnyPublisher<Swift.Bool, Swift.Never> {
-    get
-  }
-  public static var isStarted: Swift.Bool {
-    get
-  }
-  public static var isStartedPublisher: Combine.AnyPublisher<Swift.Bool, Swift.Never> {
+  public static var state: Combine.AnyPublisher<Kindly.KindlyEventState, Swift.Never> {
     get
   }
   public static var notificationDelegate: Kindly.NotificationDelegate {
@@ -421,6 +585,18 @@ extension Kindly.PermissionType : Swift.Equatable {}
 extension Kindly.PermissionType : Swift.Hashable {}
 extension Kindly.Storyboard : Swift.Equatable {}
 extension Kindly.Storyboard : Swift.Hashable {}
+extension Kindly.KindlyEventType : Swift.Equatable {}
+extension Kindly.KindlyEventType : Swift.Hashable {}
+extension Kindly.KindlyEventType : Swift.RawRepresentable {}
+extension Kindly.KindlyUIActionType : Swift.Equatable {}
+extension Kindly.KindlyUIActionType : Swift.Hashable {}
+extension Kindly.KindlyUIActionType : Swift.RawRepresentable {}
+extension Kindly.KindlyEventMessageSender : Swift.Equatable {}
+extension Kindly.KindlyEventMessageSender : Swift.Hashable {}
+extension Kindly.KindlyEventMessageSender : Swift.RawRepresentable {}
+extension Kindly.KindlyEventExchangeType : Swift.Equatable {}
+extension Kindly.KindlyEventExchangeType : Swift.Hashable {}
+extension Kindly.KindlyEventExchangeType : Swift.RawRepresentable {}
 extension Kindly.KindlyInputType : Swift.Equatable {}
 extension Kindly.KindlyInputType : Swift.Hashable {}
 extension Kindly.KindlyInputType : Swift.RawRepresentable {}
