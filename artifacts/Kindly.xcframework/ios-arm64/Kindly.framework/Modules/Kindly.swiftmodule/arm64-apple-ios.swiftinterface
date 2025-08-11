@@ -339,6 +339,31 @@ public enum KindlyInputType : Swift.String {
     get
   }
 }
+public enum TypingEventType {
+  case started
+  case stopped
+  public static func == (a: Kindly.TypingEventType, b: Kindly.TypingEventType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum TypingEventSender {
+  case bot
+  case agent
+  public static func == (a: Kindly.TypingEventSender, b: Kindly.TypingEventSender) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct TypingEvent {
+  public let type: Kindly.TypingEventType
+  public let sender: Kindly.TypingEventSender
+  public let duration: Foundation.TimeInterval?
+  public let timestamp: Foundation.Date
+  public init(type: Kindly.TypingEventType, sender: Kindly.TypingEventSender, duration: Foundation.TimeInterval? = nil)
+}
 public struct ExternalChatButton {
 }
 public enum ChatConnectionState {
@@ -520,6 +545,16 @@ public struct CustomTheme : Kindly.Theme {
   public var maintenanceHeaderBackground: UIKit.UIColor?
   public init(background: UIKit.UIColor? = nil, botMessageBackground: UIKit.UIColor? = nil, botMessageText: UIKit.UIColor? = nil, buttonBackground: UIKit.UIColor? = nil, buttonOutline: UIKit.UIColor? = nil, buttonText: UIKit.UIColor? = nil, chatLogElements: UIKit.UIColor? = nil, navBarBackground: UIKit.UIColor? = nil, navBarText: UIKit.UIColor? = nil, inputBackground: UIKit.UIColor? = nil, inputText: UIKit.UIColor? = nil, userMessageBackground: UIKit.UIColor? = nil, userMessageText: UIKit.UIColor? = nil, buttonSelectedBackground: UIKit.UIColor? = nil, defaultShadow: UIKit.UIColor? = nil, inputCursor: UIKit.UIColor? = nil, maintenanceHeaderBackground: UIKit.UIColor? = nil)
 }
+@_hasMissingDesignatedInitializers final public class TypingEventManager {
+  public static let shared: Kindly.TypingEventManager
+  final public let typingEventSubject: Combine.PassthroughSubject<Kindly.TypingEvent, Swift.Never>
+  final public func emitTypingEvent(_ event: Kindly.TypingEvent)
+  final public func emitBotStartedTyping(duration: Foundation.TimeInterval?)
+  final public func emitBotStoppedTyping()
+  final public func emitAgentStartedTyping(duration: Foundation.TimeInterval?)
+  final public func emitAgentStoppedTyping()
+  @objc deinit
+}
 public typealias KindlySDK = Kindly.KindlyChatClient
 public enum BehaviorTypeEnum {
   case native
@@ -600,6 +635,10 @@ extension Kindly.KindlyEventExchangeType : Swift.RawRepresentable {}
 extension Kindly.KindlyInputType : Swift.Equatable {}
 extension Kindly.KindlyInputType : Swift.Hashable {}
 extension Kindly.KindlyInputType : Swift.RawRepresentable {}
+extension Kindly.TypingEventType : Swift.Equatable {}
+extension Kindly.TypingEventType : Swift.Hashable {}
+extension Kindly.TypingEventSender : Swift.Equatable {}
+extension Kindly.TypingEventSender : Swift.Hashable {}
 extension Kindly.ChatConnectionState : Swift.Equatable {}
 extension Kindly.ChatConnectionState : Swift.Hashable {}
 extension Kindly.BehaviorTypeEnum : Swift.Equatable {}
