@@ -391,6 +391,10 @@ final public class KindlyChatClient {
   public static var connectionState: Kindly.ChatConnectionState {
     get
   }
+  public static var inputFieldHidden: Swift.Bool {
+    get
+    set
+  }
   public static var delegate: (any Kindly.KindlyChatClientDelegate)! {
     get
     set
