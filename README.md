@@ -41,15 +41,21 @@ Initialize the SDK in your AppDelegate's didFinishLaunchingWithOptions method. U
 import Kindly
 
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    KindlySDK.start(botKey: "BOT_KEY")
+    KindlySDK.start(botKey: "BOT_KEY", languageCode: "en")
     return true
 }
 ```
 
-Display the chat interface in your desired view controller. You can call the displayChat method from the Kindly SDK and pass the desired language code.
+Display the chat interface in your desired view controller.
 
 ```swift
-KindlySDK.displayChat(languageCode: "en")
+KindlySDK.displayChat()
+```
+
+You can also change the language at runtime if needed:
+
+```swift
+KindlySDK.setLanguage("lt")  // Change to Lithuanian
 ```
 
 ## 📋 Getting started
