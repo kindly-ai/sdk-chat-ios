@@ -408,12 +408,29 @@ final public class KindlyChatClient {
   @objc override dynamic public init()
   @objc deinit
 }
+extension Dispatch.DispatchQueue {
+  public static var _promises: Dispatch.DispatchQueue?
+  public static var promises: Dispatch.DispatchQueue {
+    get
+    set
+  }
+}
 @_hasMissingDesignatedInitializers public class Promise<T> {
+  public typealias onFulfilled = (T) throws -> Swift.Void
+  public typealias onRejected = (any Swift.Error) -> Swift.Void
+  public static func resolve(_ value: T) -> Kindly.Promise<T>
+  public static func reject(_ error: any Swift.Error) -> Kindly.Promise<T>
   @objc deinit
 }
 extension Kindly.Promise {
   public func fulfill(_ value: T)
   public func reject(_ error: any Swift.Error)
+  @discardableResult
+  public func then(on queue: Dispatch.DispatchQueue = .promises, _ onFulfilled: @escaping Kindly.Promise<T>.onFulfilled) -> Kindly.Promise<T>
+  @discardableResult
+  public func `catch`(on queue: Dispatch.DispatchQueue = .promises, _ onRejected: @escaping Kindly.Promise<T>.onRejected) -> Kindly.Promise<T>
+  @discardableResult
+  public func always(on queue: Dispatch.DispatchQueue = .promises, _ block: @escaping () -> Swift.Void) -> Kindly.Promise<T>
   public func pipe(to target: Kindly.Promise<T>)
 }
 @_hasMissingDesignatedInitializers public class AIAlert {
@@ -589,7 +606,7 @@ extension Kindly.KindlyChatClient {
     get
     set
   }
-  final public class func start(botKey: Swift.String, languageCode: Swift.String = "en", authTokenCallback: Kindly.AuthTokenCallback? = nil)
+  final public class func start(botKey: Swift.String, languageCode: Swift.String = "en", behaviorType: Kindly.BehaviorTypeEnum = .native, authTokenCallback: Kindly.AuthTokenCallback? = nil)
   final public class func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
   final public func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
   final public class func setLanguage(_ languageCode: Swift.String) -> Kindly.Promise<Swift.Void>
