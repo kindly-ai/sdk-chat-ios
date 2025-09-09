@@ -26893,63 +26893,119 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 3928,
+      "offset": 4462,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4551,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4562,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 4581,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 4589,
+      "length": 1,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 4597,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 4624,
+      "length": 9,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 4632,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "kind": "StringLiteral",
+      "offset": 4747,
       "length": 12,
       "value": "\"LOG_PRINTS\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 3945,
+      "offset": 4764,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 4040,
+      "offset": 4859,
       "length": 9,
       "value": "\"VERSION\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 4054,
+      "offset": 4873,
       "length": 7,
       "value": "\"0.0.0\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 4149,
+      "offset": 4968,
       "length": 7,
       "value": "\"BUILD\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 4161,
+      "offset": 4980,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 4274,
+      "offset": 5093,
       "length": 12,
       "value": "\"PUSHER_KEY\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 4822,
+      "offset": 5641,
       "length": 8,
       "value": "\"SENTRY\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 4840,
+      "offset": 5659,
       "length": 5,
       "value": "\"dsn\""
     },
