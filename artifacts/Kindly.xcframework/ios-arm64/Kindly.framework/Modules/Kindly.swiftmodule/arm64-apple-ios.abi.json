@@ -1529,6 +1529,28 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearUserTheme",
+            "printedName": "clearUserTheme()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly12ThemeManagerC09clearUserB0yyF",
+            "mangledName": "$s6Kindly12ThemeManagerC09clearUserB0yyF",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -14417,6 +14439,29 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "clearCustomTheme",
+            "printedName": "clearCustomTheme()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly0A10ChatClientC16clearCustomThemeyyFZ",
+            "mangledName": "$s6Kindly0A10ChatClientC16clearCustomThemeyyFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Var",
             "name": "enableCrashReporting",
             "printedName": "enableCrashReporting",
@@ -14517,7 +14562,7 @@
           {
             "kind": "Function",
             "name": "start",
-            "printedName": "start(botKey:languageCode:behaviorType:authTokenCallback:)",
+            "printedName": "start(botKey:languageCode:authTokenCallback:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -14536,13 +14581,6 @@
                 "printedName": "Swift.String",
                 "hasDefaultArg": true,
                 "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BehaviorTypeEnum",
-                "printedName": "Kindly.BehaviorTypeEnum",
-                "hasDefaultArg": true,
-                "usr": "s:6Kindly16BehaviorTypeEnumO"
               },
               {
                 "kind": "TypeNominal",
@@ -14594,8 +14632,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:6Kindly0A10ChatClientC5start6botKey12languageCode12behaviorType17authTokenCallbackySS_SSAA08BehaviorJ4EnumOySS_AA7PromiseCySSGtcSgtFZ",
-            "mangledName": "$s6Kindly0A10ChatClientC5start6botKey12languageCode12behaviorType17authTokenCallbackySS_SSAA08BehaviorJ4EnumOySS_AA7PromiseCySSGtcSgtFZ",
+            "usr": "s:6Kindly0A10ChatClientC5start6botKey12languageCode17authTokenCallbackySS_SSySS_AA7PromiseCySSGtcSgtFZ",
+            "mangledName": "$s6Kindly0A10ChatClientC5start6botKey12languageCode17authTokenCallbackySS_SSySS_AA7PromiseCySSGtcSgtFZ",
             "moduleName": "Kindly",
             "static": true,
             "declAttributes": [
@@ -15063,6 +15101,37 @@
             "declKind": "Func",
             "usr": "s:6Kindly0A10ChatClientC03endB0AA7PromiseCyytGyFZ",
             "mangledName": "$s6Kindly0A10ChatClientC03endB0AA7PromiseCyytGyFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "kill",
+            "printedName": "kill()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Promise",
+                "printedName": "Kindly.Promise<()>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "usr": "s:6Kindly7PromiseC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly0A10ChatClientC4killAA7PromiseCyytGyFZ",
+            "mangledName": "$s6Kindly0A10ChatClientC4killAA7PromiseCyytGyFZ",
             "moduleName": "Kindly",
             "static": true,
             "declAttributes": [
@@ -22706,22 +22775,8 @@
       },
       {
         "kind": "Import",
-        "name": "WebKit",
-        "printedName": "WebKit",
-        "declKind": "Import",
-        "moduleName": "Kindly"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Kindly"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -22821,43 +22876,6 @@
             "declKind": "EnumElement",
             "usr": "s:6Kindly16BehaviorTypeEnumO6nativeyA2CmF",
             "mangledName": "$s6Kindly16BehaviorTypeEnumO6nativeyA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Var",
-            "name": "web",
-            "printedName": "web",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.BehaviorTypeEnum.Type) -> Kindly.BehaviorTypeEnum",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BehaviorTypeEnum",
-                    "printedName": "Kindly.BehaviorTypeEnum",
-                    "usr": "s:6Kindly16BehaviorTypeEnumO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.BehaviorTypeEnum.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BehaviorTypeEnum",
-                        "printedName": "Kindly.BehaviorTypeEnum",
-                        "usr": "s:6Kindly16BehaviorTypeEnumO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly16BehaviorTypeEnumO3webyA2CmF",
-            "mangledName": "$s6Kindly16BehaviorTypeEnumO3webyA2CmF",
             "moduleName": "Kindly"
           },
           {
@@ -23427,6 +23445,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Scheduler",
             "printedName": "Scheduler",
             "children": [
@@ -23691,6 +23716,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "UITraitChangeObservable",
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
@@ -23809,6 +23841,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -23922,6 +23961,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       }
@@ -27572,14 +27618,14 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 41945,
+      "offset": 43347,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 46593,
+      "offset": 47995,
       "length": 5,
       "value": "false"
     },
@@ -27659,6 +27705,13 @@
       "offset": 1084,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/LifecycleVars.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1336,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Extensions\/UIKit\/UIButton+Extensions.swift",
@@ -30400,105 +30453,21 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/WebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 171,
+      "offset": 173,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 268,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/KindlyWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 93,
-      "length": 30,
-      "value": "\"window.kindlyChat.openChat()\""
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/KindlyWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 142,
-      "length": 31,
-      "value": "\"window.kindlyChat.closeChat()\""
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/KindlyWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 244,
-      "length": 13,
-      "value": "\"kindly:load\""
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/KindlyWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 274,
-      "length": 16,
-      "value": "\"kindly:message\""
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/KindlyWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 311,
-      "length": 20,
-      "value": "\"kindly:buttonclick\""
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/KindlyWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 343,
-      "length": 11,
-      "value": "\"kindly:ui\""
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/KindlyWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 374,
-      "length": 19,
-      "value": "\"kindly:globalicon\""
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/KindlyWebView.swift",
-      "kind": "StringLiteral",
-      "offset": 748,
-      "length": 8,
-      "value": "\"kindly\""
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/KindlyWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 785,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/KindlyWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 839,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/KindlyWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 871,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Views\/Web\/KindlyWebView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 899,
+      "offset": 372,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/EntryPoint.swift",
       "kind": "StringLiteral",
-      "offset": 4111,
+      "offset": 4448,
       "length": 4,
       "value": "\"en\""
     },

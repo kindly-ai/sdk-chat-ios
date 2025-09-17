@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Kindly
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import AVKit
 import Combine
@@ -49,7 +49,9 @@ public enum ExternalExchangeType : Swift.String, Swift.Encodable {
   case greeting
   case systemDialogue
   case userSays
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -61,7 +63,9 @@ public enum ExternalChatMessageSender : Swift.String, Swift.Encodable {
   case system
   case unknown
   case user
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -75,16 +79,19 @@ public struct Bot {
   public static let shared: Kindly.ThemeManager
   final public var currentTheme: any Kindly.Theme
   final public func setUserTheme(_ theme: any Kindly.Theme)
+  final public func clearUserTheme()
   @objc deinit
 }
 public struct OEmbedRespnse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct KindlySDKConfig {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var getAuthToken: Kindly.AuthTokenCallback? {
     get
     set
   }
+  #endif
   public var allowCameraAccess: Swift.Bool
   public var allowPhotoLibraryAccess: Swift.Bool
   public var form: Kindly.KindlySDKConfig.FormConfig
@@ -116,27 +123,45 @@ public enum Storyboard {
 }
 extension UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public static func classNameAsString() -> Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public static func instantiate(withIdentifier viewControllerIdentifier: Swift.String?, fromStoryboard storyboard: Kindly.Storyboard?) -> Self
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public static func instantiateInitialViewController(fromStoryboard storyboard: Kindly.Storyboard?) -> Self
+  #endif
 }
 @_hasMissingDesignatedInitializers @objcMembers public class MainCoordinator : Kindly.Coordinator {
   public static let shared: Kindly.MainCoordinator
   public var childCoordinators: [any Kindly.Coordinator]
   @objc public var navigationController: UIKit.UINavigationController
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static var currentViewController: UIKit.UIViewController? {
     @objc get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static var presentedViewController: UIKit.UIViewController? {
     @objc get
   }
+  #endif
   @objc deinit
 }
 extension Kindly.MainCoordinator {
+  #if compiler(>=5.3) && $NonescapableTypes
   final public class func pushViewController(_ viewController: UIKit.UIViewController, animated: Swift.Bool? = nil, removePreviousVCs: Swift.Bool? = nil, dismissPresentedViewController: Swift.Bool? = nil, hideNavigationBar: Swift.Bool = false)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public class func present(_ viewController: UIKit.UIViewController, fullScreen: Swift.Bool? = nil, animated: Swift.Bool? = nil, dismissPresentedViewController: Swift.Bool? = nil, hideNavigationBar: Swift.Bool = false, completion: (() -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public class func popToRootViewController(animated: Swift.Bool? = nil, dismissPresentedViewController: Swift.Bool? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public class func popCurrentViewController(animated: Swift.Bool? = nil, dismissPresentedViewController: Swift.Bool? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public class func dismissPresentedViewController(_ animated: Swift.Bool? = nil)
+  #endif
   @objc final public class func enableLargeTitles()
   @objc final public class func disableLargeTitles()
   @objc final public class func setLargeTitleDisplayMode(_ mode: UIKit.UINavigationItem.LargeTitleDisplayMode)
@@ -153,7 +178,9 @@ public enum KindlyEventType : Swift.String, Swift.CaseIterable {
   case ui
   case globalIcon
   case state
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [Kindly.KindlyEventType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [Kindly.KindlyEventType] {
@@ -174,7 +201,9 @@ public enum KindlyUIActionType : Swift.String, Swift.CaseIterable {
   case showFeedback
   case submitFeedback
   case dismissFeedback
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [Kindly.KindlyUIActionType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [Kindly.KindlyUIActionType] {
@@ -223,7 +252,9 @@ public struct KindlyEventStyle {
   public let userMessageTextColor: Swift.String?
   public let botMessageBackground: Swift.String?
   public let botMessageTextColor: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(background: Swift.String? = nil, buttonBackground: Swift.String? = nil, buttonText: Swift.String? = nil, headerBackground: Swift.String? = nil, headerText: Swift.String? = nil, inputBackground: Swift.String? = nil, inputText: Swift.String? = nil, userMessageBackground: Swift.String? = nil, userMessageTextColor: Swift.String? = nil, botMessageBackground: Swift.String? = nil, botMessageTextColor: Swift.String? = nil)
+  #endif
 }
 public struct KindlyEventMessage {
   public let id: Swift.String
@@ -237,7 +268,9 @@ public struct KindlyEventMessage {
   public let buttons: [Kindly.KindlyEventButton]
   public let images: [Kindly.KindlyEventImage]
   public let attachments: [Kindly.KindlyEventAttachment]
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.String, text: Swift.String? = nil, sender: Kindly.KindlyEventMessageSender, created: Foundation.Date? = nil, isFromUser: Swift.Bool, exchangeID: Swift.String? = nil, videoSource: Swift.String? = nil, exchangeType: Kindly.KindlyEventExchangeType? = nil, buttons: [Kindly.KindlyEventButton] = [], images: [Kindly.KindlyEventImage] = [], attachments: [Kindly.KindlyEventAttachment] = [])
+  #endif
 }
 public enum KindlyEventMessageSender : Swift.String, Swift.CaseIterable {
   case agent
@@ -245,7 +278,9 @@ public enum KindlyEventMessageSender : Swift.String, Swift.CaseIterable {
   case system
   case user
   case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [Kindly.KindlyEventMessageSender]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [Kindly.KindlyEventMessageSender] {
@@ -261,7 +296,9 @@ public enum KindlyEventExchangeType : Swift.String, Swift.CaseIterable {
   case greeting
   case systemDialogue
   case userSays
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [Kindly.KindlyEventExchangeType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [Kindly.KindlyEventExchangeType] {
@@ -279,13 +316,17 @@ public struct KindlyEventButton {
   public let index: Swift.Int?
   public let hasBeenSelected: Swift.Bool
   public let context: [Swift.String : Any]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(id: Swift.String? = nil, type: Swift.String, label: Swift.String, value: Swift.String? = nil, index: Swift.Int? = nil, hasBeenSelected: Swift.Bool = false, context: [Swift.String : Any]? = nil)
+  #endif
 }
 public struct KindlyEventImage {
   public let url: Swift.String
   public let altText: Swift.String?
   public let id: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(url: Swift.String, altText: Swift.String? = nil, id: Swift.String? = nil)
+  #endif
 }
 public struct KindlyEventAttachment {
   public let id: Swift.String
@@ -308,13 +349,17 @@ public struct KindlyEventUIAction {
   public let previousLanguageCode: Swift.String?
   public let previousLanguageName: Swift.String?
   public let nextPage: Swift.String?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(type: Kindly.KindlyUIActionType, source: Swift.String = "user", chatId: Swift.String, value: [Swift.String : Any]? = nil, feedbackType: Swift.String? = nil, feedbackValue: [Swift.String : Any]? = nil, languageCode: Swift.String? = nil, languageName: Swift.String? = nil, previousLanguageCode: Swift.String? = nil, previousLanguageName: Swift.String? = nil, nextPage: Swift.String? = nil)
+  #endif
 }
 public struct KindlyEventGlobalIcon {
   public let type: Swift.String
   public let source: Swift.String
   public let value: [Swift.String : Any]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(type: Swift.String, source: Swift.String = "user", value: [Swift.String : Any]? = nil)
+  #endif
 }
 public struct KindlyEventState {
   public let isChatDisplayed: Swift.Bool
@@ -333,7 +378,9 @@ public enum KindlyInputType : Swift.String {
   case phone
   case text
   case number
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -362,7 +409,9 @@ public struct TypingEvent {
   public let sender: Kindly.TypingEventSender
   public let duration: Foundation.TimeInterval?
   public let timestamp: Foundation.Date
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(type: Kindly.TypingEventType, sender: Kindly.TypingEventSender, duration: Foundation.TimeInterval? = nil)
+  #endif
 }
 public struct ExternalChatButton {
 }
@@ -395,10 +444,12 @@ final public class KindlyChatClient {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public static var delegate: (any Kindly.KindlyChatClientDelegate)! {
     get
     set
   }
+  #endif
   public init(config: Kindly.CoreSDKConfig, behaviorType: Kindly.BehaviorTypeEnum)
   @objc deinit
 }
@@ -437,27 +488,41 @@ extension Kindly.Promise {
   public struct AlertTextField {
     public let placeholder: Swift.String
     public let keyboardType: UIKit.UIKeyboardType
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(placeholder: Swift.String, keyboardType: UIKit.UIKeyboardType? = nil)
+    #endif
   }
   public struct AlertButton {
     public let title: Swift.String
     public let style: UIKit.UIAlertAction.Style
     public let callback: ((_ textfields: [UIKit.UITextField]?) -> Swift.Void)?
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(title: Swift.String, style: UIKit.UIAlertAction.Style? = nil, callback: ((_ textfields: [UIKit.UITextField]?) -> Swift.Void)? = nil)
+    #endif
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   final public class func displayNativeMessage(message: Swift.String? = nil, withTitle title: Swift.String? = nil, style: UIKit.UIAlertController.Style = .alert, buttons: [Kindly.AIAlert.AlertButton], textFields: [Kindly.AIAlert.AlertTextField]? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public class func displayNativeMessage(message: Swift.String? = nil, withTitle title: Swift.String? = nil, style: UIKit.UIAlertController.Style = .alert, buttons: Kindly.AIAlert.AlertButton..., textFields: Kindly.AIAlert.AlertTextField?...)
+  #endif
   @objc deinit
 }
 extension Kindly.AIAlert.AlertButton {
   public static let okay: Kindly.AIAlert.AlertButton
   public static let cancel: Kindly.AIAlert.AlertButton
   public static let discard: Kindly.AIAlert.AlertButton
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func yes(callback: ((_ textfields: [UIKit.UITextField]?) -> Swift.Void)? = nil) -> Kindly.AIAlert.AlertButton
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func no(callback: ((_ textfields: [UIKit.UITextField]?) -> Swift.Void)? = nil) -> Kindly.AIAlert.AlertButton
+  #endif
 }
 @objc @_inheritsConvenienceInitializers public class AIPhotoSelection : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   final public class func selectImage(inViewController viewController: UIKit.UIViewController, from source: UIKit.UIImagePickerController.SourceType, image_callback: ((UIKit.UIImage) -> Swift.Void)? = nil)
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -474,77 +539,145 @@ final public class AppStateObserver {
   @objc deinit
 }
 public protocol Theme {
+  #if compiler(>=5.3) && $NonescapableTypes
   var background: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var botMessageBackground: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var botMessageText: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var buttonBackground: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var buttonOutline: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var buttonText: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var chatLogElements: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var navBarBackground: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var navBarText: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var inputBackground: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var inputText: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var userMessageBackground: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var userMessageText: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var buttonSelectedBackground: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var defaultShadow: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var inputCursor: UIKit.UIColor? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var maintenanceHeaderBackground: UIKit.UIColor? { get }
+  #endif
 }
 public struct KindlyTheme : Kindly.Theme {
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public var background: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var botMessageBackground: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var botMessageText: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var buttonBackground: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var buttonOutline: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var buttonText: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var chatLogElements: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var navBarBackground: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var navBarText: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var inputBackground: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var inputText: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var userMessageBackground: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var userMessageText: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var buttonSelectedBackground: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var defaultShadow: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var inputCursor: UIKit.UIColor? {
     get
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var maintenanceHeaderBackground: UIKit.UIColor? {
     get
   }
+  #endif
 }
 public struct CustomTheme : Kindly.Theme {
   public var background: UIKit.UIColor?
@@ -564,22 +697,27 @@ public struct CustomTheme : Kindly.Theme {
   public var defaultShadow: UIKit.UIColor?
   public var inputCursor: UIKit.UIColor?
   public var maintenanceHeaderBackground: UIKit.UIColor?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(background: UIKit.UIColor? = nil, botMessageBackground: UIKit.UIColor? = nil, botMessageText: UIKit.UIColor? = nil, buttonBackground: UIKit.UIColor? = nil, buttonOutline: UIKit.UIColor? = nil, buttonText: UIKit.UIColor? = nil, chatLogElements: UIKit.UIColor? = nil, navBarBackground: UIKit.UIColor? = nil, navBarText: UIKit.UIColor? = nil, inputBackground: UIKit.UIColor? = nil, inputText: UIKit.UIColor? = nil, userMessageBackground: UIKit.UIColor? = nil, userMessageText: UIKit.UIColor? = nil, buttonSelectedBackground: UIKit.UIColor? = nil, defaultShadow: UIKit.UIColor? = nil, inputCursor: UIKit.UIColor? = nil, maintenanceHeaderBackground: UIKit.UIColor? = nil)
+  #endif
 }
 @_hasMissingDesignatedInitializers final public class TypingEventManager {
   public static let shared: Kindly.TypingEventManager
   final public let typingEventSubject: Combine.PassthroughSubject<Kindly.TypingEvent, Swift.Never>
   final public func emitTypingEvent(_ event: Kindly.TypingEvent)
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func emitBotStartedTyping(duration: Foundation.TimeInterval?)
+  #endif
   final public func emitBotStoppedTyping()
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func emitAgentStartedTyping(duration: Foundation.TimeInterval?)
+  #endif
   final public func emitAgentStoppedTyping()
   @objc deinit
 }
 public typealias KindlySDK = Kindly.KindlyChatClient
 public enum BehaviorTypeEnum {
   case native
-  case web
   public static func == (a: Kindly.BehaviorTypeEnum, b: Kindly.BehaviorTypeEnum) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -601,14 +739,23 @@ extension Kindly.KindlyChatClient {
     set
   }
   public static func setCustomTheme(_ theme: any Kindly.Theme)
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func setCustomTheme(background: UIKit.UIColor? = nil, botMessageBackground: UIKit.UIColor? = nil, botMessageText: UIKit.UIColor? = nil, buttonBackground: UIKit.UIColor? = nil, buttonOutline: UIKit.UIColor? = nil, buttonSelectedBackground: UIKit.UIColor? = nil, buttonText: UIKit.UIColor? = nil, defaultShadow: UIKit.UIColor? = nil, inputBackground: UIKit.UIColor? = nil, inputCursor: UIKit.UIColor? = nil, inputText: UIKit.UIColor? = nil, navBarBackground: UIKit.UIColor? = nil, navBarText: UIKit.UIColor? = nil, userMessageBackground: UIKit.UIColor? = nil, userMessageText: UIKit.UIColor? = nil)
+  #endif
+  public static func clearCustomTheme()
   public static var enableCrashReporting: Swift.Bool {
     get
     set
   }
-  final public class func start(botKey: Swift.String, languageCode: Swift.String = "en", behaviorType: Kindly.BehaviorTypeEnum = .native, authTokenCallback: Kindly.AuthTokenCallback? = nil)
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public class func start(botKey: Swift.String, languageCode: Swift.String = "en", authTokenCallback: Kindly.AuthTokenCallback? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public class func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
+  #endif
   final public class func setLanguage(_ languageCode: Swift.String) -> Kindly.Promise<Swift.Void>
   final public class func setNewContext(_ context: [Swift.String : Swift.String])
   final public func setNewContext(_ context: [Swift.String : Swift.String])
@@ -623,6 +770,7 @@ extension Kindly.KindlyChatClient {
   final public class func closeChat()
   final public func closeChat()
   final public class func endChat() -> Kindly.Promise<Swift.Void>
+  final public class func kill() -> Kindly.Promise<Swift.Void>
   final public func endChat() -> Kindly.Promise<Swift.Void>
   final public class func notificationReceived(_ userInfo: [Swift.AnyHashable : Any])
   final public class func notificationReceived(_ notification: UserNotifications.UNNotification)
