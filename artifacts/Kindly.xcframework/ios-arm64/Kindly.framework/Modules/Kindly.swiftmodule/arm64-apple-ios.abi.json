@@ -24197,7 +24197,7 @@
       "kind": "IntegerLiteral",
       "offset": 107,
       "length": 1,
-      "value": "8"
+      "value": "2"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/UI Components\/Feedback Form\/Views\/Helpers\/CenteredFlowLayout.swift",
@@ -29823,35 +29823,35 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4528,
+      "offset": 4494,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6035,
+      "offset": 6001,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6066,
+      "offset": 6032,
       "length": 3,
       "value": "7.0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6100,
+      "offset": 6066,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6133,
+      "offset": 6099,
       "length": 4,
       "value": "14.0"
     },
