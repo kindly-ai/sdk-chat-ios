@@ -15835,9 +15835,6 @@
             "moduleName": "Kindly",
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -15864,9 +15861,6 @@
             "moduleName": "Kindly",
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
-            "declAttributes": [
-              "AccessControl"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -15920,7 +15914,6 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "declAttributes": [
-              "AccessControl",
               "DiscardableResult"
             ],
             "isFromExtension": true,
@@ -15977,7 +15970,6 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "declAttributes": [
-              "AccessControl",
               "DiscardableResult"
             ],
             "isFromExtension": true,
@@ -16033,7 +16025,6 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "declAttributes": [
-              "AccessControl",
               "DiscardableResult"
             ],
             "isFromExtension": true,
@@ -16070,7 +16061,6 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "declAttributes": [
-              "AccessControl",
               "RawDocComment"
             ],
             "isFromExtension": true,
@@ -23269,8 +23259,7 @@
             "moduleName": "Kindly",
             "static": true,
             "declAttributes": [
-              "Final",
-              "AccessControl"
+              "Final"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -24216,7 +24205,7 @@
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Feedback Form\/Views\/Helpers\/CenteredFlowLayout.swift",
       "kind": "IntegerLiteral",
-      "offset": 1851,
+      "offset": 1849,
       "length": 1,
       "value": "0"
     },
@@ -24545,28 +24534,28 @@
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
       "kind": "FloatLiteral",
-      "offset": 2620,
+      "offset": 2667,
       "length": 4,
       "value": "18.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
       "kind": "FloatLiteral",
-      "offset": 2655,
+      "offset": 2702,
       "length": 4,
       "value": "14.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
       "kind": "FloatLiteral",
-      "offset": 2696,
+      "offset": 2743,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
       "kind": "FloatLiteral",
-      "offset": 2728,
+      "offset": 2775,
       "length": 3,
       "value": "9.0"
     },
@@ -26218,7 +26207,7 @@
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 18551,
+      "offset": 18605,
       "length": 4,
       "value": "true"
     },
@@ -27121,140 +27110,140 @@
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6525,
+      "offset": 6521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "FloatLiteral",
-      "offset": 6615,
+      "offset": 6611,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6642,
+      "offset": 6638,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6653,
+      "offset": 6649,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6665,
+      "offset": 6661,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6811,
+      "offset": 6807,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6902,
+      "offset": 6898,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7109,
+      "offset": 7105,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 7149,
+      "offset": 7145,
       "length": 13,
       "value": "\"list.bullet\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 7410,
+      "offset": 7406,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7569,
+      "offset": 7565,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7774,
+      "offset": 7770,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 7798,
+      "offset": 7794,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 7925,
+      "offset": 7921,
       "length": 23,
       "value": "\"Cancel button clicked\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 8208,
+      "offset": 8204,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 8232,
+      "offset": 8228,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 8280,
+      "offset": 8276,
       "length": 23,
       "value": "\"Submit button clicked\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 8520,
+      "offset": 8516,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 8766,
+      "offset": 8762,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 8925,
+      "offset": 8921,
       "length": 5,
       "value": "false"
     },
@@ -27373,168 +27362,182 @@
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7991,
+      "offset": 8008,
+      "length": 21,
+      "value": "\"send_message_button\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8048,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8081,
+      "offset": 8138,
       "length": 11,
       "value": "\"icon_send\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8293,
+      "offset": 8350,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8438,
+      "offset": 8495,
       "length": 8,
       "value": "\"Attach\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8465,
+      "offset": 8539,
+      "length": 19,
+      "value": "\"attachment_button\""
+    },
+    {
+      "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 8577,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8559,
+      "offset": 8671,
       "length": 17,
       "value": "\"icon_attachment\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8785,
+      "offset": 8897,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8999,
+      "offset": 9111,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9135,
+      "offset": 9247,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9265,
+      "offset": 9377,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9549,
+      "offset": 9661,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9885,
+      "offset": 9997,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 29999,
+      "offset": 30347,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30089,
+      "offset": 30437,
       "length": 4,
       "value": "\"\r\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "Array",
-      "offset": 30166,
+      "offset": 30514,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30197,
+      "offset": 30545,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "Array",
-      "offset": 30230,
+      "offset": 30578,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30351,
+      "offset": 30699,
       "length": 4,
       "value": "\"\r\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 30459,
+      "offset": 30807,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 89568,
+      "offset": 89886,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 89611,
+      "offset": 89929,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 89647,
+      "offset": 89965,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 89686,
+      "offset": 90004,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 89726,
+      "offset": 90044,
       "length": 4,
       "value": "16.0"
     },
@@ -27625,14 +27628,14 @@
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 43347,
+      "offset": 43319,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 47995,
+      "offset": 47967,
       "length": 5,
       "value": "false"
     },
@@ -27744,14 +27747,14 @@
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Core\/Promise\/Promises.swift",
       "kind": "Array",
-      "offset": 1072,
+      "offset": 1065,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Core\/Promise\/Promises.swift",
       "kind": "BooleanLiteral",
-      "offset": 1105,
+      "offset": 1098,
       "length": 5,
       "value": "false"
     },
@@ -29340,28 +29343,28 @@
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat Settings\/ChatSettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6196,
+      "offset": 6801,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat Settings\/ChatSettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6229,
+      "offset": 6834,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat Settings\/ChatSettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6272,
+      "offset": 6877,
       "length": 3,
       "value": "8.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Chat Settings\/ChatSettingsViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6310,
+      "offset": 6915,
       "length": 3,
       "value": "8.0"
     },
@@ -29816,49 +29819,49 @@
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 1130,
+      "offset": 1127,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 1136,
+      "offset": 1133,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 4494,
+      "offset": 4468,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6001,
+      "offset": 5975,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6032,
+      "offset": 6006,
       "length": 3,
       "value": "7.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6066,
+      "offset": 6040,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/UI Components\/Buttons\/ActionButton.swift",
       "kind": "FloatLiteral",
-      "offset": 6099,
+      "offset": 6073,
       "length": 4,
       "value": "14.0"
     },
@@ -30460,14 +30463,14 @@
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Web\/WebViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 173,
+      "offset": 171,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/alexy\/workspace\/projects\/Kindly\/src\/ios-source\/Kindly\/Sources\/Views\/Web\/WebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 372,
+      "offset": 367,
       "length": 5,
       "value": "false"
     },
