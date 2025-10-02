@@ -80,6 +80,7 @@ public struct Bot {
   final public var currentTheme: any Kindly.Theme
   final public func setUserTheme(_ theme: any Kindly.Theme)
   final public func clearUserTheme()
+  final public func hasUserTheme() -> Swift.Bool
   @objc deinit
 }
 public struct OEmbedRespnse : Swift.Decodable {
