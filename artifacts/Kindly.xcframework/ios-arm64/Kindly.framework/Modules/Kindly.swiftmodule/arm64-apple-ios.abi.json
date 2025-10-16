@@ -24996,6 +24996,13 @@
       "value": "120"
     },
     {
+      "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Extensions\/UIKit\/UIColor+Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 3442,
+      "length": 4,
+      "value": "0.08"
+    },
+    {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/Core\/Coordinator\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 1015,
@@ -27672,14 +27679,14 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/UI Components\/DashedBorderView\/DashedBorderView.swift",
       "kind": "FloatLiteral",
-      "offset": 165,
+      "offset": 218,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/UI Components\/DashedBorderView\/DashedBorderView.swift",
       "kind": "Array",
-      "offset": 241,
+      "offset": 294,
       "length": 6,
       "value": "[6, 3]"
     },
