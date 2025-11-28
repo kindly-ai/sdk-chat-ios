@@ -485,6 +485,9 @@ extension Kindly.Promise {
   public func always(on queue: Dispatch.DispatchQueue = .promises, _ block: @escaping () -> Swift.Void) -> Kindly.Promise<T>
   public func pipe(to target: Kindly.Promise<T>)
 }
+public enum KindlyLogger {
+  public static func log(_ tag: Swift.String, _ message: Swift.String, level: os.OSLogType = .default, filename: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line)
+}
 @_hasMissingDesignatedInitializers public class AIAlert {
   public struct AlertTextField {
     public let placeholder: Swift.String
