@@ -27772,35 +27772,35 @@
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 37618,
+      "offset": 37613,
       "length": 8,
       "value": "\"Pusher\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 37646,
+      "offset": 37641,
       "length": 13,
       "value": "\"\/latest API\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 37680,
+      "offset": 37675,
       "length": 14,
       "value": "\"\/connect API\""
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 53906,
+      "offset": 54469,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 59582,
+      "offset": 60145,
       "length": 5,
       "value": "false"
     },
