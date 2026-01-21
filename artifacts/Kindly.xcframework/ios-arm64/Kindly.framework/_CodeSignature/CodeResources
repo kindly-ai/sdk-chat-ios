@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		zUyQFDIiauMBZcUmB/G008L5uIo=
+		FhcrW0H5qHKj+Az2I8nvKbyVats=
 		</data>
 		<key>Config.plist</key>
 		<data>
-		xM4CUSYEeyDtz9iulZ2GHZ6QLkQ=
+		MBdKOqD415as34ja+iDq2X07oKg=
 		</data>
 		<key>ConfirmationWindow.nib</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		O7qIj702+owB3NskGxtu8cxvUUk=
+		B1pEIgBtAsBEHaLolHMgCEPON1o=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		jSi2Dan5e/Em23OZdMQ9pYBxReA=
+		NKP/JrqVLz7Dye4jnz82Df39DkQ=
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ZPZginSJwP9jUri0bitk56YOpxM=
+		t7CwMYkXvFI9FqNiOArIdjxw2Fo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -63,14 +63,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vJHePJh1WUPHbzr2uZNgkVXoEhckKPmNHXzeETyz36Q=
+			B9t8GQPJ1C94WYW4eAz9Br9hz9uS9ttUEZQSAuBhBCM=
 			</data>
 		</dict>
 		<key>Config.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u6BJahxtGrGDCmkyxdHZ2mdRCL9HjXCKHwlgGTCkWUg=
+			4Lon4kS82CtITGdgMcvaiRCD4ercPpjmlPdy4Fkw0Wc=
 			</data>
 		</dict>
 		<key>ConfirmationWindow.nib</key>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kvaVrhDF2Oul/HfhuO8UbBOcCZUP0KzjXP8RSKgKtn0=
+			jFvsiImZ5ariD97HcMjgMS/NUSC6RllNQ/IHa9SARRY=
 			</data>
 		</dict>
 		<key>Modules/Kindly.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -126,7 +126,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dzFUFHODGqAGwtTfSmV99AWRQ0+kTKGxhaNZ4MIIbXU=
+			nc0Y71P3iIDstlqjUJghV6+iGhFvreJi5nNq3cQn8Qc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
