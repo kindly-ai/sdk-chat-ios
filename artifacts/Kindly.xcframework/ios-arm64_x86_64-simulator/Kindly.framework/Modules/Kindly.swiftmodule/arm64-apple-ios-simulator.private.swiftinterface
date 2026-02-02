@@ -423,6 +423,7 @@ public enum ChatConnectionState {
   case disconnected
   case failed
   case conversationEnded
+  case closing
   public static func == (a: Kindly.ChatConnectionState, b: Kindly.ChatConnectionState) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
