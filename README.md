@@ -1,22 +1,22 @@
 # Kindly SDK for iOS
 
-Integrate Kindly Chat in your iOS app. 
+Integrate Kindly Chat in your iOS app.
 
 * This SDK makes it easy to add chat to your app.
-* Provides a chat UI that can be branded.    
+* Provides a chat UI that can be branded.
 * Made for iPhone and iPad.
 
 ## 📦 Installation
 
 ### Requirements
 
-- iOS deployment target: 13.0+
+* iOS deployment target: 13.0+
 
 ### How to install
 
 #### Swift Package Manager
 
-Add the GitHub Repo URL to your Xcode project. 
+Add the GitHub Repo URL to your Xcode project.
 _In the Xcode menu bar, select "File" -> "Add Packages..."_
 
 ```
@@ -33,7 +33,7 @@ pod 'Kindly', '~> 2.1'
 
 ## Usage
 
-After installing the SDK, you can now use it in your iOS application. 
+After installing the SDK, you can now use it in your iOS application.
 
 Initialize the SDK in your AppDelegate's didFinishLaunchingWithOptions method. Use the provided bot key to start the SDK.
 
@@ -62,7 +62,7 @@ KindlySDK.setLanguage("lt")  // Change to Lithuanian
 
 ### Documentation
 
-- Here you'll find the documentation and getting started guide.
+* Here you'll find the documentation and getting started guide.
 
 [Getting Started](https://github.com/kindly-ai/sdk-chat-ios/wiki)
 
@@ -77,4 +77,5 @@ Kindly SDK for iOS implements the following dependencies:
 * [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
 
 Optional dependency:
+
 * [Sentry](https://github.com/getsentry/sentry-cocoa) - Required only for crash reporting functionality

@@ -15,6 +15,11 @@ let package = Package(
         ),
     ],
     dependencies: [
+        // COMMENTED OUT 2026-02-12: These dependencies are already statically linked inside Kindly.xcframework
+        // Declaring them here causes duplicate class warnings at runtime (reported by customer Posten)
+        // If you need to restore: uncomment these and rebuild xcframework WITHOUT static linking
+        // See ios-source/AGENTS.md "Dependency Architecture" section for details
+        /*
         .package(
             url: "https://github.com/daltoniam/Starscream.git",
             .upToNextMajor(from: "4.0.8")
@@ -27,12 +32,15 @@ let package = Package(
             url: "https://github.com/SwiftyJSON/SwiftyJSON.git",
             .upToNextMajor(from: "5.0.2")
         ),
+        */
     ],
     targets: [
         .binaryTarget(name: "KindlySDK", path: "artifacts/Kindly.xcframework"),
         .target(
             name: "KindlySDKWrapper",
             dependencies: [
+                // COMMENTED OUT 2026-02-12: KindlySDKWrapper doesn't use these - they're in the binary
+                /*
                 .product(
                     name: "Starscream",
                     package: "Starscream",
@@ -48,6 +56,7 @@ let package = Package(
                     package: "SwiftyJSON",
                     condition: .when(platforms: [.iOS])
                 ),
+                */
             ],
             path: "Sources"
         ),
