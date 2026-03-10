@@ -432,6 +432,10 @@ public enum ChatConnectionState {
 }
 public protocol KindlyChatClientDelegate : ObjectiveC.NSObject {
   func didPressButton(chatButton: Kindly.ExternalChatButton, chatLog: [Kindly.ExternalChatMessage])
+  func shouldHandleLink(url: Foundation.URL) -> Swift.Bool
+}
+extension Kindly.KindlyChatClientDelegate {
+  public func shouldHandleLink(url: Foundation.URL) -> Swift.Bool
 }
 final public class KindlyChatClient {
   public static var shared: Kindly.KindlyChatClient!
@@ -782,6 +786,8 @@ extension Kindly.KindlyChatClient {
   final public class func notificationResponseReceived(_ response: UserNotifications.UNNotificationResponse)
   final public class func isKindlyNotification(_ userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
   final public class func triggerDialogue(id: Swift.String)
+  @discardableResult
+  final public class func handleURL(_ url: Foundation.URL) -> Swift.Bool
   final public class func play()
 }
 public typealias AuthTokenCallback = (_ chatId: Swift.String, _ promise: Kindly.Promise<Swift.String>) -> Swift.Void
