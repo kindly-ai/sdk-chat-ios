@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.frameworks = 'UIKit', 'MapKit'
 
-  spec.default_subspecs = "Core"
+  spec.default_subspecs = ["Core", "Sentry"]
 
   spec.subspec "Core" do |core|
     core.dependency 'Starscream', '~> 4.0.8'
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
   spec.subspec "Sentry" do |sentry|
     sentry.dependency 'Kindly/Core'
-    sentry.dependency 'Sentry', '>= 8.30.0'
+    sentry.dependency 'Sentry', '~> 9.0'
   end
 
 end
