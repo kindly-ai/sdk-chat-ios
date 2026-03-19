@@ -29767,13 +29767,13 @@
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/project_src\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
       "offset": 5718,
-      "length": 5,
-      "value": "false"
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/alexy\/.jenkins\/workspace\/sdk-chat-ios-sources_releases\/project_src\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 11487,
+      "offset": 11486,
       "length": 5,
       "value": "false"
     },
