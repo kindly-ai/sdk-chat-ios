@@ -60,8 +60,8 @@ KindlySDK.setLanguage("lt")  // Change to Lithuanian
 
 ## 📋 Documentation
 
-* [Getting Started & Guides](https://kindly-ai.github.io/sdk-chat-ios/)
-* [API Reference](https://kindly-ai.github.io/sdk-chat-ios/api-reference/)
+* [Getting Started & Guides](https://kindly-ai.github.io/sdk-chat-ios-sources/)
+* [API Reference](https://kindly-ai.github.io/sdk-chat-ios-sources/api-reference/)
 
 ## Credits
 
