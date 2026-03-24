@@ -12,29 +12,31 @@
         <meta name="author" content="Kindly">
       
       
-        <link rel="canonical" href="https://kindly-ai.github.io/sdk-chat-ios/">
+        <link rel="canonical" href="https://kindly-ai.github.io/sdk-chat-ios/guides/kill-sdk/">
       
       
+        <link rel="prev" href="../end-chat/">
       
-        <link rel="next" href="guides/initialization/">
+      
+        <link rel="next" href="../events/">
       
       
         
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
-        <title>Kindly iOS SDK</title>
+        <title>Kill SDK - Kindly iOS SDK</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -53,9 +55,9 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -80,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#kindly-ios-sdk" class="md-skip">
+        <a href="#kill-sdk" class="md-skip">
           Skip to content
         </a>
       
@@ -96,7 +98,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Kindly iOS SDK" class="md-header__button md-logo" aria-label="Kindly iOS SDK" data-md-component="logo">
+    <a href="../.." title="Kindly iOS SDK" class="md-header__button md-logo" aria-label="Kindly iOS SDK" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -116,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Kill SDK
             
           </span>
         </div>
@@ -234,7 +236,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Kindly iOS SDK" class="md-nav__button md-logo" aria-label="Kindly iOS SDK" data-md-component="logo">
+    <a href="../.." title="Kindly iOS SDK" class="md-nav__button md-logo" aria-label="Kindly iOS SDK" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -261,37 +263,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Home
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -307,98 +282,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Installation
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Installation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#swift-package-manager" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Swift Package Manager
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cocoapods" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        CocoaPods
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#quick-start" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Quick Start
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Documentation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#api-reference" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        API Reference
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -470,7 +353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/initialization/" class="md-nav__link">
+      <a href="../initialization/" class="md-nav__link">
         
   
   
@@ -498,7 +381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/config/" class="md-nav__link">
+      <a href="../config/" class="md-nav__link">
         
   
   
@@ -530,8 +413,10 @@
       
   
   
+    
   
   
+  
     
     
       
@@ -552,13 +437,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
@@ -579,7 +462,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             
@@ -597,7 +480,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/launch-chat/" class="md-nav__link">
+      <a href="../launch-chat/" class="md-nav__link">
         
   
   
@@ -625,7 +508,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/close-chat/" class="md-nav__link">
+      <a href="../close-chat/" class="md-nav__link">
         
   
   
@@ -653,7 +536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/end-chat/" class="md-nav__link">
+      <a href="../end-chat/" class="md-nav__link">
         
   
   
@@ -678,10 +561,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="guides/kill-sdk/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Kill SDK
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -697,6 +607,170 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#completely-terminate-the-sdk" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Completely Terminate the SDK
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-kill-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What kill() does
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#after-calling-kill" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        After calling kill()
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usage Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage Examples">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#complete-sdk-shutdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Complete SDK Shutdown
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#switch-to-different-bot-alternative-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Switch to Different Bot (Alternative Method)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#when-to-use-kill-vs-endchat" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        When to Use kill() vs endChat()
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="When to Use kill() vs endChat()">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-kill-when" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use kill() when:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-endchat-when" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use endChat() when:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparison
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#return-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Return Value
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#best-practices" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Best Practices
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -782,7 +856,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/events/" class="md-nav__link">
+      <a href="../events/" class="md-nav__link">
         
   
   
@@ -810,7 +884,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/authentication/" class="md-nav__link">
+      <a href="../authentication/" class="md-nav__link">
         
   
   
@@ -838,7 +912,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/context/" class="md-nav__link">
+      <a href="../context/" class="md-nav__link">
         
   
   
@@ -866,7 +940,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/trigger-dialogue/" class="md-nav__link">
+      <a href="../trigger-dialogue/" class="md-nav__link">
         
   
   
@@ -894,7 +968,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/notification-support/" class="md-nav__link">
+      <a href="../notification-support/" class="md-nav__link">
         
   
   
@@ -991,7 +1065,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/custom-theming/" class="md-nav__link">
+      <a href="../custom-theming/" class="md-nav__link">
         
   
   
@@ -1019,7 +1093,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/url-schemes/" class="md-nav__link">
+      <a href="../url-schemes/" class="md-nav__link">
         
   
   
@@ -1047,7 +1121,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/link-interception/" class="md-nav__link">
+      <a href="../link-interception/" class="md-nav__link">
         
   
   
@@ -1082,7 +1156,7 @@
   
   
     <li class="md-nav__item">
-      <a href="api-reference/" class="md-nav__link">
+      <a href="../../api-reference/" class="md-nav__link">
         
   
   
@@ -1129,22 +1203,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
+  <a href="#completely-terminate-the-sdk" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Installation
+        Completely Terminate the SDK
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Installation">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-kill-does" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What kill() does
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#after-calling-kill" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        After calling kill()
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usage-examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Usage Examples
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Usage Examples">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#swift-package-manager" class="md-nav__link">
+  <a href="#complete-sdk-shutdown" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Swift Package Manager
+        Complete SDK Shutdown
       
     </span>
   </a>
@@ -1152,10 +1259,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#cocoapods" class="md-nav__link">
+  <a href="#switch-to-different-bot-alternative-method" class="md-nav__link">
     <span class="md-ellipsis">
       
-        CocoaPods
+        Switch to Different Bot (Alternative Method)
       
     </span>
   </a>
@@ -1168,10 +1275,49 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#quick-start" class="md-nav__link">
+  <a href="#when-to-use-kill-vs-endchat" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Quick Start
+        When to Use kill() vs endChat()
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="When to Use kill() vs endChat()">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#use-kill-when" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use kill() when:
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#use-endchat-when" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Use endChat() when:
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Comparison
       
     </span>
   </a>
@@ -1179,10 +1325,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#documentation" class="md-nav__link">
+  <a href="#return-value" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Documentation
+        Return Value
       
     </span>
   </a>
@@ -1190,10 +1336,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#api-reference" class="md-nav__link">
+  <a href="#best-practices" class="md-nav__link">
     <span class="md-ellipsis">
       
-        API Reference
+        Best Practices
       
     </span>
   </a>
@@ -1220,75 +1366,134 @@
   
 
 
-<h1 id="kindly-ios-sdk">Kindly iOS SDK<a class="headerlink" href="#kindly-ios-sdk" title="Permanent link">&para;</a></h1>
-<p>The Kindly Chat SDK for iOS allows you to integrate a fully-featured customer support chat into your iOS application. The SDK provides a native UIKit-based chat interface with real-time messaging, push notifications, custom theming, and more.</p>
-<h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
-<h3 id="swift-package-manager">Swift Package Manager<a class="headerlink" href="#swift-package-manager" title="Permanent link">&para;</a></h3>
-<p>Add the Kindly SDK to your project via Xcode:</p>
-<ol>
-<li>Go to <strong>File &gt; Add Package Dependencies</strong></li>
-<li>Enter the repository URL: <code>https://github.com/kindly-ai/sdk-chat-ios</code></li>
-<li>Select the version you want to use</li>
-</ol>
-<p>Or add it to your <code>Package.swift</code>:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">dependencies</span><span class="p">:</span><span class="w"> </span><span class="p">[</span>
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">    </span><span class="p">.</span><span class="n">package</span><span class="p">(</span><span class="n">url</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;https://github.com/kindly-ai/sdk-chat-ios&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">from</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;2.0.0&quot;</span><span class="p">)</span>
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">]</span>
+<h1 id="kill-sdk">Kill SDK<a class="headerlink" href="#kill-sdk" title="Permanent link">&para;</a></h1>
+<h2 id="completely-terminate-the-sdk">Completely Terminate the SDK<a class="headerlink" href="#completely-terminate-the-sdk" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="n">kill</span><span class="p">()</span>
 </code></pre></div>
-<h3 id="cocoapods">CocoaPods<a class="headerlink" href="#cocoapods" title="Permanent link">&para;</a></h3>
-<p>Add the following to your <code>Podfile</code>:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">pod</span><span class="w"> </span><span class="s1">&#39;Kindly&#39;</span>
+<p>The <code>kill()</code> method <strong>completely terminates the SDK</strong> and clears all state. This is more destructive than <a href="../end-chat/"><code>endChat()</code></a> which only disconnects the chat session.</p>
+<h2 id="what-kill-does">What kill() does<a class="headerlink" href="#what-kill-does" title="Permanent link">&para;</a></h2>
+<p>When you call <code>kill()</code>, the SDK will:
+- 🔄 <strong>Disconnect the chat session</strong> (same as <code>endChat()</code>)
+- 🧹 <strong>Clear all session data</strong> including messages and context
+- ⚡ <strong>Reset SDK initialization state</strong> 
+- 🔑 <strong>Clear bot key and authentication</strong> 
+- 🎨 <strong>Reset configuration and themes</strong>
+- 📡 <strong>Emit termination events</strong> for cleanup</p>
+<h2 id="after-calling-kill">After calling kill()<a class="headerlink" href="#after-calling-kill" title="Permanent link">&para;</a></h2>
+<p>After calling <code>kill()</code>, the SDK returns to an <strong>uninitialized state</strong>:
+- ❌ You <strong>cannot</strong> call <code>displayChat()</code> or other SDK methods
+- ✅ You <strong>must</strong> call <code>start()</code> again before using any SDK functions
+- ✅ All configuration (themes, permissions, etc.) needs to be set up again</p>
+<h2 id="usage-examples">Usage Examples<a class="headerlink" href="#usage-examples" title="Permanent link">&para;</a></h2>
+<h3 id="complete-sdk-shutdown">Complete SDK Shutdown<a class="headerlink" href="#complete-sdk-shutdown" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1">// Terminate the SDK completely</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="n">kill</span><span class="p">().</span><span class="n">then</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="kc">_</span><span class="w"> </span><span class="k">in</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">    </span><span class="bp">print</span><span class="p">(</span><span class="s">&quot;✅ SDK completely terminated&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="w">    </span><span class="c1">// SDK is now in uninitialized state</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a><span class="p">}.</span><span class="k">catch</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">error</span><span class="w"> </span><span class="k">in</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a><span class="w">    </span><span class="bp">print</span><span class="p">(</span><span class="s">&quot;❌ Kill failed: </span><span class="si">\(</span><span class="n">error</span><span class="si">)</span><span class="s">&quot;</span><span class="p">)</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a><span class="p">}</span>
 </code></pre></div>
-<p>Then run <code>pod install</code>.</p>
-<h2 id="quick-start">Quick Start<a class="headerlink" href="#quick-start" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="kd">import</span><span class="w"> </span><span class="nc">Kindly</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>
-<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="c1">// Initialize the SDK</span>
-<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="n">start</span><span class="p">(</span><span class="n">botKey</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;YOUR_BOT_KEY&quot;</span><span class="p">)</span>
-<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>
-<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="c1">// Display the chat</span>
-<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="n">displayChat</span><span class="p">()</span>
+<h3 id="switch-to-different-bot-alternative-method">Switch to Different Bot (Alternative Method)<a class="headerlink" href="#switch-to-different-bot-alternative-method" title="Permanent link">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1">// Method 1: Using kill() for explicit control</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="n">kill</span><span class="p">().</span><span class="n">then</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="kc">_</span><span class="w"> </span><span class="k">in</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">    </span><span class="c1">// SDK is now uninitialized - must call start() again</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">    </span><span class="n">KindlySDK</span><span class="p">.</span><span class="n">start</span><span class="p">(</span><span class="n">botKey</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;new-bot-key&quot;</span><span class="p">)</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">    </span><span class="n">KindlySDK</span><span class="p">.</span><span class="n">displayChat</span><span class="p">()</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="p">}</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="c1">// Method 2: Automatic switching (recommended)</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="n">start</span><span class="p">(</span><span class="n">botKey</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;new-bot-key&quot;</span><span class="p">)</span><span class="w">  </span><span class="c1">// SDK handles cleanup automatically</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="n">displayChat</span><span class="p">()</span>
 </code></pre></div>
-<h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h2>
-<div class="grid cards">
+<h2 id="when-to-use-kill-vs-endchat">When to Use kill() vs endChat()<a class="headerlink" href="#when-to-use-kill-vs-endchat" title="Permanent link">&para;</a></h2>
+<h3 id="use-kill-when">Use <code>kill()</code> when:<a class="headerlink" href="#use-kill-when" title="Permanent link">&para;</a></h3>
 <ul>
-<li>
-<p><strong>Getting Started</strong></p>
-<hr />
-<p>Set up the SDK and configure it for your app</p>
-<p><a href="guides/initialization/">:octicons-arrow-right-24: Initialization</a>
-<a href="guides/config/">:octicons-arrow-right-24: Configuration</a></p>
-</li>
-<li>
-<p><strong>Chat Lifecycle</strong></p>
-<hr />
-<p>Control how the chat UI is displayed and managed</p>
-<p><a href="guides/launch-chat/">:octicons-arrow-right-24: Launch Chat</a>
-<a href="guides/close-chat/">:octicons-arrow-right-24: Close Chat</a>
-<a href="guides/end-chat/">:octicons-arrow-right-24: End Chat</a>
-<a href="guides/kill-sdk/">:octicons-arrow-right-24: Kill SDK</a></p>
-</li>
-<li>
-<p><strong>Features</strong></p>
-<hr />
-<p>Events, authentication, context, dialogues, and notifications</p>
-<p><a href="guides/events/">:octicons-arrow-right-24: Events</a>
-<a href="guides/authentication/">:octicons-arrow-right-24: Authentication</a>
-<a href="guides/notification-support/">:octicons-arrow-right-24: Notifications</a></p>
-</li>
-<li>
-<p><strong>Customization</strong></p>
-<hr />
-<p>Theme the chat UI, handle links, and set up deep linking</p>
-<p><a href="guides/custom-theming/">:octicons-arrow-right-24: Custom Theming</a>
-<a href="guides/url-schemes/">:octicons-arrow-right-24: URL Schemes</a>
-<a href="guides/link-interception/">:octicons-arrow-right-24: Link Interception</a></p>
-</li>
+<li>🔄 <strong>App shutdown</strong>: Terminating the app or major state changes</li>
+<li>🔀 <strong>Complete reset</strong>: Need to clear all SDK state and start fresh</li>
+<li>🐛 <strong>Error recovery</strong>: Recovering from SDK errors or corruption</li>
+<li>🧪 <strong>Testing</strong>: Ensuring clean state between test runs</li>
 </ul>
-</div>
-<h2 id="api-reference">API Reference<a class="headerlink" href="#api-reference" title="Permanent link">&para;</a></h2>
-<p>Auto-generated documentation for all public classes, protocols, enums, and structs.</p>
-<p><a class="md-button" href="api-reference/">:octicons-book-24: Browse API Reference</a></p>
+<h3 id="use-endchat-when">Use <code>endChat()</code> when:<a class="headerlink" href="#use-endchat-when" title="Permanent link">&para;</a></h3>
+<ul>
+<li>💬 <strong>End conversation</strong>: User finishes chatting but may return later</li>
+<li>🔄 <strong>Temporary disconnect</strong>: Preserving SDK state for quick reconnection</li>
+<li>🎯 <strong>Normal flow</strong>: Standard chat lifecycle management</li>
+</ul>
+<h2 id="comparison">Comparison<a class="headerlink" href="#comparison" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Session</th>
+<th>SDK State</th>
+<th>Bot Key</th>
+<th>Config</th>
+<th>Next Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>endChat()</code></td>
+<td>❌ Cleared</td>
+<td>✅ Preserved</td>
+<td>✅ Preserved</td>
+<td>✅ Preserved</td>
+<td><code>displayChat()</code></td>
+</tr>
+<tr>
+<td><code>kill()</code></td>
+<td>❌ Cleared</td>
+<td>❌ Reset</td>
+<td>❌ Cleared</td>
+<td>❌ Reset</td>
+<td><code>start()</code> required</td>
+</tr>
+</tbody>
+</table>
+<h2 id="return-value">Return Value<a class="headerlink" href="#return-value" title="Permanent link">&para;</a></h2>
+<p>The <code>kill()</code> method returns a <code>Promise&lt;Void&gt;</code> that resolves when the termination is complete:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="n">kill</span><span class="p">()</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">    </span><span class="p">.</span><span class="n">then</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="kc">_</span><span class="w"> </span><span class="k">in</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">        </span><span class="c1">// SDK termination completed successfully</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">        </span><span class="bp">print</span><span class="p">(</span><span class="s">&quot;SDK killed successfully&quot;</span><span class="p">)</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">    </span><span class="p">}</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="p">.</span><span class="k">catch</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">error</span><span class="w"> </span><span class="k">in</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">        </span><span class="c1">// Handle any cleanup errors</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">        </span><span class="bp">print</span><span class="p">(</span><span class="s">&quot;Kill error: </span><span class="si">\(</span><span class="n">error</span><span class="si">)</span><span class="s">&quot;</span><span class="p">)</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">    </span><span class="p">}</span>
+</code></pre></div>
+<h2 id="best-practices">Best Practices<a class="headerlink" href="#best-practices" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p><strong>Always wait for completion</strong> before calling <code>start()</code> again:
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="n">kill</span><span class="p">().</span><span class="n">then</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="kc">_</span><span class="w"> </span><span class="k">in</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">    </span><span class="c1">// Safe to reinitialize now</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">    </span><span class="n">KindlySDK</span><span class="p">.</span><span class="n">start</span><span class="p">(</span><span class="n">botKey</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;new-bot&quot;</span><span class="p">)</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="p">}</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Handle errors gracefully</strong> in case cleanup fails:
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="n">kill</span><span class="p">().</span><span class="k">catch</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="n">error</span><span class="w"> </span><span class="k">in</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">    </span><span class="c1">// Log error but continue with app flow</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">    </span><span class="bp">print</span><span class="p">(</span><span class="s">&quot;Kill failed, but continuing: </span><span class="si">\(</span><span class="n">error</span><span class="si">)</span><span class="s">&quot;</span><span class="p">)</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="p">}</span>
+</code></pre></div></p>
+</li>
+<li>
+<p><strong>Use automatic bot switching</strong> instead of manual kill/start when possible:
+   <div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c1">// Preferred: Automatic cleanup</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="n">start</span><span class="p">(</span><span class="n">botKey</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;new-bot&quot;</span><span class="p">)</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="c1">// Instead of: Manual cleanup  </span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="n">KindlySDK</span><span class="p">.</span><span class="n">kill</span><span class="p">().</span><span class="n">then</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="kc">_</span><span class="w"> </span><span class="k">in</span>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="w">    </span><span class="n">KindlySDK</span><span class="p">.</span><span class="n">start</span><span class="p">(</span><span class="n">botKey</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;new-bot&quot;</span><span class="p">)</span>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="p">}</span>
+</code></pre></div></p>
+</li>
+</ol>
+<p>For normal chat lifecycle management, prefer <a href="../end-chat/"><code>endChat()</code></a> over <code>kill()</code>.</p>
 
 
 
@@ -1373,10 +1578,10 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.sections", "navigation.expand", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy", "content.tabs.link"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.expand", "navigation.top", "navigation.indexes", "search.suggest", "search.highlight", "content.code.copy", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>

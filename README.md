@@ -58,15 +58,10 @@ You can also change the language at runtime if needed:
 KindlySDK.setLanguage("lt")  // Change to Lithuanian
 ```
 
-## 📋 Getting started
+## 📋 Documentation
 
-### Documentation
-
-* Here you'll find the documentation and getting started guide.
-
-[Getting Started](https://github.com/kindly-ai/sdk-chat-ios/wiki)
-
-[📚 Documentation](https://kindly-ai.github.io/sdk-chat-ios/)
+* [Getting Started & Guides](https://kindly-ai.github.io/sdk-chat-ios/)
+* [API Reference](https://kindly-ai.github.io/sdk-chat-ios/api-reference/)
 
 ## Credits
 
