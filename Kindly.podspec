@@ -17,17 +17,6 @@ Pod::Spec.new do |spec|
 
   spec.frameworks = 'UIKit', 'MapKit'
 
-  spec.default_subspecs = ["Core", "Sentry"]
-
-  spec.subspec "Core" do |core|
-    core.dependency 'Starscream', '~> 4.0.8'
-    core.dependency 'SwiftyGif', '~> 5.4.4'
-    core.dependency 'SwiftyJSON', '~> 5.0.2'
-  end
-
-  spec.subspec "Sentry" do |sentry|
-    sentry.dependency 'Kindly/Core'
-    sentry.dependency 'Sentry', '~> 9.0'
-  end
+  spec.dependency 'Sentry', '~> 9.0'
 
 end

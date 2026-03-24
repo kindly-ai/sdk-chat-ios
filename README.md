@@ -10,7 +10,7 @@ Integrate Kindly Chat in your iOS app.
 
 ### Requirements
 
-* iOS deployment target: 13.0+
+* iOS deployment target: 15.0+
 
 ### How to install
 
@@ -72,10 +72,4 @@ KindlySDK.setLanguage("lt")  // Change to Lithuanian
 
 Kindly SDK for iOS implements the following dependencies:
 
-* [Starscream](https://github.com/daltoniam/Starscream)
-* [SwiftyGif](https://github.com/kirualex/SwiftyGif)
-* [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
-
-Optional dependency:
-
-* [Sentry](https://github.com/getsentry/sentry-cocoa) - Required only for crash reporting functionality
+* [Sentry](https://github.com/getsentry/sentry-cocoa) - Crash reporting
