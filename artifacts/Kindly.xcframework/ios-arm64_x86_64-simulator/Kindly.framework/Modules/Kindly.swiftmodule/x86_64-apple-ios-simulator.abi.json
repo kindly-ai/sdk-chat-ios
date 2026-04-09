@@ -1829,6 +1829,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
         "name": "OSLog",
         "printedName": "OSLog",
         "declKind": "Import",
@@ -24355,7 +24362,14 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 10075,
+      "offset": 8778,
+      "length": 11,
+      "value": "\"max_files\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/FormDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 10228,
       "length": 12,
       "value": "\"max_length\""
     },
@@ -24677,49 +24691,49 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/AttachmentService.swift",
       "kind": "StringLiteral",
-      "offset": 3923,
+      "offset": 3926,
       "length": 24,
       "value": "\"temporaryChatMessageId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/AttachmentService.swift",
       "kind": "StringLiteral",
-      "offset": 4451,
+      "offset": 4454,
       "length": 13,
       "value": "\"temporaryId\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/AttachmentService.swift",
       "kind": "StringLiteral",
-      "offset": 4481,
+      "offset": 4484,
       "length": 8,
       "value": "\"sizeKb\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/AttachmentService.swift",
       "kind": "StringLiteral",
-      "offset": 5432,
+      "offset": 5435,
       "length": 14,
       "value": "\"temporary_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/AttachmentService.swift",
       "kind": "StringLiteral",
-      "offset": 5463,
+      "offset": 5466,
       "length": 9,
       "value": "\"size_kb\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/AttachmentService.swift",
       "kind": "StringLiteral",
-      "offset": 5494,
+      "offset": 5497,
       "length": 14,
       "value": "\"storage_path\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/AttachmentService.swift",
       "kind": "StringLiteral",
-      "offset": 5538,
+      "offset": 5541,
       "length": 12,
       "value": "\"upload_url\""
     },
@@ -25478,6 +25492,20 @@
       "offset": 2729,
       "length": 9,
       "value": "\"Discard\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Helpers\/FileValidation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 562,
+      "length": 10,
+      "value": "10000000"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Helpers\/FileValidation.swift",
+      "kind": "IntegerLiteral",
+      "offset": 605,
+      "length": 10,
+      "value": "30000000"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlySDKConfig.swift",
@@ -27687,189 +27715,189 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "Dictionary",
-      "offset": 747,
+      "offset": 772,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "Dictionary",
-      "offset": 798,
+      "offset": 823,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 11220,
+      "offset": 11587,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11413,
+      "offset": 11780,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 11504,
+      "offset": 11871,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 11711,
+      "offset": 12078,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 11751,
+      "offset": 12118,
       "length": 13,
       "value": "\"list.bullet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12012,
+      "offset": 12379,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 12171,
+      "offset": 12538,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 12376,
+      "offset": 12743,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 12400,
+      "offset": 12767,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 12538,
+      "offset": 12905,
       "length": 10,
       "value": "\"FormCell\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 12550,
+      "offset": 12917,
       "length": 23,
       "value": "\"Cancel button clicked\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 12850,
+      "offset": 13217,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 12874,
+      "offset": 13241,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 12933,
+      "offset": 13300,
       "length": 10,
       "value": "\"FormCell\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 12945,
+      "offset": 13312,
       "length": 23,
       "value": "\"Submit button clicked\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13191,
+      "offset": 13558,
       "length": 44,
       "value": "\"Form submission blocked: validation failed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13279,
+      "offset": 13646,
       "length": 9,
       "value": "\"form_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13317,
+      "offset": 13684,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13334,
+      "offset": 13701,
       "length": 13,
       "value": "\"field_count\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13409,
+      "offset": 13776,
       "length": 16,
       "value": "\"error_messages\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13447,
+      "offset": 13814,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13457,
+      "offset": 13824,
       "length": 13,
       "value": "\"error_count\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13593,
+      "offset": 13960,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 13839,
+      "offset": 14206,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 13998,
+      "offset": 14365,
       "length": 5,
       "value": "false"
     },
@@ -28191,56 +28219,56 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 111422,
+      "offset": 112129,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 111465,
+      "offset": 112172,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 111501,
+      "offset": 112208,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 111540,
+      "offset": 112247,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 111580,
+      "offset": 112287,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 111620,
+      "offset": 112327,
       "length": 4,
       "value": "36.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 111669,
+      "offset": 112376,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 111720,
+      "offset": 112427,
       "length": 3,
       "value": "4.0"
     },
@@ -31416,13 +31444,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatPresenter.swift",
-      "kind": "IntegerLiteral",
-      "offset": 8001,
-      "length": 9,
-      "value": "5000000"
-    },
-    {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIView+Extensions.swift",
       "kind": "FloatLiteral",
       "offset": 3233,
@@ -32061,227 +32082,87 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
+      "kind": "Array",
+      "offset": 294,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "IntegerLiteral",
-      "offset": 182,
+      "offset": 562,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 392,
+      "offset": 715,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 463,
+      "offset": 786,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 502,
+      "offset": 825,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 699,
+      "offset": 1022,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "IntegerLiteral",
-      "offset": 775,
+      "offset": 1056,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 1090,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "StringLiteral",
-      "offset": 1259,
-      "length": 14,
-      "value": "\"AIFileUpload\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "StringLiteral",
-      "offset": 1275,
-      "length": 23,
-      "value": "\"Camera image selected\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1815,
+      "offset": 1255,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "IntegerLiteral",
-      "offset": 2178,
+      "offset": 1618,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "StringLiteral",
-      "offset": 2197,
+      "offset": 1637,
       "length": 2,
       "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2382,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2552,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "IntegerLiteral",
-      "offset": 2590,
-      "length": 2,
-      "value": "12"
+      "offset": 1817,
+      "length": 1,
+      "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
       "kind": "BooleanLiteral",
-      "offset": 2616,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2772,
+      "offset": 1871,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "StringLiteral",
-      "offset": 2844,
-      "length": 12,
-      "value": "\"trash.fill\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3005,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "StringLiteral",
-      "offset": 3281,
-      "length": 14,
-      "value": "\"AIFileUpload\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "StringLiteral",
-      "offset": 3297,
-      "length": 33,
-      "value": "\"Updating UI with selected image\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3457,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3493,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3534,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3711,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3749,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "StringLiteral",
-      "offset": 3796,
-      "length": 14,
-      "value": "\"AIFileUpload\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "StringLiteral",
-      "offset": 3812,
-      "length": 33,
-      "value": "\"Clearing selected image from UI\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3963,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "StringLiteral",
-      "offset": 4019,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4053,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/File Selection\/AIFileUpload.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4093,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Form\/Checkbox\/AICheckbox.swift",
