@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Kindly"
-  spec.version      = "2.1.136"
+  spec.version      = "2.1.137"
   spec.summary      = "Kindly SDK"
   spec.description  = <<-DESC
   AI-powered chatbots built to automate support and drive sales
