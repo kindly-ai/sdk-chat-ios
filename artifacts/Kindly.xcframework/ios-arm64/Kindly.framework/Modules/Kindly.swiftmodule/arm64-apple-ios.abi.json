@@ -453,670 +453,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "ExternalExchangeType",
-        "printedName": "ExternalExchangeType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "dialogue",
-            "printedName": "dialogue",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.ExternalExchangeType.Type) -> Kindly.ExternalExchangeType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExternalExchangeType",
-                    "printedName": "Kindly.ExternalExchangeType",
-                    "usr": "s:6Kindly20ExternalExchangeTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.ExternalExchangeType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ExternalExchangeType",
-                        "printedName": "Kindly.ExternalExchangeType",
-                        "usr": "s:6Kindly20ExternalExchangeTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly20ExternalExchangeTypeO8dialogueyA2CmF",
-            "mangledName": "$s6Kindly20ExternalExchangeTypeO8dialogueyA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Var",
-            "name": "fallback",
-            "printedName": "fallback",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.ExternalExchangeType.Type) -> Kindly.ExternalExchangeType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExternalExchangeType",
-                    "printedName": "Kindly.ExternalExchangeType",
-                    "usr": "s:6Kindly20ExternalExchangeTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.ExternalExchangeType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ExternalExchangeType",
-                        "printedName": "Kindly.ExternalExchangeType",
-                        "usr": "s:6Kindly20ExternalExchangeTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly20ExternalExchangeTypeO8fallbackyA2CmF",
-            "mangledName": "$s6Kindly20ExternalExchangeTypeO8fallbackyA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Var",
-            "name": "greeting",
-            "printedName": "greeting",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.ExternalExchangeType.Type) -> Kindly.ExternalExchangeType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExternalExchangeType",
-                    "printedName": "Kindly.ExternalExchangeType",
-                    "usr": "s:6Kindly20ExternalExchangeTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.ExternalExchangeType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ExternalExchangeType",
-                        "printedName": "Kindly.ExternalExchangeType",
-                        "usr": "s:6Kindly20ExternalExchangeTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly20ExternalExchangeTypeO8greetingyA2CmF",
-            "mangledName": "$s6Kindly20ExternalExchangeTypeO8greetingyA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Var",
-            "name": "systemDialogue",
-            "printedName": "systemDialogue",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.ExternalExchangeType.Type) -> Kindly.ExternalExchangeType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExternalExchangeType",
-                    "printedName": "Kindly.ExternalExchangeType",
-                    "usr": "s:6Kindly20ExternalExchangeTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.ExternalExchangeType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ExternalExchangeType",
-                        "printedName": "Kindly.ExternalExchangeType",
-                        "usr": "s:6Kindly20ExternalExchangeTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly20ExternalExchangeTypeO14systemDialogueyA2CmF",
-            "mangledName": "$s6Kindly20ExternalExchangeTypeO14systemDialogueyA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Var",
-            "name": "userSays",
-            "printedName": "userSays",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.ExternalExchangeType.Type) -> Kindly.ExternalExchangeType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExternalExchangeType",
-                    "printedName": "Kindly.ExternalExchangeType",
-                    "usr": "s:6Kindly20ExternalExchangeTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.ExternalExchangeType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ExternalExchangeType",
-                        "printedName": "Kindly.ExternalExchangeType",
-                        "usr": "s:6Kindly20ExternalExchangeTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly20ExternalExchangeTypeO8userSaysyA2CmF",
-            "mangledName": "$s6Kindly20ExternalExchangeTypeO8userSaysyA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Kindly.ExternalExchangeType?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExternalExchangeType",
-                    "printedName": "Kindly.ExternalExchangeType",
-                    "usr": "s:6Kindly20ExternalExchangeTypeO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:6Kindly20ExternalExchangeTypeO8rawValueACSgSS_tcfc",
-            "mangledName": "$s6Kindly20ExternalExchangeTypeO8rawValueACSgSS_tcfc",
-            "moduleName": "Kindly",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Kindly20ExternalExchangeTypeO8rawValueSSvp",
-            "mangledName": "$s6Kindly20ExternalExchangeTypeO8rawValueSSvp",
-            "moduleName": "Kindly",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly20ExternalExchangeTypeO8rawValueSSvg",
-                "mangledName": "$s6Kindly20ExternalExchangeTypeO8rawValueSSvg",
-                "moduleName": "Kindly",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:6Kindly20ExternalExchangeTypeO",
-        "mangledName": "$s6Kindly20ExternalExchangeTypeO",
-        "moduleName": "Kindly",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "ExternalChatMessageSender",
-        "printedName": "ExternalChatMessageSender",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "agent",
-            "printedName": "agent",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.ExternalChatMessageSender.Type) -> Kindly.ExternalChatMessageSender",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExternalChatMessageSender",
-                    "printedName": "Kindly.ExternalChatMessageSender",
-                    "usr": "s:6Kindly25ExternalChatMessageSenderO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.ExternalChatMessageSender.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ExternalChatMessageSender",
-                        "printedName": "Kindly.ExternalChatMessageSender",
-                        "usr": "s:6Kindly25ExternalChatMessageSenderO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly25ExternalChatMessageSenderO5agentyA2CmF",
-            "mangledName": "$s6Kindly25ExternalChatMessageSenderO5agentyA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Var",
-            "name": "bot",
-            "printedName": "bot",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.ExternalChatMessageSender.Type) -> Kindly.ExternalChatMessageSender",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExternalChatMessageSender",
-                    "printedName": "Kindly.ExternalChatMessageSender",
-                    "usr": "s:6Kindly25ExternalChatMessageSenderO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.ExternalChatMessageSender.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ExternalChatMessageSender",
-                        "printedName": "Kindly.ExternalChatMessageSender",
-                        "usr": "s:6Kindly25ExternalChatMessageSenderO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly25ExternalChatMessageSenderO3botyA2CmF",
-            "mangledName": "$s6Kindly25ExternalChatMessageSenderO3botyA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Var",
-            "name": "system",
-            "printedName": "system",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.ExternalChatMessageSender.Type) -> Kindly.ExternalChatMessageSender",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExternalChatMessageSender",
-                    "printedName": "Kindly.ExternalChatMessageSender",
-                    "usr": "s:6Kindly25ExternalChatMessageSenderO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.ExternalChatMessageSender.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ExternalChatMessageSender",
-                        "printedName": "Kindly.ExternalChatMessageSender",
-                        "usr": "s:6Kindly25ExternalChatMessageSenderO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly25ExternalChatMessageSenderO6systemyA2CmF",
-            "mangledName": "$s6Kindly25ExternalChatMessageSenderO6systemyA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Var",
-            "name": "unknown",
-            "printedName": "unknown",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.ExternalChatMessageSender.Type) -> Kindly.ExternalChatMessageSender",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExternalChatMessageSender",
-                    "printedName": "Kindly.ExternalChatMessageSender",
-                    "usr": "s:6Kindly25ExternalChatMessageSenderO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.ExternalChatMessageSender.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ExternalChatMessageSender",
-                        "printedName": "Kindly.ExternalChatMessageSender",
-                        "usr": "s:6Kindly25ExternalChatMessageSenderO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly25ExternalChatMessageSenderO7unknownyA2CmF",
-            "mangledName": "$s6Kindly25ExternalChatMessageSenderO7unknownyA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Var",
-            "name": "user",
-            "printedName": "user",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.ExternalChatMessageSender.Type) -> Kindly.ExternalChatMessageSender",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExternalChatMessageSender",
-                    "printedName": "Kindly.ExternalChatMessageSender",
-                    "usr": "s:6Kindly25ExternalChatMessageSenderO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.ExternalChatMessageSender.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ExternalChatMessageSender",
-                        "printedName": "Kindly.ExternalChatMessageSender",
-                        "usr": "s:6Kindly25ExternalChatMessageSenderO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly25ExternalChatMessageSenderO4useryA2CmF",
-            "mangledName": "$s6Kindly25ExternalChatMessageSenderO4useryA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Kindly.ExternalChatMessageSender?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ExternalChatMessageSender",
-                    "printedName": "Kindly.ExternalChatMessageSender",
-                    "usr": "s:6Kindly25ExternalChatMessageSenderO"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:6Kindly25ExternalChatMessageSenderO8rawValueACSgSS_tcfc",
-            "mangledName": "$s6Kindly25ExternalChatMessageSenderO8rawValueACSgSS_tcfc",
-            "moduleName": "Kindly",
-            "implicit": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Kindly25ExternalChatMessageSenderO8rawValueSSvp",
-            "mangledName": "$s6Kindly25ExternalChatMessageSenderO8rawValueSSvp",
-            "moduleName": "Kindly",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly25ExternalChatMessageSenderO8rawValueSSvg",
-                "mangledName": "$s6Kindly25ExternalChatMessageSenderO8rawValueSSvg",
-                "moduleName": "Kindly",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:6Kindly25ExternalChatMessageSenderO",
-        "mangledName": "$s6Kindly25ExternalChatMessageSenderO",
-        "moduleName": "Kindly",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "enumRawTypeName": "String",
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1213,143 +549,6 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Kindly"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Bot",
-        "printedName": "Bot",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "name",
-            "printedName": "name",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Kindly3BotV4nameSSvp",
-            "mangledName": "$s6Kindly3BotV4nameSSvp",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly3BotV4nameSSvg",
-                "mangledName": "$s6Kindly3BotV4nameSSvg",
-                "moduleName": "Kindly",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "avatarURL",
-            "printedName": "avatarURL",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.URL?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "URL",
-                    "printedName": "Foundation.URL",
-                    "usr": "s:10Foundation3URLV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Kindly3BotV9avatarURL10Foundation0D0VSgvp",
-            "mangledName": "$s6Kindly3BotV9avatarURL10Foundation0D0VSgvp",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Foundation.URL?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "URL",
-                        "printedName": "Foundation.URL",
-                        "usr": "s:10Foundation3URLV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly3BotV9avatarURL10Foundation0D0VSgvg",
-                "mangledName": "$s6Kindly3BotV9avatarURL10Foundation0D0VSgvg",
-                "moduleName": "Kindly",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:6Kindly3BotV",
-        "mangledName": "$s6Kindly3BotV",
-        "moduleName": "Kindly",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -1737,69 +936,6 @@
         "moduleName": "Kindly"
       },
       {
-        "kind": "TypeDecl",
-        "name": "OEmbedRespnse",
-        "printedName": "OEmbedRespnse",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "OEmbedRespnse",
-                "printedName": "Kindly.OEmbedRespnse",
-                "usr": "s:6Kindly13OEmbedRespnseV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "any Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:6Kindly13OEmbedRespnseV4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s6Kindly13OEmbedRespnseV4fromACs7Decoder_p_tKcfc",
-            "moduleName": "Kindly",
-            "implicit": true,
-            "throwing": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:6Kindly13OEmbedRespnseV",
-        "mangledName": "$s6Kindly13OEmbedRespnseV",
-        "moduleName": "Kindly",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
@@ -1904,7 +1040,8 @@
             "mangledName": "$s6Kindly0A9SDKConfigV12getAuthTokenySS_AA7PromiseCySSGtcSgvp",
             "moduleName": "Kindly",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -2069,7 +1206,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2155,7 +1293,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2241,7 +1380,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2317,7 +1457,8 @@
             "mangledName": "$s6Kindly0A9SDKConfigV10FormConfigV",
             "moduleName": "Kindly",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "conformances": [
               {
@@ -2433,219 +1574,18 @@
         "moduleName": "Kindly"
       },
       {
-        "kind": "TypeDecl",
-        "name": "PermissionType",
-        "printedName": "PermissionType",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "camera",
-            "printedName": "camera",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.PermissionType.Type) -> Kindly.PermissionType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PermissionType",
-                    "printedName": "Kindly.PermissionType",
-                    "usr": "s:6Kindly14PermissionTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.PermissionType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PermissionType",
-                        "printedName": "Kindly.PermissionType",
-                        "usr": "s:6Kindly14PermissionTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly14PermissionTypeO6camerayA2CmF",
-            "mangledName": "$s6Kindly14PermissionTypeO6camerayA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Var",
-            "name": "photoLibrary",
-            "printedName": "photoLibrary",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.PermissionType.Type) -> Kindly.PermissionType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PermissionType",
-                    "printedName": "Kindly.PermissionType",
-                    "usr": "s:6Kindly14PermissionTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.PermissionType.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PermissionType",
-                        "printedName": "Kindly.PermissionType",
-                        "usr": "s:6Kindly14PermissionTypeO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly14PermissionTypeO12photoLibraryyA2CmF",
-            "mangledName": "$s6Kindly14PermissionTypeO12photoLibraryyA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PermissionType",
-                "printedName": "Kindly.PermissionType",
-                "usr": "s:6Kindly14PermissionTypeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PermissionType",
-                "printedName": "Kindly.PermissionType",
-                "usr": "s:6Kindly14PermissionTypeO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly14PermissionTypeO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s6Kindly14PermissionTypeO2eeoiySbAC_ACtFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Kindly14PermissionTypeO9hashValueSivp",
-            "mangledName": "$s6Kindly14PermissionTypeO9hashValueSivp",
-            "moduleName": "Kindly",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly14PermissionTypeO9hashValueSivg",
-                "mangledName": "$s6Kindly14PermissionTypeO9hashValueSivg",
-                "moduleName": "Kindly",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly14PermissionTypeO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s6Kindly14PermissionTypeO4hash4intoys6HasherVz_tF",
-            "moduleName": "Kindly",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:6Kindly14PermissionTypeO",
-        "mangledName": "$s6Kindly14PermissionTypeO",
-        "moduleName": "Kindly",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          }
-        ]
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Kindly"
       },
       {
         "kind": "Import",
@@ -2676,491 +1616,6 @@
         "moduleName": "Kindly"
       },
       {
-        "kind": "TypeDecl",
-        "name": "Coordinator",
-        "printedName": "Coordinator",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "childCoordinators",
-            "printedName": "childCoordinators",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[any Kindly.Coordinator]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Coordinator",
-                    "printedName": "any Kindly.Coordinator",
-                    "usr": "s:6Kindly11CoordinatorP"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Kindly11CoordinatorP17childCoordinatorsSayAaB_pGvp",
-            "mangledName": "$s6Kindly11CoordinatorP17childCoordinatorsSayAaB_pGvp",
-            "moduleName": "Kindly",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any Kindly.Coordinator]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Coordinator",
-                        "printedName": "any Kindly.Coordinator",
-                        "usr": "s:6Kindly11CoordinatorP"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly11CoordinatorP17childCoordinatorsSayAaB_pGvg",
-                "mangledName": "$s6Kindly11CoordinatorP17childCoordinatorsSayAaB_pGvg",
-                "moduleName": "Kindly",
-                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Coordinator>",
-                "sugared_genericSig": "<Self where Self : Kindly.Coordinator>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any Kindly.Coordinator]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Coordinator",
-                        "printedName": "any Kindly.Coordinator",
-                        "usr": "s:6Kindly11CoordinatorP"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly11CoordinatorP17childCoordinatorsSayAaB_pGvs",
-                "mangledName": "$s6Kindly11CoordinatorP17childCoordinatorsSayAaB_pGvs",
-                "moduleName": "Kindly",
-                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Coordinator>",
-                "sugared_genericSig": "<Self where Self : Kindly.Coordinator>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly11CoordinatorP17childCoordinatorsSayAaB_pGvM",
-                "mangledName": "$s6Kindly11CoordinatorP17childCoordinatorsSayAaB_pGvM",
-                "moduleName": "Kindly",
-                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Coordinator>",
-                "sugared_genericSig": "<Self where Self : Kindly.Coordinator>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "navigationController",
-            "printedName": "navigationController",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Kindly11CoordinatorP20navigationControllerSo012UINavigationD0Cvp",
-            "mangledName": "$s6Kindly11CoordinatorP20navigationControllerSo012UINavigationD0Cvp",
-            "moduleName": "Kindly",
-            "protocolReq": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UINavigationController",
-                    "printedName": "UIKit.UINavigationController",
-                    "usr": "c:objc(cs)UINavigationController"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly11CoordinatorP20navigationControllerSo012UINavigationD0Cvg",
-                "mangledName": "$s6Kindly11CoordinatorP20navigationControllerSo012UINavigationD0Cvg",
-                "moduleName": "Kindly",
-                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Coordinator>",
-                "sugared_genericSig": "<Self where Self : Kindly.Coordinator>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UINavigationController",
-                    "printedName": "UIKit.UINavigationController",
-                    "usr": "c:objc(cs)UINavigationController"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly11CoordinatorP20navigationControllerSo012UINavigationD0Cvs",
-                "mangledName": "$s6Kindly11CoordinatorP20navigationControllerSo012UINavigationD0Cvs",
-                "moduleName": "Kindly",
-                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Coordinator>",
-                "sugared_genericSig": "<Self where Self : Kindly.Coordinator>",
-                "protocolReq": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly11CoordinatorP20navigationControllerSo012UINavigationD0CvM",
-                "mangledName": "$s6Kindly11CoordinatorP20navigationControllerSo012UINavigationD0CvM",
-                "moduleName": "Kindly",
-                "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Coordinator>",
-                "sugared_genericSig": "<Self where Self : Kindly.Coordinator>",
-                "protocolReq": true,
-                "implicit": true,
-                "reqNewWitnessTableEntry": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "start",
-            "printedName": "start()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly11CoordinatorP5startyyF",
-            "mangledName": "$s6Kindly11CoordinatorP5startyyF",
-            "moduleName": "Kindly",
-            "genericSig": "<τ_0_0 where τ_0_0 : Kindly.Coordinator>",
-            "sugared_genericSig": "<Self where Self : Kindly.Coordinator>",
-            "protocolReq": true,
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "s:6Kindly11CoordinatorP",
-        "mangledName": "$s6Kindly11CoordinatorP",
-        "moduleName": "Kindly",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "Kindly"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "Kindly"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Storyboard",
-        "printedName": "Storyboard",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "naStoryboard",
-            "printedName": "naStoryboard",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.Storyboard.Type) -> Kindly.Storyboard",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Storyboard",
-                    "printedName": "Kindly.Storyboard",
-                    "usr": "s:6Kindly10StoryboardO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.Storyboard.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Storyboard",
-                        "printedName": "Kindly.Storyboard",
-                        "usr": "s:6Kindly10StoryboardO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly10StoryboardO02naB0yA2CmF",
-            "mangledName": "$s6Kindly10StoryboardO02naB0yA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Var",
-            "name": "main",
-            "printedName": "main",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Kindly.Storyboard.Type) -> Kindly.Storyboard",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Storyboard",
-                    "printedName": "Kindly.Storyboard",
-                    "usr": "s:6Kindly10StoryboardO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Kindly.Storyboard.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Storyboard",
-                        "printedName": "Kindly.Storyboard",
-                        "usr": "s:6Kindly10StoryboardO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:6Kindly10StoryboardO4mainyA2CmF",
-            "mangledName": "$s6Kindly10StoryboardO4mainyA2CmF",
-            "moduleName": "Kindly"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Storyboard",
-                "printedName": "Kindly.Storyboard",
-                "usr": "s:6Kindly10StoryboardO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Storyboard",
-                "printedName": "Kindly.Storyboard",
-                "usr": "s:6Kindly10StoryboardO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly10StoryboardO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s6Kindly10StoryboardO2eeoiySbAC_ACtFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Kindly10StoryboardO9hashValueSivp",
-            "mangledName": "$s6Kindly10StoryboardO9hashValueSivp",
-            "moduleName": "Kindly",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly10StoryboardO9hashValueSivg",
-                "mangledName": "$s6Kindly10StoryboardO9hashValueSivg",
-                "moduleName": "Kindly",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly10StoryboardO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s6Kindly10StoryboardO4hash4intoys6HasherVz_tF",
-            "moduleName": "Kindly",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:6Kindly10StoryboardO",
-        "mangledName": "$s6Kindly10StoryboardO",
-        "moduleName": "Kindly",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -3180,910 +1635,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Kindly"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MainCoordinator",
-        "printedName": "MainCoordinator",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "shared",
-            "printedName": "shared",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MainCoordinator",
-                "printedName": "Kindly.MainCoordinator",
-                "usr": "s:6Kindly15MainCoordinatorC"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Kindly15MainCoordinatorC6sharedACvpZ",
-            "mangledName": "$s6Kindly15MainCoordinatorC6sharedACvpZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MainCoordinator",
-                    "printedName": "Kindly.MainCoordinator",
-                    "usr": "s:6Kindly15MainCoordinatorC"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly15MainCoordinatorC6sharedACvgZ",
-                "mangledName": "$s6Kindly15MainCoordinatorC6sharedACvgZ",
-                "moduleName": "Kindly",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "childCoordinators",
-            "printedName": "childCoordinators",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[any Kindly.Coordinator]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Coordinator",
-                    "printedName": "any Kindly.Coordinator",
-                    "usr": "s:6Kindly11CoordinatorP"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Kindly15MainCoordinatorC17childCoordinatorsSayAA0C0_pGvp",
-            "mangledName": "$s6Kindly15MainCoordinatorC17childCoordinatorsSayAA0C0_pGvp",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any Kindly.Coordinator]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Coordinator",
-                        "printedName": "any Kindly.Coordinator",
-                        "usr": "s:6Kindly11CoordinatorP"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly15MainCoordinatorC17childCoordinatorsSayAA0C0_pGvg",
-                "mangledName": "$s6Kindly15MainCoordinatorC17childCoordinatorsSayAA0C0_pGvg",
-                "moduleName": "Kindly",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any Kindly.Coordinator]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Coordinator",
-                        "printedName": "any Kindly.Coordinator",
-                        "usr": "s:6Kindly11CoordinatorP"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly15MainCoordinatorC17childCoordinatorsSayAA0C0_pGvs",
-                "mangledName": "$s6Kindly15MainCoordinatorC17childCoordinatorsSayAA0C0_pGvs",
-                "moduleName": "Kindly",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly15MainCoordinatorC17childCoordinatorsSayAA0C0_pGvM",
-                "mangledName": "$s6Kindly15MainCoordinatorC17childCoordinatorsSayAA0C0_pGvM",
-                "moduleName": "Kindly",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "navigationController",
-            "printedName": "navigationController",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UINavigationController",
-                "printedName": "UIKit.UINavigationController",
-                "usr": "c:objc(cs)UINavigationController"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Kindly15MainCoordinatorC20navigationControllerSo012UINavigationE0Cvp",
-            "mangledName": "$s6Kindly15MainCoordinatorC20navigationControllerSo012UINavigationE0Cvp",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UINavigationController",
-                    "printedName": "UIKit.UINavigationController",
-                    "usr": "c:objc(cs)UINavigationController"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly15MainCoordinatorC20navigationControllerSo012UINavigationE0Cvg",
-                "mangledName": "$s6Kindly15MainCoordinatorC20navigationControllerSo012UINavigationE0Cvg",
-                "moduleName": "Kindly",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UINavigationController",
-                    "printedName": "UIKit.UINavigationController",
-                    "usr": "c:objc(cs)UINavigationController"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly15MainCoordinatorC20navigationControllerSo012UINavigationE0Cvs",
-                "mangledName": "$s6Kindly15MainCoordinatorC20navigationControllerSo012UINavigationE0Cvs",
-                "moduleName": "Kindly",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly15MainCoordinatorC20navigationControllerSo012UINavigationE0CvM",
-                "mangledName": "$s6Kindly15MainCoordinatorC20navigationControllerSo012UINavigationE0CvM",
-                "moduleName": "Kindly",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "currentViewController",
-            "printedName": "currentViewController",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Kindly15MainCoordinatorC21currentViewControllerSo06UIViewF0CSgvpZ",
-            "mangledName": "$s6Kindly15MainCoordinatorC21currentViewControllerSo06UIViewF0CSgvpZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly15MainCoordinatorC21currentViewControllerSo06UIViewF0CSgvgZ",
-                "mangledName": "$s6Kindly15MainCoordinatorC21currentViewControllerSo06UIViewF0CSgvgZ",
-                "moduleName": "Kindly",
-                "static": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "presentedViewController",
-            "printedName": "presentedViewController",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIViewController?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIViewController",
-                    "printedName": "UIKit.UIViewController",
-                    "usr": "c:objc(cs)UIViewController"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:6Kindly15MainCoordinatorC23presentedViewControllerSo06UIViewF0CSgvpZ",
-            "mangledName": "$s6Kindly15MainCoordinatorC23presentedViewControllerSo06UIViewF0CSgvpZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIViewController?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIViewController",
-                        "printedName": "UIKit.UIViewController",
-                        "usr": "c:objc(cs)UIViewController"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:6Kindly15MainCoordinatorC23presentedViewControllerSo06UIViewF0CSgvgZ",
-                "mangledName": "$s6Kindly15MainCoordinatorC23presentedViewControllerSo06UIViewF0CSgvgZ",
-                "moduleName": "Kindly",
-                "static": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "pushViewController",
-            "printedName": "pushViewController(_:animated:removePreviousVCs:dismissPresentedViewController:hideNavigationBar:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly15MainCoordinatorC18pushViewController_8animated17removePreviousVCs016dismissPresentedeF017hideNavigationBarySo06UIViewF0C_SbSgA2KSbtFZ",
-            "mangledName": "$s6Kindly15MainCoordinatorC18pushViewController_8animated17removePreviousVCs016dismissPresentedeF017hideNavigationBarySo06UIViewF0C_SbSgA2KSbtFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "present",
-            "printedName": "present(_:fullScreen:animated:dismissPresentedViewController:hideNavigationBar:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(() -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "() -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly15MainCoordinatorC7present_10fullScreen8animated30dismissPresentedViewController17hideNavigationBar10completionySo06UIViewK0C_SbSgA2LSbyycSgtFZ",
-            "mangledName": "$s6Kindly15MainCoordinatorC7present_10fullScreen8animated30dismissPresentedViewController17hideNavigationBar10completionySo06UIViewK0C_SbSgA2LSbyycSgtFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "popToRootViewController",
-            "printedName": "popToRootViewController(animated:dismissPresentedViewController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly15MainCoordinatorC23popToRootViewController8animated016dismissPresentedgH0ySbSg_AGtFZ",
-            "mangledName": "$s6Kindly15MainCoordinatorC23popToRootViewController8animated016dismissPresentedgH0ySbSg_AGtFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "popCurrentViewController",
-            "printedName": "popCurrentViewController(animated:dismissPresentedViewController:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly15MainCoordinatorC24popCurrentViewController8animated016dismissPresentedfG0ySbSg_AGtFZ",
-            "mangledName": "$s6Kindly15MainCoordinatorC24popCurrentViewController8animated016dismissPresentedfG0ySbSg_AGtFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "dismissPresentedViewController",
-            "printedName": "dismissPresentedViewController(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly15MainCoordinatorC30dismissPresentedViewControlleryySbSgFZ",
-            "mangledName": "$s6Kindly15MainCoordinatorC30dismissPresentedViewControlleryySbSgFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "enableLargeTitles",
-            "printedName": "enableLargeTitles()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly15MainCoordinatorC17enableLargeTitlesyyFZ",
-            "mangledName": "$s6Kindly15MainCoordinatorC17enableLargeTitlesyyFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "disableLargeTitles",
-            "printedName": "disableLargeTitles()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly15MainCoordinatorC18disableLargeTitlesyyFZ",
-            "mangledName": "$s6Kindly15MainCoordinatorC18disableLargeTitlesyyFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setLargeTitleDisplayMode",
-            "printedName": "setLargeTitleDisplayMode(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "LargeTitleDisplayMode",
-                "printedName": "UIKit.UINavigationItem.LargeTitleDisplayMode",
-                "usr": "c:@E@UINavigationItemLargeTitleDisplayMode"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly15MainCoordinatorC24setLargeTitleDisplayModeyySo016UINavigationItemefgH0VFZ",
-            "mangledName": "$s6Kindly15MainCoordinatorC24setLargeTitleDisplayModeyySo016UINavigationItemefgH0VFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setNavigationTintColor",
-            "printedName": "setNavigationTintColor(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly15MainCoordinatorC22setNavigationTintColoryySo7UIColorCFZ",
-            "mangledName": "$s6Kindly15MainCoordinatorC22setNavigationTintColoryySo7UIColorCFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setHideBackButtonTitle",
-            "printedName": "setHideBackButtonTitle(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly15MainCoordinatorC22setHideBackButtonTitleyySbFZ",
-            "mangledName": "$s6Kindly15MainCoordinatorC22setHideBackButtonTitleyySbFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "start",
-            "printedName": "start()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly15MainCoordinatorC5startyyF",
-            "mangledName": "$s6Kindly15MainCoordinatorC5startyyF",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "Dynamic",
-              "AccessControl",
-              "RawDocComment",
-              "ObjC"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:6Kindly15MainCoordinatorC",
-        "mangledName": "$s6Kindly15MainCoordinatorC",
-        "moduleName": "Kindly",
-        "declAttributes": [
-          "AccessControl",
-          "ObjCMembers"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Coordinator",
-            "printedName": "Coordinator",
-            "usr": "s:6Kindly11CoordinatorP",
-            "mangledName": "$s6Kindly11CoordinatorP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -11661,7 +9212,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Kindly0A9InputTypeO5emailyA2CmF",
             "mangledName": "$s6Kindly0A9InputTypeO5emailyA2CmF",
-            "moduleName": "Kindly"
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -11698,7 +9252,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Kindly0A9InputTypeO5phoneyA2CmF",
             "mangledName": "$s6Kindly0A9InputTypeO5phoneyA2CmF",
-            "moduleName": "Kindly"
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -11735,7 +9292,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Kindly0A9InputTypeO4textyA2CmF",
             "mangledName": "$s6Kindly0A9InputTypeO4textyA2CmF",
-            "moduleName": "Kindly"
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -11772,7 +9332,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Kindly0A9InputTypeO6numberyA2CmF",
             "mangledName": "$s6Kindly0A9InputTypeO6numberyA2CmF",
-            "moduleName": "Kindly"
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Constructor",
@@ -11852,7 +9415,8 @@
         "mangledName": "$s6Kindly0A9InputTypeO",
         "moduleName": "Kindly",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "enumRawTypeName": "String",
         "conformances": [
@@ -12872,7 +10436,8 @@
         "mangledName": "$s6Kindly18ExternalChatButtonV",
         "moduleName": "Kindly",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -12973,7 +10538,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Kindly19ChatConnectionStateO4noneyA2CmF",
             "mangledName": "$s6Kindly19ChatConnectionStateO4noneyA2CmF",
-            "moduleName": "Kindly"
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -13010,7 +10578,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Kindly19ChatConnectionStateO10connectingyA2CmF",
             "mangledName": "$s6Kindly19ChatConnectionStateO10connectingyA2CmF",
-            "moduleName": "Kindly"
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -13047,7 +10618,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Kindly19ChatConnectionStateO9connectedyA2CmF",
             "mangledName": "$s6Kindly19ChatConnectionStateO9connectedyA2CmF",
-            "moduleName": "Kindly"
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -13084,7 +10658,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Kindly19ChatConnectionStateO12disconnectedyA2CmF",
             "mangledName": "$s6Kindly19ChatConnectionStateO12disconnectedyA2CmF",
-            "moduleName": "Kindly"
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -13121,7 +10698,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Kindly19ChatConnectionStateO6failedyA2CmF",
             "mangledName": "$s6Kindly19ChatConnectionStateO6failedyA2CmF",
-            "moduleName": "Kindly"
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -13158,7 +10738,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Kindly19ChatConnectionStateO17conversationEndedyA2CmF",
             "mangledName": "$s6Kindly19ChatConnectionStateO17conversationEndedyA2CmF",
-            "moduleName": "Kindly"
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -13195,7 +10778,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Kindly19ChatConnectionStateO7closingyA2CmF",
             "mangledName": "$s6Kindly19ChatConnectionStateO7closingyA2CmF",
-            "moduleName": "Kindly"
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Function",
@@ -13502,7 +11088,8 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -13616,7 +11203,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -13711,7 +11299,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "accessors": [
               {
@@ -14158,7 +11747,8 @@
             "moduleName": "Kindly",
             "static": true,
             "declAttributes": [
-              "Final"
+              "Final",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -14604,7 +12194,8 @@
             "moduleName": "Kindly",
             "static": true,
             "declAttributes": [
-              "Final"
+              "Final",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -15462,7 +13053,8 @@
             "moduleName": "Kindly",
             "static": true,
             "declAttributes": [
-              "Final"
+              "Final",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -15492,7 +13084,8 @@
             "static": true,
             "declAttributes": [
               "Final",
-              "DiscardableResult"
+              "DiscardableResult",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -15792,6 +13385,7 @@
         "moduleName": "Kindly",
         "declAttributes": [
           "AccessControl",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
@@ -16236,7 +13830,8 @@
         "genericSig": "<τ_0_0>",
         "sugared_genericSig": "<T>",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "hasMissingDesignatedInitializers": true,
         "conformances": [
@@ -16574,977 +14169,6 @@
         "moduleName": "Kindly"
       },
       {
-        "kind": "TypeDecl",
-        "name": "AIAlert",
-        "printedName": "AIAlert",
-        "children": [
-          {
-            "kind": "TypeDecl",
-            "name": "AlertTextField",
-            "printedName": "AlertTextField",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "placeholder",
-                "printedName": "placeholder",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:6Kindly7AIAlertC14AlertTextFieldV11placeholderSSvp",
-                "mangledName": "$s6Kindly7AIAlertC14AlertTextFieldV11placeholderSSvp",
-                "moduleName": "Kindly",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly7AIAlertC14AlertTextFieldV11placeholderSSvg",
-                    "mangledName": "$s6Kindly7AIAlertC14AlertTextFieldV11placeholderSSvg",
-                    "moduleName": "Kindly",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "keyboardType",
-                "printedName": "keyboardType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIKeyboardType",
-                    "printedName": "UIKit.UIKeyboardType",
-                    "usr": "c:@E@UIKeyboardType"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:6Kindly7AIAlertC14AlertTextFieldV12keyboardTypeSo010UIKeyboardG0Vvp",
-                "mangledName": "$s6Kindly7AIAlertC14AlertTextFieldV12keyboardTypeSo010UIKeyboardG0Vvp",
-                "moduleName": "Kindly",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIKeyboardType",
-                        "printedName": "UIKit.UIKeyboardType",
-                        "usr": "c:@E@UIKeyboardType"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly7AIAlertC14AlertTextFieldV12keyboardTypeSo010UIKeyboardG0Vvg",
-                    "mangledName": "$s6Kindly7AIAlertC14AlertTextFieldV12keyboardTypeSo010UIKeyboardG0Vvg",
-                    "moduleName": "Kindly",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(placeholder:keyboardType:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AlertTextField",
-                    "printedName": "Kindly.AIAlert.AlertTextField",
-                    "usr": "s:6Kindly7AIAlertC14AlertTextFieldV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIKeyboardType?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIKeyboardType",
-                        "printedName": "UIKit.UIKeyboardType",
-                        "usr": "c:@E@UIKeyboardType"
-                      }
-                    ],
-                    "hasDefaultArg": true,
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:6Kindly7AIAlertC14AlertTextFieldV11placeholder12keyboardTypeAESS_So010UIKeyboardH0VSgtcfc",
-                "mangledName": "$s6Kindly7AIAlertC14AlertTextFieldV11placeholder12keyboardTypeAESS_So010UIKeyboardH0VSgtcfc",
-                "moduleName": "Kindly",
-                "declAttributes": [
-                  "AccessControl"
-                ],
-                "init_kind": "Designated"
-              }
-            ],
-            "declKind": "Struct",
-            "usr": "s:6Kindly7AIAlertC14AlertTextFieldV",
-            "mangledName": "$s6Kindly7AIAlertC14AlertTextFieldV",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "AlertButton",
-            "printedName": "AlertButton",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "title",
-                "printedName": "title",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:6Kindly7AIAlertC11AlertButtonV5titleSSvp",
-                "mangledName": "$s6Kindly7AIAlertC11AlertButtonV5titleSSvp",
-                "moduleName": "Kindly",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV5titleSSvg",
-                    "mangledName": "$s6Kindly7AIAlertC11AlertButtonV5titleSSvg",
-                    "moduleName": "Kindly",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "style",
-                "printedName": "style",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Style",
-                    "printedName": "UIKit.UIAlertAction.Style",
-                    "usr": "c:@E@UIAlertActionStyle"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:6Kindly7AIAlertC11AlertButtonV5styleSo18UIAlertActionStyleVvp",
-                "mangledName": "$s6Kindly7AIAlertC11AlertButtonV5styleSo18UIAlertActionStyleVvp",
-                "moduleName": "Kindly",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Style",
-                        "printedName": "UIKit.UIAlertAction.Style",
-                        "usr": "c:@E@UIAlertActionStyle"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV5styleSo18UIAlertActionStyleVvg",
-                    "mangledName": "$s6Kindly7AIAlertC11AlertButtonV5styleSo18UIAlertActionStyleVvg",
-                    "moduleName": "Kindly",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "callback",
-                "printedName": "callback",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(([UIKit.UITextField]?) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "([UIKit.UITextField]?) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "[UIKit.UITextField]?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Array",
-                                "printedName": "[UIKit.UITextField]",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "UITextField",
-                                    "printedName": "UIKit.UITextField",
-                                    "usr": "c:objc(cs)UITextField"
-                                  }
-                                ],
-                                "usr": "s:Sa"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          }
-                        ]
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:6Kindly7AIAlertC11AlertButtonV8callbackySaySo11UITextFieldCGSgcSgvp",
-                "mangledName": "$s6Kindly7AIAlertC11AlertButtonV8callbackySaySo11UITextFieldCGSgcSgvp",
-                "moduleName": "Kindly",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "(([UIKit.UITextField]?) -> ())?",
-                        "children": [
-                          {
-                            "kind": "TypeFunc",
-                            "name": "Function",
-                            "printedName": "([UIKit.UITextField]?) -> ()",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Void",
-                                "printedName": "()"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Optional",
-                                "printedName": "[UIKit.UITextField]?",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Array",
-                                    "printedName": "[UIKit.UITextField]",
-                                    "children": [
-                                      {
-                                        "kind": "TypeNominal",
-                                        "name": "UITextField",
-                                        "printedName": "UIKit.UITextField",
-                                        "usr": "c:objc(cs)UITextField"
-                                      }
-                                    ],
-                                    "usr": "s:Sa"
-                                  }
-                                ],
-                                "usr": "s:Sq"
-                              }
-                            ]
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV8callbackySaySo11UITextFieldCGSgcSgvg",
-                    "mangledName": "$s6Kindly7AIAlertC11AlertButtonV8callbackySaySo11UITextFieldCGSgcSgvg",
-                    "moduleName": "Kindly",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(title:style:callback:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AlertButton",
-                    "printedName": "Kindly.AIAlert.AlertButton",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "UIKit.UIAlertAction.Style?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Style",
-                        "printedName": "UIKit.UIAlertAction.Style",
-                        "usr": "c:@E@UIAlertActionStyle"
-                      }
-                    ],
-                    "hasDefaultArg": true,
-                    "usr": "s:Sq"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(([UIKit.UITextField]?) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "([UIKit.UITextField]?) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "[UIKit.UITextField]?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Array",
-                                "printedName": "[UIKit.UITextField]",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "UITextField",
-                                    "printedName": "UIKit.UITextField",
-                                    "usr": "c:objc(cs)UITextField"
-                                  }
-                                ],
-                                "usr": "s:Sa"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          }
-                        ]
-                      }
-                    ],
-                    "hasDefaultArg": true,
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:6Kindly7AIAlertC11AlertButtonV5title5style8callbackAESS_So18UIAlertActionStyleVSgySaySo11UITextFieldCGSgcSgtcfc",
-                "mangledName": "$s6Kindly7AIAlertC11AlertButtonV5title5style8callbackAESS_So18UIAlertActionStyleVSgySaySo11UITextFieldCGSgcSgtcfc",
-                "moduleName": "Kindly",
-                "declAttributes": [
-                  "AccessControl"
-                ],
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Var",
-                "name": "okay",
-                "printedName": "okay",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AlertButton",
-                    "printedName": "Kindly.AIAlert.AlertButton",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:6Kindly7AIAlertC11AlertButtonV4okayAEvpZ",
-                "mangledName": "$s6Kindly7AIAlertC11AlertButtonV4okayAEvpZ",
-                "moduleName": "Kindly",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage"
-                ],
-                "isFromExtension": true,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AlertButton",
-                        "printedName": "Kindly.AIAlert.AlertButton",
-                        "usr": "s:6Kindly7AIAlertC11AlertButtonV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV4okayAEvgZ",
-                    "mangledName": "$s6Kindly7AIAlertC11AlertButtonV4okayAEvgZ",
-                    "moduleName": "Kindly",
-                    "static": true,
-                    "implicit": true,
-                    "isFromExtension": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "cancel",
-                "printedName": "cancel",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AlertButton",
-                    "printedName": "Kindly.AIAlert.AlertButton",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:6Kindly7AIAlertC11AlertButtonV6cancelAEvpZ",
-                "mangledName": "$s6Kindly7AIAlertC11AlertButtonV6cancelAEvpZ",
-                "moduleName": "Kindly",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage"
-                ],
-                "isFromExtension": true,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AlertButton",
-                        "printedName": "Kindly.AIAlert.AlertButton",
-                        "usr": "s:6Kindly7AIAlertC11AlertButtonV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV6cancelAEvgZ",
-                    "mangledName": "$s6Kindly7AIAlertC11AlertButtonV6cancelAEvgZ",
-                    "moduleName": "Kindly",
-                    "static": true,
-                    "implicit": true,
-                    "isFromExtension": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "discard",
-                "printedName": "discard",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AlertButton",
-                    "printedName": "Kindly.AIAlert.AlertButton",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:6Kindly7AIAlertC11AlertButtonV7discardAEvpZ",
-                "mangledName": "$s6Kindly7AIAlertC11AlertButtonV7discardAEvpZ",
-                "moduleName": "Kindly",
-                "static": true,
-                "declAttributes": [
-                  "HasInitialValue",
-                  "HasStorage"
-                ],
-                "isFromExtension": true,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AlertButton",
-                        "printedName": "Kindly.AIAlert.AlertButton",
-                        "usr": "s:6Kindly7AIAlertC11AlertButtonV"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV7discardAEvgZ",
-                    "mangledName": "$s6Kindly7AIAlertC11AlertButtonV7discardAEvgZ",
-                    "moduleName": "Kindly",
-                    "static": true,
-                    "implicit": true,
-                    "isFromExtension": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Function",
-                "name": "yes",
-                "printedName": "yes(callback:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AlertButton",
-                    "printedName": "Kindly.AIAlert.AlertButton",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(([UIKit.UITextField]?) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "([UIKit.UITextField]?) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "[UIKit.UITextField]?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Array",
-                                "printedName": "[UIKit.UITextField]",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "UITextField",
-                                    "printedName": "UIKit.UITextField",
-                                    "usr": "c:objc(cs)UITextField"
-                                  }
-                                ],
-                                "usr": "s:Sa"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          }
-                        ]
-                      }
-                    ],
-                    "hasDefaultArg": true,
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:6Kindly7AIAlertC11AlertButtonV3yes8callbackAEySaySo11UITextFieldCGSgcSg_tFZ",
-                "mangledName": "$s6Kindly7AIAlertC11AlertButtonV3yes8callbackAEySaySo11UITextFieldCGSgcSg_tFZ",
-                "moduleName": "Kindly",
-                "static": true,
-                "isFromExtension": true,
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Function",
-                "name": "no",
-                "printedName": "no(callback:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AlertButton",
-                    "printedName": "Kindly.AIAlert.AlertButton",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "(([UIKit.UITextField]?) -> ())?",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "([UIKit.UITextField]?) -> ()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Void",
-                            "printedName": "()"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "[UIKit.UITextField]?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Array",
-                                "printedName": "[UIKit.UITextField]",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "UITextField",
-                                    "printedName": "UIKit.UITextField",
-                                    "usr": "c:objc(cs)UITextField"
-                                  }
-                                ],
-                                "usr": "s:Sa"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          }
-                        ]
-                      }
-                    ],
-                    "hasDefaultArg": true,
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:6Kindly7AIAlertC11AlertButtonV2no8callbackAEySaySo11UITextFieldCGSgcSg_tFZ",
-                "mangledName": "$s6Kindly7AIAlertC11AlertButtonV2no8callbackAEySaySo11UITextFieldCGSgcSg_tFZ",
-                "moduleName": "Kindly",
-                "static": true,
-                "isFromExtension": true,
-                "funcSelfKind": "NonMutating"
-              }
-            ],
-            "declKind": "Struct",
-            "usr": "s:6Kindly7AIAlertC11AlertButtonV",
-            "mangledName": "$s6Kindly7AIAlertC11AlertButtonV",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "displayNativeMessage",
-            "printedName": "displayNativeMessage(message:withTitle:style:buttons:textFields:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Style",
-                "printedName": "UIKit.UIAlertController.Style",
-                "hasDefaultArg": true,
-                "usr": "c:@E@UIAlertControllerStyle"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Kindly.AIAlert.AlertButton]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AlertButton",
-                    "printedName": "Kindly.AIAlert.AlertButton",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[Kindly.AIAlert.AlertTextField]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Kindly.AIAlert.AlertTextField]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AlertTextField",
-                        "printedName": "Kindly.AIAlert.AlertTextField",
-                        "usr": "s:6Kindly7AIAlertC14AlertTextFieldV"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly7AIAlertC20displayNativeMessage7message9withTitle5style7buttons10textFieldsySSSg_AJSo22UIAlertControllerStyleVSayAC11AlertButtonVGSayAC0P9TextFieldVGSgtFZ",
-            "mangledName": "$s6Kindly7AIAlertC20displayNativeMessage7message9withTitle5style7buttons10textFieldsySSSg_AJSo22UIAlertControllerStyleVSayAC11AlertButtonVGSayAC0P9TextFieldVGSgtFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "displayNativeMessage",
-            "printedName": "displayNativeMessage(message:withTitle:style:buttons:textFields:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Style",
-                "printedName": "UIKit.UIAlertController.Style",
-                "hasDefaultArg": true,
-                "usr": "c:@E@UIAlertControllerStyle"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Kindly.AIAlert.AlertButton]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AlertButton",
-                    "printedName": "Kindly.AIAlert.AlertButton",
-                    "usr": "s:6Kindly7AIAlertC11AlertButtonV"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Kindly.AIAlert.AlertTextField?]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Kindly.AIAlert.AlertTextField?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "AlertTextField",
-                        "printedName": "Kindly.AIAlert.AlertTextField",
-                        "usr": "s:6Kindly7AIAlertC14AlertTextFieldV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly7AIAlertC20displayNativeMessage7message9withTitle5style7buttons10textFieldsySSSg_AJSo22UIAlertControllerStyleVAC11AlertButtonVdAC0P9TextFieldVSgdtFZ",
-            "mangledName": "$s6Kindly7AIAlertC20displayNativeMessage7message9withTitle5style7buttons10textFieldsySSSg_AJSo22UIAlertControllerStyleVAC11AlertButtonVdAC0P9TextFieldVSgdtFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:6Kindly7AIAlertC",
-        "mangledName": "$s6Kindly7AIAlertC",
-        "moduleName": "Kindly",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
@@ -17706,313 +14330,6 @@
         "moduleName": "Kindly"
       },
       {
-        "kind": "TypeDecl",
-        "name": "AIPhotoSelection",
-        "printedName": "AIPhotoSelection",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "selectImage",
-            "printedName": "selectImage(inViewController:from:image_callback:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SourceType",
-                "printedName": "UIKit.UIImagePickerController.SourceType",
-                "usr": "c:@E@UIImagePickerControllerSourceType"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "((UIKit.UIImage) -> ())?",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(UIKit.UIImage) -> ()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "UIImage",
-                        "printedName": "UIKit.UIImage",
-                        "usr": "c:objc(cs)UIImage"
-                      }
-                    ]
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly16AIPhotoSelectionC11selectImage16inViewController4from14image_callbackySo06UIViewH0C_So013UIImagePickerH10SourceTypeVySo0M0CcSgtFZ",
-            "mangledName": "$s6Kindly16AIPhotoSelectionC11selectImage16inViewController4from14image_callbackySo06UIViewH0C_So013UIImagePickerH10SourceTypeVySo0M0CcSgtFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AIPhotoSelection",
-                "printedName": "Kindly.AIPhotoSelection",
-                "usr": "c:@M@Kindly@objc(cs)AIPhotoSelection"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@Kindly@objc(cs)AIPhotoSelection(im)init",
-            "mangledName": "$s6Kindly16AIPhotoSelectionCACycfc",
-            "moduleName": "Kindly",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "imagePickerController",
-            "printedName": "imagePickerController(_:didFinishPickingMediaWithInfo:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImagePickerController",
-                "printedName": "UIKit.UIImagePickerController",
-                "usr": "c:objc(cs)UIImagePickerController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[UIKit.UIImagePickerController.InfoKey : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "InfoKey",
-                    "printedName": "UIKit.UIImagePickerController.InfoKey",
-                    "usr": "c:@T@UIImagePickerControllerInfoKey"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@Kindly@objc(cs)AIPhotoSelection(im)imagePickerController:didFinishPickingMediaWithInfo:",
-            "mangledName": "$s6Kindly16AIPhotoSelectionC21imagePickerController_29didFinishPickingMediaWithInfoySo07UIImageeF0C_SDySo0mefL3KeyaypGtF",
-            "moduleName": "Kindly",
-            "objc_name": "imagePickerController:didFinishPickingMediaWithInfo:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "imagePickerControllerDidCancel",
-            "printedName": "imagePickerControllerDidCancel(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImagePickerController",
-                "printedName": "UIKit.UIImagePickerController",
-                "usr": "c:objc(cs)UIImagePickerController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@CM@Kindly@objc(cs)AIPhotoSelection(im)imagePickerControllerDidCancel:",
-            "mangledName": "$s6Kindly16AIPhotoSelectionC30imagePickerControllerDidCancelyySo07UIImageeF0CF",
-            "moduleName": "Kindly",
-            "objc_name": "imagePickerControllerDidCancel:",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Preconcurrency",
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "picker",
-            "printedName": "picker(_:didFinishPicking:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "PHPickerViewController",
-                "printedName": "PhotosUI.PHPickerViewController",
-                "usr": "c:objc(cs)PHPickerViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[PhotosUI.PHPickerResult]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "PHPickerResult",
-                    "printedName": "PhotosUI.PHPickerResult",
-                    "usr": "s:8PhotosUI14PHPickerResultV"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:6Kindly16AIPhotoSelectionC6picker_16didFinishPickingySo22PHPickerViewControllerC_Say8PhotosUI0H6ResultVGtF",
-            "mangledName": "$s6Kindly16AIPhotoSelectionC6picker_16didFinishPickingySo22PHPickerViewControllerC_Say8PhotosUI0H6ResultVGtF",
-            "moduleName": "Kindly",
-            "intro_iOS": "14",
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "AccessControl",
-              "Available"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@Kindly@objc(cs)AIPhotoSelection",
-        "mangledName": "$s6Kindly16AIPhotoSelectionC",
-        "moduleName": "Kindly",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "PHPickerViewControllerDelegate",
-            "printedName": "PHPickerViewControllerDelegate",
-            "usr": "s:8PhotosUI30PHPickerViewControllerDelegateP",
-            "mangledName": "$s8PhotosUI30PHPickerViewControllerDelegateP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -18060,59 +14377,6 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Kindly"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "AppStateObserver",
-        "printedName": "AppStateObserver",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "AppStateObserver",
-                "printedName": "Kindly.AppStateObserver",
-                "usr": "s:6Kindly16AppStateObserverC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:6Kindly16AppStateObserverCACycfc",
-            "mangledName": "$s6Kindly16AppStateObserverCACycfc",
-            "moduleName": "Kindly",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:6Kindly16AppStateObserverC",
-        "mangledName": "$s6Kindly16AppStateObserverC",
-        "moduleName": "Kindly",
-        "declAttributes": [
-          "Final",
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
       },
       {
         "kind": "Import",
@@ -18240,6 +14504,9 @@
             "mangledName": "$s6Kindly5ThemeP20botMessageBackgroundSo7UIColorCSgvp",
             "moduleName": "Kindly",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -18298,6 +14565,9 @@
             "mangledName": "$s6Kindly5ThemeP14botMessageTextSo7UIColorCSgvp",
             "moduleName": "Kindly",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -18356,6 +14626,9 @@
             "mangledName": "$s6Kindly5ThemeP16buttonBackgroundSo7UIColorCSgvp",
             "moduleName": "Kindly",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -18414,6 +14687,9 @@
             "mangledName": "$s6Kindly5ThemeP13buttonOutlineSo7UIColorCSgvp",
             "moduleName": "Kindly",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -18472,6 +14748,9 @@
             "mangledName": "$s6Kindly5ThemeP10buttonTextSo7UIColorCSgvp",
             "moduleName": "Kindly",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -18530,6 +14809,9 @@
             "mangledName": "$s6Kindly5ThemeP15chatLogElementsSo7UIColorCSgvp",
             "moduleName": "Kindly",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -18588,6 +14870,9 @@
             "mangledName": "$s6Kindly5ThemeP16navBarBackgroundSo7UIColorCSgvp",
             "moduleName": "Kindly",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -18768,6 +15053,9 @@
             "mangledName": "$s6Kindly5ThemeP9inputTextSo7UIColorCSgvp",
             "moduleName": "Kindly",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -18826,6 +15114,9 @@
             "mangledName": "$s6Kindly5ThemeP21userMessageBackgroundSo7UIColorCSgvp",
             "moduleName": "Kindly",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -18884,6 +15175,9 @@
             "mangledName": "$s6Kindly5ThemeP15userMessageTextSo7UIColorCSgvp",
             "moduleName": "Kindly",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -19003,6 +15297,9 @@
             "mangledName": "$s6Kindly5ThemeP13defaultShadowSo7UIColorCSgvp",
             "moduleName": "Kindly",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -19061,6 +15358,9 @@
             "mangledName": "$s6Kindly5ThemeP11inputCursorSo7UIColorCSgvp",
             "moduleName": "Kindly",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -19119,6 +15419,9 @@
             "mangledName": "$s6Kindly5ThemeP27maintenanceHeaderBackgroundSo7UIColorCSgvp",
             "moduleName": "Kindly",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -19158,7 +15461,8 @@
         "mangledName": "$s6Kindly5ThemeP",
         "moduleName": "Kindly",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -23789,228 +20093,6 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "UIViewController",
-        "printedName": "UIViewController",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "classNameAsString",
-            "printedName": "classNameAsString()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So16UIViewControllerC6KindlyE17classNameAsStringSSyFZ",
-            "mangledName": "$sSo16UIViewControllerC6KindlyE17classNameAsStringSSyFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "instantiate",
-            "printedName": "instantiate(withIdentifier:fromStoryboard:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DynamicSelf",
-                "printedName": "Self"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Kindly.Storyboard?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Storyboard",
-                    "printedName": "Kindly.Storyboard",
-                    "usr": "s:6Kindly10StoryboardO"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So16UIViewControllerC6KindlyE11instantiate14withIdentifier14fromStoryboardABXDSSSg_AC0H0OSgtFZ",
-            "mangledName": "$sSo16UIViewControllerC6KindlyE11instantiate14withIdentifier14fromStoryboardABXDSSSg_AC0H0OSgtFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "instantiateInitialViewController",
-            "printedName": "instantiateInitialViewController(fromStoryboard:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DynamicSelf",
-                "printedName": "Self"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Kindly.Storyboard?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Storyboard",
-                    "printedName": "Kindly.Storyboard",
-                    "usr": "s:6Kindly10StoryboardO"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:So16UIViewControllerC6KindlyE022instantiateInitialViewB014fromStoryboardABXDAC0H0OSg_tFZ",
-            "mangledName": "$sSo16UIViewControllerC6KindlyE022instantiateInitialViewB014fromStoryboardABXDAC0H0OSg_tFZ",
-            "moduleName": "Kindly",
-            "static": true,
-            "declAttributes": [
-              "Preconcurrency",
-              "Custom",
-              "Final"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:objc(cs)UIViewController",
-        "moduleName": "UIKit",
-        "isOpen": true,
-        "intro_iOS": "2.0",
-        "objc_name": "UIViewController",
-        "declAttributes": [
-          "Preconcurrency",
-          "Available",
-          "ObjC",
-          "NonSendable",
-          "Custom",
-          "Dynamic"
-        ],
-        "superclassUsr": "c:objc(cs)UIResponder",
-        "isExternal": true,
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "UIKit.UIResponder",
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "UITraitChangeObservable",
-            "printedName": "UITraitChangeObservable",
-            "usr": "s:5UIKit23UITraitChangeObservableP",
-            "mangledName": "$s5UIKit23UITraitChangeObservableP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
         "name": "UICollectionViewCell",
         "printedName": "UICollectionViewCell",
         "declKind": "Class",
@@ -24985,42 +21067,42 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ExternalChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2877,
+      "offset": 2879,
       "length": 17,
       "value": "\"system_dialogue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ExternalChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 2912,
+      "offset": 2914,
       "length": 11,
       "value": "\"user_says\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ExternalChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3039,
+      "offset": 3043,
       "length": 7,
       "value": "\"AGENT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ExternalChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3059,
+      "offset": 3063,
       "length": 5,
       "value": "\"BOT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ExternalChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3080,
+      "offset": 3084,
       "length": 8,
       "value": "\"SYSTEM\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ExternalChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 3116,
+      "offset": 3120,
       "length": 6,
       "value": "\"USER\""
     },
@@ -25321,49 +21403,49 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/Standalone\/OEmbedRespnse.swift",
       "kind": "StringLiteral",
-      "offset": 452,
+      "offset": 454,
       "length": 13,
       "value": "\"author_name\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/Standalone\/OEmbedRespnse.swift",
       "kind": "StringLiteral",
-      "offset": 485,
+      "offset": 487,
       "length": 12,
       "value": "\"author_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/Standalone\/OEmbedRespnse.swift",
       "kind": "StringLiteral",
-      "offset": 574,
+      "offset": 576,
       "length": 15,
       "value": "\"provider_name\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/Standalone\/OEmbedRespnse.swift",
       "kind": "StringLiteral",
-      "offset": 611,
+      "offset": 613,
       "length": 14,
       "value": "\"provider_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/Standalone\/OEmbedRespnse.swift",
       "kind": "StringLiteral",
-      "offset": 651,
+      "offset": 653,
       "length": 18,
       "value": "\"thumbnail_height\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/Standalone\/OEmbedRespnse.swift",
       "kind": "StringLiteral",
-      "offset": 694,
+      "offset": 696,
       "length": 17,
       "value": "\"thumbnail_width\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/Standalone\/OEmbedRespnse.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 736,
       "length": 15,
       "value": "\"thumbnail_url\""
     },
@@ -25510,14 +21592,14 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlySDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 664,
+      "offset": 908,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlySDKConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 713,
+      "offset": 1054,
       "length": 4,
       "value": "true"
     },
@@ -25552,14 +21634,14 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Coordinator\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1015,
+      "offset": 975,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Coordinator\/MainCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 2473,
+      "offset": 2433,
       "length": 5,
       "value": "false"
     },
@@ -27029,7 +23111,7 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/CoreSDKConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1416,
+      "offset": 1521,
       "length": 5,
       "value": "\"tel\""
     },
@@ -28359,77 +24441,77 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "Dictionary",
-      "offset": 4289,
+      "offset": 4807,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "FloatLiteral",
-      "offset": 4454,
+      "offset": 4972,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4530,
+      "offset": 5048,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 18465,
+      "offset": 18624,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 50776,
+      "offset": 52229,
       "length": 8,
       "value": "\"Pusher\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 50804,
+      "offset": 52257,
       "length": 13,
       "value": "\"\/latest API\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 50838,
+      "offset": 52291,
       "length": 14,
       "value": "\"\/connect API\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 67990,
+      "offset": 69443,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 74291,
+      "offset": 75744,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 74322,
+      "offset": 75775,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 79348,
+      "offset": 80801,
       "length": 1,
       "value": "0"
     },
@@ -28618,14 +24700,14 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Promise\/Promises.swift",
       "kind": "Array",
-      "offset": 1065,
+      "offset": 1309,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Promise\/Promises.swift",
       "kind": "BooleanLiteral",
-      "offset": 1098,
+      "offset": 1342,
       "length": 5,
       "value": "false"
     },
@@ -30270,21 +26352,21 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Alert\/AIAlert.swift",
       "kind": "StringLiteral",
-      "offset": 2512,
+      "offset": 2437,
       "length": 6,
       "value": "\"Okay\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Alert\/AIAlert.swift",
       "kind": "StringLiteral",
-      "offset": 2600,
+      "offset": 2525,
       "length": 8,
       "value": "\"Cancel\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Alert\/AIAlert.swift",
       "kind": "StringLiteral",
-      "offset": 2690,
+      "offset": 2615,
       "length": 9,
       "value": "\"Discard\""
     },
@@ -30543,7 +26625,7 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/AppStateObserver.swift",
       "kind": "IntegerLiteral",
-      "offset": 266,
+      "offset": 268,
       "length": 2,
       "value": "30"
     },
@@ -32041,42 +28123,42 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/EntryPoint.swift",
       "kind": "StringLiteral",
-      "offset": 4448,
+      "offset": 4718,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/EntryPoint.swift",
       "kind": "BooleanLiteral",
-      "offset": 8731,
+      "offset": 9001,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 201,
+      "offset": 382,
       "length": 20,
       "value": "\"ai.kindly.chat.sdk\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 244,
+      "offset": 425,
       "length": 11,
       "value": "\"KindlySDK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 355,
+      "offset": 536,
       "length": 21,
       "value": "\"notification_source\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 415,
+      "offset": 596,
       "length": 8,
       "value": "\"KINDLY\""
     },
