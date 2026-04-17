@@ -27521,50 +27521,57 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2322,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2838,
+      "offset": 4305,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "Dictionary",
-      "offset": 2868,
+      "offset": 4335,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3449,
+      "offset": 4956,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "IntegerLiteral",
-      "offset": 6879,
+      "offset": 8450,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "Dictionary",
-      "offset": 6909,
+      "offset": 8480,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "Dictionary",
-      "offset": 8253,
+      "offset": 9824,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "IntegerLiteral",
-      "offset": 12175,
+      "offset": 13746,
       "length": 1,
       "value": "0"
     },
