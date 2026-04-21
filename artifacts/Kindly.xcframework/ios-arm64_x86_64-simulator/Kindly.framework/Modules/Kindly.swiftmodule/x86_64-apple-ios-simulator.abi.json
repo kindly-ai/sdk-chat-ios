@@ -20522,7 +20522,14 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/FormDTO.swift",
       "kind": "StringLiteral",
-      "offset": 10228,
+      "offset": 10249,
+      "length": 12,
+      "value": "\"min_length\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/FormDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 10281,
       "length": 12,
       "value": "\"max_length\""
     },
@@ -23889,175 +23896,175 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 11587,
+      "offset": 12189,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 11780,
+      "offset": 12382,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 11871,
+      "offset": 12473,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 12078,
+      "offset": 12680,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 12118,
+      "offset": 12720,
       "length": 13,
       "value": "\"list.bullet\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 12379,
+      "offset": 12981,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 12538,
+      "offset": 13140,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 12743,
+      "offset": 13345,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 12767,
+      "offset": 13369,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 12905,
+      "offset": 13507,
       "length": 10,
       "value": "\"FormCell\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 12917,
+      "offset": 13519,
       "length": 23,
       "value": "\"Cancel button clicked\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 13217,
+      "offset": 13819,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13241,
+      "offset": 13843,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13300,
+      "offset": 13902,
       "length": 10,
       "value": "\"FormCell\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13312,
+      "offset": 13914,
       "length": 23,
       "value": "\"Submit button clicked\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13558,
+      "offset": 14160,
       "length": 44,
       "value": "\"Form submission blocked: validation failed\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13646,
+      "offset": 14248,
       "length": 9,
       "value": "\"form_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13684,
+      "offset": 14286,
       "length": 9,
       "value": "\"unknown\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13701,
+      "offset": 14303,
       "length": 13,
       "value": "\"field_count\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13776,
+      "offset": 14378,
       "length": 16,
       "value": "\"error_messages\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13814,
+      "offset": 14416,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13824,
+      "offset": 14426,
       "length": 13,
       "value": "\"error_count\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "StringLiteral",
-      "offset": 13960,
+      "offset": 14562,
       "length": 7,
       "value": "\"Error\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 14206,
+      "offset": 14808,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/FormCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 14365,
+      "offset": 14967,
       "length": 5,
       "value": "false"
     },
