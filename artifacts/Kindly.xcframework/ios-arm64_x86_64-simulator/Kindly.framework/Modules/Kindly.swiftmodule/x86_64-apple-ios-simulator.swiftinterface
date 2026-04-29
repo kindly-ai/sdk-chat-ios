@@ -356,6 +356,9 @@ extension Kindly.Promise {
 public enum KindlyLogger {
   public static func log(_ tag: Swift.String, _ message: Swift.String, level: os.OSLogType = .default, filename: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line)
 }
+extension Foundation.NSNotification.Name {
+  public static let kindlyThemeDidChange: Foundation.Notification.Name
+}
 public protocol Theme {
   var background: UIKit.UIColor? { get }
   var botMessageBackground: UIKit.UIColor? { get }
@@ -497,6 +500,8 @@ extension Kindly.KindlyChatClient {
   final public func setNewContext(_ context: [Swift.String : Swift.String])
   final public class func clearNewContext()
   final public func clearNewContext()
+  @discardableResult
+  final public class func sendMessage(_ text: Swift.String, newContext: [Swift.String : Swift.String]? = nil) -> Kindly.Promise<Kindly.ExternalChatMessage>
   final public class func setAPNSDeviceToken(_ deviceToken: Foundation.Data)
   final public class func setAPNSDeviceToken(_ deviceToken: Swift.String)
   @discardableResult
