@@ -63,6 +63,12 @@ public struct KindlySDKConfig {
   public struct FormConfig {
   }
 }
+public struct ExternalNotification {
+  public let id: Swift.String
+  public let title: Swift.String
+  public let body: Swift.String
+  public let userInfo: [Swift.AnyHashable : Any]
+}
 public enum KindlyEventType : Swift.String, Swift.CaseIterable {
   case load
   case message
@@ -298,9 +304,11 @@ public enum ChatConnectionState {
 public protocol KindlyChatClientDelegate : ObjectiveC.NSObject {
   func didPressButton(chatButton: Kindly.ExternalChatButton, chatLog: [Kindly.ExternalChatMessage])
   func shouldHandleLink(url: Foundation.URL) -> Swift.Bool
+  func shouldHandleNotification(notification: Kindly.ExternalNotification) -> Swift.Bool
 }
 extension Kindly.KindlyChatClientDelegate {
   public func shouldHandleLink(url: Foundation.URL) -> Swift.Bool
+  public func shouldHandleNotification(notification: Kindly.ExternalNotification) -> Swift.Bool
 }
 final public class KindlyChatClient {
   public static var shared: Kindly.KindlyChatClient!
