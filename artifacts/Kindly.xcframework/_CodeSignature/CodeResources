@@ -30,7 +30,7 @@
 		</data>
 		<key>ios-arm64/Kindly.framework/Kindly</key>
 		<data>
-		w3Bg31HA4o5Tt2/FYJN3uoDqyzU=
+		IW4quR05zeBZjAG7kUz3guBnvfE=
 		</data>
 		<key>ios-arm64/Kindly.framework/Modules/Kindly.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/Kindly.framework/Kindly</key>
 		<data>
-		F5I+BQuUHuPC1dldOT5Fl2hprYs=
+		Mp8MCr9BIB5f7wHxprSSIxluLSk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/Kindly.framework/Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -205,11 +205,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w3Bg31HA4o5Tt2/FYJN3uoDqyzU=
+			IW4quR05zeBZjAG7kUz3guBnvfE=
 			</data>
 			<key>hash2</key>
 			<data>
-			lUVLOU1cJ/bf+K0+vPsLaa+056RiKAPZdLXvodMzw8A=
+			dhq4AU079pEpsZ7ZnKLy6U3iG7INKamG9ejO2dchk38=
 			</data>
 		</dict>
 		<key>ios-arm64/Kindly.framework/Modules/Kindly.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -359,11 +359,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			F5I+BQuUHuPC1dldOT5Fl2hprYs=
+			Mp8MCr9BIB5f7wHxprSSIxluLSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			UOuBT8XCr23vLmIhU5al19Fv6QNU51ycyEjOUlgBjXY=
+			8tjVX2nd8PvCYJSyD3/VLIvpg3bCGVz93GVwD/qzE/w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/Kindly.framework/Modules/Kindly.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
