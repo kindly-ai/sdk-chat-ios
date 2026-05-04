@@ -367,6 +367,7 @@ extension Kindly.Promise {
 }
 public enum KindlyLogger {
   public static func log(_ tag: Swift.String, _ message: Swift.String, level: os.OSLogType = .default, filename: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line)
+  public static func prettyPrintJson(_ json: Swift.String) -> Swift.String
 }
 extension Foundation.NSNotification.Name {
   public static let kindlyThemeDidChange: Foundation.Notification.Name
