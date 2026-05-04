@@ -359,6 +359,10 @@ extension Kindly.Promise {
   public func `catch`(on queue: Dispatch.DispatchQueue = .promises, _ onRejected: @escaping Kindly.Promise<T>.onRejected) -> Kindly.Promise<T>
   @discardableResult
   public func always(on queue: Dispatch.DispatchQueue = .promises, _ block: @escaping () -> Swift.Void) -> Kindly.Promise<T>
+  public func cancel()
+  public var isCancelled: Swift.Bool {
+    get
+  }
   public func pipe(to target: Kindly.Promise<T>)
 }
 public enum KindlyLogger {
