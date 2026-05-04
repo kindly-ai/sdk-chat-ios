@@ -14071,6 +14071,9 @@
             "moduleName": "Kindly",
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -14097,6 +14100,9 @@
             "moduleName": "Kindly",
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -14150,7 +14156,8 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "declAttributes": [
-              "DiscardableResult"
+              "DiscardableResult",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -14206,7 +14213,8 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "declAttributes": [
-              "DiscardableResult"
+              "DiscardableResult",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -14261,10 +14269,78 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
             "declAttributes": [
-              "DiscardableResult"
+              "DiscardableResult",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly7PromiseC6cancelyyF",
+            "mangledName": "$s6Kindly7PromiseC6cancelyyF",
+            "moduleName": "Kindly",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "isCancelled",
+            "printedName": "isCancelled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly7PromiseC11isCancelledSbvp",
+            "mangledName": "$s6Kindly7PromiseC11isCancelledSbvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly7PromiseC11isCancelledSbvg",
+                "mangledName": "$s6Kindly7PromiseC11isCancelledSbvg",
+                "moduleName": "Kindly",
+                "genericSig": "<τ_0_0>",
+                "sugared_genericSig": "<T>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -20347,7 +20423,8 @@
             "moduleName": "Kindly",
             "static": true,
             "declAttributes": [
-              "Final"
+              "Final",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "accessors": [
@@ -25366,14 +25443,14 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Promise\/Promises.swift",
       "kind": "Array",
-      "offset": 1309,
+      "offset": 5807,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Promise\/Promises.swift",
       "kind": "BooleanLiteral",
-      "offset": 1342,
+      "offset": 6149,
       "length": 5,
       "value": "false"
     },
