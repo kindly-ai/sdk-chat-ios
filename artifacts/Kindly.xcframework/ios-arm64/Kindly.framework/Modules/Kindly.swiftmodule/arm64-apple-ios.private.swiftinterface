@@ -533,6 +533,7 @@ extension Kindly.KindlyChatClient {
 @_spi(Testing) extension Kindly.KindlyChatClient {
   @_spi(Testing) final public class func _overrideSettings(_ overrides: [Swift.String : Any])
   @_spi(Testing) final public class func _clearSettingsOverrides()
+  @_spi(Testing) final public class func _setVerboseLogs(_ enabled: Swift.Bool)
 }
 public typealias AuthTokenCallback = (_ chatId: Swift.String, _ promise: Kindly.Promise<Swift.String>) -> Swift.Void
 extension Kindly.KindlyEventType : Swift.Equatable {}
