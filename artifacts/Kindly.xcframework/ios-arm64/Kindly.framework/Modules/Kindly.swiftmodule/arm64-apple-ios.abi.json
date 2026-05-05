@@ -14458,6 +14458,13 @@
       },
       {
         "kind": "Import",
+        "name": "Sentry",
+        "printedName": "Sentry",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -25751,55 +25758,6 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
-      "kind": "Dictionary",
-      "offset": 277,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1194,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1216,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1241,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1264,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1287,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2419,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
       "kind": "StringLiteral",
       "offset": 3082,
       "length": 11,
@@ -25814,10 +25772,10 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3274,
-      "length": 5,
-      "value": "false"
+      "kind": "StringLiteral",
+      "offset": 3236,
+      "length": 11,
+      "value": "\"SentrySDK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
