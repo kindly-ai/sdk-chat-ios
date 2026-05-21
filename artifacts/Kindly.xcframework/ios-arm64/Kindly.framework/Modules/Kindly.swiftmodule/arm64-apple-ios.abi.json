@@ -10599,6 +10599,900 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "Kindly",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RuntimeEnvironmentOverride",
+        "printedName": "RuntimeEnvironmentOverride",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "environment",
+            "printedName": "environment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly26RuntimeEnvironmentOverrideV11environmentSSvp",
+            "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV11environmentSSvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV11environmentSSvg",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV11environmentSSvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customConfig",
+            "printedName": "customConfig",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomConfig",
+                    "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig",
+                    "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12customConfigAC06CustomF0VSgvp",
+            "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12customConfigAC06CustomF0VSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CustomConfig",
+                        "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig",
+                        "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12customConfigAC06CustomF0VSgvg",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12customConfigAC06CustomF0VSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CustomConfig",
+            "printedName": "CustomConfig",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "apiBaseURL",
+                "printedName": "apiBaseURL",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV10apiBaseURLSSvp",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV10apiBaseURLSSvp",
+                "moduleName": "Kindly",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV10apiBaseURLSSvg",
+                    "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV10apiBaseURLSSvg",
+                    "moduleName": "Kindly",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "settingsBaseURL",
+                "printedName": "settingsBaseURL",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV15settingsBaseURLSSvp",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV15settingsBaseURLSSvp",
+                "moduleName": "Kindly",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV15settingsBaseURLSSvg",
+                    "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV15settingsBaseURLSSvg",
+                    "moduleName": "Kindly",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "webviewBaseURL",
+                "printedName": "webviewBaseURL",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV14webviewBaseURLSSvp",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV14webviewBaseURLSSvp",
+                "moduleName": "Kindly",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV14webviewBaseURLSSvg",
+                    "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV14webviewBaseURLSSvg",
+                    "moduleName": "Kindly",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "otlpURL",
+                "printedName": "otlpURL",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV7otlpURLSSvp",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV7otlpURLSSvp",
+                "moduleName": "Kindly",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV7otlpURLSSvg",
+                    "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV7otlpURLSSvg",
+                    "moduleName": "Kindly",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "pusherKey",
+                "printedName": "pusherKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV9pusherKeySSvp",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV9pusherKeySSvp",
+                "moduleName": "Kindly",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV9pusherKeySSvg",
+                    "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV9pusherKeySSvg",
+                    "moduleName": "Kindly",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(apiBaseURL:settingsBaseURL:webviewBaseURL:otlpURL:pusherKey:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomConfig",
+                    "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig",
+                    "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV10apiBaseURL08settingshI007webviewhI004otlpI09pusherKeyAESS_S4Stcfc",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV10apiBaseURL08settingshI007webviewhI004otlpI09pusherKeyAESS_S4Stcfc",
+                "moduleName": "Kindly",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(from:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomConfig",
+                    "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig",
+                    "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Decoder",
+                    "printedName": "any Swift.Decoder",
+                    "usr": "s:s7DecoderP"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV4fromAEs7Decoder_p_tKcfc",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV4fromAEs7Decoder_p_tKcfc",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "throwing": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "encode",
+                "printedName": "encode(to:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encoder",
+                    "printedName": "any Swift.Encoder",
+                    "usr": "s:s7EncoderP"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV6encode2toys7Encoder_p_tKF",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV6encode2toys7Encoder_p_tKF",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "throwing": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV",
+            "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Decodable",
+                "printedName": "Decodable",
+                "usr": "s:Se",
+                "mangledName": "$sSe"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Encodable",
+                "printedName": "Encodable",
+                "usr": "s:SE",
+                "mangledName": "$sSE"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(environment:customConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RuntimeEnvironmentOverride",
+                "printedName": "Kindly.RuntimeEnvironmentOverride",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomConfig",
+                    "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig",
+                    "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Kindly26RuntimeEnvironmentOverrideV11environment12customConfigACSS_AC06CustomG0VSgtcfc",
+            "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV11environment12customConfigACSS_AC06CustomG0VSgtcfc",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "productionDefaults",
+            "printedName": "productionDefaults",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomConfig",
+                "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly26RuntimeEnvironmentOverrideV18productionDefaultsAC12CustomConfigVvpZ",
+            "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV18productionDefaultsAC12CustomConfigVvpZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomConfig",
+                    "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig",
+                    "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV18productionDefaultsAC12CustomConfigVvgZ",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV18productionDefaultsAC12CustomConfigVvgZ",
+                "moduleName": "Kindly",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "developmentDefaults",
+            "printedName": "developmentDefaults",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomConfig",
+                "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly26RuntimeEnvironmentOverrideV19developmentDefaultsAC12CustomConfigVvpZ",
+            "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV19developmentDefaultsAC12CustomConfigVvpZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomConfig",
+                    "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig",
+                    "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV19developmentDefaultsAC12CustomConfigVvgZ",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV19developmentDefaultsAC12CustomConfigVvgZ",
+                "moduleName": "Kindly",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customBuildtimeDefaults",
+            "printedName": "customBuildtimeDefaults",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CustomConfig",
+                "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly26RuntimeEnvironmentOverrideV23customBuildtimeDefaultsAC12CustomConfigVvpZ",
+            "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV23customBuildtimeDefaultsAC12CustomConfigVvpZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CustomConfig",
+                    "printedName": "Kindly.RuntimeEnvironmentOverride.CustomConfig",
+                    "usr": "s:6Kindly26RuntimeEnvironmentOverrideV12CustomConfigV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV23customBuildtimeDefaultsAC12CustomConfigVvgZ",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV23customBuildtimeDefaultsAC12CustomConfigVvgZ",
+                "moduleName": "Kindly",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "compileTimeEnvironment",
+            "printedName": "compileTimeEnvironment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly26RuntimeEnvironmentOverrideV011compileTimeC0SSvpZ",
+            "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV011compileTimeC0SSvpZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV011compileTimeC0SSvgZ",
+                "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV011compileTimeC0SSvgZ",
+                "moduleName": "Kindly",
+                "static": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Kindly.RuntimeEnvironmentOverride?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RuntimeEnvironmentOverride",
+                    "printedName": "Kindly.RuntimeEnvironmentOverride",
+                    "usr": "s:6Kindly26RuntimeEnvironmentOverrideV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly26RuntimeEnvironmentOverrideV4loadACSgyFZ",
+            "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV4loadACSgyFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "save",
+            "printedName": "save(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RuntimeEnvironmentOverride",
+                "printedName": "Kindly.RuntimeEnvironmentOverride",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly26RuntimeEnvironmentOverrideV4saveySbACFZ",
+            "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV4saveySbACFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "DiscardableResult"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly26RuntimeEnvironmentOverrideV5clearyyFZ",
+            "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV5clearyyFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RuntimeEnvironmentOverride",
+                "printedName": "Kindly.RuntimeEnvironmentOverride",
+                "usr": "s:6Kindly26RuntimeEnvironmentOverrideV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Kindly26RuntimeEnvironmentOverrideV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Kindly",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly26RuntimeEnvironmentOverrideV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Kindly",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6Kindly26RuntimeEnvironmentOverrideV",
+        "mangledName": "$s6Kindly26RuntimeEnvironmentOverrideV",
+        "moduleName": "Kindly",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "Kindly"
       },
       {
@@ -24093,7 +24987,7 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Utils\/Utils.swift",
       "kind": "BooleanLiteral",
-      "offset": 16775,
+      "offset": 15721,
       "length": 4,
       "value": "true"
     },
@@ -24177,359 +25071,247 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 166,
-      "length": 8,
-      "value": "\"Config\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 181,
-      "length": 13,
-      "value": "\"ENVIRONMENT\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 662,
+      "offset": 1475,
       "length": 13,
       "value": "\"development\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 719,
+      "offset": 1532,
       "length": 12,
       "value": "\"production\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 777,
+      "offset": 1590,
       "length": 8,
       "value": "\"custom\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1515,
+      "offset": 2328,
       "length": 7,
       "value": "\"local\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 1568,
+      "offset": 2381,
       "length": 7,
       "value": "\"cloud\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 1760,
+      "offset": 2573,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 1786,
+      "offset": 2599,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 1893,
+      "offset": 2706,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "BooleanLiteral",
-      "offset": 1919,
+      "offset": 2732,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2741,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2822,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2833,
-      "length": 2,
-      "value": "80"
+      "offset": 4982,
+      "length": 15,
+      "value": "\"chatbubble\/v2\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 2852,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 2860,
-      "length": 1,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 2868,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 2895,
-      "length": 9,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 2903,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 3004,
-      "length": 8,
-      "value": "\"Config\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 3019,
-      "length": 14,
-      "value": "\"API_ENDPOINT\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 3091,
+      "offset": 5039,
       "length": 47,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 3114,
+      "offset": 5062,
       "length": 1,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 3137,
+      "offset": 5085,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 3769,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3860,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3871,
-      "length": 2,
-      "value": "80"
+      "offset": 7615,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 3890,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 3898,
-      "length": 1,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 3906,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 3933,
-      "length": 9,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 3941,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 4590,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4679,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4690,
-      "length": 2,
-      "value": "80"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 4709,
-      "length": 17,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 4717,
-      "length": 1,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 4725,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 4752,
-      "length": 9,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 4760,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 4875,
-      "length": 12,
-      "value": "\"LOG_PRINTS\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4892,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 4987,
-      "length": 9,
-      "value": "\"VERSION\""
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
-      "kind": "StringLiteral",
-      "offset": 5001,
+      "offset": 7660,
       "length": 7,
       "value": "\"0.0.0\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 5096,
-      "length": 7,
-      "value": "\"BUILD\""
+      "offset": 7733,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
       "kind": "StringLiteral",
-      "offset": 5108,
+      "offset": 7767,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/GeneratedConfig.swift",
       "kind": "StringLiteral",
-      "offset": 5221,
+      "offset": 848,
+      "length": 35,
+      "value": "\"__KINDLY_PLACEHOLDER_SENTRY_DSN__\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/GeneratedConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1863,
       "length": 12,
-      "value": "\"PUSHER_KEY\""
+      "value": "\"production\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/GeneratedConfig.swift",
       "kind": "StringLiteral",
-      "offset": 5769,
-      "length": 8,
-      "value": "\"SENTRY\""
+      "offset": 1907,
+      "length": 7,
+      "value": "\"local\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
       "kind": "StringLiteral",
-      "offset": 5787,
-      "length": 5,
-      "value": "\"dsn\""
+      "offset": 2135,
+      "length": 23,
+      "value": "\"https:\/\/bot.kindly.ai\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
       "kind": "StringLiteral",
-      "offset": 5900,
-      "length": 10,
-      "value": "\"OTLP_URL\""
+      "offset": 2179,
+      "length": 28,
+      "value": "\"https:\/\/chat.kindlycdn.com\""
     },
     {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/Config.swift",
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
       "kind": "StringLiteral",
-      "offset": 6089,
-      "length": 19,
-      "value": "\"OTLP_BEARER_TOKEN\""
+      "offset": 2228,
+      "length": 32,
+      "value": "\"https:\/\/chat.kindlycdn.com\/sdk\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
+      "kind": "StringLiteral",
+      "offset": 2281,
+      "length": 35,
+      "value": "\"https:\/\/otlp.kindly.ai\/v1\/metrics\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
+      "kind": "StringLiteral",
+      "offset": 2337,
+      "length": 22,
+      "value": "\"0d15baa2a7308d71e79d\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
+      "kind": "StringLiteral",
+      "offset": 2438,
+      "length": 27,
+      "value": "\"https:\/\/bot-dev.kindly.ai\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
+      "kind": "StringLiteral",
+      "offset": 2486,
+      "length": 32,
+      "value": "\"https:\/\/chat-dev.kindlycdn.com\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
+      "kind": "StringLiteral",
+      "offset": 2539,
+      "length": 32,
+      "value": "\"https:\/\/chat.kindlycdn.com\/sdk\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
+      "kind": "StringLiteral",
+      "offset": 2592,
+      "length": 39,
+      "value": "\"https:\/\/otlp.dev.kindly.ai\/v1\/metrics\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
+      "kind": "StringLiteral",
+      "offset": 2652,
+      "length": 22,
+      "value": "\"f65c531eb076639447ac\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
+      "kind": "StringLiteral",
+      "offset": 2897,
+      "length": 38,
+      "value": "\"https:\/\/pattestwithalexy.eu.ngrok.io\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
+      "kind": "StringLiteral",
+      "offset": 2956,
+      "length": 32,
+      "value": "\"https:\/\/chat-dev.kindlycdn.com\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
+      "kind": "StringLiteral",
+      "offset": 3009,
+      "length": 32,
+      "value": "\"https:\/\/chat.kindlycdn.com\/sdk\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
+      "kind": "StringLiteral",
+      "offset": 3062,
+      "length": 39,
+      "value": "\"https:\/\/otlp.dev.kindly.ai\/v1\/metrics\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
+      "kind": "StringLiteral",
+      "offset": 3122,
+      "length": 22,
+      "value": "\"9201eea9b3265d1b2f8f\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/Standalone\/Pusher\/PusherConnectionEstablishedDTO.swift",
@@ -25479,49 +26261,49 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 53141,
+      "offset": 53825,
       "length": 8,
       "value": "\"Pusher\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 53169,
+      "offset": 53853,
       "length": 13,
       "value": "\"\/latest API\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 53203,
+      "offset": 53887,
       "length": 14,
       "value": "\"\/connect API\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 71281,
+      "offset": 71965,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 77582,
+      "offset": 78266,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 77613,
+      "offset": 78297,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 82639,
+      "offset": 83323,
       "length": 1,
       "value": "0"
     },
@@ -25591,56 +26373,56 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/LifecycleVars.swift",
       "kind": "BooleanLiteral",
-      "offset": 1182,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/LifecycleVars.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1316,
+      "offset": 1269,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/LifecycleVars.swift",
       "kind": "IntegerLiteral",
-      "offset": 1832,
+      "offset": 1994,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/LifecycleVars.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2670,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/LifecycleVars.swift",
       "kind": "IntegerLiteral",
-      "offset": 1882,
+      "offset": 2720,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/LifecycleVars.swift",
       "kind": "BooleanLiteral",
-      "offset": 2134,
+      "offset": 2972,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/LifecycleVars.swift",
       "kind": "BooleanLiteral",
-      "offset": 2258,
+      "offset": 3096,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/LifecycleVars.swift",
       "kind": "BooleanLiteral",
-      "offset": 2392,
+      "offset": 3230,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/LifecycleVars.swift",
       "kind": "BooleanLiteral",
-      "offset": 2519,
+      "offset": 3357,
       "length": 5,
       "value": "false"
     },
@@ -26018,9 +26800,23 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
       "kind": "FloatLiteral",
-      "offset": 8236,
+      "offset": 8960,
       "length": 3,
       "value": "5.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
+      "kind": "Array",
+      "offset": 14907,
+      "length": 198,
+      "value": "[-999, -1001, -1004, -1005, -1009]"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
+      "kind": "Array",
+      "offset": 15164,
+      "length": 243,
+      "value": "[53, 54, 57, 60, 89]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/BotTypingDTO.swift",
@@ -26746,182 +27542,182 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 1876,
+      "offset": 1919,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 2000,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2048,
+      "offset": 1967,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "Array",
-      "offset": 2459,
+      "offset": 2378,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 3535,
+      "offset": 3454,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 3757,
+      "offset": 3676,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 3967,
+      "offset": 3886,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 4186,
+      "offset": 4105,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 4397,
+      "offset": 4316,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 4550,
+      "offset": 4469,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 4682,
+      "offset": 4601,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 4919,
+      "offset": 4838,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "StringLiteral",
-      "offset": 5072,
+      "offset": 4991,
       "length": 9,
       "value": "\"Session\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "StringLiteral",
-      "offset": 5083,
+      "offset": 5002,
       "length": 52,
       "value": "\"Log level: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "StringLiteral",
-      "offset": 5134,
+      "offset": 5053,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 5033,
+      "offset": 4952,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "StringLiteral",
-      "offset": 5491,
+      "offset": 5410,
       "length": 9,
       "value": "\"Session\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "StringLiteral",
-      "offset": 5502,
+      "offset": 5421,
       "length": 91,
       "value": "\"Log level: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "StringLiteral",
-      "offset": 5553,
+      "offset": 5472,
       "length": 1,
       "value": "\" (forceVerboseLogs=\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "StringLiteral",
-      "offset": 5591,
+      "offset": 5510,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 5452,
+      "offset": 5371,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 5961,
+      "offset": 5880,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 6477,
+      "offset": 6396,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 6704,
+      "offset": 6623,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 6747,
+      "offset": 6666,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
+      "kind": "FloatLiteral",
+      "offset": 7319,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 12515,
+      "offset": 12861,
       "length": 5,
       "value": "false"
     },
@@ -28440,63 +29236,63 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "StringLiteral",
-      "offset": 2117,
+      "offset": 2459,
       "length": 20,
       "value": "\"com.kindly.metrics\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2859,
+      "offset": 3201,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5089,
+      "offset": 5723,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "Dictionary",
-      "offset": 5119,
+      "offset": 5753,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5740,
+      "offset": 6374,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "IntegerLiteral",
-      "offset": 8920,
+      "offset": 9554,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "Dictionary",
-      "offset": 8950,
+      "offset": 9584,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "Dictionary",
-      "offset": 10053,
+      "offset": 10687,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Services\/Metrics\/MetricsService.swift",
       "kind": "IntegerLiteral",
-      "offset": 13734,
+      "offset": 14368,
       "length": 1,
       "value": "0"
     },

@@ -286,6 +286,33 @@ public struct TypingEvent {
   public let timestamp: Foundation.Date
   public init(type: Kindly.TypingEventType, sender: Kindly.TypingEventSender, duration: Foundation.TimeInterval? = nil)
 }
+public struct RuntimeEnvironmentOverride : Swift.Codable {
+  public let environment: Swift.String
+  public let customConfig: Kindly.RuntimeEnvironmentOverride.CustomConfig?
+  public struct CustomConfig : Swift.Codable {
+    public let apiBaseURL: Swift.String
+    public let settingsBaseURL: Swift.String
+    public let webviewBaseURL: Swift.String
+    public let otlpURL: Swift.String
+    public let pusherKey: Swift.String
+    public init(apiBaseURL: Swift.String, settingsBaseURL: Swift.String, webviewBaseURL: Swift.String, otlpURL: Swift.String, pusherKey: Swift.String)
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public init(environment: Swift.String, customConfig: Kindly.RuntimeEnvironmentOverride.CustomConfig? = nil)
+  public static let productionDefaults: Kindly.RuntimeEnvironmentOverride.CustomConfig
+  public static let developmentDefaults: Kindly.RuntimeEnvironmentOverride.CustomConfig
+  public static let customBuildtimeDefaults: Kindly.RuntimeEnvironmentOverride.CustomConfig
+  public static var compileTimeEnvironment: Swift.String {
+    get
+  }
+  public static func load() -> Kindly.RuntimeEnvironmentOverride?
+  @discardableResult
+  public static func save(_ override: Kindly.RuntimeEnvironmentOverride) -> Swift.Bool
+  public static func clear()
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public struct ExternalChatButton {
 }
 public enum ChatConnectionState {
