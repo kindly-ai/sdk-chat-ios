@@ -25198,22 +25198,22 @@
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/GeneratedConfig.swift",
       "kind": "StringLiteral",
       "offset": 848,
-      "length": 35,
-      "value": "\"__KINDLY_PLACEHOLDER_SENTRY_DSN__\""
+      "length": 87,
+      "value": "\"https:\/\/b643bef7ed38158a59fc9705e8c4fc58@o116031.ingest.us.sentry.io\/4507549270474752\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/GeneratedConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1863,
+      "offset": 1870,
       "length": 12,
       "value": "\"production\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/GeneratedConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1907,
+      "offset": 1914,
       "length": 7,
-      "value": "\"local\""
+      "value": "\"cloud\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
