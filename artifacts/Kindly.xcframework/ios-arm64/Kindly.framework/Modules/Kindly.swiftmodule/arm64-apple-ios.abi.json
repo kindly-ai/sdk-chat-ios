@@ -25220,7 +25220,7 @@
       "kind": "StringLiteral",
       "offset": 2426,
       "length": 9,
-      "value": "\"2.1.179\""
+      "value": "\"2.1.180\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
@@ -27731,7 +27731,7 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Session\/Session.swift",
       "kind": "BooleanLiteral",
-      "offset": 12861,
+      "offset": 12743,
       "length": 5,
       "value": "false"
     },
