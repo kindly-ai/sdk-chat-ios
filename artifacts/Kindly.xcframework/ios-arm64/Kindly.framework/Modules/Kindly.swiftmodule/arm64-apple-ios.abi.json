@@ -24637,7 +24637,56 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 19848,
+      "offset": 2193,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2270,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2326,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 2360,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
+      "kind": "StringLiteral",
+      "offset": 2544,
+      "length": 14,
+      "value": "\"agent_avatar\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2582,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2654,
+      "length": 2,
+      "value": "28"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24976,
       "length": 4,
       "value": "true"
     },
@@ -25220,7 +25269,7 @@
       "kind": "StringLiteral",
       "offset": 2426,
       "length": 9,
-      "value": "\"2.1.180\""
+      "value": "\"2.1.181\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
