@@ -25036,14 +25036,14 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Utils\/Utils.swift",
       "kind": "StringLiteral",
-      "offset": 6124,
+      "offset": 7305,
       "length": 5,
       "value": "\"…\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Utils\/Utils.swift",
       "kind": "BooleanLiteral",
-      "offset": 15721,
+      "offset": 16902,
       "length": 4,
       "value": "true"
     },
@@ -25269,7 +25269,7 @@
       "kind": "StringLiteral",
       "offset": 2426,
       "length": 9,
-      "value": "\"2.1.181\""
+      "value": "\"2.1.182\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
@@ -26289,84 +26289,84 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "Dictionary",
-      "offset": 5717,
+      "offset": 5927,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "FloatLiteral",
-      "offset": 5882,
+      "offset": 6092,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 5958,
+      "offset": 6168,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 8816,
+      "offset": 9026,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 19681,
+      "offset": 19891,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 53825,
+      "offset": 54797,
       "length": 8,
       "value": "\"Pusher\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 53853,
+      "offset": 54825,
       "length": 13,
       "value": "\"\/latest API\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 53887,
+      "offset": 54859,
       "length": 14,
       "value": "\"\/connect API\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 71965,
+      "offset": 72937,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 78266,
+      "offset": 79238,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 78297,
+      "offset": 79269,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 83323,
+      "offset": 84295,
       "length": 1,
       "value": "0"
     },
@@ -26871,15 +26871,15 @@
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
       "kind": "Array",
       "offset": 14907,
-      "length": 198,
-      "value": "[-999, -1001, -1004, -1005, -1009]"
+      "length": 598,
+      "value": "[-999, -1001, -1003, -1004, -1005, -1009, -1200, -1202]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Sentry\/SentryHelper.swift",
       "kind": "Array",
-      "offset": 15164,
-      "length": 243,
-      "value": "[53, 54, 57, 60, 89]"
+      "offset": 15564,
+      "length": 439,
+      "value": "[9, 32, 42, 53, 54, 57, 60, 89]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/BotTypingDTO.swift",
@@ -30041,7 +30041,7 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Networking\/API.swift",
       "kind": "IntegerLiteral",
-      "offset": 9119,
+      "offset": 9680,
       "length": 1,
       "value": "2"
     },
