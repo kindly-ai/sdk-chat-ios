@@ -7,4 +7,5 @@ framework module Kindly {
 
 module Kindly.Swift {
   header "Kindly-Swift.h"
+  requires objc
 }
