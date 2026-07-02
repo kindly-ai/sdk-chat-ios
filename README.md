@@ -28,20 +28,20 @@ https://github.com/kindly-ai/sdk-chat-ios
 You can also use CocoaPods to install the Kindly SDK. Add the following line to your `Podfile`:
 
 ```ruby
-pod 'Kindly', '~> 2.1'
+pod 'Kindly', '~> 3.0'
 ```
 
 ## Usage
 
 After installing the SDK, you can now use it in your iOS application.
 
-Initialize the SDK in your AppDelegate's didFinishLaunchingWithOptions method. Use the provided bot key to start the SDK.
+Initialize the SDK in your AppDelegate's didFinishLaunchingWithOptions method. Use the provided bot key to start the SDK. The `market` slug is **required** — pass the market configured for your bot (find your slugs in the Kindly platform under Settings → General → Details & markets):
 
 ```swift
 import Kindly
 
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    KindlySDK.start(botKey: "BOT_KEY", languageCode: "en")
+    KindlySDK.start(botKey: "BOT_KEY", languageCode: "en", market: "YOUR_MARKET")
     return true
 }
 ```
@@ -57,6 +57,21 @@ You can also change the language at runtime if needed:
 ```swift
 KindlySDK.setLanguage("lt")  // Change to Lithuanian
 ```
+
+### Authentication (JWT)
+
+If your bot uses authenticated chat, provide a callback that supplies a fresh JWT whenever the SDK needs one:
+
+```swift
+KindlySDK.start(botKey: "BOT_KEY", languageCode: "en", market: "YOUR_MARKET") { chatId, promise in
+    // Fetch a JWT for chatId from your backend, then:
+    promise.fulfill("JWT_TOKEN")
+    // Or on failure:
+    // promise.reject(error)
+}
+```
+
+See the [Authentication guide](https://kindly-ai.github.io/sdk-chat-ios-sources/guides/authentication/) for details.
 
 ## 📋 Documentation
 
