@@ -533,7 +533,7 @@ extension Kindly.KindlyChatClient {
     get
     set
   }
-  final public class func start(botKey: Swift.String, languageCode: Swift.String = "en", market: Swift.String = "general", authTokenCallback: Kindly.AuthTokenCallback? = nil)
+  final public class func start(botKey: Swift.String, languageCode: Swift.String = "en", market: Swift.String, authTokenCallback: Kindly.AuthTokenCallback? = nil)
   final public class func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
   final public func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
   final public class func setLanguage(_ languageCode: Swift.String) -> Kindly.Promise<Swift.Void>
