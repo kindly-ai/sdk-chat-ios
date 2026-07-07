@@ -5099,6 +5099,67 @@
           },
           {
             "kind": "Var",
+            "name": "chatId",
+            "printedName": "chatId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A12EventMessageV6chatIdSSSgvp",
+            "mangledName": "$s6Kindly0A12EventMessageV6chatIdSSSgvp",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A12EventMessageV6chatIdSSSgvg",
+                "mangledName": "$s6Kindly0A12EventMessageV6chatIdSSSgvg",
+                "moduleName": "Kindly",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "text",
             "printedName": "text",
             "children": [
@@ -5678,7 +5739,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:text:sender:created:isFromUser:exchangeID:videoSource:exchangeType:buttons:images:attachments:)",
+            "printedName": "init(id:chatId:text:sender:created:isFromUser:exchangeID:videoSource:exchangeType:buttons:images:attachments:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -5691,6 +5752,21 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -5826,8 +5902,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6Kindly0A12EventMessageV2id4text6sender7created10isFromUser10exchangeID11videoSource0K4Type7buttons6images11attachmentsACSS_SSSgAA0abC6SenderO10Foundation4DateVSgSbA2oA0ab8ExchangeO0OSgSayAA0aB6ButtonVGSayAA0aB5ImageVGSayAA0aB10AttachmentVGtcfc",
-            "mangledName": "$s6Kindly0A12EventMessageV2id4text6sender7created10isFromUser10exchangeID11videoSource0K4Type7buttons6images11attachmentsACSS_SSSgAA0abC6SenderO10Foundation4DateVSgSbA2oA0ab8ExchangeO0OSgSayAA0aB6ButtonVGSayAA0aB5ImageVGSayAA0aB10AttachmentVGtcfc",
+            "usr": "s:6Kindly0A12EventMessageV2id6chatId4text6sender7created10isFromUser10exchangeID11videoSource0M4Type7buttons6images11attachmentsACSS_SSSgApA0abC6SenderO10Foundation4DateVSgSbA2pA0ab8ExchangeQ0OSgSayAA0aB6ButtonVGSayAA0aB5ImageVGSayAA0aB10AttachmentVGtcfc",
+            "mangledName": "$s6Kindly0A12EventMessageV2id6chatId4text6sender7created10isFromUser10exchangeID11videoSource0M4Type7buttons6images11attachmentsACSS_SSSgApA0abC6SenderO10Foundation4DateVSgSbA2pA0ab8ExchangeQ0OSgSayAA0aB6ButtonVGSayAA0aB5ImageVGSayAA0aB10AttachmentVGtcfc",
             "moduleName": "Kindly",
             "declAttributes": [
               "AccessControl"
@@ -24468,91 +24544,91 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/KindlyEvent.swift",
       "kind": "Array",
-      "offset": 6025,
+      "offset": 6146,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/KindlyEvent.swift",
       "kind": "Array",
-      "offset": 6060,
+      "offset": 6181,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/KindlyEvent.swift",
       "kind": "Array",
-      "offset": 6105,
+      "offset": 6226,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/KindlyEvent.swift",
       "kind": "StringLiteral",
-      "offset": 6523,
+      "offset": 6667,
       "length": 7,
       "value": "\"AGENT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/KindlyEvent.swift",
       "kind": "StringLiteral",
-      "offset": 6543,
+      "offset": 6687,
       "length": 5,
       "value": "\"BOT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/KindlyEvent.swift",
       "kind": "StringLiteral",
-      "offset": 6564,
+      "offset": 6708,
       "length": 8,
       "value": "\"SYSTEM\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/KindlyEvent.swift",
       "kind": "StringLiteral",
-      "offset": 6586,
+      "offset": 6730,
       "length": 6,
       "value": "\"USER\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/KindlyEvent.swift",
       "kind": "StringLiteral",
-      "offset": 6609,
+      "offset": 6753,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/KindlyEvent.swift",
       "kind": "StringLiteral",
-      "offset": 6780,
+      "offset": 6924,
       "length": 17,
       "value": "\"system_dialogue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/KindlyEvent.swift",
       "kind": "StringLiteral",
-      "offset": 6815,
+      "offset": 6959,
       "length": 11,
       "value": "\"user_says\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/KindlyEvent.swift",
       "kind": "BooleanLiteral",
-      "offset": 7385,
+      "offset": 7529,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/KindlyEvent.swift",
       "kind": "StringLiteral",
-      "offset": 9471,
+      "offset": 9615,
       "length": 6,
       "value": "\"user\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/KindlyEvent.swift",
       "kind": "StringLiteral",
-      "offset": 10403,
+      "offset": 10547,
       "length": 6,
       "value": "\"user\""
     },
@@ -25275,7 +25351,7 @@
       "kind": "StringLiteral",
       "offset": 2426,
       "length": 7,
-      "value": "\"3.0.4\""
+      "value": "\"3.0.5\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
@@ -26351,28 +26427,28 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 72964,
+      "offset": 73015,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 79671,
+      "offset": 79722,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 79702,
+      "offset": 79753,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 84728,
+      "offset": 84779,
       "length": 1,
       "value": "0"
     },

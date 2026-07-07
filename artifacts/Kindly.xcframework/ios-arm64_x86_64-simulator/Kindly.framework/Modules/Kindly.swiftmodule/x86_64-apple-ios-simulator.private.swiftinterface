@@ -151,6 +151,7 @@ public struct KindlyEventStyle {
 }
 public struct KindlyEventMessage {
   public let id: Swift.String
+  public let chatId: Swift.String?
   public let text: Swift.String?
   public let sender: Kindly.KindlyEventMessageSender
   public let created: Foundation.Date?
@@ -161,7 +162,7 @@ public struct KindlyEventMessage {
   public let buttons: [Kindly.KindlyEventButton]
   public let images: [Kindly.KindlyEventImage]
   public let attachments: [Kindly.KindlyEventAttachment]
-  public init(id: Swift.String, text: Swift.String? = nil, sender: Kindly.KindlyEventMessageSender, created: Foundation.Date? = nil, isFromUser: Swift.Bool, exchangeID: Swift.String? = nil, videoSource: Swift.String? = nil, exchangeType: Kindly.KindlyEventExchangeType? = nil, buttons: [Kindly.KindlyEventButton] = [], images: [Kindly.KindlyEventImage] = [], attachments: [Kindly.KindlyEventAttachment] = [])
+  public init(id: Swift.String, chatId: Swift.String? = nil, text: Swift.String? = nil, sender: Kindly.KindlyEventMessageSender, created: Foundation.Date? = nil, isFromUser: Swift.Bool, exchangeID: Swift.String? = nil, videoSource: Swift.String? = nil, exchangeType: Kindly.KindlyEventExchangeType? = nil, buttons: [Kindly.KindlyEventButton] = [], images: [Kindly.KindlyEventImage] = [], attachments: [Kindly.KindlyEventAttachment] = [])
 }
 public enum KindlyEventMessageSender : Swift.String, Swift.CaseIterable {
   case agent
