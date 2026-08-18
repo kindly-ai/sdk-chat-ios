@@ -58,6 +58,10 @@ public struct KindlySDKConfig {
     get
     set
   }
+  public var getAuthCredentials: Kindly.AuthCredentialsCallback? {
+    get
+    set
+  }
   public var allowCameraAccess: Swift.Bool
   public var allowPhotoLibraryAccess: Swift.Bool
   public var form: Kindly.KindlySDKConfig.FormConfig
@@ -359,6 +363,25 @@ final public class KindlyChatClient {
   public init(config: Kindly.CoreSDKConfig, behaviorType: Kindly.BehaviorTypeEnum)
   @objc deinit
 }
+public struct KindlyAuthCredentials {
+  public let idToken: Swift.String?
+  public let accessToken: Swift.String?
+  public let issuer: Swift.String?
+  public let expiresAt: Foundation.Date?
+  public init(idToken: Swift.String? = nil, accessToken: Swift.String? = nil, issuer: Swift.String? = nil, expiresAt: Foundation.Date? = nil)
+  public init(idToken: Swift.String? = nil, accessToken: Swift.String? = nil, issuer: Swift.String? = nil, expiresAtUnixSeconds: Swift.Int?)
+}
+extension Kindly.KindlyAuthCredentials {
+  public var bearerToken: Swift.String? {
+    get
+  }
+  public var hasToken: Swift.Bool {
+    get
+  }
+  public var companionAccessToken: Swift.String? {
+    get
+  }
+}
 @objc @_inheritsConvenienceInitializers public class NotificationDelegate : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
   @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
   @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
@@ -535,6 +558,7 @@ extension Kindly.KindlyChatClient {
     set
   }
   final public class func start(botKey: Swift.String, languageCode: Swift.String = "en", market: Swift.String, authTokenCallback: Kindly.AuthTokenCallback? = nil)
+  final public class func start(botKey: Swift.String, languageCode: Swift.String = "en", market: Swift.String, authCredentialsCallback: @escaping Kindly.AuthCredentialsCallback)
   final public class func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
   final public func displayChat(languageCode: Swift.String? = nil, triggerDialogueId: Swift.String? = nil)
   final public class func setLanguage(_ languageCode: Swift.String) -> Kindly.Promise<Swift.Void>
@@ -549,7 +573,15 @@ extension Kindly.KindlyChatClient {
   @discardableResult
   final public class func saveAuthToken(_ token: Swift.String) -> Swift.Bool
   @discardableResult
+  final public class func saveAuthCredentials(_ credentials: Kindly.KindlyAuthCredentials) -> Swift.Bool
+  @discardableResult
+  final public class func authenticate() -> Kindly.Promise<Swift.Void>
+  @discardableResult
+  final public class func deauthenticate() -> Kindly.Promise<Swift.Void>
+  @discardableResult
   final public func saveAuthToken(_ token: Swift.String) -> Swift.Bool
+  @discardableResult
+  final public func saveAuthCredentials(_ credentials: Kindly.KindlyAuthCredentials) -> Swift.Bool
   final public class func closeChat()
   final public func closeChat()
   final public class func endChat() -> Kindly.Promise<Swift.Void>
@@ -570,6 +602,7 @@ extension Kindly.KindlyChatClient {
   @_spi(Testing) final public class func _setVerboseLogs(_ enabled: Swift.Bool)
 }
 public typealias AuthTokenCallback = (_ chatId: Swift.String, _ promise: Kindly.Promise<Swift.String>) -> Swift.Void
+public typealias AuthCredentialsCallback = (_ chatId: Swift.String, _ promise: Kindly.Promise<Kindly.KindlyAuthCredentials>) -> Swift.Void
 extension Kindly.KindlyEventType : Swift.Equatable {}
 extension Kindly.KindlyEventType : Swift.Hashable {}
 extension Kindly.KindlyEventType : Swift.RawRepresentable {}
