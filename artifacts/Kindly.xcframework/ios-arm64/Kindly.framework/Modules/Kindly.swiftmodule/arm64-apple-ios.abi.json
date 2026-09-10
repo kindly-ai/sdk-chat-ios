@@ -20,6 +20,695 @@
       },
       {
         "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KindlyNotificationServiceExtension",
+        "printedName": "KindlyNotificationServiceExtension",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KindlyNotificationServiceExtension",
+                "printedName": "Kindly.KindlyNotificationServiceExtension",
+                "usr": "c:@M@Kindly@objc(cs)KindlyNotificationServiceExtension"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Kindly@objc(cs)KindlyNotificationServiceExtension(im)init",
+            "mangledName": "$s6Kindly0A28NotificationServiceExtensionCACycfc",
+            "moduleName": "Kindly",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceive",
+            "printedName": "didReceive(_:withContentHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationRequest",
+                "printedName": "UserNotifications.UNNotificationRequest",
+                "usr": "c:objc(cs)UNNotificationRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationContent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationContent",
+                    "printedName": "UserNotifications.UNNotificationContent",
+                    "usr": "c:objc(cs)UNNotificationContent"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Kindly@objc(cs)KindlyNotificationServiceExtension(im)didReceiveNotificationRequest:withContentHandler:",
+            "mangledName": "$s6Kindly0A28NotificationServiceExtensionC10didReceive_18withContentHandlerySo21UNNotificationRequestC_ySo0jH0CctF",
+            "moduleName": "Kindly",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "didReceiveNotificationRequest:withContentHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "serviceExtensionTimeWillExpire",
+            "printedName": "serviceExtensionTimeWillExpire()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Kindly@objc(cs)KindlyNotificationServiceExtension(im)serviceExtensionTimeWillExpire",
+            "mangledName": "$s6Kindly0A28NotificationServiceExtensionC07serviceD14TimeWillExpireyyF",
+            "moduleName": "Kindly",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "serviceExtensionTimeWillExpire",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "customize",
+            "printedName": "customize(_:payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNMutableNotificationContent",
+                "printedName": "UserNotifications.UNMutableNotificationContent",
+                "usr": "c:objc(cs)UNMutableNotificationContent"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Kindly.KindlyPushDecryption.DecryptedPayload?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DecryptedPayload",
+                    "printedName": "Kindly.KindlyPushDecryption.DecryptedPayload",
+                    "usr": "s:6Kindly0A14PushDecryptionO16DecryptedPayloadV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly0A28NotificationServiceExtensionC9customize_7payloadySo09UNMutableB7ContentC_AA0A14PushDecryptionO16DecryptedPayloadVSgtF",
+            "mangledName": "$s6Kindly0A28NotificationServiceExtensionC9customize_7payloadySo09UNMutableB7ContentC_AA0A14PushDecryptionO16DecryptedPayloadVSgtF",
+            "moduleName": "Kindly",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Kindly@objc(cs)KindlyNotificationServiceExtension",
+        "mangledName": "$s6Kindly0A28NotificationServiceExtensionC",
+        "moduleName": "Kindly",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UNNotificationServiceExtension",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UserNotifications.UNNotificationServiceExtension",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KindlyPushDecryption",
+        "printedName": "KindlyPushDecryption",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "DecryptedPayload",
+            "printedName": "DecryptedPayload",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "chatId",
+                "printedName": "chatId",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Kindly0A14PushDecryptionO16DecryptedPayloadV6chatIdSSvp",
+                "mangledName": "$s6Kindly0A14PushDecryptionO16DecryptedPayloadV6chatIdSSvp",
+                "moduleName": "Kindly",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Kindly0A14PushDecryptionO16DecryptedPayloadV6chatIdSSvg",
+                    "mangledName": "$s6Kindly0A14PushDecryptionO16DecryptedPayloadV6chatIdSSvg",
+                    "moduleName": "Kindly",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "title",
+                "printedName": "title",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Kindly0A14PushDecryptionO16DecryptedPayloadV5titleSSvp",
+                "mangledName": "$s6Kindly0A14PushDecryptionO16DecryptedPayloadV5titleSSvp",
+                "moduleName": "Kindly",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Kindly0A14PushDecryptionO16DecryptedPayloadV5titleSSvg",
+                    "mangledName": "$s6Kindly0A14PushDecryptionO16DecryptedPayloadV5titleSSvg",
+                    "moduleName": "Kindly",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "body",
+                "printedName": "body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:6Kindly0A14PushDecryptionO16DecryptedPayloadV4bodySSvp",
+                "mangledName": "$s6Kindly0A14PushDecryptionO16DecryptedPayloadV4bodySSvp",
+                "moduleName": "Kindly",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl"
+                ],
+                "isLet": true,
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:6Kindly0A14PushDecryptionO16DecryptedPayloadV4bodySSvg",
+                    "mangledName": "$s6Kindly0A14PushDecryptionO16DecryptedPayloadV4bodySSvg",
+                    "moduleName": "Kindly",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(chatId:title:body:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DecryptedPayload",
+                    "printedName": "Kindly.KindlyPushDecryption.DecryptedPayload",
+                    "usr": "s:6Kindly0A14PushDecryptionO16DecryptedPayloadV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:6Kindly0A14PushDecryptionO16DecryptedPayloadV6chatId5title4bodyAESS_S2Stcfc",
+                "mangledName": "$s6Kindly0A14PushDecryptionO16DecryptedPayloadV6chatId5title4bodyAESS_S2Stcfc",
+                "moduleName": "Kindly",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:6Kindly0A14PushDecryptionO16DecryptedPayloadV",
+            "mangledName": "$s6Kindly0A14PushDecryptionO16DecryptedPayloadV",
+            "moduleName": "Kindly",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "isKindlyNotification",
+            "printedName": "isKindlyNotification(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly0A14PushDecryptionO02isA12NotificationySbSDys11AnyHashableVypGFZ",
+            "mangledName": "$s6Kindly0A14PushDecryptionO02isA12NotificationySbSDys11AnyHashableVypGFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isDecrypted",
+            "printedName": "isDecrypted(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly0A14PushDecryptionO11isDecryptedySbSDys11AnyHashableVypGFZ",
+            "mangledName": "$s6Kindly0A14PushDecryptionO11isDecryptedySbSDys11AnyHashableVypGFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "apply",
+            "printedName": "apply(_:to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DecryptedPayload",
+                "printedName": "Kindly.KindlyPushDecryption.DecryptedPayload",
+                "usr": "s:6Kindly0A14PushDecryptionO16DecryptedPayloadV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNMutableNotificationContent",
+                "printedName": "UserNotifications.UNMutableNotificationContent",
+                "usr": "c:objc(cs)UNMutableNotificationContent"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly0A14PushDecryptionO5apply_2toyAC16DecryptedPayloadV_So28UNMutableNotificationContentCtFZ",
+            "mangledName": "$s6Kindly0A14PushDecryptionO5apply_2toyAC16DecryptedPayloadV_So28UNMutableNotificationContentCtFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decrypt",
+            "printedName": "decrypt(userInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Kindly.KindlyPushDecryption.DecryptedPayload?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DecryptedPayload",
+                    "printedName": "Kindly.KindlyPushDecryption.DecryptedPayload",
+                    "usr": "s:6Kindly0A14PushDecryptionO16DecryptedPayloadV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly0A14PushDecryptionO7decrypt8userInfoAC16DecryptedPayloadVSgSDys11AnyHashableVypG_tFZ",
+            "mangledName": "$s6Kindly0A14PushDecryptionO7decrypt8userInfoAC16DecryptedPayloadVSgSDys11AnyHashableVypG_tFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6Kindly0A14PushDecryptionO",
+        "mangledName": "$s6Kindly0A14PushDecryptionO",
+        "moduleName": "Kindly",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -540,6 +1229,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -13676,6 +14372,105 @@
           },
           {
             "kind": "Var",
+            "name": "openChatOnNotificationTap",
+            "printedName": "openChatOnNotificationTap",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Kindly0A10ChatClientC04openB17OnNotificationTapSbvpZ",
+            "mangledName": "$s6Kindly0A10ChatClientC04openB17OnNotificationTapSbvpZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A10ChatClientC04openB17OnNotificationTapSbvgZ",
+                "mangledName": "$s6Kindly0A10ChatClientC04openB17OnNotificationTapSbvgZ",
+                "moduleName": "Kindly",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A10ChatClientC04openB17OnNotificationTapSbvsZ",
+                "mangledName": "$s6Kindly0A10ChatClientC04openB17OnNotificationTapSbvsZ",
+                "moduleName": "Kindly",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Kindly0A10ChatClientC04openB17OnNotificationTapSbvMZ",
+                "mangledName": "$s6Kindly0A10ChatClientC04openB17OnNotificationTapSbvMZ",
+                "moduleName": "Kindly",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "enableCrashReporting",
             "printedName": "enableCrashReporting",
             "children": [
@@ -14727,6 +15522,53 @@
             "declKind": "Func",
             "usr": "s:6Kindly0A10ChatClientC20notificationReceivedyySo14UNNotificationCFZ",
             "mangledName": "$s6Kindly0A10ChatClientC20notificationReceivedyySo14UNNotificationCFZ",
+            "moduleName": "Kindly",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "notificationWillPresent",
+            "printedName": "notificationWillPresent(_:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationPresentationOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationPresentationOptions",
+                    "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                    "usr": "c:@E@UNNotificationPresentationOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Kindly0A10ChatClientC23notificationWillPresent_17completionHandlerySo14UNNotificationC_ySo0I19PresentationOptionsVctFZ",
+            "mangledName": "$s6Kindly0A10ChatClientC23notificationWillPresent_17completionHandlerySo14UNNotificationC_ySo0I19PresentationOptionsVctFZ",
             "moduleName": "Kindly",
             "static": true,
             "declAttributes": [
@@ -17018,6 +17860,27 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Kindly"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "Kindly"
       },
@@ -23146,6 +24009,83 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/NotificationHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 913,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/NotificationHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1212,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/NotificationHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2004,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/NotificationHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6180,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/NotificationHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6720,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/NotificationGate.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 18,
+      "value": "\"kindly_decrypted\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/NotificationGate.swift",
+      "kind": "StringLiteral",
+      "offset": 475,
+      "length": 16,
+      "value": "\"kindly_chat_id\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/NotificationGate.swift",
+      "kind": "StringLiteral",
+      "offset": 571,
+      "length": 14,
+      "value": "\"kindly_title\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/NotificationGate.swift",
+      "kind": "StringLiteral",
+      "offset": 662,
+      "length": 13,
+      "value": "\"kindly_body\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/NotificationGate.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 14,
+      "value": "\"kindly_local\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/NotificationGate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2375,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/Request\/SubmitFeedbackRequest.swift",
       "kind": "StringLiteral",
       "offset": 708,
@@ -23813,91 +24753,98 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5485,
+      "offset": 8917,
       "length": 17,
       "value": "\"system-dialogue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5520,
+      "offset": 8952,
       "length": 11,
       "value": "\"user_says\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5599,
+      "offset": 9031,
       "length": 10,
       "value": "\"GREETING\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5675,
+      "offset": 9202,
+      "length": 7,
+      "value": "\"MIMIR\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 9275,
       "length": 10,
       "value": "\"STANDARD\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5896,
+      "offset": 9496,
       "length": 11,
       "value": "\"user_left\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5937,
+      "offset": 9537,
       "length": 24,
       "value": "\"live_translation_start\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 5989,
+      "offset": 9589,
       "length": 22,
       "value": "\"live_translation_end\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6215,
+      "offset": 9815,
       "length": 7,
       "value": "\"AGENT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6235,
+      "offset": 9835,
       "length": 5,
       "value": "\"BOT\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6256,
+      "offset": 9856,
       "length": 8,
       "value": "\"SYSTEM\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6292,
+      "offset": 9892,
       "length": 6,
       "value": "\"USER\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6315,
+      "offset": 9915,
       "length": 9,
       "value": "\"WEBHOOK\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/ChatMessage.swift",
       "kind": "StringLiteral",
-      "offset": 6342,
+      "offset": 9942,
       "length": 10,
       "value": "\"EXTERNAL\""
     },
@@ -24029,38 +24976,80 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 890,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 915,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
+      "kind": "StringLiteral",
+      "offset": 954,
+      "length": 31,
+      "value": "\"input_message_character_count\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
       "kind": "IntegerLiteral",
-      "offset": 529,
+      "offset": 1619,
       "length": 3,
       "value": "160"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
       "kind": "FloatLiteral",
-      "offset": 3069,
+      "offset": 9902,
       "length": 4,
       "value": "18.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
       "kind": "FloatLiteral",
-      "offset": 3104,
+      "offset": 9937,
       "length": 4,
       "value": "14.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
       "kind": "FloatLiteral",
-      "offset": 3145,
+      "offset": 9978,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
       "kind": "FloatLiteral",
-      "offset": 3177,
+      "offset": 10010,
       "length": 3,
       "value": "9.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10044,
+      "length": 4,
+      "value": "11.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10074,
+      "length": 3,
+      "value": "6.0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Input\/InputTextView.swift",
+      "kind": "FloatLiteral",
+      "offset": 10109,
+      "length": 4,
+      "value": "0.45"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Extensions\/UIKit\/UIViewController+Extensions.swift",
@@ -25892,7 +26881,7 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 25644,
+      "offset": 20864,
       "length": 4,
       "value": "true"
     },
@@ -26249,7 +27238,7 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Utils\/Utils.swift",
       "kind": "BooleanLiteral",
-      "offset": 19344,
+      "offset": 19161,
       "length": 4,
       "value": "true"
     },
@@ -26474,8 +27463,8 @@
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/GeneratedConfig.swift",
       "kind": "StringLiteral",
       "offset": 2426,
-      "length": 7,
-      "value": "\"3.0.9\""
+      "length": 8,
+      "value": "\"3.0.10\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
@@ -27096,315 +28085,315 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25057,
+      "offset": 25567,
       "length": 20,
       "value": "\"ChatViewController\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25079,
+      "offset": 25589,
       "length": 181,
       "value": "\"🐞 Popup localization — lang: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25137,
+      "offset": 25647,
       "length": 1,
       "value": "\", settingsLoaded: \""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25180,
+      "offset": 25690,
       "length": 1,
       "value": "\". settings_button: '\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25216,
+      "offset": 25726,
       "length": 24,
       "value": "\"', cancel_chat_button: '\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25258,
+      "offset": 25768,
       "length": 18,
       "value": "\"'\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25719,
+      "offset": 26229,
       "length": 20,
       "value": "\"Show Feedback form\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25857,
+      "offset": 26367,
       "length": 23,
       "value": "\"Trigger form dialogue\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 25956,
+      "offset": 26466,
       "length": 38,
       "value": "\"e5522a30-03ab-40c5-b1d8-cae3128a3698\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26038,
+      "offset": 26548,
       "length": 19,
       "value": "\"disconnect pusher\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26262,
+      "offset": 26772,
       "length": 28,
       "value": "\"👻 Trigger Ghost Message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26421,
+      "offset": 26931,
       "length": 35,
       "value": "\"🎨 Test setCustomTheme (random)\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26568,
+      "offset": 27078,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26574,
+      "offset": 27084,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26605,
+      "offset": 27115,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26611,
+      "offset": 27121,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26641,
+      "offset": 27151,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26647,
+      "offset": 27157,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 26666,
+      "offset": 27176,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 26948,
+      "offset": 27458,
       "length": 25,
       "value": "\"🧹 Clear Custom Theme\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27090,
+      "offset": 27600,
       "length": 40,
       "value": "\"📨 Send 'Buttons' (test sendMessage)\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27198,
+      "offset": 27708,
       "length": 9,
       "value": "\"Buttons\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27251,
+      "offset": 27761,
       "length": 35,
       "value": "\"🛰 Test captureMessage (Sentry)\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27368,
+      "offset": 27878,
       "length": 56,
       "value": "\"Test message from KindlySDK local-dev menu @ \""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27423,
+      "offset": 27933,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "Dictionary",
-      "offset": 27460,
+      "offset": 27970,
       "length": 54,
       "value": "[(\"source\", \"local_dev_menu\"), (\"test\", \"captureMessage\")]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27565,
+      "offset": 28075,
       "length": 32,
       "value": "\"💥 Test reportError (Sentry)\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27778,
+      "offset": 28288,
       "length": 54,
       "value": "\"Test error from KindlySDK local-dev menu @ \""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 27831,
+      "offset": 28341,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "Dictionary",
-      "offset": 27870,
+      "offset": 28380,
       "length": 51,
       "value": "[(\"source\", \"local_dev_menu\"), (\"test\", \"reportError\")]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 41933,
+      "offset": 42944,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 42023,
+      "offset": 43034,
       "length": 4,
       "value": "\"\r\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "Array",
-      "offset": 42100,
+      "offset": 43111,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 42131,
+      "offset": 43142,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "Array",
-      "offset": 42164,
+      "offset": 43175,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 42285,
+      "offset": 43296,
       "length": 4,
       "value": "\"\r\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "StringLiteral",
-      "offset": 42393,
+      "offset": 43404,
       "length": 14,
       "value": "\"Send message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 129227,
+      "offset": 130454,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 129270,
+      "offset": 130497,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 129306,
+      "offset": 130533,
       "length": 4,
       "value": "50.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 129345,
+      "offset": 130572,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 129385,
+      "offset": 130612,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 129425,
+      "offset": 130652,
       "length": 4,
       "value": "36.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 129474,
+      "offset": 130701,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Views\/Chat View\/ChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 129525,
+      "offset": 130752,
       "length": 3,
       "value": "4.0"
     },
@@ -27495,77 +28484,77 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "Dictionary",
-      "offset": 5927,
+      "offset": 6077,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "FloatLiteral",
-      "offset": 6092,
+      "offset": 6242,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 6168,
+      "offset": 6318,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 9026,
+      "offset": 9176,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 19918,
+      "offset": 20059,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 55839,
+      "offset": 55980,
       "length": 8,
       "value": "\"Pusher\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 55867,
+      "offset": 56008,
       "length": 13,
       "value": "\"\/latest API\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "StringLiteral",
-      "offset": 55901,
+      "offset": 56042,
       "length": 14,
       "value": "\"\/connect API\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 90066,
+      "offset": 90207,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 90097,
+      "offset": 90238,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/KindlyChatClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 95123,
+      "offset": 95264,
       "length": 1,
       "value": "0"
     },
@@ -30104,6 +31093,27 @@
       "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSZ\""
     },
     {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Utils\/ChatBubbleSplitter.swift",
+      "kind": "StringLiteral",
+      "offset": 1133,
+      "length": 22,
+      "value": "\"(?:<br\\b[^>]*>){3,}\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Utils\/ChatBubbleSplitter.swift",
+      "kind": "StringLiteral",
+      "offset": 1257,
+      "length": 10,
+      "value": "\"\n\\s*\n\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Utils\/MessageBodyRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1542,
+      "length": 3,
+      "value": "400"
+    },
+    {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Models\/Response\/SubmitFormResponse.swift",
       "kind": "StringLiteral",
       "offset": 247,
@@ -31548,21 +32558,21 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/EntryPoint.swift",
       "kind": "StringLiteral",
-      "offset": 5275,
+      "offset": 5731,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/EntryPoint.swift",
       "kind": "StringLiteral",
-      "offset": 6287,
+      "offset": 6743,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/EntryPoint.swift",
       "kind": "BooleanLiteral",
-      "offset": 11241,
+      "offset": 11830,
       "length": 5,
       "value": "false"
     },

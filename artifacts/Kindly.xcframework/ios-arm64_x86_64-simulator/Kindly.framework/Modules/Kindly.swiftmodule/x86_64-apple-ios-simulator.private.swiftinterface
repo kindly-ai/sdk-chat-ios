@@ -34,6 +34,25 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 import ObjectiveC.runtime
+@objc @_inheritsConvenienceInitializers open class KindlyNotificationServiceExtension : UserNotifications.UNNotificationServiceExtension {
+  @objc override dynamic public init()
+  @objc override dynamic open func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  @objc override dynamic open func serviceExtensionTimeWillExpire()
+  open func customize(_ content: UserNotifications.UNMutableNotificationContent, payload: Kindly.KindlyPushDecryption.DecryptedPayload?)
+  @objc deinit
+}
+public enum KindlyPushDecryption {
+  public struct DecryptedPayload {
+    public let chatId: Swift.String
+    public let title: Swift.String
+    public let body: Swift.String
+    public init(chatId: Swift.String, title: Swift.String, body: Swift.String)
+  }
+  public static func isKindlyNotification(_ userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
+  public static func isDecrypted(_ userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
+  public static func apply(_ payload: Kindly.KindlyPushDecryption.DecryptedPayload, to content: UserNotifications.UNMutableNotificationContent)
+  public static func decrypt(userInfo: [Swift.AnyHashable : Any]) -> Kindly.KindlyPushDecryption.DecryptedPayload?
+}
 public struct ExternalChatMessage : Swift.Hashable, Swift.Identifiable, Swift.Comparable {
   public let id: Swift.String
   public static func < (lhs: Kindly.ExternalChatMessage, rhs: Kindly.ExternalChatMessage) -> Swift.Bool
@@ -553,6 +572,10 @@ extension Kindly.KindlyChatClient {
   public static func setCustomTheme(_ theme: any Kindly.Theme)
   public static func setCustomTheme(background: UIKit.UIColor? = nil, botMessageBackground: UIKit.UIColor? = nil, botMessageText: UIKit.UIColor? = nil, buttonBackground: UIKit.UIColor? = nil, buttonOutline: UIKit.UIColor? = nil, buttonSelectedBackground: UIKit.UIColor? = nil, buttonText: UIKit.UIColor? = nil, defaultShadow: UIKit.UIColor? = nil, inputBackground: UIKit.UIColor? = nil, inputCursor: UIKit.UIColor? = nil, inputText: UIKit.UIColor? = nil, navBarBackground: UIKit.UIColor? = nil, navBarText: UIKit.UIColor? = nil, userMessageBackground: UIKit.UIColor? = nil, userMessageText: UIKit.UIColor? = nil)
   public static func clearCustomTheme()
+  public static var openChatOnNotificationTap: Swift.Bool {
+    get
+    set
+  }
   public static var enableCrashReporting: Swift.Bool {
     get
     set
@@ -589,6 +612,7 @@ extension Kindly.KindlyChatClient {
   final public func endChat() -> Kindly.Promise<Swift.Void>
   final public class func notificationReceived(_ userInfo: [Swift.AnyHashable : Any])
   final public class func notificationReceived(_ notification: UserNotifications.UNNotification)
+  final public class func notificationWillPresent(_ notification: UserNotifications.UNNotification, completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
   final public class func notificationResponseReceived(_ response: UserNotifications.UNNotificationResponse)
   final public class func isKindlyNotification(_ userInfo: [Swift.AnyHashable : Any]) -> Swift.Bool
   final public class func triggerDialogue(id: Swift.String)
