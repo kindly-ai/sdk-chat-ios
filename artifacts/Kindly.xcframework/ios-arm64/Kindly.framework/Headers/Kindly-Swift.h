@@ -370,11 +370,42 @@ extern "C" {
 
 #if defined(__OBJC__)
 
+@class UNNotificationRequest;
+@class UNNotificationContent;
+/// Base class for the host app’s Notification Service Extension.
+/// Subclass it in the extension target and nothing else is needed:
+/// \code
+/// import Kindly
+///
+/// final class NotificationService: KindlyNotificationServiceExtension {}
+///
+/// \endcodeiOS runs the extension for every push that carries <code>mutable-content: 1</code>, in every app state including
+/// when the app was killed. The extension decrypts the Kindly payload with the key the SDK stored in the
+/// shared keychain group during token registration, rewrites the title and body, and marks the content as
+/// decrypted so the SDK inside the app never shows it a second time. Pushes that are not Kindly’s, and
+/// Kindly pushes that cannot be decrypted (no key yet, device not unlocked since boot), are delivered
+/// unchanged, which for a Kindly push means the generic placeholder the backend put in <code>aps.alert</code>.
+/// Override <code>customize(_:payload:)</code> to add a category, thread identifier, attachments or a different sound.
+/// Hosts that already have their own extension for another provider keep it and call
+/// <code>KindlyPushDecryption/decrypt(userInfo:)</code> plus <code>KindlyPushDecryption/apply(_:to:)</code> themselves.
+/// Both the app target and the extension target need the same <code>keychain-access-groups</code> entitlement so
+/// the extension can read the key; see the push guide.
+SWIFT_CLASS("_TtC6Kindly34KindlyNotificationServiceExtension")
+@interface KindlyNotificationServiceExtension : UNNotificationServiceExtension
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)didReceiveNotificationRequest:(UNNotificationRequest * _Nonnull)request withContentHandler:(void (^ _Nonnull)(UNNotificationContent * _Nonnull))contentHandler;
+- (void)serviceExtensionTimeWillExpire;
+@end
+
 @class UNUserNotificationCenter;
 @class UNNotification;
 @class UNNotificationResponse;
 /// Handles push notification presentation and user interaction for the Kindly SDK.
 /// Set as <code>UNUserNotificationCenter.current().delegate</code> to let the SDK process Kindly notifications.
+/// Notifications that are not Kindly’s are presented with banner and sound, as before. For Kindly
+/// notifications the SDK decrypts, asks <code>KindlyChatClientDelegate.shouldHandleNotification</code>, shows nothing
+/// while the user is on the chat screen, presents content the Notification Service Extension already
+/// decrypted, and replaces a placeholder with its own decrypted banner when there is no extension.
 SWIFT_CLASS("_TtC6Kindly20NotificationDelegate")
 @interface NotificationDelegate : NSObject <UNUserNotificationCenterDelegate>
 - (void)userNotificationCenter:(UNUserNotificationCenter * _Nonnull)center willPresentNotification:(UNNotification * _Nonnull)notification withCompletionHandler:(void (^ _Nonnull)(UNNotificationPresentationOptions))completionHandler;
