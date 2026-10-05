@@ -547,6 +547,16 @@ public struct CustomTheme : Kindly.Theme {
   @objc deinit
 }
 public typealias KindlySDK = Kindly.KindlyChatClient
+public enum KindlyNotificationMode : Swift.String {
+  case automatic
+  case alert
+  case silent
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public enum BehaviorTypeEnum {
   case native
   public static func == (a: Kindly.BehaviorTypeEnum, b: Kindly.BehaviorTypeEnum) -> Swift.Bool
@@ -573,6 +583,10 @@ extension Kindly.KindlyChatClient {
   public static func setCustomTheme(background: UIKit.UIColor? = nil, botMessageBackground: UIKit.UIColor? = nil, botMessageText: UIKit.UIColor? = nil, buttonBackground: UIKit.UIColor? = nil, buttonOutline: UIKit.UIColor? = nil, buttonSelectedBackground: UIKit.UIColor? = nil, buttonText: UIKit.UIColor? = nil, defaultShadow: UIKit.UIColor? = nil, inputBackground: UIKit.UIColor? = nil, inputCursor: UIKit.UIColor? = nil, inputText: UIKit.UIColor? = nil, navBarBackground: UIKit.UIColor? = nil, navBarText: UIKit.UIColor? = nil, userMessageBackground: UIKit.UIColor? = nil, userMessageText: UIKit.UIColor? = nil)
   public static func clearCustomTheme()
   public static var openChatOnNotificationTap: Swift.Bool {
+    get
+    set
+  }
+  public static var notificationMode: Kindly.KindlyNotificationMode {
     get
     set
   }
@@ -648,5 +662,8 @@ extension Kindly.TypingEventSender : Swift.Equatable {}
 extension Kindly.TypingEventSender : Swift.Hashable {}
 extension Kindly.ChatConnectionState : Swift.Equatable {}
 extension Kindly.ChatConnectionState : Swift.Hashable {}
+extension Kindly.KindlyNotificationMode : Swift.Equatable {}
+extension Kindly.KindlyNotificationMode : Swift.Hashable {}
+extension Kindly.KindlyNotificationMode : Swift.RawRepresentable {}
 extension Kindly.BehaviorTypeEnum : Swift.Equatable {}
 extension Kindly.BehaviorTypeEnum : Swift.Hashable {}
