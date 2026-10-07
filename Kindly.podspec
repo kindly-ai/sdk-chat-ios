@@ -17,6 +17,4 @@ Pod::Spec.new do |spec|
 
   spec.frameworks = 'UIKit', 'MapKit'
 
-  spec.dependency 'Sentry', '~> 9.0'
-
 end

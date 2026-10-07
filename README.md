@@ -78,8 +78,6 @@ See the [Authentication guide](https://kindly-ai.github.io/sdk-chat-ios-sources/
 * [Getting Started & Guides](https://kindly-ai.github.io/sdk-chat-ios-sources/)
 * [API Reference](https://kindly-ai.github.io/sdk-chat-ios-sources/api-reference/)
 
-## Credits
+## Dependencies
 
-Kindly SDK for iOS implements the following dependencies:
-
-* [Sentry](https://github.com/getsentry/sentry-cocoa) - Crash reporting
+None. The SDK reports its own errors to Kindly without bundling or requiring the Sentry SDK, so it works alongside your app's own Sentry setup, whatever version you use
