@@ -71,12 +71,12 @@ KindlySDK.start(botKey: "BOT_KEY", languageCode: "en", market: "YOUR_MARKET") { 
 }
 ```
 
-See the [Authentication guide](https://kindly-ai.github.io/sdk-chat-ios-sources/guides/authentication/) for details.
+See the [Authentication guide](https://docs.kindly.ai/sdk/ios-sdk-authentication) for details.
 
 ## 📋 Documentation
 
-* [Getting Started & Guides](https://kindly-ai.github.io/sdk-chat-ios-sources/)
-* [API Reference](https://kindly-ai.github.io/sdk-chat-ios-sources/api-reference/)
+* [Getting Started & Guides](https://docs.kindly.ai/sdk/ios-sdk)
+* [API Reference](https://docs.kindly.ai/sdk/ios-sdk-api-reference)
 
 ## Dependencies
 
