@@ -27338,7 +27338,7 @@
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/UI Components\/Cells\/IncomingMessageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 20925,
+      "offset": 21012,
       "length": 4,
       "value": "true"
     },
@@ -27914,7 +27914,7 @@
       "kind": "StringLiteral",
       "offset": 2426,
       "length": 8,
-      "value": "\"3.0.16\""
+      "value": "\"3.0.17\""
     },
     {
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Config\/RuntimeEnvironmentOverride.swift",
@@ -31602,6 +31602,13 @@
       "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Utils\/MessageBodyRenderer.swift",
       "kind": "IntegerLiteral",
       "offset": 1542,
+      "length": 3,
+      "value": "400"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/sdk-chat-ios-sources\/sdk-chat-ios-sources\/Kindly\/Sources\/Core\/Utils\/MessageBodyRenderer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4178,
       "length": 3,
       "value": "400"
     },
